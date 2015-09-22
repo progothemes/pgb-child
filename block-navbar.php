@@ -5,7 +5,7 @@
 * @return string
 */
 
-$menuleftright = 'navbar-' . pgb_get_option('menu_align', 'right');
+$menuleftright = 'navbar-' . pgb_get_option('menu_align', 'left');
 $fixed = pgb_get_option( 'nav_position', false );
 $menustyle = '';
 $datafix = '';
@@ -27,6 +27,7 @@ switch ($navbar_width) {
 		break;
 	case 'container':
 	default:
+		$menustyle = 'navbar-static-top';
 		$navbar_width_inner = 'container-fluid';
 		break;
 }
@@ -43,7 +44,6 @@ switch ($navbar_width) {
 				<span class="icon-bar"></span>
 			</button>
 			<!-- Your site title as branding in the menu --> 
-			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php echo pgb_get_logo(); ?></a>
 		</div>
 		<div class="collapse navbar-collapse navbar-responsive-collapse">
 			<?php // if ( '1' === pgb_get_option( 'nav_search' ) ) get_template_part( 'searchform', 'nav' ); // Show search form ?>

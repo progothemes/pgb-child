@@ -6,6 +6,7 @@
 *
 * @return string
 */
+$menuleftright = 'navbar-' . pgb_get_option('menu_align', 'left');
 $fixed = pgb_get_option( 'topnav_position', 'static' );
 $topmenustyle = '';
 $datafix = '';
@@ -61,7 +62,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 				array(
 					'theme_location' => 'secondary',
 					'container' => false,
-					'menu_class' => 'nav navbar-nav navbar-left',
+					'menu_class' => 'nav navbar-nav '. esc_attr( $menuleftright ),
 					'fallback_cb' => '',
 					'menu_id' => 'top-menu',
 					'walker' => new wp_bootstrap_navwalker()
