@@ -42,12 +42,12 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 	// get cart url
 	$cart_url = $woocommerce->cart->get_cart_url();
 	// if multiple products in cart
-	if($qty>1)
-		$cart_link = '<a href="'.$cart_url.'">('.$qty.') items <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
+	if ( $cart_qty > 1 )
+		$cart_link = '<a href="'.$cart_url.'">('.$cart_qty.') items <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
 
 	// if single product in cart
-	if($qty==1)
-		$cart_link = '<a href="'.$cart_url.'">('.$qty.') item <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
+	if ( $cart_qty == 1 )
+		$cart_link = '<a href="'.$cart_url.'">('.$cart_qty.') item <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
 }
 
 ?>
