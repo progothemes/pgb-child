@@ -31,6 +31,24 @@ switch ($navbar_width) {
 		$navbar_width_inner = 'container-fluid';
 		break;
 }
+$cart_link = false;
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+	global $woocommerce;
+	// get cart quantity
+	$cart_qty = $woocommerce->cart->get_cart_contents_count();
+	// get cart total
+	$cart_total = $woocommerce->cart->get_cart_total();
+	// get cart url
+	$cart_url = $woocommerce->cart->get_cart_url();
+	// if multiple products in cart
+	if($qty>1)
+		$cart_link = '<a href="'.$cart_url.'">('.$qty.') items <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
+
+	// if single product in cart
+	if($qty==1)
+		$cart_link = '<a href="'.$cart_url.'">('.$qty.') item <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
+}
 
 ?>
 <nav id="main-nav" class="navbar navbar-default site-navigation <?=$menustyle; ?> <?=$navbar_width; ?>" <?php echo $datafix; ?> >
@@ -72,8 +90,13 @@ switch ($navbar_width) {
 					)
 				);
 			?>
+			<?php // Cart Link
+			if ( $cart_link ) : ?>
+				<ul class="nav navbar-nav navbar-right">
+					<li><?=$cart_link; ?></li>
+				</ul>
+			<?php endif; ?>
 		</div>
-
 	</div>
 	<!-- .navbar --> 
 </nav>
