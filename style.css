@@ -32,12 +32,16 @@
 }
 
 /* Containers */
-#masthead.container,
-nav.container {
+nav > .container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#masthead.container {
 	padding-left: 45px;
 	padding-right: 45px;
 }
-.main-content [class^="col-"] {
+.main-content > .container,
+.main-content [class*="col-"] {
 	padding-left: 45px;
 	padding-right: 45px;
 }
