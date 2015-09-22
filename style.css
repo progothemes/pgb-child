@@ -128,7 +128,7 @@ header {
 
 /* Navbars */
 #main-nav {
-	top: -50px;
+	/* top: -50px; */
 }
 
 #top-nav.navbar-inverse {
