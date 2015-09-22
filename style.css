@@ -99,8 +99,15 @@ header {
 	display: block;
 	height: 50px;
 	left: 0;
-	margin-top: -15px;
 	position: absolute;
-	top: 50%;
+	top: 18px;
 	width: 1px;
+}
+
+
+/* Images */
+.row > img[class*="wp-image-"],
+.row > a > img[class*="wp-image-"] {
+	margin-top: 0;
+	margin-bottom: 0;
 }
