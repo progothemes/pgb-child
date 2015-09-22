@@ -10,4 +10,21 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-/* and then? */
+
+/* Main Nav */
+#main-nav {
+	top: -50px;
+}
+
+
+/* Custom Masthead */
+.masthead-logo img {
+	padding-bottom: 13px;
+	padding-top: 13px;
+}
+.masthead-security img {
+	padding-top: 3px;
+}
+.masthead-cta img {
+	padding-top: 10px;
+}
