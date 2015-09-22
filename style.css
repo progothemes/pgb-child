@@ -68,6 +68,10 @@ nav > .container {
 	margin-right: -45px;
 	margin-top: -45px;
 }
+.main-content .row-img {
+	margin-left: -45px;
+	margin-right: -45px;
+}
 
 /* Colors */
 body {
