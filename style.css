@@ -57,12 +57,16 @@ nav > .container {
 }
 .main-content > .container,
 .main-content [class*="col-"] {
+	padding-bottom: 45px;
 	padding-left: 45px;
 	padding-right: 45px;
+	padding-top: 45px;
 }
 .main-content .row {
+	margin-bottom: -45px;
 	margin-left: -45px;
 	margin-right: -45px;
+	margin-top: -45px;
 }
 
 /* Colors */
