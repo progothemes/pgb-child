@@ -11,6 +11,17 @@
 */
 
 
+/*Container Colors */
+body {
+	background-color: #000;
+}
+header {
+	background-color: #fff;
+}
+#page-content-wrapper > .main-content > .container {
+	background-color: #fff;
+}
+
 /* Main Nav */
 #main-nav {
 	top: -50px;
