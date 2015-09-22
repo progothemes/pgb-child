@@ -31,7 +31,18 @@
 	font-family: "MyriadPro";
 }
 
-/*Container Colors */
+/* Containers */
+#masthead.container,
+nav.container {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.main-content [class^="col-"] {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+/* Colors */
 body {
 	background-color: #000;
 }
@@ -60,7 +71,7 @@ header {
 }
 
 
-/* Custom Masthead */
+/* Masthead */
 #masthead.page-header {
 	padding-bottom: 0;
 }
