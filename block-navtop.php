@@ -68,11 +68,11 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 				)
 			);
 			?>
-			<?php if ( $cart_link ) : ?>
+			<?php //if ( $cart_link ) : ?>
 				<ul class="nav navbar-nav navbar-right">
 					<li><?=$cart_link; ?></li>
 				</ul>
-			<?php endif; ?>
+			<?php //endif; ?>
 		</div>
 	</div>
 </nav>
