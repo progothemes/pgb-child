@@ -34,7 +34,8 @@ body {
 	font-size: 16px;
 	font-size: 1.7rem;
 }
-h1, h2 {
+h1, h2, h3 {
+	color: #111E90;
 	font-weight: bold;
 	line-height: .9;
 	text-transform: uppercase;
@@ -44,6 +45,13 @@ h1 {
 }
 h2 {
 	font-size: 5rem;
+}
+h3 {
+	font-size: 4rem;
+}
+h4 {
+	color: #00B0DA;
+	font-size: 3rem;
 }
 
 /* Containers */
@@ -73,7 +81,7 @@ nav > .container {
 	margin-right: -45px;
 }
 
-/* Colors */
+/* Background Colors */
 body {
 	background-color: #000;
 }
