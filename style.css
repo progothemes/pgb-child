@@ -60,6 +60,26 @@ header {
 #page-content-wrapper > .main-content > .container {
 	background-color: #fff;
 }
+.blue1 {
+	background-color: #111E90;
+}
+.blue2 {
+	background-color: #0060AE;
+}
+.blue3 {
+	background-color: #00B0DA;
+}
+.blue4 {
+	background-color: #E1F4FD;
+}
+.blue1 p,
+.blue1 a,
+.blue2 p,
+.blue2 a,
+.blue3 p,
+.blue3 a {
+	color: #fff;
+}
 
 /* Navbars */
 #main-nav {
@@ -110,4 +130,4 @@ header {
 .row > a > img[class*="wp-image-"] {
 	margin-top: 0;
 	margin-bottom: 0;
-}
+} /* forces images to fit full width, height */
