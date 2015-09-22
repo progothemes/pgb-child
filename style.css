@@ -41,6 +41,10 @@ nav.container {
 	padding-left: 45px;
 	padding-right: 45px;
 }
+.main-content .row {
+	margin-left: -45px;
+	margin-right: -45px;
+}
 
 /* Colors */
 body {
