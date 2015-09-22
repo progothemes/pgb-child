@@ -30,6 +30,12 @@
 * {
 	font-family: "MyriadPro";
 }
+h1, h2 {
+	font-size: 3.5em;
+	font-weight: bold;
+	line-height: 1;
+	text-transform: uppercase;
+}
 
 /* Containers */
 nav > .container {
@@ -72,10 +78,22 @@ header {
 .blue4 {
 	background-color: #E1F4FD;
 }
+.blue1 h1,
+.blue1 h2,
+.blue1 h3,
+.blue1 h4,
 .blue1 p,
 .blue1 a,
+.blue2 h1,
+.blue2 h2,
+.blue2 h3,
+.blue2 h4,
 .blue2 p,
 .blue2 a,
+.blue3 h1,
+.blue3 h2,
+.blue3 h3,
+.blue3 h4,
 .blue3 p,
 .blue3 a {
 	color: #fff;
