@@ -7,14 +7,14 @@
 * @return string
 */
 $menuleftright = 'navbar-' . pgb_get_option('topmenu_align', 'left');
-//$fixed = pgb_get_option( 'topnav_position', 'static' );
+$fixed = pgb_get_option( 'topnav_position', 'static' );
 $topmenustyle = '';
 $datafix = '';
 
-//if ( 'fixed' === $fixed ) {
-//	$topmenustyle = 'navbar-fixed-top';
-//	$datafix = 'data-spy="affix" data-offset-top="0"';
-//}
+if ( 'fixed' === $fixed ) {
+	$topmenustyle = 'navbar-fixed-top';
+	$datafix = 'data-spy="affix" data-offset-top="0"';
+}
 
 $topnav_width = pgb_get_option( 'topnav_width', 'container-fluid' );
 switch ($topnav_width) {
