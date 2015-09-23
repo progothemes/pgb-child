@@ -126,11 +126,21 @@ header {
 	color: #fff;
 }
 
+
+
 /* Navbars */
 #main-nav {
 	background-color: #fff;
 }
 
+#top-nav {
+	margin-top: -52px;
+	width: 100%;
+	z-index: 999;
+}
+#top-nav.affix {
+	margin-top: 0;
+}
 #top-nav.navbar-inverse {
 	background-color: #fff;
 	border-color: #fff;
