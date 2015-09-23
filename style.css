@@ -131,6 +131,11 @@ header {
 
 
 /* Navbars */
+.navbar-toggle {
+	float: left;
+	margin-left: 15px;
+}
+
 #main-nav {
 	background-color: #fff;
 }
@@ -191,13 +196,13 @@ header {
 @media screen and (max-width: 767px) {
 	.masthead-logo img {
 		margin: auto;
-		padding-bottom: 0;
+		padding-bottom: 16px;
 		padding-top: 16px;
 	}
 	.masthead-cta img {
 		padding-top: 0;
 	}
-	.masthead-cta > .row > div:first-child:before {
+	.masthead-cta > .row > div:before {
 		display: none;
 	}
 }
