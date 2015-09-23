@@ -10,7 +10,7 @@ function pgb_child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts' );
-function pgb_child_enqueue_styles() {
+function pgb_child_enqueue_scripts() {
     wp_enqueue_script( 'nectar7-js', get_stylesheet_directory_uri() . 'includes/js/nectar7.js', array('jquery') );
 }
 
