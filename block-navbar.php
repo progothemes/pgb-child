@@ -12,7 +12,7 @@ $datafix = '';
 
 if ( 'fixed' === $fixed ) {
 	$menustyle = 'navbar-fixed-top';
-	$datafix = 'data-spy="affix" data-offset-top="0"';
+	$datafix = 'data-spy="affix" data-offset-top="83"';
 }
 
 $navbar_width = pgb_get_option( 'navbar_width', 'container' );
