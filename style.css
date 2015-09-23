@@ -137,16 +137,20 @@ header {
 
 #top-nav {
 	background-color: #e1e1e1;
-	margin-top: -52px;
+	border-color: transparent;
+	/*margin-top: -52px;*/
+	position: fixed;
 	width: 100%;
 	z-index: 999;
+	-webkit-transform: -webkit-translate(0,-52px);
+	-webkit-transition: -webkit-transform .250s cubic-bezier(0.42,0,0.58,1);
+	transform: translate(0,-52px);
+	transition: transform .250s cubic-bezier(0.42,0,0.58,1);
 }
 #top-nav.affix {
-	margin-top: 0;
-}
-#top-nav.navbar-inverse {
-	background-color: #fff;
-	border-color: transparent;
+	/*margin-top: 0;*/
+	-webkit-transform: -webkit-translate(0,0);
+	transform: translate(0,0);
 }
 #top-nav.navbar-inverse .navbar-nav > li > a {
 	color: #777;
