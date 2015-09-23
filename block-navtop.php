@@ -6,17 +6,17 @@
 *
 * @return string
 */
-$menuleftright = 'navbar-' . pgb_get_option('menu_align', 'left');
-$fixed = pgb_get_option( 'topnav_position', 'static' );
+$menuleftright = 'navbar-' . pgb_get_option('topmenu_align', 'left');
+//$fixed = pgb_get_option( 'topnav_position', 'static' );
 $topmenustyle = '';
 $datafix = '';
 
-if ( 'fixed' === $fixed ) {
-	$topmenustyle = 'navbar-fixed-top';
-	$datafix = 'data-spy="affix" data-offset-top="134"';
-}
+//if ( 'fixed' === $fixed ) {
+//	$topmenustyle = 'navbar-fixed-top';
+//	$datafix = 'data-spy="affix" data-offset-top="0"';
+//}
 
-$topnav_width = pgb_get_option( 'topnav_width', 'container' );
+$topnav_width = pgb_get_option( 'topnav_width', 'container-fluid' );
 switch ($topnav_width) {
 	case 'container-fluid':
 		$topmenustyle = 'navbar-static-top';
@@ -34,7 +34,7 @@ switch ($topnav_width) {
 
 $cart_link = false;
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+//if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 	global $woocommerce;
 	// get cart quantity
 	$cart_qty = $woocommerce->cart->get_cart_contents_count();
@@ -49,13 +49,24 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 	// if single product in cart
 	if ( $cart_qty == 1 )
 		$cart_link = '<a href="'.$cart_url.'">('.$cart_qty.') item <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
-}
+//}
 
 
 ?>
 <nav id="top-nav" class="navbar navbar-inverse site-navigation hidden-xs <?=$topmenustyle; ?> <?=$topnav_width; ?>" <?php echo $datafix; ?> >
 	<div  class="<?=$topnav_width_inner; ?> nav-contain" role="navigation">
-		<div class="navbar-inner">
+		<div class="navbar-header"> 
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- Your site title as branding in the menu --> 
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php echo pgb_get_logo(); ?></a>
+		</div>
+		<div class="collapse navbar-collapse navbar-responsive-collapse navbar-inner">
 			<?php if( '1' === pgb_get_option( 'nav_search' ) ) get_template_part( 'searchform', 'nav' ); // Show search form ?>
 			<?php // Main Menu
 			wp_nav_menu(

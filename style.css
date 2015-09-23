@@ -130,6 +130,9 @@ header {
 #main-nav {
 	background-color: #fff;
 }
+#main-nav.affix {
+	
+}
 
 #top-nav.navbar-inverse {
 	background-color: #000;
