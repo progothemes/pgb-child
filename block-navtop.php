@@ -32,20 +32,6 @@ switch ($topnav_width) {
 		break;
 }
 
-$cart_link = false;
-include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-//if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
-	global $woocommerce;
-	// get cart quantity
-	$cart_qty = $woocommerce->cart->get_cart_contents_count();
-	// get cart total
-	$cart_total = $woocommerce->cart->get_cart_total();
-	// get cart url
-	$cart_url = $woocommerce->cart->get_cart_url();
-	// if multiple products in cart
-	$cart_menu = '<a href="' . $cart_url.'">(' . max($cart_qty, 0) . ') item' . ( $cart_qty == 1 ? '' : 's' ) . ' <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
-//}
-
 
 ?>
 <nav id="top-nav" class="navbar navbar-inverse site-navigation hidden-xs <?=$topmenustyle; ?> <?=$topnav_width; ?>" <?php echo $datafix; ?> >
@@ -75,11 +61,7 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 				)
 			);
 			?>
-			<?php //if ( $cart_link ) : ?>
-				<ul class="nav navbar-nav navbar-right">
-					<li><?=$cart_menu; ?></li>
-				</ul>
-			<?php //endif; ?>
+			<?php echo get_woo_cart_menu(); ?>
 		</div>
 	</div>
 </nav>
