@@ -43,12 +43,7 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	// get cart url
 	$cart_url = $woocommerce->cart->get_cart_url();
 	// if multiple products in cart
-	if ( $cart_qty > 1 )
-		$cart_link = '<a href="'.$cart_url.'">('.$cart_qty.') items <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
-
-	// if single product in cart
-	if ( $cart_qty == 1 )
-		$cart_link = '<a href="'.$cart_url.'">('.$cart_qty.') item <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
+	$cart_menu = '<a href="' . $cart_url.'">(' . max($cart_qty, 0) . ') item' . ( $cart_qty == 1 ? '' : 's' ) . ' <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>';
 //}
 
 
@@ -82,7 +77,7 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 			?>
 			<?php //if ( $cart_link ) : ?>
 				<ul class="nav navbar-nav navbar-right">
-					<li><?=$cart_link; ?></li>
+					<li><?=$cart_menu; ?></li>
 				</ul>
 			<?php //endif; ?>
 		</div>
