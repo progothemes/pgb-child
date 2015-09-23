@@ -188,6 +188,19 @@ header {
 	top: 18px;
 	width: 1px;
 }
+@media screen and (max-width: 767px) {
+	.masthead-logo img {
+		margin: auto;
+		padding-bottom: 0;
+		padding-top: 16px;
+	}
+	.masthead-cta img {
+		padding-top: 0;
+	}
+	.masthead-cta > .row > div:first-child:before {
+		display: none;
+	}
+}
 
 
 /* Images */

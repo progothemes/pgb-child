@@ -60,19 +60,6 @@ switch ($navbar_width) {
 				)
 			);
 			?>
-			<?php // Top Menu
-			if ( has_nav_menu('secondary') )
-				wp_nav_menu(
-					array(
-						'theme_location' => 'secondary',
-						'container' => false,
-						'menu_class' => 'nav navbar-nav visible-xs',
-						'fallback_cb' => '',
-						'menu_id' => 'top-menu',
-						'walker' => new wp_bootstrap_navwalker()
-					)
-				);
-			?>
 			<?php echo get_woo_cart_menu(); ?>
 		</div>
 	</div>
