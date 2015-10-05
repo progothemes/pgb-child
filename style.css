@@ -207,6 +207,19 @@ header {
 	}
 }
 
+/* Footer Widgets */
+#footerwidgets .container {
+	background-color: #fff;
+	border-top: 1px solid #f0f0f0;
+}
+/* Copyright Footer */
+footer .container {
+	background-color: #111E90;
+	color: #fff;
+}
+footer .site-copyright {
+	padding: 15px 30px;
+}
 
 /* Images */
 .row > img[class*="wp-image-"],
