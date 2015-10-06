@@ -82,6 +82,9 @@ nav > .container {
 	margin-left: -45px;
 	margin-right: -45px;
 }
+.main-content-inner, .sidebar {
+	padding-bottom: 0;
+}
 
 
 
@@ -398,8 +401,8 @@ footer .socialicons ul li.facebook a
 
 .rightboxedcontent .box-title
 {
-	padding-bottom: 45px;
-	padding-top: 45px;
+	padding-bottom: 65px;
+	padding-top: 40px;
 }
 .rightboxedcontent.bluebox .box-title
 {
@@ -479,7 +482,7 @@ footer .socialicons ul li.facebook a
 
 .leftboxedcontent
 {
-	padding-top: 25px;	
+	padding-top: 45px;	
 }
 
 .leftboxedcontent p
@@ -497,7 +500,7 @@ footer .socialicons ul li.facebook a
 
 .leftboxedcontent.howdoesitwork > div
 {
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 90px;
 }
 
@@ -511,41 +514,42 @@ footer .socialicons ul li.facebook a
 .leftboxedcontent.graphcontent
 {
 	background: #e1f3fc;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	/*padding-top: 25px;*/
+	padding-bottom: 45px;
 }
 
 .leftboxedcontent.graphcontent img.chartimage
 {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 
 .leftboxedcontent.benefitscontent > div
 {
-	padding-top: 85px;
+	padding-top: 45px;
+	/*padding-bottom: 45px;*/
+}
+.leftboxedcontent.benefits2content,
+.leftboxedcontent.benefits2content > div
+{
+	padding-top: 45px;
 	padding-bottom: 45px;
 }
-
-
-.leftboxedcontent.benefitscontent h2, .leftboxedcontent.yellowbox h2 {
+.leftboxedcontent.benefitscontent h2, .leftboxedcontent.benefits2content h2, .leftboxedcontent.yellowbox h2 {
     color: #00b3e3;
     font-size: 40px;
     line-height: 44px;
     margin: 0px 0px 10px;
     text-transform: none;
 }
-
-.leftboxedcontent.benefitscontent h2 span, .leftboxedcontent.yellowbox h2 span{
+.leftboxedcontent.benefitscontent h2 span, .leftboxedcontent.benefits2content h2 span, .leftboxedcontent.yellowbox h2 span{
 	color: #1946ba;
 }
-	
 .leftboxedcontent.benefitscontent ul
 {
 	padding-left: 0px;
 	margin-left: 0px;	
 }
-
 .leftboxedcontent.benefitscontent ul li
 {
 	padding-left: 25px;
@@ -559,9 +563,10 @@ footer .socialicons ul li.facebook a
 	color: #000;
 }
 
-.leftboxedcontent.miraclecontent > div
+.leftboxedcontent.miraclecontent
 {
-	padding-top: 95px;	
+	padding-bottom: 95px;
+	padding-top: 95px;
 }
 
 .leftboxedcontent.miraclecontent img
@@ -575,21 +580,17 @@ footer .socialicons ul li.facebook a
 	background: #e1f3fc;
 	margin-top: 45px;
 	padding-top: 0px;
+	padding-bottom: 45px;
 }
-
-.leftboxedcontent.graph2content img.chartimage
-{
-	margin-bottom: 20px;
-}
-
 .leftboxedcontent.graph2content .bluehead
 {
 	background: #00b3e3;
 	color: #fff;
 	font-size: 40px;
 	line-height: 46px;
+	padding-bottom: 45px;
+	padding-top: 45px;
 }
-
 .leftboxedcontent.graph2content .bluehead h2
 {
 	background: #00b3e3;
@@ -600,7 +601,10 @@ footer .socialicons ul li.facebook a
 	text-align: center;
 	text-transform: none;
 }
-
+.leftboxedcontent.graph2content img.chartimage
+{
+	margin: 45px auto;
+}
 .leftboxedcontent.graph2content p
 {
 	color: #1946ba;
@@ -618,7 +622,7 @@ footer .socialicons ul li.facebook a
 
 .leftboxedcontent.productbox
 {
-	
+	padding-bottom: 45px;
 }
 
 .leftboxedcontent.productbox.boxnavy

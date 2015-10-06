@@ -147,7 +147,7 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-										<div class="row leftboxedcontent benefitscontent">
+										<div class="row leftboxedcontent benefits2content">
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
