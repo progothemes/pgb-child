@@ -405,7 +405,8 @@ footer .socialicons ul li.facebook a
 
 .rightboxedcontent
 {
-	xmin-height: 805px;
+	/*xmin-height: 805px;*/
+	padding-bottom: 35px;
 }
 
 .rightboxedcontent .box-title
@@ -598,7 +599,7 @@ footer .socialicons ul li.facebook a
 .leftboxedcontent.graph2content
 {
 	background: #e1f3fc;
-	margin-top: 45px;
+	/*margin-top: 45px;*/
 	padding-top: 0px;
 	padding-bottom: 45px;
 }
@@ -708,7 +709,7 @@ footer .socialicons ul li.facebook a
 
 .leftboxedcontent.productbox img.product-image
 {
-	margin-top: 20px;
+	margin: 20px auto auto;
 }
 
 .main-content .leftboxedcontent.productbox .product-image-col
