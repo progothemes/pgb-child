@@ -140,6 +140,14 @@ header {
 	background-color: #fff;
 }
 
+#main-nav.navbar-default .navbar-nav > li > a
+{
+	font-family: 'Source Sans Pro', "MyriadPro";
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;	
+}
+
 #top-nav {
 	background-color: #e1e1e1;
 	border-color: transparent;
@@ -157,9 +165,12 @@ header {
 	-webkit-transform: -webkit-translate(0,0);
 	transform: translate(0,0);
 }
+
 #top-nav.navbar-inverse .navbar-nav > li > a {
-	color: #777;
+	color: #000;
+	font-family: "Source Sans Pro","MyriadPro";
 }
+
 #top-nav.navbar-inverse .navbar-nav > li > a:focus,
 #top-nav.navbar-inverse .navbar-nav > li > a:hover {
 	background-color: transparent;
@@ -167,6 +178,18 @@ header {
 #top-nav .nav-contain {
 	background-color: #fff;
 }
+
+
+.cartlink span.shopping-cart-icon
+{
+	display: inline-block;
+	height: 26px;
+	width: 28px;
+	background: url('images/cart_icon.png') 0 0 no-repeat transparent;
+	outline: none;
+	margin-bottom: -7px;
+}
+
 
 
 /* Masthead */
@@ -212,6 +235,35 @@ header {
 #footerwidgets .container {
 	background-color: #fff;
 	border-top: 1px solid #f0f0f0;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#footerwidgets ul.menu li
+{
+	float: left;
+	list-style: none;	
+}
+
+#footerwidgets ul.menu li a
+{
+	padding: 10px 7.5px;
+	font-family: "Source Sans Pro","MyriadPro";
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;
+}
+
+#footerwidgets .widget
+{
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+#footerwidgets .cards img
+{
+	float: right;
+	
 }
 
 
@@ -222,7 +274,54 @@ footer .container {
 }
 footer .site-copyright {
 	padding: 15px 30px;
+	font-family: "Source Sans Pro","MyriadPro";
+	font-size: 15px;
+	font-weight: 300;
+	color: #FFF;
 }
+
+footer .socialicons
+{
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+footer .socialicons ul
+{
+	padding-left: 0px;
+	margin-right: 0px;
+	float: right;	
+}
+
+footer .socialicons ul li
+{
+	list-style: none;
+	float: left;
+		
+}
+
+footer .socialicons ul li a
+{
+	padding: 5px 15px;
+	text-indent: -9999px;
+	outline: none;
+	display: block;
+}
+
+footer .socialicons ul li.twitter a
+{
+	height: 16px;
+	width: 16px;
+	background: url('images/icon_twitter.png') center center no-repeat transparent;	
+}
+
+footer .socialicons ul li.facebook a
+{
+	height: 16px;
+	width: 16px;
+	background: url('images/icon_facebook.png') center center no-repeat transparent;	
+}
+
 
 
 /* Images */
@@ -231,3 +330,399 @@ footer .site-copyright {
 	margin-top: 0;
 	margin-bottom: 0;
 } /* forces images to fit full width, height */
+
+/* Home page */
+.main-content #hero-right , .main-content #hero-left
+{
+	padding-bottom: 0px;
+}
+
+.home-hero
+{
+	background: url('images/home_hero.jpg') 0 0 no-repeat transparent;
+	background-size: cover;
+	min-height: 560px;
+}
+
+.home-hero .home-hero-caption
+{
+	text-align: left;
+	margin-top: 90px;
+}
+
+.home-hero .home-hero-caption h1
+{
+	font-family: "MyriadPro";
+	font-weight: bold;
+	font-size: 98px;
+	line-height: 85px;
+	color: #fff;
+	width: 80%;
+	margin-bottom: 0px;
+}
+
+.home-hero .home-hero-caption p
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	width: 80%;
+}
+
+.hero-bottom
+{
+	background: url('images/foxtail.png') right bottom no-repeat #1946ba;
+	min-height: 246px;
+	text-align: left;
+}
+
+.hero-bottom p
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 34px;
+	color: #fff;
+}
+
+.rightboxedcontent
+{
+	xmin-height: 805px;
+}
+
+.rightboxedcontent.bluebox .box-title
+{
+	background: #1946ba;	
+}
+
+.rightboxedcontent.lightbluebox .box-title
+{
+	background: #00b3e3;	
+}
+
+.rightboxedcontent .box-title h3
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.rightboxedcontent .box-title h2
+{
+	font-family: "MyriadPro";
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.rightboxedcontent img.product-image
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -50px;
+	margin-bottom: -30px;
+}
+
+.rightboxedcontent  p
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+	text-align: left;
+}
+
+.rightboxedcontent .btn.btn-primary
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFF;
+	background: #00B3E3 none repeat scroll 0% 0%;
+	border-color: #00B3E3;
+	padding: 10px 30px 6px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.rightboxedcontent.lightbluebox
+{
+	padding-bottom: 45px;
+}
+
+.border-bottom
+{
+	border-bottom: 1px solid #b7b7b7;
+}
+
+.leftboxedcontent
+{
+	padding-top: 25px;	
+}
+
+.leftboxedcontent p
+{
+	font-family: "MyriadPro";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.leftboxedcontent.howdoesitwork
+{
+	background: url('images/how_it_works.jpg') right top no-repeat #fff;
+}
+
+.leftboxedcontent.howdoesitwork > div
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.leftboxedcontent.howdoesitwork h4 {
+    color: #1946ba;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0px 0px 10px;
+}
+
+.leftboxedcontent.graphcontent
+{
+	background: #e1f3fc;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.leftboxedcontent.graphcontent img.chartimage
+{
+	margin-bottom: 20px;
+}
+
+
+.leftboxedcontent.benefitscontent > div
+{
+	padding-top: 85px;
+	padding-bottom: 45px;
+}
+
+
+.leftboxedcontent.benefitscontent h2, .leftboxedcontent.yellowbox h2 {
+    color: #00b3e3;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0px 0px 10px;
+    text-transform: none;
+}
+
+.leftboxedcontent.benefitscontent h2 span, .leftboxedcontent.yellowbox h2 span{
+	color: #1946ba;
+}
+	
+.leftboxedcontent.benefitscontent ul
+{
+	padding-left: 0px;
+	margin-left: 0px;	
+}
+
+.leftboxedcontent.benefitscontent ul li
+{
+	padding-left: 25px;
+	background: url(images/li_dot.png) 0 5px no-repeat transparent;
+	list-style: none;
+	margin-bottom: 15px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+}
+
+.leftboxedcontent.miraclecontent > div
+{
+	padding-top: 95px;	
+}
+
+.leftboxedcontent.miraclecontent img
+{
+	margin-top: 25px;
+}
+
+
+.leftboxedcontent.graph2content
+{
+	background: #e1f3fc;
+	margin-top: 45px;
+	padding-top: 0px;
+}
+
+.leftboxedcontent.graph2content img.chartimage
+{
+	margin-bottom: 20px;
+}
+
+.leftboxedcontent.graph2content .bluehead
+{
+	background: #00b3e3;
+	color: #fff;
+	font-size: 40px;
+	line-height: 46px;
+}
+
+.leftboxedcontent.graph2content .bluehead h2
+{
+	background: #00b3e3;
+	color: #fff;
+	font-size: 40px;
+	line-height: 46px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: none;
+}
+
+.leftboxedcontent.graph2content p
+{
+	color: #1946ba;
+}
+
+.margintop30
+{
+	margin-top: 30px;
+}
+
+.leftboxedcontent.yellowbox
+{
+	background: #f7f6f0;	
+}
+
+.leftboxedcontent.productbox
+{
+	
+}
+
+.leftboxedcontent.productbox.boxnavy
+{
+	background: url('images/foxt_up.png') right top no-repeat #1946ba;
+}
+
+.leftboxedcontent.productbox.boxblue
+{
+	background: url('images/foxt_up.png') right top no-repeat #00b3e3;
+}
+
+
+.leftboxedcontent.productbox h1
+{
+	color: #FFF;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: none;
+	margin-bottom: 0px;
+}
+
+.leftboxedcontent.productbox h2
+{
+	color: #00b3e3;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: none;
+	margin-top: 5px;
+}
+
+.leftboxedcontent.productbox.boxblue h2
+{
+	color: #1946ba;
+}
+	
+.leftboxedcontent.productbox p
+{
+	color: #fff;
+}
+
+.leftboxedcontent.productbox .btn.btn-primary
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFF;
+	background: #00B3E3 none repeat scroll 0% 0%;
+	border-color: #00b3e3;
+	padding: 10px 40px 6px;
+	margin-top: 30px;
+	border-radius: 10px;
+	min-width: 222px;
+	text-transform: uppercase;
+}
+
+
+.leftboxedcontent.productbox.boxblue .btn.btn-primary
+{
+	background: #1946ba none repeat scroll 0% 0%;
+}
+
+.leftboxedcontent.productbox img.product-image
+{
+	margin-top: 20px;
+}
+
+.main-content .leftboxedcontent.productbox .product-image-col
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
+{
+	padding-bottom: 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	footer .socialicons ul
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70px;
+		float: none;
+	}
+	
+	footer .site-copyright
+	{
+		text-align: center;
+	}
+	
+	#footerwidgets .widget {
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+	
+	#footerwidgets .cards img {
+    	float: left;
+    	margin-bottom: 1em;
+	}
+	
+}
+
+@media screen and (min-width: 768px) {
+	.border-md-right
+	{
+		border-right: 1px solid #b7b7b7;
+	}
+}
