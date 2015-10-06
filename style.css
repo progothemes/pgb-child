@@ -333,10 +333,11 @@ footer .socialicons ul li.facebook a
 
 
 /* Home page */
-.main-content #hero-right , .main-content #hero-left
+.border-bottom
 {
-	padding-bottom: 0px;
+	border-bottom: 1px solid #b7b7b7;
 }
+
 
 .home-hero
 {
@@ -375,7 +376,9 @@ footer .socialicons ul li.facebook a
 .hero-bottom
 {
 	background: url('images/foxtail.png') right bottom no-repeat #1946ba;
-	min-height: 246px;
+	/*min-height: 246px;*/
+	padding-bottom: 45px;
+	padding-top: 45px;
 	text-align: left;
 }
 
@@ -393,11 +396,15 @@ footer .socialicons ul li.facebook a
 	xmin-height: 805px;
 }
 
+.rightboxedcontent .box-title
+{
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
 .rightboxedcontent.bluebox .box-title
 {
-	background: #1946ba;	
+	background: #1946ba;
 }
-
 .rightboxedcontent.lightbluebox .box-title
 {
 	background: #00b3e3;	
@@ -463,10 +470,12 @@ footer .socialicons ul li.facebook a
 	padding-bottom: 45px;
 }
 
-.border-bottom
-{
-	border-bottom: 1px solid #b7b7b7;
-}
+
+
+
+
+
+
 
 .leftboxedcontent
 {
@@ -697,10 +706,6 @@ footer .socialicons ul li.facebook a
 	padding-bottom: 0px;
 }
 	
-.rightboxedcontent.lightbluebox
-{
-	padding-top: 45px;
-}
 
 /*
 @-moz-document url-prefix() {
