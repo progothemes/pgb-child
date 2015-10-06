@@ -1,12 +1,12 @@
 /*
  Theme Name:   Nectar7 PGB Child
- Theme URI:    https://github.com/progothemes/pgb-child
+ Theme URI:	https://github.com/progothemes/pgb-child
  Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
- Author:       ProGo
+ Author:	   ProGo
  Author URI:   http://www.progo.com
- Version:      0.0.1
- Template:     pgb
- License:      GPLv2 or later
+ Version:	  0.0.1
+ Template:	 pgb
+ License:	  GPLv2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
@@ -32,6 +32,7 @@
 }
 body {
 	font-size: 16px;
+	font-size: 1em;
 	font-size: 1.7rem;
 }
 h1, h2, h3 {
@@ -84,6 +85,12 @@ nav > .container {
 }
 .main-content-inner, .sidebar {
 	padding-bottom: 0;
+}
+
+
+/* Alignment */
+.margintop30 {
+	margin-top: 30px;
 }
 
 
@@ -371,6 +378,7 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 	color: #fff;
 	width: 80%;
@@ -390,6 +398,7 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 20px;
+	font-size: 1.25em;
 	line-height: 34px;
 	color: #fff;
 }
@@ -418,7 +427,10 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 26px;
+	line-height: 1.625em;
+	line-height: 1.625em;
 	color: #fff;
 	text-align: center;
 }
@@ -429,6 +441,7 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 700;
 	font-size: 28px;
+	font-size: 1.75em;
 	line-height: 32px;
 	color: #fff;
 	text-align: center;
@@ -450,7 +463,10 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 16px;
+	font-size: 1em;
 	line-height: 26px;
+	line-height: 1.625em;
+	line-height: 1.625em;
 	color: #000;
 	text-align: left;
 }
@@ -460,6 +476,7 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 18px;
+	font-size: 1.125em;
 	color: #FFF;
 	background: #00B3E3 none repeat scroll 0% 0%;
 	border-color: #00B3E3;
@@ -475,11 +492,6 @@ footer .socialicons ul li.facebook a
 
 
 
-
-
-
-
-
 .leftboxedcontent
 {
 	padding-top: 45px;	
@@ -489,26 +501,31 @@ footer .socialicons ul li.facebook a
 {
 	font-family: "MyriadPro";
 	font-size: 16px;
+	font-size: 1em;
 	font-weight: 400;
 	line-height: 26px;
+	line-height: 1.625em;
+	line-height: 1.625em;
 }
 
 .leftboxedcontent.howdoesitwork
 {
 	background: url('images/how_it_works.jpg') right top no-repeat #fff;
 }
-
+.leftboxedcontent.howdoesitwork,
 .leftboxedcontent.howdoesitwork > div
 {
-	padding-top: 50px;
-	padding-bottom: 90px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 .leftboxedcontent.howdoesitwork h4 {
-    color: #1946ba;
-    font-size: 24px;
-    line-height: 26px;
-    margin: 0px 0px 10px;
+	color: #1946ba;
+	font-size: 24px;
+	font-size: 1.5em;
+	line-height: 26px;
+	line-height: 1.625em;
+	margin: 0px 0px 10px;
 }
 
 .leftboxedcontent.graphcontent
@@ -536,11 +553,11 @@ footer .socialicons ul li.facebook a
 	padding-bottom: 45px;
 }
 .leftboxedcontent.benefitscontent h2, .leftboxedcontent.benefits2content h2, .leftboxedcontent.yellowbox h2 {
-    color: #00b3e3;
-    font-size: 40px;
-    line-height: 44px;
-    margin: 0px 0px 10px;
-    text-transform: none;
+	color: #00b3e3;
+	font-size: 40px;
+	line-height: 44px;
+	margin: 0px 0px 10px;
+	text-transform: none;
 }
 .leftboxedcontent.benefitscontent h2 span, .leftboxedcontent.benefits2content h2 span, .leftboxedcontent.yellowbox h2 span{
 	color: #1946ba;
@@ -559,16 +576,19 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 16px;
+	font-size: 1em;
 	line-height: 26px;
+	line-height: 1.625em;
+	line-height: 1.625em;
 	color: #000;
 }
 
-.leftboxedcontent.miraclecontent
+.leftboxedcontent.miraclecontent,
+.leftboxedcontent.miraclecontent > div
 {
-	padding-bottom: 95px;
-	padding-top: 95px;
+	padding-bottom: 45px;
+	padding-top: 45px;
 }
-
 .leftboxedcontent.miraclecontent img
 {
 	margin-top: 25px;
@@ -610,10 +630,6 @@ footer .socialicons ul li.facebook a
 	color: #1946ba;
 }
 
-.margintop30
-{
-	margin-top: 30px;
-}
 
 .leftboxedcontent.yellowbox
 {
@@ -673,6 +689,7 @@ footer .socialicons ul li.facebook a
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 18px;
+	font-size: 1.125em;
 	color: #FFF;
 	background: #00B3E3 none repeat scroll 0% 0%;
 	border-color: #00b3e3;
@@ -713,7 +730,7 @@ footer .socialicons ul li.facebook a
 
 /*
 @-moz-document url-prefix() {
-    .main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
+	.main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
 	{
 		xpadding-bottom: 0px;
 	}
@@ -742,13 +759,13 @@ footer .socialicons ul li.facebook a
 	}
 	
 	#footerwidgets .widget {
-	    margin-bottom: 10px;
-	    margin-top: 10px;
+		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 	
 	#footerwidgets .cards img {
-    	float: left;
-    	margin-bottom: 1em;
+		float: left;
+		margin-bottom: 1em;
 	}
 	
 	.home-hero .home-hero-caption h1
