@@ -144,7 +144,7 @@ header {
 {
 	font-family: 'Source Sans Pro', "MyriadPro";
 	font-size: 15px;
-	font-weight: 300;
+	/*font-weight: 300;*/
 	color: #000;	
 }
 
@@ -701,6 +701,7 @@ footer .socialicons ul li.facebook a
 	padding-top: 45px;
 }
 
+/*
 @-moz-document url-prefix() {
     .main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
 	{
@@ -712,7 +713,7 @@ footer .socialicons ul li.facebook a
 		padding-top: 45px;
 	}
 }
-
+*/
 
 @media screen and (max-width: 767px) {
 	
