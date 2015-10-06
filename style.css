@@ -686,9 +686,31 @@ footer .socialicons ul li.facebook a
 	padding-right: 15px;
 }
 
-.main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
+.rightboxedcontent.lightbluebox
+{
+		padding-top: 0px;
+}
+
+#page-content-wrapper > .main-content > .container
 {
 	padding-bottom: 0px;
+}
+	
+.rightboxedcontent.lightbluebox
+{
+	padding-top: 45px;
+}
+
+@-moz-document url-prefix() {
+    .main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
+	{
+		xpadding-bottom: 0px;
+	}
+	
+	.rightboxedcontent.lightbluebox
+	{
+		padding-top: 45px;
+	}
 }
 
 
@@ -716,6 +738,17 @@ footer .socialicons ul li.facebook a
 	#footerwidgets .cards img {
     	float: left;
     	margin-bottom: 1em;
+	}
+	
+	.home-hero .home-hero-caption h1
+	{
+		font-size: 38px;
+   	 	line-height: 42px;
+	}
+	
+	#footerwidgets 
+	{
+		margin-top: 45px;
 	}
 	
 }
