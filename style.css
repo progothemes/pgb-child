@@ -727,7 +727,338 @@ footer .socialicons ul li.facebook a
 {
 	padding-bottom: 0px;
 }
+
+.main-content .entry-content
+{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
 	
+.main-content .entry-content.main-entry-content
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.page-heading
+{
+	padding: 30px 0px 25px;
+	margin: 0px;
+	border-bottom: 0px solid #EEE;
+	background: #1946ba;
+}
+
+.page-heading h1
+{
+	font-family: "MyriadPro";
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 44px;
+	color: #FFF;
+}
+
+/* Woocommerce related CSS */
+
+.page-heading.store-heading
+{
+	padding: 22px 10px 22px 40px;
+}
+
+.page-heading.store-heading h1
+{
+	margin-bottom: 5px;
+	margin-top: 12px;
+}
+
+.page-heading.store-heading h2
+{
+	color: #00b3e3;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	text-align: right; 
+}
+
+.page-heading.store-heading h3
+{
+	color: #FFF;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0px;
+	text-align: right;
+	text-transform: none;
+}
+
+.main-content .row.products {
+    xmargin-left: -15px;
+    xmargin-right: -15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-content .row.products > [class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-content .row.products .eachProduct
+{
+	padding: 45px;
+	border: 1px solid #d7d7d7;
+	min-height: 650px;
+	margin-bottom: 20px;
+}
+
+.main-content .row.products .product-desc h3
+{
+	color: #000;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 0px;
+	text-transform: none;
+}
+
+.main-content .row.products .product-desc h4
+{
+	color: #000;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 10px;	
+}
+
+.main-content .row.products .product-desc p
+{
+	color: #000;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+.main-content .row.products .product-desc a.learnmore
+{
+	color: #00b3e3;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.main-content .row.products .product-desc .btn.btn-primary
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;	
+	padding: 10px 30px 8px;
+	min-width: 220px;
+	background: #00B3E3;
+	border-radius: 10px;
+	border-color: #00B3E3;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.main-content .row.products .product-desc img.cardseal
+{
+	margin-left: 5px;	
+}
+
+.main-content .row.products .product-desc .productaddtocart
+{
+	margin-top: 30px;
+}
+
+.main-content .row.products .eachProduct [class*="col-"]
+{
+	padding: 0px 15px;
+}
+
+.woocommerce div.product .productaddtocart form.cart
+{
+	margin-bottom: 0px;	
+}
+
+.woocommerce div.product .productaddtocart form.cart div.quantity
+{
+	float: none;
+	width: 100%;
+	max-width: 220px;
+	margin-bottom: 15px;
+}
+
+.woocommerce div.product .productaddtocart form.cart div.quantity input
+{
+	width: 100%;
+	height: 48px;
+	font-size: 16px;
+	font-family: "MyriadPro"
+}
+
+.main-content .woocommerce table.shop_table
+{
+	border-radius: 0px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 0px solid #FFF;
+	border-right: 0px solid #FFF;
+	border-bottom: 0px solid #FFF;
+}
+
+.woocommerce-cart .main-content table.cart img {
+    width: auto;
+    box-shadow: none;
+    max-height: 150px;
+}
+
+.main-content .woocommerce table.shop_table th {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 9px 12px;
+    color: #898989;
+}
+
+.main-content .woocommerce table.shop_table tr.cart_item td, .main-content .woocommerce table.shop_table tr td.actions
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 0px;	
+}
+
+.woocommerce #content table.cart td.actions .input-text, .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text
+{
+	width: 300px;
+	height: 46px;
+	border-radius: 0px;
+	color: #898989;
+	font-size: 16px;
+	padding-left: 20px;
+	font-family: "MyriadPro";
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button
+{
+	background: #959595;
+	width: 173px;
+	padding: 12px 20px;
+	height: 46px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: "MyriadPro";
+	color: #fff;
+	font-weight: 400; 
+}
+
+.woocommerce .cart .button.updatebutton, .woocommerce .cart input.button.updatebutton
+{
+	background: #00b3e3;
+	width: 220px;
+}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: left;
+    width: 48%;
+    background: #f5f5f5;
+    padding: 25px 0px;
+}
+
+.woocommerce .cart-collaterals .cart_totals h2, .woocommerce-page .cart-collaterals .cart_totals h2{
+	font-size: 24px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	color: #000;
+	font-weight: 700;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #EEE;
+	text-transform: none;
+	padding-left: 45px;
+	margin: 0px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table
+{
+	margin: 25px 0px 0px 45px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table tr:first-child td, .woocommerce-cart .cart-collaterals .cart_totals table tr:first-child th {
+    border-top: 0px none;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals tr td, .woocommerce-cart .cart-collaterals .cart_totals tr th {
+    border-top: 0px solid #EBE9EB;
+    font-size: 18px;
+	line-height: 22px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals tr th {
+    border-top: 0px solid #EBE9EB;
+    font-size: 18px;
+	line-height: 22px;
+	font-family: "MyriadPro";
+	color: #898989;
+	font-weight: 700;
+	width: 100px;
+	vertical-align: middle;
+}
+
+
+.woocommerce-cart .cart-collaterals .cart_totals p
+{
+	margin-bottom: 0px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals a
+{
+	color: #000;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout {
+    padding: 1em 45px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals .btn.btn-primary
+{
+	font-family: "MyriadPro";
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;	
+	padding: 10px 30px 8px;
+	min-width: 220px;
+	background: #00B3E3;
+	border-radius: 10px;
+	border-color: #00B3E3;
+	display: block;
+	width: 100%;
+	color: #fff;
+}
+
+.main-content .woocommerce table.shop_table tr.cart_item td.product-name a{
+    color: #000;
+}
+
+.woocommerce .quantity .qty
+{
+	height: 46px;
+}
+
+.woocommerce a.remove
+{
+	color: #000;
+}
 
 /*
 @-moz-document url-prefix() {
@@ -743,6 +1074,14 @@ footer .socialicons ul li.facebook a
 }
 */
 
+@media screen and (max-width: 980px) {
+	.main-content .woocommerce table.shop_table
+	{
+		display: block;
+		width: 100%;
+	}
+	
+}
 @media screen and (max-width: 767px) {
 	
 	footer .socialicons ul
@@ -780,6 +1119,24 @@ footer .socialicons ul li.facebook a
 		margin-top: 45px;
 	}
 	
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals
+	{
+		float: none;
+		width: 100%;
+	}
+	
+	.woocommerce #content table.cart td.actions .button, .woocommerce #content table.cart td.actions .input-text, .woocommerce #content table.cart td.actions input, .woocommerce table.cart td.actions .button, .woocommerce table.cart td.actions .input-text, .woocommerce table.cart td.actions input, .woocommerce-page #content table.cart td.actions .button, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions input, .woocommerce-page table.cart td.actions .button, .woocommerce-page table.cart td.actions .input-text, .woocommerce-page table.cart td.actions input
+	{
+		float: none;
+		width: 100%;
+		max-width: 220px;
+	}
+	
+	.woocommerce .cart .button, .woocommerce .cart input.button
+	{
+		margin-top: 10px;
+		float: none !important;
+	}
 }
 
 @media screen and (min-width: 768px) {
