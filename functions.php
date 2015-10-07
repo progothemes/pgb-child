@@ -15,6 +15,22 @@ function pgb_child_enqueue_scripts() {
     wp_enqueue_script( 'nectar7-js', get_stylesheet_directory_uri() . '/includes/js/nectar7.js', array('jquery') );
 }
 
+add_action( 'tha_body_top', 'nectar7_gtm' );
+function nectar7_gtm() {
+	/* I think we have a plugin for this somewhere. We will move it to there whenever we are ready? Ok. */
+	?>
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W2WW4W"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-W2WW4W');</script>
+	<!-- End Google Tag Manager -->
+	<?php
+}
+
 
 function get_woo_cart_menu() {
 	global $woocommerce;
