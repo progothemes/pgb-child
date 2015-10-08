@@ -755,13 +755,15 @@ footer .socialicons ul li.facebook a
 	font-size: 40px;
 	line-height: 44px;
 	color: #FFF;
+	margin: 0px;
+	margin-bottom: 4px;
 }
 
 /* Woocommerce related CSS */
 
 .page-heading.store-heading
 {
-	padding: 22px 10px 22px 40px;
+	padding: 22px 10px 15px 40px;
 }
 
 .page-heading.store-heading h1
@@ -1060,6 +1062,144 @@ footer .socialicons ul li.facebook a
 	color: #000;
 }
 
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message
+{
+	border-top: 3px solid #1946BA;
+	margin: 2em 0px !important;	
+}
+
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 100%;
+    margin: 0px;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: visible;
+    padding: 10px 20px;
+    font-weight: 400;
+    border-radius: 3px;
+    left: auto;
+    color: #FFF;
+    background-color: #1946BA;
+    border: 0px none;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 18px;
+	font-weight: 400;
+	font-family: "MyriadPro";
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button {
+    background-color: #1946BA !important;
+	color: rgb(255, 255, 255) !important;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "MyriadPro";
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 10px 30px;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #1946BA;
+    color: #FFF;
+}
+
+
+.woocommerce .woocommerce-message::before {
+	color: #1946BA !important;
+}
+
+.woocommerce-checkout .woocommerce .woocommerce-error, .woocommerce-checkout .woocommerce .woocommerce-info, .woocommerce-checkout .woocommerce .woocommerce-message {
+    border-top: 3px solid #1946BA;
+    margin: 0px 0px 2em !important;
+}
+
+.woocommerce form .form-row input.input-text
+{
+	height: 46px;
+	border-radius: 0px;
+	color: #898989;
+	font-size: 16px;
+	padding-left: 20px;
+	font-family: "MyriadPro";
+	border: 1px solid #D3CED2;
+}
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    border: 1px solid #D3CED2;
+    padding: 20px;
+    margin: 2em 0px;
+    text-align: left;
+    border-radius: 0px;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: none;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0px !important;
+}
+
+.woocommerce form .form-row textarea {
+    height: 120px;
+    line-height: 1.5;
+    display: block;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+	padding-left: 20px;
+	font-family: "MyriadPro";
+	border: 1px solid #898989;
+	padding-top: 10px;
+}
+
+.checkout.woocommerce-checkout h3
+{
+	font-size: 24px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	color: #000;
+	font-weight: 700;
+	text-transform: none;
+	margin: 0px;
+	margin-bottom: 10px;
+	text-transform: uppercase;	
+} 	
+
+.woocommerce form .form-row label, .woocommerce-page form .form-row label {
+    font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000;
+	margin-top: 5px;
+}
+
+.shop_table.woocommerce-checkout-review-order-table tr.cart_item td
+{
+	padding-left: 10px !important;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order
+{
+	padding: 12px 20px;
+	height: 46px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: "MyriadPro";
+	color: #FFF;
+	font-weight: 400;
+	background: #00B3E3 none repeat scroll 0% 0%;
+	width: 220px;
+}
 /*
 @-moz-document url-prefix() {
 	.main-content .leftmaincontent, .main-content .main-entry-content, .main-content  > .container, .main-content .main-content-inner,  .main-content .main-content-inner2
