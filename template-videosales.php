@@ -52,7 +52,7 @@ get_header(); ?>
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>$67.00</span></h5>
-													<h4><span>NOW:</span> $67.00</h4>
+													<h4><span>NOW:</span> $60.30</h4>
 													<h5>You Save $6.70 (10%)</h5>
 												</div>
 												<div class="addtocartdiv">
