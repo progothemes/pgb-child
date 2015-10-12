@@ -1598,6 +1598,12 @@ footer .socialicons ul li.facebook a
 	border-right: 1px solid #c2c2c2;
 }
 
+.videosalespage .refillproducts .eachRefillProduct .refillThumb
+{
+	margin-left: -3em;
+	margin-right: -3em;
+}
+
 .videosalespage .refillproducts .eachRefillProduct h3
 {
 	font-size: 28px;
@@ -1802,6 +1808,12 @@ footer .socialicons ul li.facebook a
 		font-weight: 700;
 		margin-top: 0px;
 		margin-bottom: 25px;
+	}
+	
+	.videosalespage .refillproducts .eachRefillProduct
+	{
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 	}
 }
 
