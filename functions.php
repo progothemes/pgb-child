@@ -42,7 +42,7 @@ function get_woo_cart_menu() {
 	return $item;
 }
 
-remove_filter( 'the_content', 'wpautop' );
+//remove_filter( 'the_content', 'wpautop' );
 
 //Disabled Jumbotron
 
