@@ -177,7 +177,7 @@ header {
 }
 
 #top-nav.navbar-inverse .navbar-nav > li > a {
-	background-color: #fff;
+	background-color: #e7e7e7;
 	color: #000;
 	font-family: "Source Sans Pro","MyriadPro";
 }
@@ -194,9 +194,10 @@ header {
 .cartlink span.shopping-cart-icon
 {
 	display: inline-block;
-	height: 26px;
+	height: 22px;
 	width: 28px;
 	background: url('images/cart_icon.png') 0 0 no-repeat transparent;
+	background-size: contain;
 	outline: none;
 	margin-bottom: -7px;
 }
