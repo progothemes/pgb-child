@@ -42,58 +42,58 @@ get_header(); ?>
 								</div>
 								<div class="row refillproducts">
 									<div class="col-xs-12">
-										<h2><strong>Save up to 30%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
+										<h2><strong>Save up to 48%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>30-day supply
-													<span>with AutoRefill</span></h3>
+												<h3>Niagen
+													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_30day.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>List Price: <span>$67.00</span></h5>
-													<h4><span>NOW:</span> $60.30</h4>
-													<h5>You Save $6.70 (10%)</h5>
+													<h5>List Price: <span>$64.99</span></h5>
+													<h4><span>NOW:</span> $45.00</h4>
+													<h5>You Save $19.99 (30.76%)</h5>
 												</div>
 												<div class="addtocartdiv">
-													<label><input type="radio" name="refilltype_30" id="refilltype_30" value="autofill"/> AutoRefill price - BEST value</label>
-													<label><input type="radio" name="refilltype_onetime" id="refilltype_onetime" value="one_time"/> One-time delivery price</label>
+													<label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label>
+													<label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label>
 													<input class="btn btn-primary" type="submit" value="ADD TO CART"/>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" /> 
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>90-day supply
-													<span>with AutoRefill</span></h3>
+												<h3>Niagen (90 Day)
+													<span>Most Popular</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_90_day.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>List Price: <span>201.00</span></h5>
-													<h4><span>NOW:</span> $160.80</h4>
-													<h5>You Save $40.20 (20%)</h5>
+													<h5>List Price: <span>194.97</span></h5>
+													<h4><span>NOW:</span> $115.03</h4>
+													<h5>You Save $79.94 (41%)</h5>
 												</div>
 												<div class="addtocartdiv">
-													<label><input type="radio" name="refilltype_30" id="refilltype_30" value="autofill"/> AutoRefill price - BEST value</label>
-													<label><input type="radio" name="refilltype_onetime" id="refilltype_onetime" value="one_time"/> One-time delivery price</label>
+													<label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label>
+													<label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label>
 													<input class="btn btn-primary" type="submit" value="ADD TO CART"/>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" /> 
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>180-day supply
-													<span>with AutoRefill</span></h3>
+												<h3>Niagen (+1 Bottle)
+													<span>Best Value</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_180_day.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>LIST PRICE: <span>$402.00</span></h5>
-													<h4><span>NOW:</span> $281.40</h4>
-													<h5>YOU SAVE $120.60 (30%)</h5>
+													<h5>LIST PRICE: <span>$259.96</span></h5>
+													<h4><span>NOW:</span> $135.18</h4>
+													<h5>YOU SAVE $124.78 (48%)</h5>
 												</div>
 												<div class="addtocartdiv">
-													<label><input type="radio" name="refilltype_30" id="refilltype_30" value="autofill"/> AutoRefill price - BEST value</label>
-													<label><input type="radio" name="refilltype_onetime" id="refilltype_onetime" value="one_time"/> One-time delivery price</label>
+													<label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label>
+													<label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label>
 													<input class="btn btn-primary" type="submit" value="ADD TO CART"/>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" /> 
 												</div>	
