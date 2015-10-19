@@ -34,7 +34,7 @@ get_header(); ?>
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>Can you still go the distance?</h1>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+												<p>NECTAR7 delivers a patented formula that gets you increased performance both mentally and physically by increasing NAD+ in the body.</p>
 											</div>
 										</div>
 										<div class="row hero-bottom">
