@@ -33,7 +33,7 @@ get_header(); ?>
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="videobanner">
 											<h4>Nectar 7 gives you the power to do more.</h4>
-											<h1>Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit sed do eiusmod tempor</h1>
+											<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities!</h1>
 											<div class="videocontent">
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
 											</div>
