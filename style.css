@@ -1718,6 +1718,313 @@ footer .socialicons ul li.facebook a
 	display: block;
 }
 
+/* About Us */
+
+.main-content > .container .aboutushero [class*="col-"], .main-content .aboutushero [class*="col-"] {
+    padding: 45px;
+}
+
+.aboutuspage .aboutushero h1
+{
+	font-size: 40px;
+	line-height: 44px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+
+.aboutuspage .aboutushero p
+{
+	font-size: 20px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.aboutuspage .aboutushero.about1 h1, .aboutuspage .aboutushero.about1 p
+{
+	color: #fff;	
+}
+
+.aboutuspage .aboutushero.about1
+{
+	color: #fff;
+	background: url('images/about_bg.jpg') center center no-repeat #1946ba;
+	min-height: 538px;
+}
+
+.aboutuspage .aboutushero .herocaption
+{
+	max-width: 514px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutuspage .aboutushero.about1 .herocaption, .aboutuspage .aboutushero.about2 .herocaption
+{
+	margin-top: 90px;
+}
+
+
+.aboutuspage .aboutushero.about2
+{
+	color: #000  !important;
+	background: url('images/ballon_bg.jpg') center center no-repeat #FFF;
+	min-height: 414px;
+}
+
+.aboutuspage .aboutushero.about2 .herocaption
+{
+	max-width: 540px;
+}
+
+
+.main-content > .container .alternatecols [class*="col-"], .main-content .alternatecols [class*="col-"] {
+    padding: 70px 45px 45px 90px;
+}
+
+.alternatecols h3
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	text-transform: none;
+	color: #fff;
+}
+
+.alternatecols p
+{
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #fff;
+}
+
+.alternatecols .eachCol
+{
+	background: #06a3cd;
+	height: 310px;
+	overflow: hidden; 
+}
+
+.alternatecols .eachCol.altCol
+{
+	background: #1946ba;
+}
+
+.alternatecols .eachCol .colcont
+{
+	xmax-width: 240px;
+}
+
+.aboutuspage .aboutmission
+{
+	color: #000;
+	background: url('images/runner_bg.jpg') 0 0 no-repeat #FFF;
+	min-height: 685px;	
+}
+
+.aboutuspage .aboutmission p
+{
+	font-size: 20px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #000;	
+}
+
+.main-content > .container .aboutmission [class*="col-"], .main-content .aboutmission [class*="col-"] {
+    padding: 90px 45px 45px 90px;
+}
+
+
+.aboutuspage .alttwocols
+{
+	font-size: 18px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #fff;	
+}
+
+.aboutuspage .alttwocols h4
+{
+	font-size: 18px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}	
+
+.aboutuspage .alttwocols p
+{
+	font-size: 18px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #000;	
+}
+
+.main-content > .container .alttwocols [class*="col-"], .main-content .alttwocols [class*="col-"] {
+    padding: 120px 45px 45px 90px;
+    min-height: 600px;
+}
+
+.aboutuspage .alttwocols .blueeight h4
+{
+	font-size: 20px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.aboutuspage .alttwocols .blueeight
+{
+	background: url('images/eight_img.png') right center no-repeat #1946ba;
+	color: #fff;
+}
+
+.aboutuspage .alttwocols .blueeight .textblock
+{
+	max-width: 275px;
+}
+
+.aboutuspage .alttwocols .whitecol .textblock
+{
+	max-width: 472px;
+}
+
+
+.aboutuspage .alttwocols .blueeight p
+{
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;	
+}
+
+.aboutuspage .alttwocols .walkblock
+{
+	background: url('images/morning_walk.jpg') 0 0 no-repeat #FFF;
+	color: #fff;
+}
+
+.aboutuspage .alttwocols .colorCol
+{
+	background: #06a3cd;
+	color: #fff;
+	padding-top: 70px !important;
+}
+
+
+.aboutuspage .alttwocols .colorCol .textblock
+{
+	max-width: 472px;
+}
+
+
+.aboutuspage .alttwocols .colorCol h4
+{
+	color: #fff;	
+	margin-bottom: 0px;
+}
+
+.aboutuspage .alttwocols .colorCol ul
+{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.aboutuspage .alttwocols .colorCol ul li
+{
+	list-style: none;
+	font-size: 18px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #FFF;
+	margin-bottom: 5px;	
+	margin-left: 0px;
+	padding-left: 0px;
+}	
+
+.main-content > .container .aboutproduct [class*="col-"], .main-content .aboutproduct [class*="col-"] {
+    padding: 45px 45px 45px 90px;
+}
+
+
+.aboutuspage .aboutproduct h4
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.aboutuspage .aboutproduct p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #000;
+}
+
+.aboutuspage .aboutproduct .textcol
+{
+	padding-top: 115px !important; 	
+}	
+
+.aboutuspage .aboutproduct .thumbcol
+{
+	margin-bottom: 45px; 	
+}	
+
+.aboutuspage .aboutproduct .thumbcol img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.aboutuspage .aboutushero.about3
+{
+	color: #fff;
+	background: #111e90;
+	min-height: 270px;
+}
+
+.aboutuspage .aboutushero.about3
+{
+	padding: 90px !important;
+}
+
+.aboutuspage .aboutushero.about3 p
+{
+	font-size: 20px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+	
 @media screen and (max-width: 980px) {
 	.main-content .woocommerce table.shop_table
 	{
@@ -1816,6 +2123,41 @@ footer .socialicons ul li.facebook a
 	{
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+	}
+	
+	.main-content > .container .alternatecols [class*="col-"], .main-content .alternatecols [class*="col-"], 
+	.main-content > .container .aboutmission [class*="col-"], .main-content .aboutmission [class*="col-"],
+	.main-content > .container .alttwocols [class*="col-"], .main-content .alttwocols [class*="col-"],
+	.main-content > .container .aboutushero [class*="col-"], .main-content .aboutushero [class*="col-"],
+	.main-content > .container .aboutproduct [class*="col-"], .main-content .aboutproduct [class*="col-"]
+	{
+		padding: 45px !important;
+	}
+	
+	.aboutuspage .alttwocols .blueeight
+	{
+		background: #1946ba;
+	}	
+	
+	.alternatecols .eachCol, .aboutuspage .aboutushero
+	{
+		height: auto !important;
+		min-height: 100px !important;
+	}	
+	
+	.aboutuspage .aboutushero.about1 .herocaption, .aboutuspage .aboutushero.about2 .herocaption
+	{
+		margin-top: 45px;
+	}
+	
+	.main-content > .container .alttwocols [class*="col-"], .main-content .alttwocols [class*="col-"]
+	{
+		min-height: 100px;
+	}
+	
+	.aboutuspage .alttwocols .walkblock
+	{
+		min-height: 600px !important;
 	}
 }
 
