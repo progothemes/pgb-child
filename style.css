@@ -2024,7 +2024,47 @@ footer .socialicons ul li.facebook a
 	color: #fff;
 	text-align: center;
 }
-	
+
+/* Science page */
+
+.page-heading.science-heading
+{
+	min-height: 200px;
+	background: url('images/science_heading_banner.jpg') 0 0 no-repeat #111e90;
+	padding-top: 90px;
+	padding-bottom: 75px;	
+}
+
+.page-heading.science-heading h1
+{
+	font-size: 40px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #fff;
+	text-align: left;
+	text-transform: none;
+	margin: 0px;	
+}	
+
+.sc_sidebar
+{
+	padding-top: 70px;
+	padding-bottom: 35px;	
+}
+
+.sc_sidebar ul 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sc_sidebar ul li
+{
+	list-style: none;	
+}
+
+
 @media screen and (max-width: 980px) {
 	.main-content .woocommerce table.shop_table
 	{
