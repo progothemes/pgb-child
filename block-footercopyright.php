@@ -15,8 +15,8 @@ if( !empty( $show_footer_copyright ) && '1' === $show_footer_copyright ) { ?>
 			<div class="col-xs-12 col-sm-8 col-md-8 pull-right text-right">
 				<div class="socialicons">
 					<ul>
-						<li class="twitter"><a href="#"></a></li>
-						<li class="facebook"><a href="#"></a></li>
+						<li class="twitter"><a href="http://www.twitter.com/nectarseven"></a></li>
+						<li class="facebook"><a href="http://www.facebook.com/nectarseven"></a></li>
 					</ul>
 				</div>
 			</div>
