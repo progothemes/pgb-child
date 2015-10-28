@@ -280,12 +280,29 @@ header {
 	margin-top: 2em;
 }
 
-#footerwidgets .cards img
+#footerwidgets .cards
 {
 	float: right;
-	
+	max-width: 355px;	
 }
 
+#footerwidgets .cards img
+{
+	display: inline-block;
+}
+
+#footerwidgets .cards div.AuthorizeNetSeal
+{
+	display: inline-block;
+	width: 45px !important;
+}
+
+#footerwidgets .cards div.AuthorizeNetSeal img
+{
+	width: 45px;
+	height: auto;	
+	margin-top: -5px;
+}
 
 /* Copyright Footer */
 footer .container {
@@ -317,7 +334,7 @@ footer .socialicons ul li
 {
 	list-style: none;
 	float: left;
-		
+	margin: 0px 10px;	
 }
 
 footer .socialicons ul li a
@@ -330,18 +347,25 @@ footer .socialicons ul li a
 
 footer .socialicons ul li.twitter a
 {
-	height: 16px;
-	width: 16px;
-	background: url('images/icon_twitter.png') center center no-repeat transparent;	
+	height: 24px;
+	width: 24px;
+	background: url('images/twitter_n.png') center center no-repeat transparent;	
 }
 
 footer .socialicons ul li.facebook a
 {
-	height: 16px;
-	width: 16px;
-	background: url('images/icon_facebook.png') center center no-repeat transparent;	
+	height: 24px;
+	width: 24px;
+	background: url('images/facebook_n.png') center center no-repeat transparent;	
 }
 
+
+footer .socialicons ul li.instagram a
+{
+	height: 24px;
+	width: 24px;
+	background: url('images/instagram_n.png') center center no-repeat transparent;	
+}
 
 
 /* Images */
@@ -2384,7 +2408,7 @@ footer .socialicons ul li.facebook a
 
 .disclaimertext
 {
-	margin: 20px 0px 0px;
+	margin: 0px 0px 0px;
 	text-align: center;
 }
 
