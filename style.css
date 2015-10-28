@@ -286,18 +286,18 @@ header {
 	max-width: 355px;	
 }
 
-#footerwidgets .cards img
+.cards img
 {
 	display: inline-block;
 }
 
-#footerwidgets .cards div.AuthorizeNetSeal
+.cards div.AuthorizeNetSeal
 {
 	display: inline-block;
 	width: 45px !important;
 }
 
-#footerwidgets .cards div.AuthorizeNetSeal img
+.cards div.AuthorizeNetSeal img
 {
 	width: 45px;
 	height: auto;	
