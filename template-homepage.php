@@ -227,8 +227,7 @@ get_header(); ?>
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-12">
-												<div class="rightboxedcontent bluebox">
-													<div class="row box-title">
+													<div class="row box-title testimonials">
 														<div class="col-xs-12 col-md-12">
 															<h3>Happy Customers</h3>
 
@@ -272,7 +271,6 @@ get_header(); ?>
 															</blockquote>
 														</div>
 													</div>
-												</div>
 											</div>
 										</div>
 									</div>
