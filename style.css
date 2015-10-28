@@ -221,7 +221,11 @@ header {
 	padding-top: 16px;
 }
 .masthead-security img {
+	margin-top: 20px;
 	padding-top: 6px;
+}
+.masthead-security .cards div.AuthorizeNetSeal img {
+	margin-top: 14px;
 }
 .masthead-cta img {
 	padding-top: 13px;
