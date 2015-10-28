@@ -234,26 +234,28 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12 col-sm-4 col-md-12">
 														<blockquote>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+															<p>NECTAR7 with NAD+ really works!  After only a few days of taking the product, I feel I now have more energy and can concentrate better.   I seem to have an easier time remembering things and doing other mental activities like solving puzzles. This is definitely a breakthrough product which will help people from across the world lead better and more productive lives!</p>
+															<footer>Nes E., Atlanta, GA</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12 col-sm-4 col-md-12">
 														<blockquote class="blockquote-reverse">
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+															<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
+															<footer>Jeromy S., Del Mar, CA</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12 col-sm-4 col-md-12">
 														<blockquote>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+															<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure Niagen would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
+															<p>I don't know what I would do without this product now. It has truly changed my life!</p>
+															<footer>Craig C., Cleveland, OH</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12 col-sm-4 col-md-12">
 														<blockquote class="blockquote-reverse">
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+															<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
+															<p><a>Read more of Mark's story</a></p>
+															<footer>Mark M. San Diego, CA</footer>
 														</blockquote>
 													</div>
 												</div>
