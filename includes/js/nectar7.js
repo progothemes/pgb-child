@@ -1,4 +1,4 @@
-/* Nectar7 JS */
+/* NECTAR7 JS */
 
 (function($){
 

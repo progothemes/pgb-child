@@ -111,7 +111,7 @@ get_header(); ?>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-6 colorCol">
 										<div class="textblock">
-											<h4>Nectar7 (N7) Delivers Seven Vital</h4> 
+											<h4>NECTAR7 (N7) Delivers Seven Vital</h4> 
 											<h4>Mitochondrial Functions</h4>
 											<ul>
 											<li>+ Anti-Aging</li>
@@ -127,7 +127,7 @@ get_header(); ?>
 								</div>
 								<div class="row aboutproduct">
 									<div class="col-xs-12 col-sm-6 col-md-7 textcol">
-										<p>Nectar Seven is a lifestyle marketing company specializing in performance-based-nutrition for healthy lifestyles. Our signature product, Nectar7 (N7), is an anti-aging tablet featuring Niagen (NAD+) and Collagen. Scientifically formulated to enhance cell activity—rejuvenation, recovery, repair and response while delivering a unrivaled metabolic boost.</p>
+										<p>Nectar Seven is a lifestyle marketing company specializing in performance-based-nutrition for healthy lifestyles. Our signature product, NECTAR7 (N7), is an anti-aging tablet featuring Niagen (NAD+) and Collagen. Scientifically formulated to enhance cell activity—rejuvenation, recovery, repair and response while delivering a unrivaled metabolic boost.</p>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-5 thumbcol">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.jpg" class="img-responsove"/>
