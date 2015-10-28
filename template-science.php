@@ -32,23 +32,23 @@ get_header(); ?>
 
 						<div class="row">
 
-							<div class="col-xs-12 col-sm-2 col-md-2 sc_sidebar">
+							<div class="col-xs-12 col-sm-12 col-md-2 sc_sidebar">
 								<div class="eachWidget">
 									<ul>
-										<li><a href="#">The Science</a></li>
+										<li class="active"><a href="#">The Science</a></li>
 										<li><a href="#">Why NAD+</a></li>
 										<li><a href="#">Research</a></li>
 									</ul>
 								</div>
 							</div>
-							<div class="col-xs-12 col-sm-10 col-md-10 sc_sidebar">
+							<div class="col-xs-12 col-sm-12 col-md-10">
 								<div class="row fleximgrow docrow">
-									<div class="col-xs-12 col-sm-7 col-md-6">
+									<div class="col-xs-12 col-sm-7 col-md-6 textblock">
 										<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science is finally closing in on the secrets of significantly extending life, while improving health and prolonging youthful vigor.</p>
 										<p><strong>The secret is in NECTAR7 products that deliver what scientists and researchers have been searching for years to increase in the human body.</strong></p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/science_section1.jpg" class="img-responsive aligncenter size-full" />
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/science_section1.jpg" class="img-responsive aligncenter size-full  wp-image-44" />
 									</div>
 								</div>
 								<div class="row engrow">
@@ -62,43 +62,46 @@ get_header(); ?>
 									</div>
 								</div>
 								<div class="row fleximgrow necrow">
-									<div class="col-xs-12 col-sm-7 col-md-6">
-										<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science is finally closing in on the secrets of significantly extending life, while improving health and prolonging youthful vigor.</p>
-										<p><strong>The secret is in NECTAR7 products that deliver what scientists and researchers have been searching for years to increase in the human body.</strong></p>
+									<div class="col-xs-12 col-xs-10 col-md-10 textblock">
+										<h3>The science behind NECTAR7 is a newly-discovered chemical compound called Nicotinamide Adenine Dinucleotide (NAD+).</h3>
+									</div>
+									<div class="col-xs-12 col-sm-8 col-md-7">
+										<p>NAD+ is a critical component of cell metabolism in all mammals, including humans. It is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy.</p>
+										<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar7_bg.jpg" class="img-responsive aligncenter size-full" />
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar7_bg.jpg" class="img-responsive aligncenter size-full wp-image-44" />
 									</div>
 								</div>
 								<div class="row graphrow">
-									<div class="col-xs-12 col-sm-8 col-md-8">
+									<div class="col-xs-12 col-sm-12 col-md-12">
 										<h2>Niagen taken daily can increase<br/> 
 											youthful aging by increasing NAD+ levels</h2>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/with_niagen.jpg" class="img-responsive"/>
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/without_niagen.jpg" class="img-responsive"/>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/with_niagen.jpg" class="img-responsive imglast"/>
 									</div>
 								</div>
-								<div class="row textrow">
+								<div class="row textrow textmito">
 									<div class="col-xs-12 col-sm-6 col-md-6">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/mitochondria.jpg" class="img-responsive" />
 									</div>
-									<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
 										<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer’s disease and certain types of cancer.</p>
 									</div>
 								</div>
 								<div class="row textrow">
-									<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
 										<h2>The benefits of NECTAR7</h2>
 										<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.  View all Research.  In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice.  It’s the equivalent of a 60-year-old person’s mitochondria becoming more like those of a 20-year-old.</p>
 										<p>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
 									</div>
-									<div class="col-xs-12 col-sm-6 col-md-6">
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/david_sinclair.jpg" class="img-responsive" />
+									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/david_sinclair.jpg" class="img-responsive img-headshot" />
 										<p>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</p>
 									</div>
 								</div>
 								<div class="row fleximgrow nrrow">
-									<div class="col-xs-12 col-sm-7 col-md-6">
+									<div class="col-xs-12 col-sm-7 col-md-6 textblock">
 										<h2>For the body to replenish its supply of NAD+, it requires a precursor known as nicotinamide riboside (NR).</h2>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
@@ -118,7 +121,7 @@ get_header(); ?>
 												<h2>In a recent human study, a single dose of Niagen®, increased NAD+ by 33%. </h2>
 												<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 gives you more time.  More time to enjoy your youth.  More time to achieve your goals.  More time get more out of life.</p>
 											</div>
-											<div class="col-xs-12 col-sm-6 col-md-5">
+											<div class="col-xs-12 col-sm-6 col-md-5 padleft0">
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/runner_girl_2.jpg" class="img-responsive aligncenter size-full" />
 											</div>
 										</div>
@@ -136,9 +139,8 @@ get_header(); ?>
 </p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
- 												<h2>Join our Newsletter to Stay up to Date with the Latest Research & Science Discoveries.</h2>
+ 												<h3>Join our Newsletter to Stay up to Date with the Latest Research & Science Discoveries.</h3>
  												<form>
- 													<h3>Join our Newsletter to Stay up to Date with the Latest Research & Science Discoveries. </h3>
  													<div class="form-group">
  														<input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter your email">
  													  	<input type="submit" class="btn btn-primary" value="NEWSLETTER SIGNUP" /> 

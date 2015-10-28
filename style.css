@@ -2037,16 +2037,16 @@ footer .socialicons ul li.facebook a
 
 .page-heading.science-heading
 {
-	min-height: 200px;
+	min-height: 195px;
 	background: url('images/science_heading_banner.jpg') 0 0 no-repeat #111e90;
 	padding-top: 90px;
-	padding-bottom: 75px;	
+	padding-bottom: 63px;	
 }
 
 .page-heading.science-heading h1
 {
 	font-size: 40px;
-	line-height: 32px;
+	line-height: 44px;
 	font-family: "MyriadPro";
 	font-weight: 700;
 	color: #fff;
@@ -2054,6 +2054,31 @@ footer .socialicons ul li.facebook a
 	text-transform: none;
 	margin: 0px;	
 }	
+
+.fleximgrow p
+{
+	font-size: 20px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	margin-bottom: 25px;	
+}
+
+.fleximgrow .textblock
+{
+	padding-top: 45px;	
+}
+
+.fleximgrow.docrow
+{
+	background: url('images/science_section1.jpg') right 0 no-repeat #fff;	
+	min-height: 530px;
+}
+
+.fleximgrow.docrow .textblock
+{
+	padding-top: 62px;	
+}
 
 .sc_sidebar
 {
@@ -2069,9 +2094,306 @@ footer .socialicons ul li.facebook a
 
 .sc_sidebar ul li
 {
-	list-style: none;	
+	list-style: none;
+	margin-bottom: 12px;
+		
 }
 
+.sc_sidebar ul li a
+{
+	background: url('images/arrow_bg.jpg') 0 4px no-repeat transparent;
+	font-size: 19px;
+	line-height: 22px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #1946ba;
+	padding-left: 15px;
+}
+
+.sc_sidebar ul li.active a
+{
+	color: #000;
+}
+
+.engrow
+{
+	min-height: 335px;
+	padding-top: 95px;
+	background: url('images/engine_bg.jpg') 0 0 no-repeat #1946ba;
+	color: #FFF;
+}
+
+.engrow h2
+{
+	font-size: 40px;
+	line-height: 44px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-transform: none;
+}
+
+.engrow ol, .engrow ul
+{
+	margin-left: 0px;
+	padding-left: 19px;
+}
+
+.engrow p, .engrow ul li, .engrow ul li a,  .engrow ol li, .engrow ol li a
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #FFF;
+}
+
+
+.fleximgrow.necrow
+{
+	background: url('images/nectar7_bg.jpg') right 0 no-repeat #fff;	
+	min-height: 730px;
+}
+
+.fleximgrow.necrow .textblock
+{
+	padding-top: 62px;	
+}
+
+
+.fleximgrow.necrow .textblock h3
+{
+	font-size: 28px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-transform: none;
+}
+
+.fleximgrow.necrow p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	margin-bottom: 25px;	
+}
+
+.graphrow
+{
+	padding-top: 45px;
+	min-height: 655px;
+	background: #1946ba;
+	color: #FFF;	
+}
+
+.graphrow h2
+{
+	font-size: 40px;
+	line-height: 44px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.graphrow img {
+    width: 465px;
+    display: inline-block;
+}
+
+.graphrow img.imglast
+{
+	margin-left: -5px;
+}
+
+.textrow
+{
+	padding-top: 45px;
+	padding-bottom: 45px
+}
+
+
+.textrow.textmito
+{
+	padding-top: 90px;
+	padding-bottom: 45px
+}
+
+.textrow.textmito .textblock
+{
+	padding-top: 64px;
+}	
+
+.textrow .textblock p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.textrow h2
+{
+	font-size: 37px;
+	line-height: 41px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #1946ba;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.textrow.textmito img
+{
+	margin-bottom: 45px;	
+}
+
+.textrow .img-headshot
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.fleximgrow.nrrow
+{
+	background: url('images/replenish.jpg') right 0 no-repeat #1946ba;	
+	min-height: 308px;
+}
+
+.fleximgrow.nrrow .textblock
+{
+	padding-top: 80px;
+	padding-bottom: 45px;	
+}
+
+.fleximgrow.nrrow h2
+{
+	font-size: 28px;
+	line-height: 36px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: none;
+}
+
+.runnerrow
+{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.runnerrow h2
+{
+	font-size: 40px;
+	line-height: 44px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #1946ba;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.runnerrow p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.padleft0
+{
+	padding-left: 0px !important;	
+}
+
+.padright0
+{
+	padding-right: 0px;	
+}
+
+.newsletterrow
+{
+	background: #1946ba;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	min-height: 600px;
+	color: #FFF;	
+}
+
+.newsletterrow h2
+{
+	font-size: 40px;
+	line-height: 44px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.newsletterrow p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	color: #FFF;
+	margin-bottom: 30px;
+}
+
+.newsletterrow h3
+{
+	font-size: 28px;
+	line-height: 36px;
+	font-family: "MyriadPro";
+	font-weight: 700;
+	color: #00b3e3;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.newsletterrow .form-control
+{
+	height: 50px;
+	font-size: 19px;
+	color: #000;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+
+.disclaimertext
+{
+	margin: 20px 0px 0px;
+	text-align: center;
+}
+
+.disclaimertext p
+{
+	font-size: 11px;
+	line-height: 13px;
+	text-align: center;
+}
 
 @media screen and (max-width: 980px) {
 	.main-content .woocommerce table.shop_table
@@ -2206,6 +2528,32 @@ footer .socialicons ul li.facebook a
 	.aboutuspage .alttwocols .walkblock
 	{
 		min-height: 600px !important;
+	}
+	
+	.fleximgrow.docrow .textblock
+	{
+		padding-top: 45px;	
+	}
+	
+	.fleximgrow.docrow, .fleximgrow.necrow
+	{
+		background: #FFF;
+	}
+	
+	.fleximgrow.docrow .textblock
+	{
+			
+	}
+	
+	.graphrow img.imglast
+	{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.fleximgrow.nrrow
+	{
+		background: #1946ba;
 	}
 }
 
