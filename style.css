@@ -230,6 +230,9 @@ header {
 .masthead-cta img {
 	padding-top: 13px;
 }
+.masthead-cta a {
+	text-decoration: none !important;
+}
 .masthead-cta > .row > div:before {
 	border-left: 1px solid #f0f0f0;
 	content: "";
@@ -240,13 +243,18 @@ header {
 	top: 18px;
 	width: 1px;
 }
-.masthead-cta .order-by-phone {}
+.masthead-cta .order-by-phone {
+	display: block;
+	margin-top: 15px;
+}
 .masthead-cta .order-by-phone > small {
 	color: #000;
-	font-size: 9px;
+	font-size: .7em;
 }
 .masthead-cta .order-by-phone > span {
+	color: #00B3E3;
 	font-family: "MyriadPro";
+	font-size: 1.3em;
 	font-weight: 700;
 }
 @media screen and (max-width: 767px) {
