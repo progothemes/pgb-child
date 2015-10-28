@@ -2134,7 +2134,8 @@ footer .socialicons ul li.instagram a
 	padding-left: 15px;
 }
 
-.sc_sidebar ul li.active a
+.sc_sidebar ul li.active a,
+.sc_sidebar ul li.current-menu-item a
 {
 	color: #000;
 }
