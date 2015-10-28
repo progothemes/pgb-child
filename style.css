@@ -240,6 +240,15 @@ header {
 	top: 18px;
 	width: 1px;
 }
+.masthead-cta .order-by-phone {}
+.masthead-cta .order-by-phone > small {
+	color: #000;
+	font-size: 9px;
+}
+.masthead-cta .order-by-phone > span {
+	font-family: "MyriadPro";
+	font-weight: 700;
+}
 @media screen and (max-width: 767px) {
 	.masthead-logo img {
 		margin: auto;
