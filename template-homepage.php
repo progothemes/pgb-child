@@ -34,7 +34,11 @@ get_header(); ?>
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>THE POWER TO DO MORE.</h1>
-												<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-10">
+														<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+													</div>
+												</div>
 											</div>
 										</div>
 										<div class="row hero-bottom">
