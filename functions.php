@@ -72,4 +72,8 @@ function cart_item_thumbnail( $thumb, $cart_item, $cart_item_key ) {
  
 }
 
+add_action( 'after_setup_theme', 'n7_register_science_menu' );
+function n7_register_science_menu() {
+	register_nav_menu( 'science', __( 'Science Menu', 'pgb' ) );
+}
 
