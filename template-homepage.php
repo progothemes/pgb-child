@@ -156,7 +156,7 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
 														<div class="text-center">
-															<h2>The Nectar <span>7 Promise</span></h2>
+															<h2>The NECTAR7 <span>Promise</span></h2>
 															<p>NECTAR7 sources its NIAGEN&reg; from ChromaDex, the company that originally formulated and patented the compound.  Niagen® is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
 															<p>Every capsule of NECTAR7 is guaranteed to contain the optimal dose of Niagen®, ensuring your body enjoys the maximum benefits of health and youthful vitality.</p>
 															<p class="text-center"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/FDA.png" class="margintop30"/></p>
