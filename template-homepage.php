@@ -34,7 +34,7 @@ get_header(); ?>
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>Can you still go the distance?</h1>
-												<p>NECTAR7 delivers a patented formula that gets you increased performance both mentally and physically by increasing NAD+ in the body.</p>
+												<p>Get the power to do more with NECTAR7's Niagen®, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
 											</div>
 										</div>
 										<div class="row hero-bottom">
