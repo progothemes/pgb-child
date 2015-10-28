@@ -229,6 +229,7 @@ get_header(); ?>
 											<div class="col-xs-12 col-sm-4 col-md-12">
 												<div class="row box-title">
 													<div class="col-xs-12">
+														<h2>Happy Customers</h2>
 													</div>
 												</div>
 											</div>
