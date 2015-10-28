@@ -238,6 +238,24 @@ get_header(); ?>
 															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
 														</blockquote>
 													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote class="blockquote-reverse">
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+														</blockquote>
+													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote>
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+														</blockquote>
+													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote class="blockquote-reverse">
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+														</blockquote>
+													</div>
 												</div>
 											</div>
 										</div>
