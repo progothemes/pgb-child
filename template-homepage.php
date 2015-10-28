@@ -30,7 +30,7 @@ get_header(); ?>
 							<?php //get_template_part( 'content', get_post_format() ); ?>
 							<div class="entry-content main-entry-content col-md-12">
 								<div class="row xblue1 text-center border-bottom">
-									<div class="col-md-8">
+									<div class="col-xs-12 col-sm-12 col-md-8">
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>Can you still go the distance?</h1>
@@ -43,7 +43,7 @@ get_header(); ?>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="hidden-xs hidden-sm col-md-4">
 										<div class="rightboxedcontent bluebox">
 											<div class="row box-title">
 												<div class="col-xs-12">
@@ -207,7 +207,7 @@ get_header(); ?>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-12 col-xs-12 border-bottom">
+									<div class="col-md-4 hidden-xs hidden-sm border-bottom">
 										<div class="rightboxedcontent lightbluebox">
 											<div class="row box-title">
 												<div class="col-xs-12">
