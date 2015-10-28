@@ -169,7 +169,7 @@ get_header(); ?>
 											<div class="col-md-12 text-center">
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
-														<h2>The Nectar <span>for yourself</span></h2>
+														<h2>Try NECTAR7 <span>for yourself</span></h2>
 														<p>Every year, more and more breakthroughs about the NR in Niagen® are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
 														<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
 													</div>
