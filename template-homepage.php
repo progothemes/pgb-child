@@ -34,7 +34,7 @@ get_header(); ?>
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>THE POWER TO DO MORE.</h1>
-												<p>Get the power to do more with NECTAR7's Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+												<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
 											</div>
 										</div>
 										<div class="row hero-bottom">
@@ -77,8 +77,8 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-9 col-sm-10 col-xs-12">
-														<h4>How does NECTAR7's NIAGEN&reg; work?</h4>
-														<p>The science behind NECTAR7's NIAGEN&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
+														<h4>How does NECTAR7 NIAGEN&reg; work?</h4>
+														<p>The science behind NECTAR7 NIAGEN&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
 														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy. </p>
 														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
