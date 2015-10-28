@@ -15,6 +15,10 @@ function pgb_child_enqueue_scripts() {
     wp_enqueue_script( 'nectar7-js', get_stylesheet_directory_uri() . '/includes/js/nectar7.js', array('jquery') );
 }
 
+/**
+ * Google Tag Manager
+ *
+ */
 add_action( 'tha_body_top', 'nectar7_gtm' );
 function nectar7_gtm() {
 	/* I think we have a plugin for this somewhere. We will move it to there whenever we are ready? Ok. */
@@ -31,6 +35,25 @@ function nectar7_gtm() {
 	<?php
 }
 
+/**
+ * Chat code JS 
+ *
+ */
+add_action( 'tha_head_bottom', 'nectar7_chat_js' );
+function nectar7_chat_js() {
+	?>
+	<script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c)
+	{z._.push(c)}
+	,$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)0;z.set=function(o)
+	{z.set. _.push(o)}
+	;z.=[];z.set.=[];$.async=!0;$.setAttribute("charset","utf-8");
+	$.src="//v2.zopim.com/?3QTM9x4eKtsWWMq3RyePaAEVThayWclE";z.t=+new Date;$.
+	type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+	</script>
+	<?php
+}
 
 function get_woo_cart_menu() {
 	global $woocommerce;
