@@ -211,9 +211,9 @@ get_header(); ?>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 border-bottom">
+									<div class="col-md-4">
 										<div class="row">
-											<div class="hidden-xs hidden-sm col-md-12">
+											<div class="hidden-xs hidden-sm col-md-12 border-bottom">
 												<div class="rightboxedcontent lightbluebox">
 													<div class="row box-title">
 														<div class="col-xs-12">
@@ -226,10 +226,17 @@ get_header(); ?>
 													<a href="#" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
-											<div class="col-xs-12 col-sm-4 col-md-12">
+											<div class="col-xs-12 col-sm-12 col-md-12">
 												<div class="row box-title">
-													<div class="col-xs-12">
-														<h2>Happy Customers</h2>
+													<div class="col-xs-12 col-md-12">
+														<h3>Happy Customers</h3>
+
+													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote>
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+															<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+														</blockquote>
 													</div>
 												</div>
 											</div>
