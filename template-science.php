@@ -34,11 +34,14 @@ get_header(); ?>
 
 							<div class="col-xs-12 col-sm-12 col-md-2 sc_sidebar">
 								<div class="eachWidget">
+									<?php wp_nav_menu( array('container' => false ); ?>
+									<?php /*
 									<ul>
 										<li class="active"><a href="#">The Science</a></li>
 										<li><a href="#">Why NAD+</a></li>
 										<li><a href="#">Research</a></li>
 									</ul>
+									*/ ?>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-10">
