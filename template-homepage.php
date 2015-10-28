@@ -258,6 +258,18 @@ get_header(); ?>
 															<footer>Mark M. San Diego, CA</footer>
 														</blockquote>
 													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote>
+															<p>I have been taking Niagen for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+															<footer>Wanda R., Dallas, TX</footer>
+														</blockquote>
+													</div>
+													<div class="col-xs-12 col-sm-4 col-md-12">
+														<blockquote class="blockquote-reverse">
+															<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN - my energy level and focus improved. I am only on my second week of taking NIAGEN and look forward to experiencing more benefits of this new product.</p>
+															<footer>Sean F,. Encinitas, CA</footer>
+														</blockquote>
+													</div>
 												</div>
 											</div>
 										</div>
