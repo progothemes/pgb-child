@@ -34,7 +34,7 @@ get_header(); ?>
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>THE POWER TO DO MORE.</h1>
-												<p>Get the power to do more with NECTAR7's Niagen®, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+												<p>Get the power to do more with NECTAR7's Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
 											</div>
 										</div>
 										<div class="row hero-bottom">
@@ -48,11 +48,11 @@ get_header(); ?>
 											<div class="row box-title">
 												<div class="col-xs-12">
 													<h2>Power For More Life</h2>
-													<h3>NIAGEN (NAD + ACTIVATOR)</h3>
+													<h3>NIAGEN&reg; (NAD + ACTIVATOR)</h3>
 												</div>
 											</div>
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN (NAD + ACTIVATOR)"/>
-											<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of Niagen® that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
+											<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NIAGEN&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
 											<a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">LEARN MORE</a>
 										</div>
 									</div>
@@ -77,8 +77,8 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-9 col-sm-10 col-xs-12">
-														<h4>How does NECTAR7's Niagen work?</h4>
-														<p>The science behind NECTAR7's Niagen is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
+														<h4>How does NECTAR7's NIAGEN&reg; work?</h4>
+														<p>The science behind NECTAR7's NIAGEN&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
 														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy. </p>
 														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
@@ -127,7 +127,7 @@ get_header(); ?>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains Niagen®, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
@@ -136,7 +136,7 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row bluehead">
 													<div class="col-md-12">
-														<h2>In a recent human study, a single dose of Niagen®, increased NAD+ by 33%</h2>	
+														<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 33%</h2>	
 													</div>
 												</div>
 												<div class="row">
@@ -153,7 +153,7 @@ get_header(); ?>
 													<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
 														<div class="text-center">
 															<h2>The Nectar <span>7 Promise</span></h2>
-															<p>NECTAR7 sources its Niagen® from ChromaDex, the company that originally formulated and patented the compound.  Niagen® is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
+															<p>NECTAR7 sources its NIAGEN&reg; from ChromaDex, the company that originally formulated and patented the compound.  Niagen® is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
 															<p>Every capsule of NECTAR7 is guaranteed to contain the optimal dose of Niagen®, ensuring your body enjoys the maximum benefits of health and youthful vitality.</p>
 															<p class="text-center"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/FDA.png" class="margintop30"/></p>
 														</div>	
