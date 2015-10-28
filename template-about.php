@@ -111,7 +111,7 @@ get_header(); ?>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-6 colorCol">
 										<div class="textblock">
-											<h4>Nectar 7 (N7) Delivers Seven Vital</h4> 
+											<h4>Nectar7 (N7) Delivers Seven Vital</h4> 
 											<h4>Mitochondrial Functions</h4>
 											<ul>
 											<li>+ Anti-Aging</li>

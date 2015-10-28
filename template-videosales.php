@@ -32,10 +32,14 @@ get_header(); ?>
 								<div class="row videobannercontainer">
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="videobanner">
-											<h4>Nectar 7 gives you the power to do more.</h4>
-											<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities!</h1>
-											<div class="videocontent">
-												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
+											<div class="row">
+												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+													<h4>Nectar7 gives you the power to do more.</h4>
+													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities!</h1>
+													<div class="videocontent">
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -161,7 +165,7 @@ get_header(); ?>
 											<div class="col-md-12 text-center">
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
-														<h4>Simply put, Nectar 7 gives you</h4>
+														<h4>Simply put, Nectar7 gives you</h4>
 														<h3>THE POWER TO DO MORE.</h3>
 														<p>More time to be with the people you love. More energy to do the things you love doing.<br/>
 														More strength to achieve your ambitions. More power to take in all that life has to offer.</p>
