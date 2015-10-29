@@ -346,8 +346,6 @@ footer .socialicons
 
 footer .socialicons ul
 {
-	padding-left: 0px;
-	margin-right: 0px;
 	float: right;	
 }
 
@@ -2067,7 +2065,7 @@ footer .socialicons ul li.instagram a
 
 .aboutuspage .aboutushero.about3
 {
-	padding: 90px !important;
+	padding: 85px !important;
 }
 
 .aboutuspage .aboutushero.about3 p
@@ -2473,11 +2471,6 @@ footer .socialicons ul li.instagram a
 	
 	footer .socialicons ul
 	{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 70px;
-		float: none;
 	}
 	
 	footer .site-copyright
