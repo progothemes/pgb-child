@@ -124,7 +124,8 @@ get_header(); ?>
 								</div-->
 								<div class="row aboutproduct">
 									<div class="col-xs-12 col-sm-6 col-md-7 textcol">
-										<p>Nectar Seven is a lifestyle marketing company specializing in performance-based-nutrition for healthy lifestyles. Our signature product, NECTAR7 (N7), is an anti-aging tablet featuring NIAGEN&reg; (NAD+) and Collagen. Scientifically formulated to enhance cell activity—rejuvenation, recovery, repair and response while delivering a unrivaled metabolic boost.</p>
+										<p>NECTAR7 specializies in performance-based nutrition for a healthy lifestyle. Backed by research from Harvard University and some of the world’s leading scientists, we sell performance-based nutrition supplements to help you experience life to the fullest.</p>
+										<a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 NIAGEN&reg;</a>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-5 thumbcol">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.jpg" class="img-responsove"/>
