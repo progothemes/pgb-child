@@ -40,7 +40,7 @@ get_header(); ?>
 								<div class="row aboutushero about2">
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="herocaption">
-											<p>Our founders are a select team of business, finance, technology, science, global distribution, and branding. Our team is committed to bringing to market breakthrough products through exclusive relationships with leading innovators.</p>
+											<p>Founded by a diverse team with backgrounds in business, finance, technology, science, distribution, and branding, NECTAR7 is proud to bring breakthrough products through exclusive relationships with leading innovators.</p>
 										</div>
 									</div>
 								</div>
@@ -68,7 +68,7 @@ get_header(); ?>
 									<div class="row">
 										<div class="col-xs-12 col-sm-4 col-md-4 eachCol altCol">
 											<div class="colcont">
-												<h3>NECTAR7 Wound & Healing</h3>
+												<h3>NECTAR7 Wound &amp; Healing</h3>
 												<p>Distribution and product relationships for latest innovations and technology are handled by our wound healing division.</p>
 											</div>		
 										</div>
@@ -88,7 +88,7 @@ get_header(); ?>
 								</div>
 								<div class="row aboutmission">
 									<div class="col-xs-12 col-sm-7 col-md-7">
-										<p><strong>Our mission</strong> is to help people just like you perform the closet to your peak mental and physical capabilities, that you may have never imagined possible. Our products help customers transition to a performance-based lifestyle with a combination of science-based solutions through dietary lifestyle-supplements backed with extensive scientific research and intellectual property.</p>
+										<p>At NECTAR7, <strong>our goal</strong> is to help you perform the closest to your peak mental and physical capacities. Our products work at the cellular level to rejuvenate you and offer you the vibrant life you desire. Let us help fuel your fullest life!</p>
 									</div>
 								</div>
 								<div class="row alttwocols">
