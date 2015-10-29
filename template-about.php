@@ -132,10 +132,8 @@ get_header(); ?>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-xs-12 aboutushero about3">
-										<p>For strategic partnerships and relationships with NECTAR7, both<br/> 
-											domestic and global, please contact us by calling 800-xxx-xxxx.<br/>
-											Thank you for choosing NECTAR7, LLC.</p>
+									<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 aboutushero about3">
+										<p>For strategic partnerships and relationships with NECTAR 7, both domestic and global, please contact us by calling 1-800-662-8617.</p>
 									</div>
 								</div>
 							</div>
