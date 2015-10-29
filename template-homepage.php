@@ -140,7 +140,7 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row bluehead">
 													<div class="col-md-12">
-														<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 33%</h2>	
+														<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%</h2>	
 													</div>
 												</div>
 												<div class="row">

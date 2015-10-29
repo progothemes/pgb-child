@@ -121,7 +121,7 @@ get_header(); ?>
 										<div class="row">
 											<div class="col-xs-12 col-sm-6 col-md-7">
 												<p>NECTAR7 contains NIAGEN&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </p>
-												<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 33%. </h2>
+												<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%. </h2>
 												<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 gives you more time.  More time to enjoy your youth.  More time to achieve your goals.  More time get more out of life.</p>
 											</div>
 											<div class="col-xs-12 col-sm-6 col-md-5 padleft0">
@@ -138,8 +138,7 @@ get_header(); ?>
  										<div class="row">
  											<div class="col-xs-12 col-sm-6 col-md-6">
  												<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
-												<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself. 
-</p>
+												<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
  												<h3>Join our Newsletter to Stay up to Date with the Latest Research & Science Discoveries.</h3>
