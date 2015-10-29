@@ -89,25 +89,24 @@ get_header(); ?>
 										<p>At NECTAR7, <strong>our goal</strong> is to help you perform the closest to your peak mental and physical capacities. Our products work at the cellular level to rejuvenate you and offer you the vibrant life you desire. Let us help fuel your fullest life!</p>
 									</div>
 								</div>
-								<div class="row alttwocols">
+								<!--div class="row alttwocols">
 									<div class="col-xs-12 col-sm-6 col-md-6 blueeight">
 										<div class="textblock">
 											<h4>Why NECTAR7?</h4>
 											<p>In our lifetime we may never encounter a breakthrough that can enhance our daily performance and mental well being in under 8 hours. The most potent, life enhancing discovery of our lifetime . In 8 hours this process begins.</p>
 										</div>
 									</div>
-									<!--div class="col-xs-12 col-sm-6 col-md-6 whitecol">
+									<div class="col-xs-12 col-sm-6 col-md-6 whitecol">
 										<div class="textblock">
 											<h4>Changing Lives</h4>
 											<p>If you love someone… We all know people that are on diabetes, cancer and if we could add one more day of opportunity to there life experiences… Most of use are healthy but are we getting our maximum value. If you want to make a difference in live. Quality of life. I don’t think there is anything worse than feeling capable of something and you are doing the lower end. Even the people that are bumping along and they are holy moly. We want to connect people with a reason, we have a life enhancing ingredient which in itself drives personal performance both mentally & physically.</p>
 										</div>	
-									</div-->>
-								<!--/div>
-								<div class="row alttwocols"-->
-									<div class="col-xs-12 col-sm-6 col-md-6 walkblock">
-										
 									</div>
-									<!--div class="col-xs-12 col-sm-6 col-md-6 colorCol">
+								</div>
+								<div class="row alttwocols">
+									<div class="col-xs-12 col-sm-6 col-md-6 walkblock">
+									</div>
+									<div class="col-xs-12 col-sm-6 col-md-6 colorCol">
 										<div class="textblock">
 											<h4>NECTAR7 (N7) Delivers Seven Vital</h4> 
 											<h4>Mitochondrial Functions</h4>
@@ -121,8 +120,8 @@ get_header(); ?>
 											<li>+ Protection vs Neurological Disease</li>
 											</ul>
 										</div>
-									</div-->
-								</div>
+									</div>
+								</div-->
 								<div class="row aboutproduct">
 									<div class="col-xs-12 col-sm-6 col-md-7 textcol">
 										<p>Nectar Seven is a lifestyle marketing company specializing in performance-based-nutrition for healthy lifestyles. Our signature product, NECTAR7 (N7), is an anti-aging tablet featuring NIAGEN&reg; (NAD+) and Collagen. Scientifically formulated to enhance cell activity—rejuvenation, recovery, repair and response while delivering a unrivaled metabolic boost.</p>
