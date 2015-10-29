@@ -55,7 +55,7 @@ get_header(); ?>
 													<h3>NIAGEN&reg; (NAD + ACTIVATOR)</h3>
 												</div>
 											</div>
-											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN (NAD + ACTIVATOR)"/>
+											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
 											<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NIAGEN&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
 											<a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">LEARN MORE</a>
 										</div>
@@ -110,7 +110,7 @@ get_header(); ?>
 														<ul>
 															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>  
 															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</li>
-															<li>For the body to replenish its supply of NAD+, it requires a precursor known as NIAGEN.</li>
+															<li>For the body to replenish its supply of NAD+, it requires a precursor known as NIAGEN&reg;.</li>
 														</ul>	
 													</div>
 												</div>
@@ -131,7 +131,7 @@ get_header(); ?>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains NIAGEN, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains NIAGEN&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
@@ -157,8 +157,8 @@ get_header(); ?>
 													<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
 														<div class="text-center">
 															<h2>The NECTAR7 <span>Promise</span></h2>
-															<p>NECTAR7 sources its NIAGEN&reg; from ChromaDex, the company that originally formulated and patented the compound.  NIAGEN® is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
-															<p>Every capsule of NECTAR7 is guaranteed to contain the optimal dose of NIAGEN®, ensuring your body enjoys the maximum benefits of health and youthful vitality.</p>
+															<p>NECTAR7 sources its NIAGEN&reg; from ChromaDex, the company that originally formulated and patented the compound.  NIAGEN&reg; is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
+															<p>Every capsule of NECTAR7 is guaranteed to contain the optimal dose of NIAGEN&reg;, ensuring your body enjoys the maximum benefits of health and youthful vitality.</p>
 															<p class="text-center"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/FDA.png" class="margintop30"/></p>
 														</div>	
 													</div>
@@ -170,7 +170,7 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
-														<p>Every year, more and more breakthroughs about the NR in NIAGEN® are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
+														<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
 														<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
 													</div>
 												</div>
@@ -185,11 +185,11 @@ get_header(); ?>
 													<div class="col-md-8 col-sm-7 col-xs-12">
 														<h1>NECTAR7</h1>
 														<h2>Power For More Life </h2>
-														<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NIAGEN® that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
+														<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NIAGEN&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
 														<p><a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN (NAD + ACTIVATOR)"/>
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
 													</div>
 												</div>
 											</div>
@@ -201,11 +201,11 @@ get_header(); ?>
 														<h1>NECTAR7</h1>
 														<h2>Power For 
 															<br/>Strength & Beauty</h2>
-														<p>NECTAR7 + Collagen combines NIAGEN® RX with collagen and hyaluric acid, creating a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN® prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
+														<p>NECTAR7 + Collagen combines NIAGEN&reg; RX with collagen and hyaluric acid, creating a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
 														<p><a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN (NAD + ACTIVATOR)"/>
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
 													</div>
 												</div>
 											</div>
@@ -218,11 +218,11 @@ get_header(); ?>
 													<div class="row box-title">
 														<div class="col-xs-12">
 															<h2>Power For Strength & Beauty</h2>
-															<h3>NIAGEN & COLLAGEN</h3>
+															<h3>NIAGEN&reg; & COLLAGEN</h3>
 														</div>
 													</div>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN & COLLAGEN"/>
-													<p>NECTAR7 + Collagen combines NIAGEN® RX with collagen and hyaluric acid, creating a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN® prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.</p>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; & COLLAGEN"/>
+													<p>NECTAR7 + Collagen combines NIAGEN&reg; RX with collagen and hyaluric acid, creating a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.</p>
 													<a href="#" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
@@ -246,7 +246,7 @@ get_header(); ?>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
 															<blockquote>
-																<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure NIAGEN would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
+																<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure NIAGEN&reg; would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
 																<p>I don't know what I would do without this product now. It has truly changed my life!</p>
 																<footer>Craig C., Cleveland, OH</footer>
 															</blockquote>
@@ -260,13 +260,13 @@ get_header(); ?>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
 															<blockquote>
-																<p>I have been taking NIAGEN for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+																<p>I have been taking NIAGEN&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
 																<footer>Wanda R., Dallas, TX</footer>
 															</blockquote>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
 															<blockquote class="blockquote-reverse">
-																<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN - my energy level and focus improved. I am only on my second week of taking NIAGEN and look forward to experiencing more benefits of this new product.</p>
+																<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN&reg; - my energy level and focus improved. I am only on my second week of taking NIAGEN&reg; and look forward to experiencing more benefits of this new product.</p>
 																<footer>Sean F,. Encinitas, CA</footer>
 															</blockquote>
 														</div>

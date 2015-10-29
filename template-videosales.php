@@ -49,7 +49,7 @@ get_header(); ?>
 										<h2><strong>Save up to 48%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN
+												<h3>NIAGEN&reg;
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_30day.png" class="img-responsive" />
@@ -67,7 +67,7 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN (90 Day)
+												<h3>NIAGEN&reg; (90 Day)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_90_day.png" class="img-responsive" />
@@ -85,7 +85,7 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN (+1 Bottle)
+												<h3>NIAGEN&reg; (+1 Bottle)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_180_day.png" class="img-responsive" />
@@ -125,7 +125,7 @@ get_header(); ?>
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
-												<h1>NIAGEN (NAD+ ACTIVATOR)®</h1>
+												<h1>NIAGEN&reg; (NAD+ ACTIVATOR)®</h1>
 												<h2>Cellular Energy & Physical Performance* Nicotinamide Riboside</h2>
 												<div class="row">
 													<div class="col-xs-12 col-sm-6 col-md-6 pad30">
@@ -134,7 +134,7 @@ get_header(); ?>
 															<h4>Serving Size: <strong>2 Capsules</strong></h4>
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
-															<h3>Nicotinamide Riboside (NIAGEN®) 250 mg</h3>
+															<h3>Nicotinamide Riboside (NIAGEN&reg;) 250 mg</h3>
 															<h4>*% Daily Value not established</h4>
 															<h3 class="bordertopblk">Other Ingredients:</h3>
 															<h4>Cellulose, Magnesium Vegetable Stearate.</h4>
