@@ -49,7 +49,7 @@ get_header(); ?>
 										<h2><strong>Save up to 48%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>Niagen
+												<h3>NIAGEN
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_30day.png" class="img-responsive" />
@@ -67,7 +67,7 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>Niagen (90 Day)
+												<h3>NIAGEN (90 Day)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_90_day.png" class="img-responsive" />
@@ -85,7 +85,7 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>Niagen (+1 Bottle)
+												<h3>NIAGEN (+1 Bottle)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_180_day.png" class="img-responsive" />
