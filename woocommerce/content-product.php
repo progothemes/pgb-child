@@ -82,7 +82,7 @@ $classes[] = 'col-xs-12 col-sm-6 col-md-6';
 					do_action( 'woocommerce_after_shop_loop_item_title' );
 					the_excerpt();
 				?>
-				<p><a href="<?php the_permalink(); ?>" class="learnmore">LEARN MORE</a></p>
+				<p><a href="<?php the_field('vsl_page'); ?>" class="learnmore">LEARN MORE</a></p>
 				<?php
 	
 					/**
