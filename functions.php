@@ -57,9 +57,9 @@ function nectar7_chat_js() {
 function get_woo_cart_menu() {
 	global $woocommerce;
 	if ( sizeof( $woocommerce->cart->cart_contents) > 0 ) :
-		$item = sprintf( '<ul class="nav navbar-nav navbar-right"><li class="cartlink"><a href="%s">(%s) items <span class="shopping-cart-icon"></span></a></li></ul>', $woocommerce->cart->get_checkout_url(), $woocommerce->cart->get_cart_contents_count() );
+		$item = sprintf( '<ul class="nav navbar-nav navbar-right"><li class="cartlink"><a href="%s">(%s) items <span class="shopping-cart-icon"></span></a></li></ul>', $woocommerce->cart->get_cart_url(), $woocommerce->cart->get_cart_contents_count() );
 	else :
-		$item = sprintf( '<ul class="nav navbar-nav navbar-right"><li class="cartlink"><a href="%s">(0) Items <span class="shopping-cart-icon"></span></a></li></ul>', $woocommerce->cart->get_checkout_url() );
+		$item = sprintf( '<ul class="nav navbar-nav navbar-right"><li class="cartlink"><a href="%s">(0) Items <span class="shopping-cart-icon"></span></a></li></ul>', $woocommerce->cart->get_cart_url() );
 	endif;
 	return $item;
 }
