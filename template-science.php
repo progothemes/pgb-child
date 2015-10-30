@@ -45,7 +45,7 @@ get_header(); ?>
 							<div class="col-xs-12 col-sm-12 col-md-10">
 								<div class="row fleximgrow docrow">
 									<div class="col-xs-12 col-sm-7 col-md-6 textblock">
-										<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science is finally closing in on the secrets of significantly extending life, while improving health and prolonging youthful vigor.</p>
+										<p>The pursuit of eternal life has long obsessed people of every class and culture.  Yet, while nothing and no one can truly promise “eternal”, science is finally closing in on the secrets of significantly extending life, while improving health and prolonging youthful vigor.</p>
 										<p><strong>The secret is in NECTAR7 products that deliver what scientists and researchers have been searching for years to increase in the human body.</strong></p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
@@ -67,8 +67,8 @@ get_header(); ?>
 										<h3>The science behind NECTAR7 is a newly-discovered chemical compound called Nicotinamide Adenine Dinucleotide (NAD+).</h3>
 									</div>
 									<div class="col-xs-12 col-sm-8 col-md-7">
-										<p>NAD+ is a critical component of cell metabolism in all mammals, including humans. It is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy.</p>
-										<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
+										<p>NAD+ is a critical component of cell metabolism in all mammals, including humans. It is the communication molecule between the cell nucleus and the cell's energy factory, the mitochondria. Also referred to as the cell's powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death. They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy.</p>
+										<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life. This leads to mitochondrial dysfunction and degraded cell metabolism. This contributes to visible aging, diminished mental faculties and declining health. Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar7_bg.jpg" class="img-responsive aligncenter size-full wp-image-44" />
@@ -87,14 +87,14 @@ get_header(); ?>
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/mitochondria.jpg" class="img-responsive" />
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
-										<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer’s disease and certain types of cancer.</p>
+										<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions. Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer's disease and certain types of cancer.</p>
 									</div>
 								</div>
 								<div class="row textrow">
 									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
 										<h2>The benefits of NECTAR7</h2>
-										<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.  View all Research.  In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice.  It’s the equivalent of a 60-year-old person’s mitochondria becoming more like those of a 20-year-old.</p>
-										<p>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
+										<p>Several studies by respected universities have shown that replenishing the body's lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance. In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice. It's the equivalent of a 60-year-old person's mitochondria becoming more like those of a 20-year-old.</p>
+										<p>A 2013 research study shows NAD+ could be used to synchronize the body's waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/david_sinclair.jpg" class="img-responsive img-headshot" />
@@ -113,14 +113,14 @@ get_header(); ?>
 									<div class="col-xs-12">
 										<div class="row">
 											<div class="col-xs-12">
-												<p><strong>Dr. Carles Canto, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.”</strong></p>
+												<p><strong>Dr. Carles Canto, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity. Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.”</strong></p>
 											</div>
 										</div>
 										<div class="row">
 											<div class="col-xs-12 col-sm-6 col-md-7">
-												<p>NECTAR7 contains NIAGEN&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </p>
+												<p>NECTAR7 contains NIAGEN&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body. It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </p>
 												<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%. </h2>
-												<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 gives you more time.  More time to enjoy your youth.  More time to achieve your goals.  More time get more out of life.</p>
+												<p>NECTAR7 not only rewinds your body's clock, it helps you hold on to your physical energy and mental alertness for much longer. In effect, NECTAR7 gives you more time. More time to enjoy your youth. More time to achieve your goals. More time to get more out of life.</p>
 											</div>
 											<div class="col-xs-12 col-sm-6 col-md-5 padleft0">
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/runner_girl_2.jpg" class="img-responsive aligncenter size-full" />
@@ -135,8 +135,8 @@ get_header(); ?>
  											</h2>
  										<div class="row">
  											<div class="col-xs-12 col-sm-6 col-md-6">
- 												<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
-												<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
+ 												<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made. In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
+												<p>As time goes on, more benefits of this essential compound are being revealed by science.  With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
  												<h3>Join our Newsletter to Stay up to Date with the Latest Research &amp; Science Discoveries.</h3>
