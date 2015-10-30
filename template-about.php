@@ -128,7 +128,7 @@ get_header(); ?>
 										<p><a href="<?php bloginfo('url'); ?>/video-sales-page/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 NIAGEN&reg;</a></p>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-5 thumbcol">
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.jpg" class="img-responsove"/>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.png" class="img-responsove"/>
 									</div>
 								</div>
 								<div class="row">
