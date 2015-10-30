@@ -32,9 +32,14 @@ get_header(); ?>
 
 						<div class="row">
 
-							<div class="col-xs-12 col-sm-12 col-md-2 sc_sidebar">
+							<div class="hidden-xs hidden-sm col-md-2 sc_sidebar">
 								<div id="science_menu" class="eachWidget" data-spy="affix" data-offset-top="320">
 									<?php wp_nav_menu( array( 'theme_location' => 'science', 'container' => false ) ); ?>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 hidden-md hidden-lg sc_sidebar">
+								<div id="science_menu_mobile" class="eachWidget">
+									<?php wp_nav_menu( array( 'theme_location' => 'science', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s list-inline">%3$s</ul>' ) ); ?>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-10">
