@@ -107,12 +107,12 @@ get_header(); ?>
 								</div>
 								<div class="row actiontape">
 									<div class="col-xs-12 col-sm-12 col-md-4">
-										<h2 class="ordercallout"><a href="callto: 1-800-222-3333"><span>Order by Phone or Ask Questions</span>1-800-222-3333</a></h2>
+										<h2 class="ordercallout"><a href="callto: 1-800-662-8617"><span>Order by Phone or Ask Questions</span>1-800-222-3333</a></h2>
 									</div>
-									<div class="col-xs-12 col-sm-6 col-md-4">
+									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
 										<h2 class="freedeliverycallout">FREE DELIVERY<span>On all AutoRefill Orders</span></h2>
 									</div>
-									<div class="col-xs-12 col-sm-6 col-md-4">
+									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
 										<h2 class="moneybackcallout">100% MONEY BACK GUARANTEE<span>For a full 90 days - no questions asked</span></h2>
 									</div>
 								</div>

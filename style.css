@@ -1383,12 +1383,6 @@ footer .socialicons ul li.instagram a
 
 .videosalespage .actiontape h2.freedeliverycallout
 {
-	background: url('images/verisign_secured.png') right center no-repeat transparent;
-	padding-right: 106px;
-	display: block;
-	width: 295px;
-	margin-left: auto;
-	margin-right: auto;
 	padding-top: 7px;
 	min-height: 42px;
 }
@@ -1405,14 +1399,6 @@ footer .socialicons ul li.instagram a
 
 .videosalespage .actiontape h2.moneybackcallout
 {
-	display: block;
-	width: 295px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 24px;
-	line-height: 26px;
-	font-family: "MyriadPro";
-	padding-top: 7px;
 }
 
 
