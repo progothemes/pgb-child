@@ -256,7 +256,7 @@ get_header(); ?>
 														<div class="col-xs-12 col-sm-4 col-md-12">
 															<blockquote class="blockquote-reverse">
 																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
-																<p><a>Read more of Mark's story</a></p>
+																<p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
 																<footer>Mark M. San Diego, CA</footer>
 															</blockquote>
 														</div>
