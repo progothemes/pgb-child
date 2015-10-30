@@ -31,7 +31,7 @@ get_header( 'shop' ); ?>
 						<h1 class="page-title">STORE</h1>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6">
-						<h2>100% Money Back Gurantee</h2>
+						<h2>100% Money Back Guarantee</h2>
 						<h3>For a full 90 days - no questions asked</h3>
 					</div>
 				</div>
