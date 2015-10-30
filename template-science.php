@@ -25,7 +25,7 @@ get_header(); ?>
 
 					<?php tha_entry_top(); ?>
 						<div class="col-xs-12 page-heading science-heading">
-							<h1 class="page-title">The Science & Research behind NECTAR7<?php //the_title(); ?></h1>
+							<h1 class="page-title">The Science &amp; Research behind NECTAR7</h1>
 						</div>
 					
 					<div class="col-md-12">
@@ -39,7 +39,7 @@ get_header(); ?>
 							</div>
 							<div class="col-xs-12 col-sm-12 hidden-md hidden-lg sc_sidebar">
 								<div id="science_menu_mobile" class="eachWidget">
-									<?php wp_nav_menu( array( 'theme_location' => 'science', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s list-inline">%3$s</ul>' ) ); ?>
+									<?php wp_nav_menu( array( 'theme_location' => 'science', 'container' => false ) ); ?>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-10">
@@ -139,7 +139,7 @@ get_header(); ?>
 												<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
- 												<h3>Join our Newsletter to Stay up to Date with the Latest Research & Science Discoveries.</h3>
+ 												<h3>Join our Newsletter to Stay up to Date with the Latest Research &amp; Science Discoveries.</h3>
  												<form>
  													<div class="form-group">
  														<input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter your email">
