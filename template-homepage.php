@@ -151,6 +151,7 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
+										<?php /*
 										<div class="row leftboxedcontent benefits2content">
 											<div class="col-md-12">
 												<div class="row">
@@ -165,6 +166,7 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
+										*/ ?>
 										<div class="row leftboxedcontent yellowbox">
 											<div class="col-md-12 text-center">
 												<div class="row">
