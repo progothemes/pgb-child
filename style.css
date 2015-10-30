@@ -2155,6 +2155,10 @@ footer .socialicons ul li.instagram a
 	color: #000;
 }
 
+#sciene_menu.affix {
+	top: 120px;
+}
+
 .engrow
 {
 	min-height: 335px;
