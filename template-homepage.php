@@ -235,10 +235,18 @@ get_header(); ?>
 
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
+															<blockquote class="blockquote-reverse">
+																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
+																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
+																<p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
+																<footer>Mark M. San Diego, CA</footer>
+															</blockquote>
+														</div>
+														<div class="col-xs-12 col-sm-4 col-md-12">
 															<blockquote>
-																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/xxxxxxxx.jpg" class="img-responsive testimonial-image" />
-																<p>NECTAR7 with NAD+ really works!  After only a few days of taking the product, I feel I now have more energy and can concentrate better.   I seem to have an easier time remembering things and doing other mental activities like solving puzzles. This is definitely a breakthrough product which will help people from across the world lead better and more productive lives!</p>
-																<footer>Nes E., Atlanta, GA</footer>
+																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/patty.jpg" class="img-responsive testimonial-image" />
+																<p>I am a successful business woman running multiple global businesses as well as balancing a hectic schedule with two successful busy children. I travel with my daughter and son for sports weekly. I have also suffered from medical issues in the past year. I have had multiple episodes of blood clots. Since taking Niagen I have lost weight and become much more mobile with allows and aides in my recovery and helps me prevent immobility which wards off the blood clots. I also sleep soundly and have noticed a much more youthful look. Everyone who has not seen me since taking Niagen continues to ask what I'm doing because I look and feel so different from the last encounter they have had with me. Niagen has given me my life and youth back.</p>
+																<footer>Patty S., Ohio</footer>
 															</blockquote>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
@@ -246,22 +254,6 @@ get_header(); ?>
 																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
 																<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
 																<footer>Jeromy S., Del Mar, CA</footer>
-															</blockquote>
-														</div>
-														<div class="col-xs-12 col-sm-4 col-md-12">
-															<blockquote>
-																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/xxxxxxxx.jpg" class="img-responsive testimonial-image" />
-																<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure NIAGEN&reg; would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
-																<p>I don't know what I would do without this product now. It has truly changed my life!</p>
-																<footer>Craig C., Cleveland, OH</footer>
-															</blockquote>
-														</div>
-														<div class="col-xs-12 col-sm-4 col-md-12">
-															<blockquote class="blockquote-reverse">
-																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
-																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
-																<p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
-																<footer>Mark M. San Diego, CA</footer>
 															</blockquote>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
