@@ -1366,7 +1366,7 @@ footer .socialicons ul li.instagram a
 .videosalespage .actiontape h2.ordercallout
 {
 	background: url('images/clock_24.png') 0 0 no-repeat transparent;
-	padding-left: 60px;
+	padding-left: 70px;
 	display: block;
 	width: 270px;
 	margin-left: auto;
@@ -1385,8 +1385,12 @@ footer .socialicons ul li.instagram a
 {
 	padding-top: 7px;
 	min-height: 42px;
-	background: url('images/running_truck.png') right 0 no-repeat transparent;
-	padding-left: 70px;
+	background: transparent url("images/running_truck.png") no-repeat scroll right 9px;
+	padding-right: 80px;
+	max-width: 275px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
