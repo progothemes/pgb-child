@@ -1365,8 +1365,8 @@ footer .socialicons ul li.instagram a
 
 .videosalespage .actiontape h2.ordercallout
 {
-	background: url('images/chat_online.png') 0 0 no-repeat transparent;
-	padding-left: 60px;
+	background: url('images/clock_24.png') 0 0 no-repeat transparent;
+	padding-left: 70px;
 	display: block;
 	width: 270px;
 	margin-left: auto;
@@ -1385,6 +1385,12 @@ footer .socialicons ul li.instagram a
 {
 	padding-top: 7px;
 	min-height: 42px;
+	background: transparent url("images/running_truck.png") no-repeat scroll right 9px;
+	padding-right: 80px;
+	max-width: 275px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -1637,6 +1643,11 @@ footer .socialicons ul li.instagram a
 	min-height: 715px;
 	border-left: 1px solid #c2c2c2;
 	border-right: 1px solid #c2c2c2;
+}
+
+.videosalespage .refillproducts .eachRefillProduct.mostPopular
+{
+	border: 3px solid #DD291C;
 }
 
 .videosalespage .refillproducts .eachRefillProduct .refillThumb

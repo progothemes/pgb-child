@@ -52,7 +52,7 @@ get_header(); ?>
 												<h3>NIAGEN&reg;
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_30day.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_single.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>$64.99</span></h5>
@@ -66,11 +66,11 @@ get_header(); ?>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" />
 												</div>	
 											</div>
-											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; (90 Day)
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
+												<h3>NIAGEN&reg; (90 DAY)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_90_day.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>194.97</span></h5>
@@ -85,10 +85,10 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; (+1 Bottle)
+												<h3>NIAGEN&reg; (180 DAY)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_7_180_day.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>LIST PRICE: <span>$259.96</span></h5>
@@ -109,7 +109,7 @@ get_header(); ?>
 									<div class="col-xs-12 col-sm-12 col-md-4">
 										<h2 class="ordercallout"><a href="callto: 1-800-662-8617"><span>Order by Phone or Ask Questions</span>1-800-222-3333</a></h2>
 									</div>
-									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
+									<div class="col-xs-12 col-sm-6 col-md-4">
 										<h2 class="freedeliverycallout">FREE DELIVERY<span>On all AutoRefill Orders</span></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
@@ -121,7 +121,7 @@ get_header(); ?>
 										<div class="row pad30">
 											<div class="col-xs-12 col-sm-4 col-md-4">
 												<div class="productthumbcon">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_video_footer.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/supplement_facts.png" class="img-responsive" />
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
