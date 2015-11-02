@@ -947,7 +947,8 @@ footer .socialicons ul li.instagram a
 
 .main-content .row.products .product-desc img.cardseal
 {
-	margin-left: 5px;	
+	margin-left: 5px;
+	width: 210px;
 }
 
 .main-content .row.products .product-desc .productaddtocart
