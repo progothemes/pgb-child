@@ -152,7 +152,7 @@ get_header(); ?>
 
 		<?php // The Loop--> ?>
 
-		<?php// tha_content_bottom(); ?>
+		<?php // tha_content_bottom(); ?>
 	
 	</div>
 
