@@ -833,7 +833,7 @@ footer .socialicons ul li.instagram a
 
 .page-heading.store-heading
 {
-	padding: 22px 10px 15px 40px;
+	padding: 22px 16px 22px 40px;
 }
 
 .page-heading.store-heading h1
@@ -865,6 +865,9 @@ footer .socialicons ul li.instagram a
 	margin-top: 0px;
 	text-align: right;
 	text-transform: none;
+}
+.page-heading.store-heading .guarantee-image {
+	float: right;
 }
 
 .main-content .row.products {
