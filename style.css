@@ -141,6 +141,9 @@ header {
 
 
 /* Navbars */
+#top-widget-bar {
+	height: 42px;
+}
 #top-widget-bar form {
 	margin: 4px auto;
 }
@@ -153,6 +156,9 @@ header {
 }
 #top-widget-bar input[type="submit"] {
 	padding: 3px 20px;
+}
+#top-widget-bar .gforms_confirmation_message {
+	margin: 9px auto;
 }
 
 .navbar-toggle {
