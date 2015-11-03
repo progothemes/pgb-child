@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Video Sales Template Niagen
+ * Template Name: Video Sales Template Collagen
  *
  * @package pgb
  */
@@ -29,13 +29,13 @@ get_header(); ?>
 
 							<?php //get_template_part( 'content', get_post_format() ); ?>
 							<div class="entry-content main-entry-content col-md-12">
-								<div class="row videobannercontainer">
+								<div class="row videobannercontainer collagen">
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="videobanner">
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h4>NECTAR7 gives you the power to do more.</h4>
-													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
+													<h1>Try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities!</h1>
 													<div class="videocontent">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
 													</div>
@@ -49,10 +49,10 @@ get_header(); ?>
 										<h2><strong>Save up to 48%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg;
+												<h3>NIAGEN&reg; &amp; COLLAGEN
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_single.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>$64.99</span></h5>
@@ -67,10 +67,10 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-												<h3>NIAGEN&reg; (90 DAY)
+												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(90 DAY)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>194.97</span></h5>
@@ -85,10 +85,10 @@ get_header(); ?>
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; (180 DAY)
+												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(180 DAY)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
 													<h5>LIST PRICE: <span>$259.96</span></h5>
@@ -121,7 +121,7 @@ get_header(); ?>
 										<div class="row pad30">
 											<div class="col-xs-12 col-sm-4 col-md-4">
 												<div class="productthumbcon">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/supplement_facts.png" class="img-responsive" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/supplement_facts_collagen.png" class="img-responsive" />
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
