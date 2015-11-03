@@ -113,7 +113,7 @@ get_header(); ?>
 										<h2 class="freedeliverycallout">FREE DELIVERY<span>On all AutoRefill Orders</span></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
-										<h2 class="moneybackcallout">100% MONEY BACK GUARANTEE<span>For a full 90 days - no questions asked</span></h2>
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/GuaranteeVSL.png" class="img-responsive" />
 									</div>
 								</div>
 								<div class="row heroproduct">
