@@ -116,7 +116,7 @@ get_header(); ?>
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/GuaranteeVSL.png" class="img-responsive" />
 									</div>
 								</div>
-								<div class="row heroproduct">
+								<div class="row heroproduct collagen">
 									<div class="col-xs-12">
 										<div class="row pad30">
 											<div class="col-xs-12 col-sm-4 col-md-4">
