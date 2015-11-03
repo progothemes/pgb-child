@@ -165,18 +165,18 @@ header {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	-webkit-transform: -webkit-translate(0,-52px);
-	-webkit-transform: translate(0,-52px);
+	-webkit-transform: -webkit-translate(0,-100px);
+	-webkit-transform: translate(0,-100px);
 	-webkit-transition: -webkit-transform .250s cubic-bezier(0.42,0,0.58,1);
 	-webkit-transition: transform .250s cubic-bezier(0.42,0,0.58,1);
-	transform: translate(0,-52px);
+	transform: translate(0,-100px);
 	transition: transform .250s cubic-bezier(0.42,0,0.58,1);
 }
 #top-nav.affix {
 	/*margin-top: 0;*/
-	-webkit-transform: -webkit-translate(0,0);
-	-webkit-transform: translate(0,0);
-	transform: translate(0,0);
+	-webkit-transform: -webkit-translate(0,-46px);
+	-webkit-transform: translate(0,-46px);
+	transform: translate(0,-46px);
 }
 
 #top-nav.navbar-inverse .navbar-nav > li > a {
