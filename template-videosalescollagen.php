@@ -107,7 +107,7 @@ get_header(); ?>
 								</div>
 								<div class="row actiontape">
 									<div class="col-xs-12 col-sm-12 col-md-4">
-										<h2 class="ordercallout"><a href="callto: 1-800-662-8617"><span>Order by Phone or Ask Questions</span>1-800-222-3333</a></h2>
+										<h2 class="ordercallout"><a href="callto: 1-800-662-8617"><span>Order by Phone or Ask Questions</span>1-800-662-8617</a></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4">
 										<h2 class="freedeliverycallout">FREE DELIVERY<span>On all AutoRefill Orders</span></h2>
@@ -125,16 +125,19 @@ get_header(); ?>
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
-												<h1>NIAGEN&reg; (NAD+ ACTIVATOR)®</h1>
-												<h2>Cellular Energy & Physical Performance* Nicotinamide Riboside</h2>
+												<h1>NIAGEN&reg; &amp; COLLAGEN <span>(WITH HA "HYALURONIC ACID")</span></h1>
+												<h2>Supports Radiant, Youthful, Younger Looking Skin*<br />
+												<em>Promotes Lean Muscle Firmness*</em></h2>
 												<div class="row">
 													<div class="col-xs-12 col-sm-6 col-md-6 pad30">
 														<div class="productherobox">
 															<h2>Supplement Facts</h2>
-															<h4>Serving Size: <strong>2 Capsules</strong></h4>
+															<h4>Serving Size: <strong>4 Capsules per Day</strong></h4>
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
-															<h3>Nicotinamide Riboside (NIAGEN&reg;) 250 mg</h3>
+															<h3>Nicotinamide Riboside (as NIAGEN&reg;) 100 mg</h3>
+															<h3>Hydrolyzed Fish Collagen 100 mg</h3>
+															<h3>Hyaluronic Acid 50 mg</h3>
 															<h4>*% Daily Value not established</h4>
 															<h3 class="bordertopblk">Other Ingredients:</h3>
 															<h4>Cellulose, Magnesium Vegetable Stearate.</h4>
@@ -142,10 +145,8 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12 col-sm-6 col-md-5 productherodesc pad30">
 														<h2>Suggested Use:</h2>
-														<p>As a dietary supplement, take t wo (2) capsules
-															daily, on an empty stomach with a glass of water,
-															or as directed by a healthcare professional.</p>
-														<h3>No colors added. No artificia l flavors.<br/>
+														<p>As a dietary supplement, take two (2) capsules daily in morning and two (2) capsules in the evening, preferably with meals, or as directed by a healthcare professional.</p>
+														<h3>No colors added. No artificial flavors.<br/>
 															No preservatives. No yeast. Gluten free.</h3>
 														<div class="note">
 															<p>*These statements have not been evaluated
