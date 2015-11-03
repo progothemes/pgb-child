@@ -1528,6 +1528,10 @@ footer .socialicons ul li.instagram a
 	margin-bottom: 5px;
 	color: #fff;
 }
+.videosalespage .heroproduct.collagen .heroproductcontent h1 span
+{
+	font-weight: 200;
+}
 
 .videosalespage .heroproduct .heroproductcontent h2
 {
@@ -1539,6 +1543,10 @@ footer .socialicons ul li.instagram a
 	color: #00b3e3;
 	text-transform: none;
 	font-weight: 400;
+}
+.videosalespage .heroproduct.collagen .heroproductcontent h2
+{
+	color: #fff;
 }
 
 .videosalespage .heroproduct .heroproductcontent .productherobox

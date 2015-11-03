@@ -125,8 +125,8 @@ get_header(); ?>
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
-												<h1>NIAGEN&reg; (NAD+ ACTIVATOR)®</h1>
-												<h2>Cellular Energy & Physical Performance* Nicotinamide Riboside</h2>
+												<h1>NIAGEN&reg; (NAD+ ACTIVATOR)&reg;</h1>
+												<h2>Cellular Energy &amp; Physical Performance* Nicotinamide Riboside</h2>
 												<div class="row">
 													<div class="col-xs-12 col-sm-6 col-md-6 pad30">
 														<div class="productherobox">
@@ -142,10 +142,10 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12 col-sm-6 col-md-5 productherodesc pad30">
 														<h2>Suggested Use:</h2>
-														<p>As a dietary supplement, take t wo (2) capsules
+														<p>As a dietary supplement, take two (2) capsules
 															daily, on an empty stomach with a glass of water,
 															or as directed by a healthcare professional.</p>
-														<h3>No colors added. No artificia l flavors.<br/>
+														<h3>No colors added. No artificial flavors.<br/>
 															No preservatives. No yeast. Gluten free.</h3>
 														<div class="note">
 															<p>*These statements have not been evaluated
