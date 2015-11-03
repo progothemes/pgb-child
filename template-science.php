@@ -33,7 +33,7 @@ get_header(); ?>
 						<div class="row">
 
 							<div class="hidden-xs hidden-sm col-md-2 sc_sidebar">
-								<div id="science_menu" class="eachWidget" data-spy="affix" data-offset-top="320">
+								<div id="science_menu" class="eachWidget" data-spy="affix" data-offset-top="362">
 									<?php wp_nav_menu( array( 'theme_location' => 'science', 'container' => false ) ); ?>
 								</div>
 							</div>
