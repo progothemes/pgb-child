@@ -235,7 +235,7 @@ get_header(); ?>
 
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
-															<blockquote class="blockquote-reverse">
+															<blockquote>
 																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
 																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
 																<p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
@@ -250,7 +250,7 @@ get_header(); ?>
 															</blockquote>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
-															<blockquote class="blockquote-reverse">
+															<blockquote>
 																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
 																<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
 																<footer>Jeromy S., Del Mar, CA</footer>
@@ -264,7 +264,7 @@ get_header(); ?>
 															</blockquote>
 														</div>
 														<div class="col-xs-12 col-sm-4 col-md-12">
-															<blockquote class="blockquote-reverse">
+															<blockquote>
 																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
 																<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN&reg; - my energy level and focus improved. I am only on my second week of taking NIAGEN&reg; and look forward to experiencing more benefits of this new product.</p>
 																<footer>Sean F,. Encinitas, CA</footer>
