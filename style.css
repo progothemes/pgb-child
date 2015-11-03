@@ -141,6 +141,20 @@ header {
 
 
 /* Navbars */
+#top-widget-bar form {
+	margin: 4px auto;
+}
+#top-widget-bar .gform-heading {
+	display: inline-block;
+	margin-right: 8px;
+}
+#top-widget-bar input[type="email"] {
+	height: 34px;
+}
+#top-widget-bar input[type="submit"] {
+	padding: 3px 20px;
+}
+
 .navbar-toggle {
 	float: left;
 	margin-left: 15px;
