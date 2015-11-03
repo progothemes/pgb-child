@@ -188,9 +188,9 @@ header {
 }
 #top-nav.affix {
 	/*margin-top: 0;*/
-	-webkit-transform: -webkit-translate(0,-46px);
-	-webkit-transform: translate(0,-46px);
-	transform: translate(0,-46px);
+	-webkit-transform: -webkit-translate(0,-42px);
+	-webkit-transform: translate(0,-42px);
+	transform: translate(0,-42px);
 }
 
 #top-nav.navbar-inverse .navbar-nav > li > a {
