@@ -140,12 +140,7 @@ get_header(); ?>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
  												<h3>Join our Newsletter to Stay up to Date with the Latest Research &amp; Science Discoveries.</h3>
- 												<form>
- 													<div class="form-group">
- 														<input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter your email">
- 													  	<input type="submit" class="btn btn-primary" value="NEWSLETTER SIGNUP" /> 
- 													 </div>	
- 												</form>
+ 												<?php echo do_shortcode( '[gravityform id="2" title="false" description="false" ajax="true"]' ); ?>
  											</div>	
  										</div>	
 									</div>	
