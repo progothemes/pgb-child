@@ -87,6 +87,37 @@ nav > .container {
 	padding-bottom: 0;
 }
 
+@media screen and (max-width: 767px) {
+	/* Containers */
+	nav > .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#masthead.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main-content > .container,
+	.main-content [class*="col-"] {
+		/*padding-bottom: 45px;*/
+		padding-left: 15px;
+		padding-right: 15px;
+		/*padding-top: 45px;*/
+	}
+	.main-content .row {
+		/*margin-bottom: -45px;*/
+		margin-left: -15px;
+		margin-right: -15px;
+		/*margin-top: -45px;*/
+	}
+	.main-content .row-img {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.main-content-inner, .sidebar {
+		padding-bottom: 0;
+	}
+}
 
 /* Alignment */
 .margintop30 {
