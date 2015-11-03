@@ -63,7 +63,7 @@ get_header(); ?>
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
@@ -81,7 +81,7 @@ get_header(); ?>
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" /> 
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
@@ -99,7 +99,7 @@ get_header(); ?>
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cards_xs.png" class="card_xs" /> 
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
 												</div>	
 											</div>
 										</div>
