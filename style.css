@@ -2552,6 +2552,25 @@ div#science_menu.affix {
 	font-weight: 400;
 }
 
+@media screen and (min-width: 768px)
+{	
+	.main-content .woocommerce-checkout .billingdetails
+	{
+		padding-right: 15px !important;
+	}
+	
+	.main-content .woocommerce-checkout .testimonials
+	{
+		padding-left: 15px !important;
+	}
+	
+	.main-content .woocommerce-checkout .testimonials [class*="col-"]
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+}	
 @media screen and (min-width: 992px)
 {
 	.videosalespage .refillproducts .eachRefillProduct h3
