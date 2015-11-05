@@ -62,7 +62,7 @@ get_header(); ?>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
-													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
+													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=75" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
 												</div>	
 											</div>
@@ -80,7 +80,7 @@ get_header(); ?>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
-													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
+													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
 												</div>	
 											</div>
@@ -98,7 +98,7 @@ get_header(); ?>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
-													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
+													<a href="<?php bloginfo('url'); ?>/cart/?add-to-cart=168" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
 												</div>	
 											</div>
@@ -130,16 +130,16 @@ get_header(); ?>
 												<em>Promotes Lean Muscle Firmness*</em></h2>
 												<div class="row">
 													<div class="col-xs-12 col-sm-6 col-md-6 pad30">
-														<div class="productherobox">
+														<div class="productherobox collagenbox">
 															<h2>Supplement Facts</h2>
 															<h4>Serving Size: <strong>4 Capsules per Day</strong></h4>
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
 															<h3>Nicotinamide Riboside (as NIAGEN&reg;) 100 mg</h3>
-															<h3>Hydrolyzed Fish Collagen 100 mg</h3>
-															<h3>Hyaluronic Acid 50 mg</h3>
-															<h4>*% Daily Value not established</h4>
-															<h3 class="bordertopblk">Other Ingredients:</h3>
+															<h3 class="notopborder">Hydrolyzed Fish Collagen 100 mg</h3>
+															<h3 class="noborder">Hyaluronic Acid 50 mg</h3>
+															<h3 class="bordertopblk">*% Daily Value not established</h3>
+															<h3 class="noborder">Other Ingredients:</h3>
 															<h4>Cellulose, Magnesium Vegetable Stearate.</h4>
 														</div>
 													</div>
