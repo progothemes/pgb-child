@@ -82,9 +82,11 @@ $classes[] = 'col-xs-12 col-sm-6 col-md-6';
 					do_action( 'woocommerce_after_shop_loop_item_title' );
 					the_excerpt();
 				?>
-				<p><a href="<?php the_field('vsl_page'); ?>" class="learnmore">LEARN MORE</a></p>
+				<p><a href="<?php the_field('vsl_page'); ?>" class="btn btn-primary btn-learnmore">LEARN MORE</a></p>
 				<?php
-	
+					echo '<div class="productaddtocart">';
+						echo '<p><img src="'.get_bloginfo('stylesheet_directory').'/images/card_small.png" class="cardseal img-responsive"/></p>';
+					echo '</div>';
 					/**
 					 * woocommerce_after_shop_loop_item hook
 					 *

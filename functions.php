@@ -99,6 +99,9 @@ remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_lo
 //Remove sidebar
 remove_action('woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
 
+//Remove add to cart from product archive
+
+remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
 
 add_image_size( 'cart_item_image_size', 180, 180, true );
 add_filter( 'woocommerce_cart_item_thumbnail', 'cart_item_thumbnail', 10, 3 );
@@ -114,5 +117,27 @@ function cart_item_thumbnail( $thumb, $cart_item, $cart_item_key ) {
 add_action( 'after_setup_theme', 'n7_register_science_menu' );
 function n7_register_science_menu() {
 	register_nav_menu( 'science', __( 'Science Menu', 'pgb' ) );
+}
+
+add_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
+
+function custom_pre_get_posts_query( $q ) {
+
+	if ( ! $q->is_main_query() ) return;
+	if ( ! $q->is_post_type_archive() ) return;
+	
+	if ( ! is_admin() && is_shop() ) {
+
+		$q->set( 'tax_query', array(array(
+			'taxonomy' => 'product_cat',
+			'field' => 'slug',
+			'terms' => array( 'subscribe' ), // Don't display products in the knives category on the shop page
+			'operator' => 'NOT IN'
+		)));
+	
+	}
+
+	remove_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
+
 }
 
