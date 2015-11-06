@@ -182,7 +182,7 @@ get_header(); ?>
 									</div>
 									<div class="col-md-4">
 										<div class="row">
-											<div class="hidden-xs hidden-sm col-md-4">
+											<div class="hidden-xs hidden-sm col-md-12">
 												<div class="rightboxedcontent bluebox">
 													<div class="row box-title">
 														<div class="col-xs-12">
