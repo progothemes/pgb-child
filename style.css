@@ -1208,7 +1208,7 @@ footer .socialicons ul li.instagram a
 }
 
 
-.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+.woocommerce #respond input#submit, .woocommerce #page-content-wrapper a.button, .woocommerce #page-content-wrapper button.button, .woocommerce #page-content-wrapper input.button {
     font-size: 100%;
     margin: 0px;
     line-height: 1;
