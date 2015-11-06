@@ -30,7 +30,7 @@ get_header(); ?>
 							<?php //get_template_part( 'content', get_post_format() ); ?>
 							<div class="entry-content main-entry-content col-md-12">
 								<div class="row xblue1 text-center border-bottom">
-									<div class="col-xs-12 col-sm-12 col-md-8">
+									<div class="col-md-8 col-sm-12 col-xs-12 border-md-right leftmaincontent">
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
 												<h1>THE POWER TO DO MORE.</h1>
@@ -46,23 +46,6 @@ get_header(); ?>
 												<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science has made significant progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
 											</div>
 										</div>
-									</div>
-									<div class="hidden-xs hidden-sm col-md-4">
-										<div class="rightboxedcontent bluebox">
-											<div class="row box-title">
-												<div class="col-xs-12">
-													<h2>Power For More Life</h2>
-													<h3>NIAGEN&reg; (NAD + ACTIVATOR)</h3>
-												</div>
-											</div>
-											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
-											<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NIAGEN&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
-											<a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE</a>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-8 col-sm-12 col-xs-12 border-md-right leftmaincontent">
 										<div class="row leftboxedcontent">
 											<div class="col-md-12 text-center">
 												<div class="row">
@@ -151,22 +134,6 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-										<?php /*
-										<div class="row leftboxedcontent benefits2content">
-											<div class="col-md-12">
-												<div class="row">
-													<div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1 col-sm-offset-1">
-														<div class="text-center">
-															<h2>The NECTAR7 <span>Promise</span></h2>
-															<p>NECTAR7 sources its NIAGEN&reg; from ChromaDex, the company that originally formulated and patented the compound.  NIAGEN&reg; is approved by the FDA and has been tested to be safe, with no adverse side-effects.</p>
-															<p>Every capsule of NECTAR7 is guaranteed to contain the optimal dose of NIAGEN&reg;, ensuring your body enjoys the maximum benefits of health and youthful vitality.</p>
-															<p class="text-center"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/FDA.png" class="margintop30"/></p>
-														</div>	
-													</div>
-												</div>
-											</div>
-										</div>
-										*/ ?>
 										<div class="row leftboxedcontent yellowbox">
 											<div class="col-md-12 text-center">
 												<div class="row">
@@ -215,6 +182,19 @@ get_header(); ?>
 									</div>
 									<div class="col-md-4">
 										<div class="row">
+											<div class="hidden-xs hidden-sm col-md-4">
+												<div class="rightboxedcontent bluebox">
+													<div class="row box-title">
+														<div class="col-xs-12">
+															<h2>Power For More Life</h2>
+															<h3>NIAGEN&reg; (NAD + ACTIVATOR)</h3>
+														</div>
+													</div>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
+													<p>NECTAR7 Niagen is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen.</p>
+													<a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE</a>
+												</div>
+											</div>
 											<div class="hidden-xs hidden-sm col-md-12 border-bottom">
 												<div class="rightboxedcontent lightbluebox">
 													<div class="row box-title">
