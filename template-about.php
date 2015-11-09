@@ -33,7 +33,7 @@ get_header(); ?>
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="herocaption">
 											<h1>About Us</h1>
-											<p>NECTAR7 is a global company that focuses on bringing life-enhancing. science-based nutrition and lifestyle supplements to the market. Our products are based in the latest scientific studies and breakthroughs for one reason: to give you a higher quality of life.</p>
+											<p>NECTAR7 is a global company that focuses on bringing life-enhancing, science-based nutrition and lifestyle supplements to the market. Our products are based in the latest scientific studies and breakthroughs for one reason: to give you a higher quality of life.</p>
 										</div>
 									</div>
 								</div>
