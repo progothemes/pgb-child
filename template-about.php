@@ -32,7 +32,7 @@ get_header(); ?>
 								<?php if ( is_front_page() ) : // center logo ?>
 								<div class="row">
 									<div class="col-xs-12 text-center">
-										<a href="<?php bloginfo('url'); ?>"><img class="img-responsive aligncenter size-full wp-image-12" src="http://nectar7.nlkdev.net/wp-content/uploads/2015/09/logo-Nectar-7.png" alt="Nectar 7" width="226" height="30" style="margin: 41px auto"></a>
+										<a href="<?php bloginfo('url'); ?>"><img class="img-responsive aligncenter size-full wp-image-12" src="/wp-content/themes/nectar7-pgb-child/images/logo-nectar7.png" alt="Nectar 7" width="226" height="30" style="margin: 41px auto"></a>
 									</div>
 								</div>
 								<?php endif; ?>
