@@ -51,7 +51,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								</div>
 								<div class="row refillproducts">
 									<div class="col-xs-12">
-										<h2><strong>Save up to 48%</strong> Plus <strong>Get Free Shipping</strong> on Your Orders with AutoRefills!</h2>
+										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>NIAGEN&reg; &amp; COLLAGEN
@@ -61,8 +61,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>$64.99</span></h5>
-													<h4><span>NOW:</span> $45.00</h4>
-													<h5>You Save $19.99 (30.76%)</h5>
+													<h4><span>NOW:</span> $46.99</h4>
+													<h5>You Save $18.00 (27.69%)<br />&nbsp;</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
@@ -79,8 +79,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 												<div class="priceList">
 													<h5>List Price: <span>194.97</span></h5>
-													<h4><span>NOW:</span> $115.03</h4>
-													<h5>You Save $79.94 (41%)</h5>
+													<h4><span>NOW:</span> $115.62</h4>
+													<h5>You Save $79.35 (40.69%)<br />FREE SHIPPING</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
@@ -96,9 +96,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>LIST PRICE: <span>$259.96</span></h5>
-													<h4><span>NOW:</span> $135.18</h4>
-													<h5>YOU SAVE $124.78 (48%)</h5>
+													<h5>LIST PRICE: <span>$389.94</span></h5>
+													<h4><span>NOW:</span> $211.50</h4>
+													<h5>YOU SAVE $178.44 (45.76%)<br />FREE SHIPPING</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
@@ -115,10 +115,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h2 class="ordercallout"><a href="callto: 1-800-662-8617"><span>Order by Phone or Ask Questions</span>1-800-662-8617</a></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4">
-										<h2 class="freedeliverycallout">FREE DELIVERY<span>On all AutoRefill Orders</span></h2>
+										<h2 class="freedeliverycallout">FREE DELIVERY<span>on all orders over $50.00</span></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/GuaranteeVSL.png" class="img-responsive" />
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 									</div>
 								</div>
 								<div class="row heroproduct collagen">

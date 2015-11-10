@@ -78,7 +78,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>List Price: <span>194.97</span></h5>
+													<h5>List Price: <span>$194.97</span></h5>
 													<h4><span>NOW:</span> $115.62</h4>
 													<h5>You Save $79.35 (40.69%)<br />FREE SHIPPING</h5>
 												</div>
@@ -118,7 +118,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h2 class="freedeliverycallout">FREE DELIVERY<span>on all orders over $50.00</span></h2>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-4 text-center">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/GuaranteeVSL.png" class="img-responsive" />
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 									</div>
 								</div>
 								<div class="row heroproduct">
