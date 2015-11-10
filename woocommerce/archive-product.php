@@ -31,7 +31,7 @@ get_header( 'shop' ); ?>
 						<h1 class="page-title">STORE</h1>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Guarantee.png" class="img-responsive guarantee-image" alt="100% Money Back Guarantee" />
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Guarantee_30.png" class="img-responsive guarantee-image" alt="100% Money Back Guarantee" />
 					</div>
 				</div>
 			</div>
