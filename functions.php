@@ -156,7 +156,12 @@ function emptycart_redirect(){
     }
 }
 
-//Remove Sales Flash
+/**
+ * hook to woocommerce_sale_flash
+ *
+ * to remove Sales Flash
+ * https://wordimpress.com/how-to-remove-product-sales-flash-in-woocommerce/
+ */
 add_filter('woocommerce_sale_flash', 'n7_hide_sales_flash');
 function n7_hide_sales_flash() {
   return '';
