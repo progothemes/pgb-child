@@ -109,5 +109,147 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
-
+		<!-- MODAL NIAGEN-->
+						<div class="modal fade modalproducts" id="modal-74" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-body videosalespage">
+		       	 				<div class="row refillproducts">
+									<div class="col-xs-12">
+										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<div class="row refillproductsrow">
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
+												<h3>NIAGEN&reg;
+													<span>Get Started with 1 Bottle</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_single.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>List Price: <span>$64.99</span></h5>
+													<h4><span>NOW:</span> $46.99</h4>
+													<h5>You Save $18.00 (27.69%)<br />&nbsp;</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>	
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
+												<h3>NIAGEN&reg; (90 DAY)
+													<span>Most Popular</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>List Price: <span>$194.97</span></h5>
+													<h4><span>NOW:</span> $115.62</h4>
+													<h5>You Save $79.35 (40.69%)<br />FREE SHIPPING</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
+												</div>	
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
+												<h3>NIAGEN&reg; (180 DAY)
+													<span>Best Value</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>LIST PRICE: <span>$389.94</span></h5>
+													<h4><span>NOW:</span> $211.50</h4>
+													<h5>YOU SAVE $178.44 (45.76%)<br />FREE SHIPPING</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
+												</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+						      </div>
+						    </div><!-- /.modal-content -->
+						  </div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+		
+		<!-- MODAL COLLAGEN-->
+					<div class="modal fade modalproducts" id="modal-75" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-body videosalespage">
+		       	 				<div class="row refillproducts">
+									<div class="col-xs-12">
+										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<div class="row refillproductsrow">
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
+												<h3>NIAGEN&reg; &amp; COLLAGEN
+													<span>Get Started with 1 Bottle</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>List Price: <span>$64.99</span></h5>
+													<h4><span>NOW:</span> $46.99</h4>
+													<h5>You Save $18.00 (27.69%)<br />&nbsp;</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>?add-to-cart=75" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>	
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
+												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(90 DAY)
+													<span>Most Popular</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>List Price: <span>194.97</span></h5>
+													<h4><span>NOW:</span> $115.62</h4>
+													<h5>You Save $79.35 (40.69%)<br />FREE SHIPPING</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>cart/?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
+												</div>	
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
+												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(180 DAY)
+													<span>Best Value</span></h3>
+												<div class="refillThumb">
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
+												</div>
+												<div class="priceList">
+													<h5>LIST PRICE: <span>$389.94</span></h5>
+													<h4><span>NOW:</span> $211.50</h4>
+													<h5>YOU SAVE $178.44 (45.76%)<br />FREE SHIPPING</h5>
+												</div>
+												<div class="addtocartdiv">
+													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
+													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
+													<a href="<?php echo $cart_url; ?>?add-to-cart=168" class="btn btn-primary"/>ADD TO CART</a>
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
+												</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+						      </div>
+						    </div><!-- /.modal-content -->
+						  </div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
 <?php get_footer( 'shop' ); ?>
