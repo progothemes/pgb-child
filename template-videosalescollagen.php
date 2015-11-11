@@ -42,7 +42,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 gives you the power to do more.</h4>
 													<h1>Try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities!</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="NIAGEN&reg; &amp; COLLAGEN" width="640" height="360" />
 													</div>
 												</div>
 											</div>
