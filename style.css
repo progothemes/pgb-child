@@ -629,13 +629,11 @@ footer .socialicons ul li.instagram a
 }
 
 
-.leftboxedcontent
-{
+.leftboxedcontent {
 	padding-top: 45px;	
 }
 
-.leftboxedcontent p
-{
+.leftboxedcontent p {
 	font-family: "MyriadPro";
 	font-size: 16px;
 	font-size: 1em;
@@ -645,13 +643,11 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 }
 
-.leftboxedcontent.howdoesitwork
-{
+.leftboxedcontent.howdoesitwork {
 	background: url('images/how_it_works.jpg') right top no-repeat #fff;
 }
 .leftboxedcontent.howdoesitwork,
-.leftboxedcontent.howdoesitwork > div
-{
+.leftboxedcontent.howdoesitwork > div {
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
@@ -665,10 +661,9 @@ footer .socialicons ul li.instagram a
 	margin: 0px 0px 10px;
 }
 
-.leftboxedcontent.graphcontent
-{
+.leftboxedcontent.graphcontent {
 	background: #e1f3fc;
-	/*padding-top: 25px;*/
+	padding-top: 4em;
 	padding-bottom: 45px;
 }
 
