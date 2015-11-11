@@ -666,7 +666,12 @@ footer .socialicons ul li.instagram a
 	padding-top: 4em;
 	padding-bottom: 45px;
 }
-
+.leftboxedcontent.graphcontent h3 {
+  color: #000;
+  line-height: 1.15;
+  margin-bottom: 2em;
+  text-transform: none;
+}
 .leftboxedcontent.graphcontent img.chartimage
 {
 	margin-bottom: 30px;
