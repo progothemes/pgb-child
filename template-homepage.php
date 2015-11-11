@@ -99,7 +99,7 @@ get_header(); ?>
 													</div>
 												</div>
 												<div class="row">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/benefits.jpg" alt="Benefits of NECTAR7" width="854" height="426" class="img-responsive aligncenter size-full wp-image-44" />
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/man-woman-age.jpg" alt="Benefits of NECTAR7" width="716" height="461" class="img-responsive aligncenter size-full" />
 												</div>
 											</div>
 										</div>
