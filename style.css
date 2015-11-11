@@ -2579,6 +2579,22 @@ div#science_menu.affix {
 	padding-left: 25px;
 }
 
+#ship-to-different-address input[type="checkbox"]
+{
+	float: left;
+	width: 30px;
+	margin-top: 16px;
+}
+
+#ship-to-different-address label
+{
+	float: left;
+}
+
+#ship-to-different-address::after
+{
+	clear: both;
+}
 
 @media screen and (min-width: 768px)
 {	
