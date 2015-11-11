@@ -143,3 +143,18 @@ function custom_pre_get_posts_query( $q ) {
 
 }
 
+add_action('template_redirect', 'emptycart_redirect');
+function emptycart_redirect(){
+    global $woocommerce;
+    
+    $cartContent = sizeof( $woocommerce->cart->get_cart() );
+	
+    if( is_checkout() and $cartContent == 0 ) {
+        $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
+        wp_redirect( $shop_page_url ); 
+        exit;
+    }
+}
+
+
+
