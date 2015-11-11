@@ -156,5 +156,8 @@ function emptycart_redirect(){
     }
 }
 
-
-
+//Remove Sales Flash
+add_filter('woocommerce_sale_flash', 'n7_hide_sales_flash');
+function n7_hide_sales_flash() {
+  return '';
+}
