@@ -72,7 +72,7 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-										<div class="row leftboxedcontent graphcontent">
+										<div class="row leftboxedcontent graphcontent text-center">
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
@@ -87,10 +87,8 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-														<div class="text-center">
 															<h2>The benefits of <span>NECTAR7</span></h2>
 															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.  In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice.  It’s the equivalent of a 60-year-old person’s mitochondria becoming more like those of a 20-year-old.</p>
-														</div>
 														<ul>
 															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>  
 															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</li>
@@ -122,9 +120,10 @@ get_header(); ?>
 										</div>
 										<div class="row leftboxedcontent graph2content">
 											<div class="col-md-12">
-												<div class="row bluehead">
+												<div class="row text-center">
 													<div class="col-md-12">
-														<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%</h2>	
+														<h3 style="color: #000; line-height: 1.15; margin: 2em 0; text-transform: none;">In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%</h3>
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
 													</div>
 												</div>
 												<div class="row">
