@@ -60,9 +60,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>List Price: <span>$64.99</span></h5>
-													<h4><span>NOW:</span> $46.99</h4>
-													<h5>You Save $18.00 (27.69%)<br />&nbsp;</h5>
+													<h5>List Price: <span>$65.99</span></h5>
+													<h4><span>NOW:</span> $47.99</h4>
+													<h5>You Save $18.00 (27.28%)<br />&nbsp;</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
@@ -78,9 +78,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>List Price: <span>194.97</span></h5>
-													<h4><span>NOW:</span> $115.62</h4>
-													<h5>You Save $79.35 (40.69%)<br />FREE SHIPPING</h5>
+													<h5>List Price: <span>197.97</span></h5>
+													<h4><span>NOW:</span> $118.62</h4>
+													<h5>You Save $79.35 (40.08%)<br />FREE SHIPPING</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
@@ -96,9 +96,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
 												</div>
 												<div class="priceList">
-													<h5>LIST PRICE: <span>$389.94</span></h5>
-													<h4><span>NOW:</span> $211.50</h4>
-													<h5>YOU SAVE $178.44 (45.76%)<br />FREE SHIPPING</h5>
+													<h5>LIST PRICE: <span>$395.94</span></h5>
+													<h4><span>NOW:</span> $217.50</h4>
+													<h5>YOU SAVE $178.44 (45.07%)<br />FREE SHIPPING</h5>
 												</div>
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
