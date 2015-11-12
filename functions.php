@@ -129,11 +129,11 @@ function custom_pre_get_posts_query( $q ) {
 	if ( ! $q->is_post_type_archive() ) return;
 	
 	if ( ! is_admin() && is_shop() ) {
-
+    // Don't display products in the 'subscribe' category on the shop page
 		$q->set( 'tax_query', array(array(
 			'taxonomy' => 'product_cat',
 			'field' => 'slug',
-			'terms' => array( 'subscribe' ), // Don't display products in the knives category on the shop page
+			'terms' => array( 'subscribe' ),
 			'operator' => 'NOT IN'
 		)));
 	
