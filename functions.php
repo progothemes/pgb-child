@@ -143,17 +143,17 @@ function custom_pre_get_posts_query( $q ) {
 
 }
 
-add_action('template_redirect', 'emptycart_redirect');
-function emptycart_redirect(){
-    global $woocommerce;
-    
-    $cartContent = sizeof( $woocommerce->cart->get_cart() );
-	
-    if( is_checkout() and $cartContent == 0 ) {
-        $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
-        wp_redirect( $shop_page_url ); 
-        exit;
-    }
+add_action('template_redirect', 'n7_emptycart_redirect');
+function n7_emptycart_redirect(){
+  global $woocommerce;
+  
+  $cartContent = sizeof( $woocommerce->cart->get_cart() );
+
+  if( is_checkout() && ( ! is_wc_endpoint_url( 'order-received' ) )&& ( $cartContent == 0 ) ) {
+    $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
+    wp_redirect( $shop_page_url ); 
+    exit;
+  }
 }
 
 /**
