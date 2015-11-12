@@ -5,6 +5,10 @@
  * @package pgb
  */
 
+// inject js_composer js & css for toggle FAQs and such
+wp_enqueue_script( 'wpb_composer_front_js' );
+wp_enqueue_style( 'js_composer_front' );
+
 get_header(); 
 
 global $woocommerce;
