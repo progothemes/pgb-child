@@ -85,7 +85,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<div class="addtocartdiv">
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
-													<a href="<?php echo $cart_url; ?>cart/?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
+													<a href="<?php echo $cart_url; ?>?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
 												</div>	
 											</div>
