@@ -38,8 +38,12 @@ $cart_url = $woocommerce->cart->get_cart_url();
 									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 										<div class="videobanner">
 											<div class="row">
-												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+												<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
 													<h4>NECTAR7 NIAGEN&reg; &amp; Collagen gives you the power &amp; beauty to do more.</h4>
+                        </div>
+                      </div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
 													<div class="videocontent">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="NIAGEN&reg; &amp; COLLAGEN" width="640" height="360" />
