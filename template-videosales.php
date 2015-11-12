@@ -46,7 +46,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 NIAGEN&reg; gives you the power to do more.</h4>
 													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_img.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
 													</div>
 												</div>
 											</div>
