@@ -39,7 +39,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="videobanner">
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-													<h4>NECTAR7 gives you the power to do more.</h4>
+													<h4>NECTAR7 NIAGEN&reg; gives you the power to do more.</h4>
 													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
 													<div class="videocontent">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_img.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
@@ -121,6 +121,11 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 									</div>
 								</div>
+                <div class="row pdesc">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                    <p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
+                  </div>
+                </div>
 								<div class="row heroproduct">
 									<div class="col-xs-12">
 										<div class="row pad30">
@@ -183,6 +188,64 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										</div>
 									</div>
 								</div>
+                <div class="row productfaqs">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                    <h3>FAQ's</h3>
+                    <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>A form of vitamin B3 that our bodies readily convert to nicotinamide adenine dinucleotide or NAD+.</p>
+                    </div>
+                    </div>
+                    <div id="1447309185132-ba82cd8d-13e5" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW SHOULD I USE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Daily. As a dietary supplement, take two (2) capsules daily, on an empty stomach with a glass of water, or as directed by a healthcare professional.</p>
+                    </div>
+                    </div>
+                    <div id="1447309245044-08fa37ab-aff2" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW DO I KNOW IF NECTAR7 NIAGEN® IS RIGHT FOR ME?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Simply, if you are interested in living well. We all experience declining levels of NAD+ as we age. Since adequate NAD+ levels are critical to the most important cellular processes such as energy production, steroid synthesis and DNA repair it is easy to understand that keeping our NAD+ levels up will promote wellness throughout life.</p>
+                    </div>
+                    </div>
+                    <div id="1447309244695-ce8ff6f4-0dab" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN® SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Take two (2) capsules daily or 250Mg per day.</p>
+                    </div>
+                    </div>
+                    <div id="1447309244387-a458cd5e-1f9a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consitently is the key to maximizing its benefits</p>
+                    </div>
+                    </div>
+                    <div id="1447309244005-52dbaa79-6cc9" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN® ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen® on an empty stomach.</p>
+                    </div>
+                    </div>
+                    <div id="1447309243646-48cb0c7f-2c99" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN® BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen® is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="row productfaqs">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                    <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><ol>
+                        <li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
+                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
+                        <li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
+                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
+                        <li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
+                      </ol>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                
 							</div>
 						</div>
 
