@@ -166,3 +166,17 @@ add_filter('woocommerce_sale_flash', 'n7_hide_sales_flash');
 function n7_hide_sales_flash() {
   return '';
 }
+
+add_shortcode('stylesheet_directory_uri', 'func_stylesheet_directory_uri');
+
+function func_stylesheet_directory_uri()
+{
+	return get_stylesheet_directory_uri();
+}
+
+add_shortcode('blog_url', 'func_blog_url');
+
+function func_blog_url()
+{
+	return get_bloginfo('url');
+}
