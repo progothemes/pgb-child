@@ -5,6 +5,10 @@
  * @package pgb
  */
 
+// inject js_composer js & css for toggle FAQs and such
+wp_enqueue_script( 'wpb_composer_front_js' );
+wp_enqueue_style( 'js_composer_front' );
+
 get_header(); 
 
 global $woocommerce;
@@ -126,7 +130,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 									</div>
 								</div>
                 <div class="row pdesc">
-                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                  <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                     <p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7's NIAGEN&reg; &amp; Collagen is a scientifically based, synergistic blend of astonishing ingredients formulated to make you feel amazing about your skin. Briefly, here's how it works. While NIAGEN&reg; is busy kick starting your body to synthesize its own natural collagen (a minor miracle), pure collagen was included in NECTAR7's NIAGEN&reg; &amp; Collagen to give your body's existing collagen levels a boost. Complimenting this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid – which also helps to lubricant in the joints and the collagen itself. So it's easy to see why NECTAR7's NIAGEN&reg; &amp; Collagen outperforms any collagen-only product.</p>
                   </div>
                 </div>
