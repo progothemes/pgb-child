@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
-		
+
 		<?php tha_content_top(); ?>
 
 		<?php // <!--The Loop ?>
@@ -90,10 +90,10 @@ get_header(); ?>
 															<h2>The benefits of <span>NECTAR7</span></h2>
 															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.  In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice.  It’s the equivalent of a 60-year-old person’s mitochondria becoming more like those of a 20-year-old.</p>
 														<ul>
-															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>  
+															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>
 															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</li>
 															<li>For the body to replenish its supply of NAD+, it requires a precursor known as NIAGEN&reg;.</li>
-														</ul>	
+														</ul>
 													</div>
 												</div>
 												<div class="row">
@@ -105,10 +105,10 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-4 col-sm-5 col-xs-12">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>	
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>
 													</div>
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>	
+														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>
 													</div>
 												</div>
 												<div class="row">
@@ -130,7 +130,7 @@ get_header(); ?>
 													<div class="col-md-12 text-center">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/chart.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage" />
 														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
-													</div>													
+													</div>
 												</div>
 											</div>
 										</div>
@@ -140,7 +140,7 @@ get_header(); ?>
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
 														<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
-														<p>As time goes on, more benefits of this essential compound are being revealed by science.   With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
+														<p>As time goes on, more benefits of this essential compound are being revealed by science. With NECTAR7, you may live long enough to discover these benefits for yourself.</p>
 													</div>
 												</div>
 												<div class="row">
@@ -168,9 +168,9 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-8 col-sm-7 col-xs-12">
 														<h1>NECTAR7</h1>
-														<h2>Power For 
+														<h2>Power For
 															<br/>Strength &amp; Beauty</h2>
-														<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluric acid, creates a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
+														<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, creates a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
 														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
@@ -204,7 +204,7 @@ get_header(); ?>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; & COLLAGEN"/>
-													<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluric acid, delivers a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.</p>
+													<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, delivers a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NIAGEN&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.</p>
 													<a href="<?php echo get_bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
@@ -217,7 +217,7 @@ get_header(); ?>
 														<div class="col-xs-12">
 															<blockquote>
 																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
-																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
+																<p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in searching for a cure to his worsening health. To make matters worse he faced a growing autoimmune disorder that seemed to evade diagnosis or, as he felt, "Doctors were not helping me with my growing concerns, weakened state or the condition of my physical body."</p>
 																<p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
 																<footer>Mark M. San Diego, CA</footer>
 															</blockquote>
@@ -268,7 +268,7 @@ get_header(); ?>
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-	
+
 	</div>
 
 <?php get_footer(); ?>
