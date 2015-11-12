@@ -29,7 +29,7 @@ get_header(); ?>
 
 							<?php //get_template_part( 'content', get_post_format() ); ?>
 							<div class="entry-content main-entry-content col-md-12">
-								<div class="row xblue1 text-center border-bottom">
+								<div class="row xblue1 border-bottom">
 									<div class="col-md-8 col-sm-12 col-xs-12 border-md-right leftmaincontent">
 										<div class="row home-hero">
 											<div class="col-xs-12 home-hero-caption">
