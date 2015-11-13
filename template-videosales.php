@@ -9,7 +9,7 @@
 wp_enqueue_script( 'wpb_composer_front_js' );
 wp_enqueue_style( 'js_composer_front' );
 
-get_header(); 
+get_header();
 
 global $woocommerce;
 $cart_url = $woocommerce->cart->get_cart_url();
@@ -17,7 +17,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 ?>
 
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
-		
+
 		<?php tha_content_top(); ?>
 
 		<?php // <!--The Loop ?>
@@ -73,7 +73,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
-												</div>	
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
 												<h3>NIAGEN&reg; (90 DAY)
@@ -90,8 +90,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>NIAGEN&reg; (180 DAY)
@@ -108,8 +108,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 										</div>
 									</div>
@@ -166,10 +166,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 																by the Food and Drug Administration.
 																This product is not intended to diagnose,
 																treat, cure or prevent any disease.</p>
-														</div>		
+														</div>
 													</div>
 												</div>
-											</div>	
+											</div>
 										</div>
 									</div>
 								</div>
@@ -194,7 +194,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								</div>
                 <div class="row productfaqs">
                   <div class="col-xs-12">
-                    <h3>FAQ's</h3>
+                    <h3>FAQs</h3>
                     <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
                       <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>A form of vitamin B3 that our bodies readily convert to nicotinamide adenine dinucleotide or NAD+.</p>
@@ -232,7 +232,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="row box-title testimonials">
                 <div class="col-xs-12">
                   <h3>Happy Customers</h3>
@@ -241,7 +241,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
-                    <p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in the search for finding a cure for a condition that was both worsening. To make matters worst he faced a growing autoimmune disorder that seemed to evade doctors or, as he felt, "Doctors were not helping me with my growing concerns, weekend state or the condition of my physical body."</p>
+                    <p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in searching for a cure to his worsening health. To make matters worse he faced a growing autoimmune disorder that seemed to evade diagnosis or, as he felt, "Doctors were not helping me with my growing concerns, weakened state or the condition of my physical body."</p>
                     <p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
                     <footer>Mark M. San Diego, CA</footer>
                   </blockquote>
@@ -285,7 +285,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 </div>
               </div>
               </div>
-              
+
                 <div class="row productfaqs">
                   <div class="col-xs-12">
                     <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
@@ -301,7 +301,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     </div>
                   </div>
                 </div>
-                
+
 							</div>
 						</div>
 
@@ -315,7 +315,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-	
+
 	</div>
 
 <?php get_footer(); ?>
