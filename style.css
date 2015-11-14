@@ -2329,7 +2329,9 @@ div#science_menu.affix {
 	background: #1946ba;
 	color: #FFF;	
 }
-
+.graphrow.dark {
+  background: #000;
+}
 .graphrow h2
 {
 	font-size: 40px;
@@ -2345,6 +2347,9 @@ div#science_menu.affix {
 .graphrow img {
     width: 465px;
     display: inline-block;
+}
+.graphrow.dark img {
+  width: auto;
 }
 
 .graphrow img.imglast

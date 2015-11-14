@@ -74,12 +74,11 @@ get_header(); ?>
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar7_bg.jpg" class="img-responsive aligncenter size-full wp-image-44" />
 									</div>
 								</div>
-								<div class="row graphrow">
+								<div class="row graphrow dark">
 									<div class="col-xs-12 col-sm-12 col-md-12">
 										<h2>NIAGEN&reg; taken daily can increase<br/> 
 											youthful aging by increasing NAD+ levels</h2>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/without_niagen.jpg" class="img-responsive"/>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/with_niagen.jpg" class="img-responsive imglast"/>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/newsciencechart.png" class="img-responsive"/>
 									</div>
 								</div>
 								<div class="row textrow textmito">
