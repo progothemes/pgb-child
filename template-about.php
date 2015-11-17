@@ -132,7 +132,7 @@ get_header(); ?>
 								<div class="row aboutproduct">
 									<div class="col-xs-12 col-sm-6 col-md-7 textcol">
 										<p>NECTAR7 specializes in performance-based nutrition for a healthy lifestyle. Backed by research from Harvard University and some of the world’s leading scientists, we sell performance-based nutrition supplements to help you experience life to the fullest.</p>
-										<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 NIAGEN&reg;</a></p>
+										<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 <span>Niagen&reg;</span></a></p>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-5 thumbcol">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.png" class="img-responsove"/>

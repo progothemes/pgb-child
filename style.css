@@ -461,6 +461,10 @@ footer .socialicons ul li.instagram a
 	color: #fff;
 }
 
+.btn.btn-primary span
+{
+	text-transform: none;	
+}
 
 /* Home page */
 .border-bottom
@@ -554,6 +558,7 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 	color: #fff;
 	text-align: center;
+	text-transform: none;
 }
 
 
