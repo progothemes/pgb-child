@@ -128,7 +128,6 @@ get_header(); ?>
 												</div>
 												<div class="row">
 													<div class="col-md-12 text-center">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/chart.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage" />
 														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
 													</div>
 												</div>
