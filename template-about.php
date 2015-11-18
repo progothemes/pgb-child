@@ -32,7 +32,7 @@ get_header(); ?>
 								<?php if ( is_front_page() ) : // center logo ?>
 								<div class="row">
 									<div class="col-xs-12 text-center">
-										<a href="<?php bloginfo('url'); ?>"><img class="img-responsive aligncenter size-full wp-image-12" src="/wp-content/themes/nectar7-pgb-child/images/logo-nectar7.png" alt="Nectar 7" width="226" height="30" style="margin: 41px auto"></a>
+										<a href="<?php bloginfo('url'); ?>"><img class="img-responsive aligncenter size-full wp-image-12" src="/wp-content/themes/nectar7-pgb-child/images/logo-nectar7.png" alt="NECTAR7" width="226" height="30" style="margin: 41px auto"></a>
 									</div>
 								</div>
 								<?php endif; ?>
@@ -131,8 +131,8 @@ get_header(); ?>
 								</div-->
 								<div class="row aboutproduct">
 									<div class="col-xs-12 col-sm-6 col-md-7 textcol">
-										<p>NECTAR7 specializies in performance-based nutrition for a healthy lifestyle. Backed by research from Harvard University and some of the world’s leading scientists, we sell performance-based nutrition supplements to help you experience life to the fullest.</p>
-										<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 NIAGEN&reg;</a></p>
+										<p>NECTAR7 specializes in performance-based nutrition for a healthy lifestyle. Backed by research from Harvard University and some of the world’s leading scientists, we sell performance-based nutrition supplements to help you experience life to the fullest.</p>
+										<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE ABOUT NECTAR7 <span>Niagen&reg;</span></a></p>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-5 thumbcol">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar_and_niagen.png" class="img-responsove"/>

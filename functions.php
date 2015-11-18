@@ -129,11 +129,11 @@ function custom_pre_get_posts_query( $q ) {
 	if ( ! $q->is_post_type_archive() ) return;
 	
 	if ( ! is_admin() && is_shop() ) {
-
+    // Don't display products in the 'subscribe' category on the shop page
 		$q->set( 'tax_query', array(array(
 			'taxonomy' => 'product_cat',
 			'field' => 'slug',
-			'terms' => array( 'subscribe' ), // Don't display products in the knives category on the shop page
+			'terms' => array( 'subscribe' ),
 			'operator' => 'NOT IN'
 		)));
 	
@@ -143,3 +143,69 @@ function custom_pre_get_posts_query( $q ) {
 
 }
 
+add_action('template_redirect', 'n7_emptycart_redirect');
+function n7_emptycart_redirect(){
+  global $woocommerce;
+  
+  $cartContent = sizeof( $woocommerce->cart->get_cart() );
+
+  if( is_checkout() && ( ! is_wc_endpoint_url( 'order-received' ) )&& ( $cartContent == 0 ) ) {
+    $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
+    wp_redirect( $shop_page_url ); 
+    exit;
+  }
+}
+
+/**
+ * hook to woocommerce_sale_flash
+ *
+ * to remove Sales Flash
+ * https://wordimpress.com/how-to-remove-product-sales-flash-in-woocommerce/
+ */
+add_filter('woocommerce_sale_flash', 'n7_hide_sales_flash');
+function n7_hide_sales_flash() {
+  return '';
+}
+
+add_shortcode('stylesheet_directory_uri', 'func_stylesheet_directory_uri');
+
+function func_stylesheet_directory_uri()
+{
+	return get_stylesheet_directory_uri();
+}
+
+add_shortcode('blog_url', 'func_blog_url');
+
+function func_blog_url()
+{
+	return get_bloginfo('url');
+}
+
+/**
+ * woocommerce_package_rates is a 2.1+ hook
+ */
+add_filter( 'woocommerce_package_rates', 'hide_shipping_when_free_is_available', 10, 2 );
+ 
+/**
+ * Hide shipping rates when free shipping is available
+ *
+ * @param array $rates Array of rates found for the package
+ * @param array $package The package array/object being shipped
+ * @return array of modified rates
+ */
+function hide_shipping_when_free_is_available( $rates, $package ) {
+ 	
+ 	// Only modify rates if free_shipping is present
+  	if ( isset( $rates['free_shipping'] ) ) {
+  	
+  		// To unset a single rate/method, do the following. This example unsets flat_rate shipping
+  		unset( $rates['flat_rate'] );
+  		
+  		// To unset all methods except for free_shipping, do the following
+  		$free_shipping          = $rates['free_shipping'];
+  		$rates                  = array();
+  		$rates['free_shipping'] = $free_shipping;
+	}
+	
+	return $rates;
+}

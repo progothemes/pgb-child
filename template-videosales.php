@@ -5,7 +5,11 @@
  * @package pgb
  */
 
-get_header(); 
+// inject js_composer js & css for toggle FAQs and such
+wp_enqueue_script( 'wpb_composer_front_js' );
+wp_enqueue_style( 'js_composer_front' );
+
+get_header();
 
 global $woocommerce;
 $cart_url = $woocommerce->cart->get_cart_url();
@@ -13,7 +17,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 ?>
 
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
-		
+
 		<?php tha_content_top(); ?>
 
 		<?php // <!--The Loop ?>
@@ -39,10 +43,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="videobanner">
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-													<h4>NECTAR7 gives you the power to do more.</h4>
+													<h4>NECTAR7 NIAGEN&reg; gives you the power to do more.</h4>
 													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_placeholder.png" height="360" width="640" />
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
 													</div>
 												</div>
 											</div>
@@ -69,7 +73,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
-												</div>	
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
 												<h3>NIAGEN&reg; (90 DAY)
@@ -86,8 +90,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>NIAGEN&reg; (180 DAY)
@@ -104,8 +108,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 										</div>
 									</div>
@@ -121,6 +125,11 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 									</div>
 								</div>
+                <div class="row pdesc">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                    <p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
+                  </div>
+                </div>
 								<div class="row heroproduct">
 									<div class="col-xs-12">
 										<div class="row pad30">
@@ -157,10 +166,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 																by the Food and Drug Administration.
 																This product is not intended to diagnose,
 																treat, cure or prevent any disease.</p>
-														</div>		
+														</div>
 													</div>
 												</div>
-											</div>	
+											</div>
 										</div>
 									</div>
 								</div>
@@ -183,6 +192,116 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										</div>
 									</div>
 								</div>
+                <div class="row productfaqs">
+                  <div class="col-xs-12">
+                    <h3>FAQs</h3>
+                    <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>A form of vitamin B3 that our bodies readily convert to nicotinamide adenine dinucleotide or NAD+.</p>
+                    </div>
+                    </div>
+                    <div id="1447309185132-ba82cd8d-13e5" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW SHOULD I USE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Daily. As a dietary supplement, take two (2) capsules daily, on an empty stomach with a glass of water, or as directed by a healthcare professional.</p>
+                    </div>
+                    </div>
+                    <div id="1447309245044-08fa37ab-aff2" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW DO I KNOW IF NECTAR7 NIAGEN® IS RIGHT FOR ME?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Simply, if you are interested in living well. We all experience declining levels of NAD+ as we age. Since adequate NAD+ levels are critical to the most important cellular processes such as energy production, steroid synthesis and DNA repair it is easy to understand that keeping our NAD+ levels up will promote wellness throughout life.</p>
+                    </div>
+                    </div>
+                    <div id="1447309244695-ce8ff6f4-0dab" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN® SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Take two (2) capsules daily or 250Mg per day.</p>
+                    </div>
+                    </div>
+                    <div id="1447309244387-a458cd5e-1f9a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consitently is the key to maximizing its benefits</p>
+                    </div>
+                    </div>
+                    <div id="1447309244005-52dbaa79-6cc9" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN® ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen® on an empty stomach.</p>
+                    </div>
+                    </div>
+                    <div id="1447309243646-48cb0c7f-2c99" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN® BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen® is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row box-title testimonials">
+                <div class="col-xs-12">
+                  <h3>Happy Customers</h3>
+
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
+                    <p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in searching for a cure to his worsening health. To make matters worse he faced a growing autoimmune disorder that seemed to evade diagnosis or, as he felt, "Doctors were not helping me with my growing concerns, weakened state or the condition of my physical body."</p>
+                    <p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
+                    <footer>Mark M. San Diego, CA</footer>
+                  </blockquote>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/patty.jpg" class="img-responsive testimonial-image" />
+                    <p>I am a successful business woman running multiple global businesses as well as balancing a hectic schedule with two successful busy children. I travel with my daughter and son for sports weekly. I have also suffered from medical issues in the past year. I have had multiple episodes of blood clots. Since taking Niagen&reg; I have lost weight and become much more mobile with allows and aides in my recovery and helps me prevent immobility which wards off the blood clots. I also sleep soundly and have noticed a much more youthful look. Everyone who has not seen me since taking Niagen&reg; continues to ask what I'm doing because I look and feel so different from the last encounter they have had with me. Niagen&reg; has given me my life and youth back.</p>
+                    <footer>Patty S., Ohio</footer>
+                  </blockquote>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
+                    <p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
+                    <footer>Jeromy S., Del Mar, CA</footer>
+                  </blockquote>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
+                    <p>I have been taking NIAGEN&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+                    <footer>Wanda R., Dallas, TX</footer>
+                  </blockquote>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
+                    <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN&reg; - my energy level and focus improved. I am only on my second week of taking NIAGEN&reg; and look forward to experiencing more benefits of this new product.</p>
+                    <footer>Sean F,. Encinitas, CA</footer>
+                  </blockquote>
+                </div>
+                </div>
+              </div>
+              </div>
+
+                <div class="row productfaqs">
+                  <div class="col-xs-12">
+                    <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+                      <div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><ol>
+                        <li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
+                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
+                        <li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
+                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
+                        <li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
+                      </ol>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
 							</div>
 						</div>
 
@@ -196,7 +315,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-	
+
 	</div>
 
 <?php get_footer(); ?>

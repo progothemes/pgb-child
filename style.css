@@ -4,14 +4,14 @@
  Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
  Author:	   ProGo
  Author URI:   http://www.progo.com
- Version:	  0.0.1
+ Version:	  0.1.1
  Template:	 pgb
  License:	  GPLv2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 
-/* Fonts */
+/* Fonts?! */
 @font-face {
 	font-family: "MyriadPro";
 	src: url(fonts/MyriadPro-Regular.otf) format("opentype");
@@ -461,6 +461,10 @@ footer .socialicons ul li.instagram a
 	color: #fff;
 }
 
+.btn.btn-primary span
+{
+	text-transform: none;	
+}
 
 /* Home page */
 .border-bottom
@@ -554,6 +558,7 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 	color: #fff;
 	text-align: center;
+	text-transform: none;
 }
 
 
@@ -626,16 +631,15 @@ footer .socialicons ul li.instagram a
 	margin-bottom: 20px;
 	margin-right: 20px;
 	width: 30%;
+  max-width: 150px;
 }
 
 
-.leftboxedcontent
-{
+.leftboxedcontent {
 	padding-top: 45px;	
 }
 
-.leftboxedcontent p
-{
+.leftboxedcontent p {
 	font-family: "MyriadPro";
 	font-size: 16px;
 	font-size: 1em;
@@ -645,13 +649,11 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 }
 
-.leftboxedcontent.howdoesitwork
-{
+.leftboxedcontent.howdoesitwork {
 	background: url('images/how_it_works.jpg') right top no-repeat #fff;
 }
 .leftboxedcontent.howdoesitwork,
-.leftboxedcontent.howdoesitwork > div
-{
+.leftboxedcontent.howdoesitwork > div {
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
@@ -665,13 +667,17 @@ footer .socialicons ul li.instagram a
 	margin: 0px 0px 10px;
 }
 
-.leftboxedcontent.graphcontent
-{
+.leftboxedcontent.graphcontent {
 	background: #e1f3fc;
-	/*padding-top: 25px;*/
+	padding-top: 4em;
 	padding-bottom: 45px;
 }
-
+.leftboxedcontent.graphcontent h3 {
+  color: #000;
+  line-height: 1.15;
+  margin-bottom: 2em;
+  text-transform: none;
+}
 .leftboxedcontent.graphcontent img.chartimage
 {
 	margin-bottom: 30px;
@@ -1056,7 +1062,9 @@ footer .socialicons ul li.instagram a
 	border-right: 0px solid #FFF;
 	border-bottom: 0px solid #FFF;
 }
-
+.main-content .woocommerce ul#shipping_method li {
+  text-indent: 0;
+}
 .woocommerce-cart .main-content table.cart img {
     width: auto;
     box-shadow: none;
@@ -1492,7 +1500,12 @@ footer .socialicons ul li.instagram a
 .videosalespage .actiontape img {
 	margin-top: -14px;
 }
-
+.videosalespage .pdesc {
+  padding: 4em 0;
+}
+.videosalespage .productfaqs {
+  padding: 3em 0;
+}
 .videosalespage .heroproduct
 {
 	padding-top: 73px;
@@ -2321,7 +2334,9 @@ div#science_menu.affix {
 	background: #1946ba;
 	color: #FFF;	
 }
-
+.graphrow.dark {
+  background: #000;
+}
 .graphrow h2
 {
 	font-size: 40px;
@@ -2337,6 +2352,9 @@ div#science_menu.affix {
 .graphrow img {
     width: 465px;
     display: inline-block;
+}
+.graphrow.dark img {
+  width: auto;
 }
 
 .graphrow img.imglast
@@ -2579,6 +2597,131 @@ div#science_menu.affix {
 	padding-left: 25px;
 }
 
+#ship-to-different-address input[type="checkbox"]
+{
+	float: left;
+	width: 30px;
+	margin-top: 16px;
+}
+
+#ship-to-different-address label
+{
+	float: left;
+}
+
+#ship-to-different-address::after
+{
+	clear: both;
+}
+
+/* Modal CSS */
+.modalproducts .modal-dialog
+{
+	width: 100%;
+	max-width: 1220px;
+}
+
+.modalproducts .modal-content
+{
+	box-shadow: none;
+	border: 0px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0px;
+}
+
+.modalproducts .modal-body
+{
+	padding: 0px;
+}
+
+.main-content .modalproducts .row
+{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.modalproducts .videosalespage .row.refillproducts > [class*="col-"]
+{
+ 	padding: 0px;	
+}
+
+.modalproducts button.close
+{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: rgb(255, 255, 255) !important;
+	opacity: 1;
+}
+
+/* Testimonial Page */
+
+.page-heading:after
+{
+	clear: both;
+}
+
+.testimonial-thumb
+{
+	border: 4px solid #00b3e3;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.testimonialcontent
+{
+	padding-top: 50px;	
+}
+
+.testimonialcontent .testimonialcontenttext
+{
+	padding-top: 25px;
+}
+
+.testimonialcontent p
+{
+	font-size: 17px;
+	line-height: 24px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.testimonialcontent blockquote
+{
+	border-left: 4px solid #1946ba;
+	padding-left: 45px;
+	margin-bottom: 45px;
+}
+
+.testimonialcontent blockquote, .testimonialcontent blockquote p
+{
+	font-size: 22px;
+	line-height: 32px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+}
+
+.productherobottom
+{
+	margin: 45px 0px 45px 0px !important;
+}
+
+.productherobottom p
+{
+	font-size: 19px;
+	line-height: 34px;
+	font-family: "MyriadPro";
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.productherobottom .btn-primary
+{
+	max-width: 370px;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 18px;
+}
 
 @media screen and (min-width: 768px)
 {	

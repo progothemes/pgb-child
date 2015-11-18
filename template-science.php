@@ -74,12 +74,11 @@ get_header(); ?>
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/nectar7_bg.jpg" class="img-responsive aligncenter size-full wp-image-44" />
 									</div>
 								</div>
-								<div class="row graphrow">
+								<div class="row graphrow dark">
 									<div class="col-xs-12 col-sm-12 col-md-12">
-										<h2>NIAGEN&reg; taken daily can increase<br/> 
+										<h2>NECTAR7 Niagen&reg; taken daily can increase<br/> 
 											youthful aging by increasing NAD+ levels</h2>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/without_niagen.jpg" class="img-responsive"/>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/with_niagen.jpg" class="img-responsive imglast"/>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/newsciencechart.png" class="img-responsive"/>
 									</div>
 								</div>
 								<div class="row textrow textmito">
@@ -95,9 +94,6 @@ get_header(); ?>
 										<h2>The benefits of NECTAR7</h2>
 										<p>Several studies by respected universities have shown that replenishing the body's lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance. In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice. It's the equivalent of a 60-year-old person's mitochondria becoming more like those of a 20-year-old.</p>
 										<p>A 2013 research study shows NAD+ could be used to synchronize the body's waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/david_sinclair.jpg" class="img-responsive img-headshot" />
 										<p>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</p>
 									</div>
 								</div>
@@ -119,7 +115,7 @@ get_header(); ?>
 										<div class="row">
 											<div class="col-xs-12 col-sm-6 col-md-7">
 												<p>NECTAR7 contains NIAGEN&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body. It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </p>
-												<h2>In a recent human study, a single dose of NIAGEN&reg;, increased NAD+ by 30%. </h2>
+												<h2>In a recent human study, a single dose of NECTAR7 Niagen&reg;, increased NAD+ by 30%. </h2>
 												<p>NECTAR7 not only rewinds your body's clock, it helps you hold on to your physical energy and mental alertness for much longer. In effect, NECTAR7 gives you more time. More time to enjoy your youth. More time to achieve your goals. More time to get more out of life.</p>
 											</div>
 											<div class="col-xs-12 col-sm-6 col-md-5 padleft0">
@@ -135,7 +131,7 @@ get_header(); ?>
  											</h2>
  										<div class="row">
  											<div class="col-xs-12 col-sm-6 col-md-6">
- 												<p>Every year, more and more breakthroughs about the NR in NIAGEN&reg; are being made. In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
+ 												<p>Every year, more and more breakthroughs about the NR in NECTAR7 Niagen&reg; are being made. In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
 												<p>As time goes on, more benefits of this essential compound are being revealed by science.  With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
