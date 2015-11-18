@@ -90,7 +90,7 @@ get_header(); ?>
 									</div>
 								</div>
 								<div class="row textrow">
-									<div class="col-xs-12 col-sm-6 col-md-6 textblock">
+									<div class="col-xs-12 col-sm-12 col-md-12 textblock">
 										<h2>The benefits of NECTAR7</h2>
 										<p>Several studies by respected universities have shown that replenishing the body's lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance. In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice. It's the equivalent of a 60-year-old person's mitochondria becoming more like those of a 20-year-old.</p>
 										<p>A 2013 research study shows NAD+ could be used to synchronize the body's waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
