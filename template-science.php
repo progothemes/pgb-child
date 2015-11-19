@@ -132,7 +132,7 @@ get_header(); ?>
  										<div class="row">
  											<div class="col-xs-12 col-sm-6 col-md-6">
  												<p>Every year, more and more breakthroughs about the NR in NECTAR7 Niagen&reg; are being made. In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
-												<p>As time goes on, more benefits of this essential compound are being revealed by science.  With NECTAR7, you may very well live long enough to discover these many of these benefits for yourself.</p>
+												<p>As time goes on, more benefits of this essential compound are being revealed by science.  With NECTAR7, you may live long enough to discover these benefits for yourself.</p>
  											</div>
  											<div class="col-xs-12 col-sm-6 col-md-6 newslettercol">
  												<h3>Join our Newsletter to Stay up to Date with the Latest Research &amp; Science Discoveries.</h3>
