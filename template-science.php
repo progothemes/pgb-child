@@ -119,7 +119,7 @@ get_header(); ?>
 												<p>NECTAR7 not only rewinds your body's clock, it helps you hold on to your physical energy and mental alertness for much longer. In effect, NECTAR7 gives you more time. More time to enjoy your youth. More time to achieve your goals. More time to get more out of life.</p>
 											</div>
 											<div class="col-xs-12 col-sm-6 col-md-5 padleft0">
-												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/runner_girl_2.jpg" class="img-responsive aligncenter size-full" />
+												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/science-benefits.png" class="img-responsive aligncenter size-full" />
 											</div>
 										</div>
 									</div>
