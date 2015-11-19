@@ -66,7 +66,7 @@ get_header(); ?>
 													<div class="col-md-9 col-sm-10 col-xs-12">
 														<h4>How does NECTAR7 Niagen&reg; work?</h4>
 														<p>The science behind NECTAR7 Niagen&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
-														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy. </p>
+														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy. </p>
 														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
 												</div>
@@ -76,7 +76,7 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-                            <h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>
+                            <h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>related to the convertion of fats
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage" />
 														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer’s disease and certain types of cancer.</p>
 													</div>
