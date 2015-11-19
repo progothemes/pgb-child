@@ -43,7 +43,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="videobanner">
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-													<h4>NECTAR7 NIAGEN&reg; gives you the power to do more.</h4>
+													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
 													<div class="videocontent">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
@@ -58,7 +58,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg;
+												<h3>Niagen&reg;
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_single.png" class="img-responsive" />
@@ -76,7 +76,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-												<h3>NIAGEN&reg; (90 DAY)
+												<h3>Niagen&reg; (90 DAY)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
@@ -94,7 +94,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; (180 DAY)
+												<h3>Niagen&reg; (180 DAY)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
@@ -139,7 +139,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
-												<h1>NIAGEN&reg; (NAD+ ACTIVATOR)&reg;</h1>
+												<h1>Niagen&reg; (NAD+ ACTIVATOR)&reg;</h1>
 												<h2>Cellular Energy &amp; Physical Performance* Nicotinamide Riboside</h2>
 												<div class="row">
 													<div class="col-xs-12 col-sm-6 col-md-6 pad30">
@@ -148,7 +148,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 															<h4>Serving Size: <strong>2 Capsules</strong></h4>
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
-															<h3>Nicotinamide Riboside (NIAGEN&reg;) 250 mg</h3>
+															<h3>Nicotinamide Riboside (Niagen&reg;) 250 mg</h3>
 															<h4>*% Daily Value not established</h4>
 															<h3 class="bordertopblk">Other Ingredients:</h3>
 															<h4>Cellulose, Magnesium Vegetable Stearate.</h4>
@@ -196,38 +196,38 @@ $cart_url = $woocommerce->cart->get_cart_url();
                   <div class="col-xs-12">
                     <h3>FAQs</h3>
                     <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN&reg;?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>A form of vitamin B3 that our bodies readily convert to nicotinamide adenine dinucleotide or NAD+.</p>
                     </div>
                     </div>
                     <div id="1447309185132-ba82cd8d-13e5" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HOW SHOULD I USE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>HOW SHOULD I USE NECTAR7 NIAGEN&reg;?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Daily. As a dietary supplement, take two (2) capsules daily, on an empty stomach with a glass of water, or as directed by a healthcare professional.</p>
                     </div>
                     </div>
                     <div id="1447309245044-08fa37ab-aff2" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HOW DO I KNOW IF NECTAR7 NIAGEN® IS RIGHT FOR ME?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>HOW DO I KNOW IF NECTAR7 NIAGEN&reg; IS RIGHT FOR ME?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Simply, if you are interested in living well. We all experience declining levels of NAD+ as we age. Since adequate NAD+ levels are critical to the most important cellular processes such as energy production, steroid synthesis and DNA repair it is easy to understand that keeping our NAD+ levels up will promote wellness throughout life.</p>
                     </div>
                     </div>
                     <div id="1447309244695-ce8ff6f4-0dab" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN® SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN&reg; SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Take two (2) capsules daily or 250Mg per day.</p>
                     </div>
                     </div>
                     <div id="1447309244387-a458cd5e-1f9a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN&reg;?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consistently is the key to maximizing its benefits</p>
                     </div>
                     </div>
                     <div id="1447309244005-52dbaa79-6cc9" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN® ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen® on an empty stomach.</p>
+                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN&reg; ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen&reg; on an empty stomach.</p>
                     </div>
                     </div>
                     <div id="1447309243646-48cb0c7f-2c99" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN® BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen® is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
+                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN&reg; BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen&reg; is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
                     </div>
                     </div>
                   </div>
@@ -269,7 +269,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
-                    <p>I have been taking NIAGEN&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+                    <p>I have been taking Niagen&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
                     <footer>Wanda R., Dallas, TX</footer>
                   </blockquote>
                 </div>
@@ -278,7 +278,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
-                    <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN&reg; - my energy level and focus improved. I am only on my second week of taking NIAGEN&reg; and look forward to experiencing more benefits of this new product.</p>
+                    <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
                     <footer>Sean F,. Encinitas, CA</footer>
                   </blockquote>
                 </div>
