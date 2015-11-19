@@ -76,7 +76,7 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-                            <h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>
+                            <h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>related to the convertion of fats
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage" />
 														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer’s disease and certain types of cancer.</p>
 													</div>
