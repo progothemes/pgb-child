@@ -43,14 +43,14 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="videobanner">
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-													<h4>NECTAR7 NIAGEN&reg; &amp; Collagen gives you the power &amp; beauty to do more.</h4>
+													<h4>NECTAR7 Niagen&reg; &amp; Collagen gives you the power &amp; beauty to do more.</h4>
                         </div>
                       </div>
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="NIAGEN&reg; &amp; COLLAGEN" width="640" height="360" />
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="Niagen&reg; &amp; COLLAGEN" width="640" height="360" />
 													</div>
 												</div>
 											</div>
@@ -62,7 +62,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 										<div class="row refillproductsrow">
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; &amp; COLLAGEN
+												<h3>Niagen&reg; &amp; COLLAGEN
 													<span>Get Started with 1 Bottle</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
@@ -80,7 +80,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(90 DAY)
+												<h3>Niagen&reg; &amp; COLLAGEN<br />(90 DAY)
 													<span>Most Popular</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
@@ -98,7 +98,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>	
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(180 DAY)
+												<h3>Niagen&reg; &amp; COLLAGEN<br />(180 DAY)
 													<span>Best Value</span></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
@@ -131,7 +131,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								</div>
                 <div class="row pdesc">
                   <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                    <p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7's NIAGEN&reg; &amp; Collagen is a scientifically based, synergistic blend of astonishing ingredients formulated to make you feel amazing about your skin. Briefly, here's how it works. While NIAGEN&reg; is busy kick starting your body to synthesize its own natural collagen (a minor miracle), pure collagen was included in NECTAR7's NIAGEN&reg; &amp; Collagen to give your body's existing collagen levels a boost. Complimenting this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid – which also helps to lubricant in the joints and the collagen itself. So it's easy to see why NECTAR7's NIAGEN&reg; &amp; Collagen outperforms any collagen-only product.</p>
+                    <p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7's Niagen&reg; &amp; Collagen is a scientifically based, synergistic blend of astonishing ingredients formulated to make you feel amazing about your skin. Briefly, here's how it works. While Niagen&reg; is busy kick starting your body to synthesize its own natural collagen (a minor miracle), pure collagen was included in NECTAR7's Niagen&reg; &amp; Collagen to give your body's existing collagen levels a boost. Complimenting this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid – which also helps to lubricant in the joints and the collagen itself. So it's easy to see why NECTAR7's Niagen&reg; &amp; Collagen outperforms any collagen-only product.</p>
                   </div>
                 </div>
 								<div class="row heroproduct collagen">
@@ -143,7 +143,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-8 col-md-8 heroproductcontent">
-												<h1>NIAGEN&reg; &amp; COLLAGEN <span>(WITH HA "HYALURONIC ACID")</span></h1>
+												<h1>Niagen&reg; &amp; COLLAGEN <span>(WITH HA "HYALURONIC ACID")</span></h1>
 												<h2>Supports Radiant, Youthful, Younger Looking Skin*<br />
 												<em>Promotes Lean Muscle Firmness*</em></h2>
 												<div class="row">
@@ -153,7 +153,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 															<h4>Serving Size: <strong>4 Capsules per Day</strong></h4>
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
-															<h3>Nicotinamide Riboside (as NIAGEN&reg;) 100 mg</h3>
+															<h3>Nicotinamide Riboside (as Niagen&reg;) 100 mg</h3>
 															<h3 class="notopborder">Hydrolyzed Fish Collagen 100 mg</h3>
 															<h3 class="noborder">Hyaluronic Acid 50 mg</h3>
 															<h3 class="bordertopblk">*% Daily Value not established</h3>
@@ -184,7 +184,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="col-md-12 text-center">
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
-														<h4>Simply put, NECTAR7 NIAGEN&reg; &amp; Collagen gives you</h4>
+														<h4>Simply put, NECTAR7 Niagen&reg; &amp; Collagen gives you</h4>
 														<h3>THE POWER &amp; BEAUTY TO DO MORE.</h3>
 														<p>More time to be with the people you love. More energy to do the things you love doing.<br/>
 														More strength to achieve your ambitions. More power to take in all that life has to offer.</p>
@@ -202,38 +202,38 @@ $cart_url = $woocommerce->cart->get_cart_url();
                   <div class="col-xs-12">
                     <h3>FAQ's</h3>
                     <div id="1447309243348-d6846f85-842a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN® &amp; COLLAGEN?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>Our combination of collagen, hyaluronic acid and nicotinamide riboside (Niagen®)</p>
+                      <div class="vc_toggle_title"><h4>WHAT IS NECTAR7 NIAGEN&reg; &amp; COLLAGEN?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Our combination of collagen, hyaluronic acid and nicotinamide riboside (Niagen&reg;)</p>
                     </div>
                     </div>
                     <div id="1447309243013-44e0f8c1-bbe0" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HOW CAN I BENEFIT FROM NECTAR7 NIAGEN® &amp; COLLAGEN ?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>The purpose of this formulation is to promote rejuvenation of skin and increase lean muscle firmness. Collagen also aids your body in eliminating toxic levels of particular amino acids and reducing inflammation. Niagen® supports optimal energy production and steroid synthesis at the cellular level.</p>
+                      <div class="vc_toggle_title"><h4>HOW CAN I BENEFIT FROM NECTAR7 NIAGEN&reg; &amp; COLLAGEN ?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>The purpose of this formulation is to promote rejuvenation of skin and increase lean muscle firmness. Collagen also aids your body in eliminating toxic levels of particular amino acids and reducing inflammation. Niagen&reg; supports optimal energy production and steroid synthesis at the cellular level.</p>
                     </div>
                     </div>
                     <div id="1447309242693-0ac9ce5e-635b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>IF I AM TAKING NECTAR7 NIAGEN® &amp; COLLAGEN IS IT OKAY TO ALSO TAKE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>While not harmful it would be unnecessary because the recommended dose of Niagen® &amp; Collagen should provide all of the Niagen® an average person will need to harness the benefits.</p>
+                      <div class="vc_toggle_title"><h4>IF I AM TAKING NECTAR7 NIAGEN&reg; &amp; COLLAGEN IS IT OKAY TO ALSO TAKE NECTAR7 NIAGEN&reg;?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>While not harmful it would be unnecessary because the recommended dose of Niagen&reg; &amp; Collagen should provide all of the Niagen&reg; an average person will need to harness the benefits.</p>
                     </div>
                     </div>
                     <div id="1447309242346-1888d02c-81a7" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN® &amp; COLLAGEN SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>HOW MANY SERVINGS OF NECTAR7 NIAGEN&reg; &amp; COLLAGEN SHOULD I TAKE PER DAY?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Start with four (4) capsules daily. It may be best to separate into two (2) doses at different times of the day.</p>
                     </div>
                     </div>
                     <div id="1447309241974-55fe6a1a-cad4" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN® &amp; COLLAGEN?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN&reg; &amp; COLLAGEN?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consistently is the key to maximizing its benefits.</p>
                     </div>
                     </div>
                     <div id="1447309241609-a055589d-2d92" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN® &amp; COLLAGEN ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen® &amp; Collagen on an empty stomach.</p>
+                      <div class="vc_toggle_title"><h4>CAN I TAKE NECTAR7 NIAGEN&reg; &amp; COLLAGEN ON AN EMPTY STOMACH?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>Yes. You can take NECTAR7 Niagen&reg; &amp; Collagen on an empty stomach.</p>
                     </div>
                     </div>
                     <div id="1447309241025-91f9e1af-fb5a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN® &amp; COLLAGEN BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen® &amp; Collagen is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
+                      <div class="vc_toggle_title"><h4>HAS NECTAR7 NIAGEN&reg; &amp; COLLAGEN BEEN APPROVED BY THE FDA?</h4><i class="vc_toggle_icon"></i></div>
+                      <div class="vc_toggle_content"><p>No dietary supplement is “approved” by the FDA. They are, however, stringently regulated and must comply with the provisions of the Dietary Supplement Health and Education Act as regulated by the FDA. NECTAR7 Niagen&reg; &amp; Collagen is in 100% compliance with the provisions of the Dietary Supplement and Education Act as regulated by the FDA.</p>
                     </div>
                     </div>
                   </div>
@@ -275,7 +275,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
-                    <p>I have been taking NIAGEN&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+                    <p>I have been taking Niagen&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
                     <footer>Wanda R., Dallas, TX</footer>
                   </blockquote>
                 </div>
@@ -284,7 +284,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
-                    <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 NIAGEN&reg; - my energy level and focus improved. I am only on my second week of taking NIAGEN&reg; and look forward to experiencing more benefits of this new product.</p>
+                    <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
                     <footer>Sean F,. Encinitas, CA</footer>
                   </blockquote>
                 </div>
