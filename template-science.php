@@ -67,7 +67,7 @@ get_header(); ?>
 										<h3>The science behind NECTAR7 is a newly-discovered chemical compound called Nicotinamide Adenine Dinucleotide (NAD+).</h3>
 									</div>
 									<div class="col-xs-12 col-sm-8 col-md-7">
-										<p>NAD+ is a critical component of cell metabolism in all mammals, including humans. It is the communication molecule between the cell nucleus and the cell's energy factory, the mitochondria. Also referred to as the cell's powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death. They regulate important cell functions related to the convertion of fats, proteins and carbohydrates into energy.</p>
+										<p>NAD+ is a critical component of cell metabolism in all mammals, including humans. It is the communication molecule between the cell nucleus and the cell's energy factory, the mitochondria. Also referred to as the cell's powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death. They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy.</p>
 										<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life. This leads to mitochondrial dysfunction and degraded cell metabolism. This contributes to visible aging, diminished mental faculties and declining health. Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
