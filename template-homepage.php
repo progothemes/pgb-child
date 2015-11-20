@@ -43,7 +43,7 @@ get_header(); ?>
 										</div>
 										<div class="row hero-bottom">
 											<div class="col-xs-12">
-												<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science has made significant progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
+												<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science has made progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
 											</div>
 										</div>
 										<div class="row leftboxedcontent">
