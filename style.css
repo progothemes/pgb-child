@@ -1033,6 +1033,11 @@ footer .socialicons ul li.instagram a
 	padding: 0px 15px;
 }
 
+.woocommerce div.product
+{
+	padding-top:45px;
+}
+
 .woocommerce div.product .productaddtocart form.cart
 {
 	margin-bottom: 0px;	
