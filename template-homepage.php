@@ -113,7 +113,7 @@ get_header(); ?>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains NECTAR7 Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
