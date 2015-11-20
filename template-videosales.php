@@ -44,7 +44,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
-													<h1>Are you ready to try a product that could potentially enable you to perform the closest to 100% of your mental and physical capabilities?</h1>
+													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
 													</div>
