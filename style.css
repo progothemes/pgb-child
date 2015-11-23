@@ -1345,6 +1345,13 @@ footer .socialicons ul li.instagram a
 	mix-blend-mode: multiply;
 	margin: -0px .5em 0 .25em !important;
 }
+.woocommerce .form-row.terms label {
+    padding-top:7px;
+    display:inline-block !important;
+}
+.woocommerce .form-row.terms input {
+    vertical-align:baseline
+}
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order
 {
 	padding: 12px 20px;
