@@ -74,7 +74,7 @@ function get_woo_cart_menu() {
  */
 add_action( 'tha_header_before', 'n7_top_widget_bar' );
 function n7_top_widget_bar() { ?>
-	<div id="top-widget-bar" class="container-fluid hidden-xs hidden-sm">
+	<div id="top-widget-bar" class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<?php echo do_shortcode( '[gravityform id="3" title="false" description="true" ajax="true"]' ); ?>

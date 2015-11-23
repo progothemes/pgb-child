@@ -36,14 +36,14 @@ get_header(); ?>
 												<h1>THE POWER TO DO MORE.</h1>
 												<div class="row">
 													<div class="col-xs-12 col-sm-12 col-md-10">
-														<p>Get the power to do more with NECTAR7 NIAGEN&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+														<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="row hero-bottom">
 											<div class="col-xs-12">
-												<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science has made significant progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
+												<p>The pursuit of eternal life has long obsessed people of every class and culture.   Yet, while nothing and no one can truly promise “eternal”, science has made progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
 											</div>
 										</div>
 										<div class="row leftboxedcontent">
@@ -113,7 +113,7 @@ get_header(); ?>
 												</div>
 												<div class="row">
 													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains NECTAR7 Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
@@ -138,8 +138,8 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
-														<p>Every year, more and more breakthroughs about the NR in NECTAR7 Niagen&reg; are being made.  In 2003, there were 474 studies published; in 2013, there were 1,713.</p>
-														<p>As time goes on, more benefits of this essential compound are being revealed by science. With NECTAR7, you may live long enough to discover these benefits for yourself.</p>
+														<p>Every year, reseachers and scientists are discovering the many benefits Nicotinmide Riboside (NR) that is the core ingredient in NECTAR7 Niagen. In 2003, there were 474 published studies; in 2013, there were 1,713 and the list keeps growing.</p>
+														<p>NECTAR7 is is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
 													</div>
 												</div>
 												<div class="row">
@@ -151,9 +151,9 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<h1>NECTAR7</h1>
-														<h2>Power For More Life </h2>
-														<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of NECTAR7 Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
+														<h1>NECTAR7 Niagen</h1>
+														<h2>Power For More Life</h2>
+														<p>NECTAR7 is created to let you live it up, no matter your age.  It is an optimized form of Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
 														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
@@ -166,8 +166,8 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<h1>NECTAR7</h1>
-														<h2>Power For
+														<h1>NECTAR7 Niagen&reg; &amp; Collagen</h1>
+														<h2>Power for
 															<br/>Strength &amp; Beauty</h2>
 														<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, creates a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NECTAR7 Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
 														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">Learn More</a></p>
@@ -186,7 +186,7 @@ get_header(); ?>
 													<div class="row box-title">
 														<div class="col-xs-12">
 															<h2>Power For More Life</h2>
-															<h3>NECTAR7 Niagen&reg; (NAD + ACTIVATOR)</h3>
+															<h3>NECTAR7 Niagen&reg; (NAD+ ACTIVATOR)</h3>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; (NAD + ACTIVATOR)"/>
@@ -199,7 +199,7 @@ get_header(); ?>
 													<div class="row box-title">
 														<div class="col-xs-12">
 															<h2>Power For Strength &amp; Beauty</h2>
-															<h3>NIAGEN&reg; &amp; COLLAGEN</h3>
+															<h3>NECTAR7 Niagen&reg; &amp; Collagen</h3>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="NIAGEN&reg; & COLLAGEN"/>

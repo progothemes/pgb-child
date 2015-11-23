@@ -46,7 +46,7 @@ get_header(); ?>
 								<div class="row fleximgrow docrow">
 									<div class="col-xs-12 col-sm-7 col-md-6 textblock">
 										<p>The pursuit of eternal life has long obsessed people of every class and culture.  Yet, while nothing and no one can truly promise “eternal”, science is finally closing in on the secrets of significantly extending life, while improving health and prolonging youthful vigor.</p>
-										<p><strong>The secret is in NECTAR7 products that deliver what scientists and researchers have been searching for years to increase in the human body.</strong></p>
+										<p><strong>The secret of NECTAR7's ingredients delivers what scientists and researchers have been searching for to improve human performance at a cellular level.</strong></p>
 									</div>
 									<div class="col-xs-12 visible-xs-block">
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/science_section1.jpg" class="img-responsive aligncenter size-full  wp-image-44" />
@@ -56,9 +56,9 @@ get_header(); ?>
 									<div class="col-xs-12 col-sm-8 col-md-8">
 										<h2>How does NECTAR7 work?</h2>
 										<ol>
-											<li>NAD+ "charges" mitochondria to fire with peak energy.</li>
+											<li>NAD+ charges mitochondria to fire with peak energy.</li>
 											<li>Promotes youthful performance of mitochondria.</li>
-											<li>“Fertilize" mitochondria to proliferate efficiently throughout the body.</li>
+											<li>Improves cellular-level communication throughout the body.</li>
 										</ol>
 									</div>
 								</div>
