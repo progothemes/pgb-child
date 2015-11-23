@@ -138,7 +138,7 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
-														<p>Every year, reseachers and scientists are discovering the many benefits of Nicotinamide Riboside (NR) which is the core ingredient in NECTAR7 Niagen. In 2003, there were 474 published studies; in 2013, there were 1,713 and the list keeps growing.</p>
+														<p>Every year, reseachers and scientists are discovering the many benefits of Nicotinamide Riboside (NR) which is the core ingredient in NECTAR7 Niagen. In 2003, there were 474 published studies; in 2013, there were 1,713 and the list keeps&nbsp;growing.</p>
 														<p>NECTAR7 is is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
 													</div>
 												</div>
