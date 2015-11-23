@@ -1340,7 +1340,11 @@ footer .socialicons ul li.instagram a
 {
 	padding-left: 10px !important;
 }
-
+.payment_method_paypal { white-space: nowrap; }
+.payment_method_paypal label img {
+	mix-blend-mode: multiply;
+	margin: -0px .5em 0 .25em !important;
+}
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order
 {
 	padding: 12px 20px;
