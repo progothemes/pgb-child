@@ -46,7 +46,14 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
+														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+														<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+																<div class="wistia_embed wistia_async_33qezyzrk6 videoFoam=true" style="height:100%;width:100%">
+																	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
+																</div>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
