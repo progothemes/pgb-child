@@ -45,7 +45,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
-													<div class="videocontent">
+													<div class="videocontent" style="box-shadow: 0 3px 8px;">
 														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 														<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
 															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
