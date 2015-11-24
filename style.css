@@ -475,15 +475,15 @@ footer .socialicons ul li.instagram a
 
 .home-hero
 {
-	background: url('images/home-hero.png') 85% 0 no-repeat transparent;
-	background-size: cover;
+	background: linear-gradient(90deg, rgba(0,0,0,.44), rgba(0,0,0,0) 61.8%) 0 0 no-repeat,
+	url('images/home-hero.png') 96% top/cover no-repeat transparent;
 	min-height: 560px;
 }
 
 .home-hero .home-hero-caption
 {
 	text-align: left;
-	margin-top: 90px;
+	margin-top: 32px;
 }
 
 .home-hero .home-hero-caption h1
@@ -491,26 +491,28 @@ footer .socialicons ul li.instagram a
 	font-family: "MyriadPro";
 	font-weight: bold;
 	font-size: 98px;
-	line-height: 85px;
+	line-height: 84px;
 	color: #fff;
-	width: 80%;
+	width: 50%;
 	margin-bottom: 0px;
+	word-wrap: normal;
 }
 
 .home-hero .home-hero-caption p
 {
 	font-family: "MyriadPro";
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 24px;
 	color: #fff;
-	width: 80%;
+	width: 86.8%;
+	margin-left:3px;
 }
 
 .hero-bottom
 {
-	background: url('images/foxtail.png') right bottom no-repeat #1946ba;
+	background: url('images/foxtail.png') right 00% no-repeat #1946ba;
 	/*min-height: 246px;*/
 	padding-bottom: 45px;
 	padding-top: 45px;
@@ -520,7 +522,7 @@ footer .socialicons ul li.instagram a
 .hero-bottom p
 {
 	font-family: "MyriadPro";
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 20px;
 	font-size: 1.25em;
 	line-height: 34px;
@@ -648,7 +650,9 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 	line-height: 1.625em;
 }
-
+.leftboxedcontent.moremoremore p{
+	width: 89%;margin-left: auto; margin-right: auto;
+}
 .leftboxedcontent.howdoesitwork {
 	background: url('images/how_it_works.jpg') right top no-repeat #fff;
 }
@@ -675,7 +679,7 @@ footer .socialicons ul li.instagram a
 .leftboxedcontent.graphcontent h3 {
   color: #000;
   line-height: 1.15;
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
   text-transform: none;
 }
 .leftboxedcontent.graphcontent img.chartimage
@@ -709,6 +713,7 @@ footer .socialicons ul li.instagram a
 {
 	padding-left: 0px;
 	margin-left: 0px;	
+	margin-bottom:3em;
 }
 .leftboxedcontent.benefitscontent ul li
 {
@@ -730,47 +735,37 @@ footer .socialicons ul li.instagram a
 .leftboxedcontent.miraclecontent > div
 {
 	padding-bottom: 45px;
-	padding-top: 45px;
+	padding-top: 25px;
 }
 .leftboxedcontent.miraclecontent img
 {
-	margin-top: 25px;
+	margin-top: 15px;
+}
+.leftboxedcontent.miraclecontent .row:last-child p
+{
+	margin-top:1.5em;
 }
 
 
 .leftboxedcontent.graph2content
 {
 	background: #e1f3fc;
-	/*margin-top: 45px;*/
 	padding-top: 0px;
-	padding-bottom: 45px;
 }
-.leftboxedcontent.graph2content .bluehead
+.leftboxedcontent.graph2content h3
 {
-	background: #00b3e3;
-	color: #fff;
-	font-size: 40px;
-	line-height: 46px;
-	padding-bottom: 45px;
-	padding-top: 45px;
-}
-.leftboxedcontent.graph2content .bluehead h2
-{
-	background: #00b3e3;
-	color: #fff;
-	font-size: 40px;
-	line-height: 46px;
-	font-weight: 700;
-	text-align: center;
+	color: #000;
+	line-height: 1.15;
+	margin: 1.7em 1em .5em;
 	text-transform: none;
+}
+.leftboxedcontent.graph2content p
+{
+	margin:0 1.5em 1.5em;
 }
 .leftboxedcontent.graph2content img.chartimage
 {
 	margin: 45px auto;
-}
-.leftboxedcontent.graph2content p
-{
-	color: #1946ba;
 }
 
 
@@ -788,7 +783,10 @@ footer .socialicons ul li.instagram a
 {
 	background: url('images/foxt_up.png') right top no-repeat #1946ba;
 }
-
+.leftboxedcontent.productbox.boxnavy p
+{
+	width:90%;
+}
 .leftboxedcontent.productbox.boxblue
 {
 	background: url('images/foxt_up.png') right top no-repeat #00b3e3;
@@ -815,13 +813,14 @@ footer .socialicons ul li.instagram a
 	text-align: left;
 	text-transform: none;
 	margin-top: 5px;
+	letter-spacing:-1px;
 }
 
 .leftboxedcontent.productbox.boxblue h2
 {
 	color: #1946ba;
+	letter-spacing:-1px;
 }
-	
 .leftboxedcontent.productbox p
 {
 	color: #fff;
