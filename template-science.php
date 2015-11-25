@@ -141,7 +141,7 @@ get_header(); ?>
  										</div>	
 									</div>	
 								</div>
-								<div class="row productfaqs">
+								<div class="row textrow">
 									<div class="col-xs-12">
 										<div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
 											<div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
