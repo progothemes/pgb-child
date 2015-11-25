@@ -155,9 +155,18 @@ function n7_emptycart_redirect(){
   $cartContent = sizeof( $woocommerce->cart->get_cart() );
 
   if( is_checkout() && ( ! is_wc_endpoint_url( 'order-received' ) )&& ( $cartContent == 0 ) ) {
-    $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
-    wp_redirect( $shop_page_url ); 
-    exit;
+    $redir = true;
+    if ( function_exists('is_wcopc_checkout') ) {
+      // don't trigger this empty card redirect on one page checkout which is a checkout but hey
+      if ( is_wcopc_checkout() ) {
+        $redir = false;
+      }
+    }
+    if ( $redir ) {
+      $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
+      wp_redirect( $shop_page_url ); 
+      exit;
+    }
   }
 }
 
@@ -275,3 +284,32 @@ function nectar7_more_page_widths( $widths, $post ) {
   return $widths;
 }
 add_filter( 'pgb_page_width_options', 'nectar7_more_page_widths', 10, 2 );
+
+/**
+ * hook woocommerce_checkout_fields
+ *
+ * to change labels to placeholders (only on opc?)
+ */
+function nectar7_filter_checkout_fields( $fields ) {
+  
+  if ( function_exists('is_wcopc_checkout') ) {
+    // on OPC, change Labels to Placeholders in Billing & Shipping fields
+    if ( is_wcopc_checkout() ) {
+      $labelize = array( 'billing', 'shipping' );
+      foreach ( $labelize as $l ) {
+        if ( isset( $fields[$l] ) ) {
+          foreach ( $fields[$l] as $k => $v ) {
+            if ( isset ( $fields[$l][$k]['label'] ) ) {
+              $label = $fields[$l][$k]['label'];
+              $fields[$l][$k]['placeholder'] = $label;
+              unset( $fields[$l][$k]['label'] );
+            }
+          }
+        }
+      }
+    }
+  }
+  //wp_die('<pre>'. print_r($fields,true) .'</pre>');
+  return $fields;
+}
+add_filter( 'woocommerce_checkout_fields', 'nectar7_filter_checkout_fields' );
