@@ -2554,16 +2554,19 @@ div#science_menu.affix {
 
 .disclaimertext
 {
-	margin: 0px 0px 0px;
-	text-align: center;
+	margin: 0px 0px 15px;
+	text-align: left;
 }
 
 .disclaimertext p
 {
-	font-size: 11px;
+	font-size: 10px;
 	line-height: 13px;
-	text-align: center;
-	margin-bottom: 5px;
+	margin: 0 30px 8px;
+}
+.disclaimertext p:first-child{
+	font-size:12px;
+	letter-spacing:.3px;
 }
 
 .btn-learnmore
