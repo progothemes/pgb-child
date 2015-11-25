@@ -233,7 +233,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
                   </div>
                 </div>
 			</div>
-			<div class="row box-title testimonials">
+			<div class="row testimonials">
                 <div class="col-xs-12">
                   <h3>Happy Customers</h3>
 
