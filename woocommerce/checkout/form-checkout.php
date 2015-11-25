@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 wc_print_notices();
 
-do_action( 'woocommerce_before_checkout_form', $checkout );
+if ( !is_wcopc_checkout() ) do_action( 'woocommerce_before_checkout_form', $checkout );
 
 // If checkout registration is disabled and not logged in, the user cannot checkout
 if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_user_logged_in() ) {
@@ -31,7 +31,7 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 		
 		
 		<div class="row">
-			<div class="col-xs-12 col-sm-7 col-md-8 billingdetails">
+			<div class="col-xs-12<?php if ( !is_wcopc_checkout() ) echo ' col-sm-7 col-md-8'; ?> billingdetails">
 				<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 				<div class="col2-set" id="customer_details">
 					<div class="col-1">
@@ -43,14 +43,20 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 					</div>
 				</div>
 				<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
-				
+				<?php
+        if ( is_wcopc_checkout() ) {
+          ?><p><strong><?php _e( 'Order details', 'woocommerce' ); ?></strong></p><?php
+        } else { ?>
 				<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
-				<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
+				<?php
+        }
+        do_action( 'woocommerce_checkout_before_order_review' ); ?>
 					<div id="order_review" class="woocommerce-checkout-review-order">
 						<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 					</div>
 				<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
 			</div>
+      <?php if ( !is_wcopc_checkout() ) { ?>
 			<div class="col-xs-12 col-sm-5 col-md-4 testimonials" style="margin-top: 15px;">
 				<h3>Happy Customers</h3>
 				<blockquote>
@@ -65,6 +71,7 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->g
 					<footer>Patty S., Ohio</footer>
 				</blockquote>
 			</div>
+      <?php } ?>
 		</div>
 		
 
