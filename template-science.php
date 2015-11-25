@@ -78,7 +78,7 @@ get_header(); ?>
 									<div class="col-xs-12 col-sm-12 col-md-12">
 										<h2>NECTAR7 Niagen&reg; taken daily can increase<br/> 
 											youthful aging by increasing NAD+ levels</h2>
-										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/newsciencechart.png" class="img-responsive"/>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/newsciencechart.gif" class="img-responsive"/>
 									</div>
 								</div>
 								<div class="row textrow textmito">
