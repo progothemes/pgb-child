@@ -229,3 +229,33 @@ function nectar7_filter_order_notes( $ret ) {
   return $ret;
 }
 add_filter('woocommerce_enable_order_notes_field', 'nectar7_filter_order_notes');
+
+/**
+ * hook body_class
+ *
+ * come get some
+ */
+function nectar7_body_classes( $classes ) {
+  if ( is_page('order-niagen') ) {
+    $classes[] = 'opc';
+    $classes[] = 'unpad';
+  }
+  
+  return $classes;
+}
+add_filter( 'body_class', 'nectar7_body_classes' );
+
+/**
+ * hook woocommerce_cart_shipping_method_full_label
+ *
+ * change Free Shipping to -0.00- or something
+ */
+function nectar7_filter_shipping_label( $label, $method ) {
+  if ( $method->id == 'free_shipping' ) {
+    if ( is_wcopc_checkout() ) {
+      $label = '<s>$00.00</s>';
+    }
+  }
+  return $label;
+}
+add_filter('woocommerce_cart_shipping_method_full_label', 'nectar7_filter_shipping_label', 10, 2);

@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+<p><strong>Product Options</strong></p>
 <ul id="checkout-products">
 	<?php foreach( $products as $product ) : ?>
 	<li class="product-item <?php if ( $product->in_cart ) echo 'selected'; ?>" >

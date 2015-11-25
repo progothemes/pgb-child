@@ -874,7 +874,9 @@ footer .socialicons ul li.instagram a
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
-	
+body.unpad .main-content .entry-content {
+  padding: 0 15px !important;
+}	
 .main-content .entry-content.main-entry-content
 {
 	padding-top: 0px;
