@@ -73,7 +73,10 @@ function get_woo_cart_menu() {
  *
  */
 add_action( 'tha_header_before', 'n7_top_widget_bar' );
-function n7_top_widget_bar() { ?>
+function n7_top_widget_bar() {
+  // #todo : make this dynamic checkbox on pages meta?
+  if ( !is_page(array( 'opc-test', 'order-niagen' ) ) ) {
+  ?>
 	<div id="top-widget-bar" class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -81,7 +84,9 @@ function n7_top_widget_bar() { ?>
 			</div>
 		</div>
 	</div>
-<?php }
+<?php
+  }
+}
 
 //remove_filter( 'the_content', 'wpautop' );
 
@@ -209,3 +214,18 @@ function hide_shipping_when_free_is_available( $rates, $package ) {
 	
 	return $rates;
 }
+
+/**
+ * hook to woocommerce_enable_order_notes_field filter
+ *
+ * to hide notes on opc
+ */
+function nectar7_filter_order_notes( $ret ) {
+  if ( function_exists( 'is_wcopc_checkout' ) ) {
+    if ( is_wcopc_checkout() ) {
+      $ret = false;
+    }
+  }
+  return $ret;
+}
+add_filter('woocommerce_enable_order_notes_field', 'nectar7_filter_order_notes');
