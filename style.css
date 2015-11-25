@@ -874,7 +874,9 @@ footer .socialicons ul li.instagram a
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
-	
+body.unpad .main-content .entry-content {
+  padding: 0 15px !important;
+}	
 .main-content .entry-content.main-entry-content
 {
 	padding-top: 0px;
@@ -1920,7 +1922,7 @@ footer .socialicons ul li.instagram a
 .aboutuspage .aboutushero.about1
 {
 	color: #fff;
-	background: url('images/about_bg.jpg') center center no-repeat #1946ba;
+	background: url('images/about_bg.jpg') center/cover no-repeat #1946ba;
 	min-height: 538px;
 }
 
@@ -1940,9 +1942,10 @@ footer .socialicons ul li.instagram a
 .aboutuspage .aboutushero.about2
 {
 	color: #fff  !important;
-	background: url('images/about-busy-team.jpg') center top/cover no-repeat #111E90;
-	background-blend-mode: luminosity;
+	background: linear-gradient(to bottom, #111E90, rgba(17, 30, 144,0)), url('images/about-busy-team.jpg') center bottom/cover no-repeat #1946ba;
+	background-blend-mode: normal,luminosity;
 	min-height: 607px;
+	text-shadow: 0 1px 5px #1946ba;
 }
 
 .aboutuspage .aboutushero.about2 .herocaption
@@ -1997,8 +2000,9 @@ footer .socialicons ul li.instagram a
 .aboutuspage .aboutmission
 {
 	color: #000;
-	background: url('images/about-victory-sunset.jpg') 50% 0 no-repeat #FFF;
-	min-height: 680px;	
+	background: ,linear-gradient(to bottom, rgb(223, 223, 185), rgba(223, 223, 185,0) ), url('images/about-victory-sunset.jpg') center/cover no-repeat #FFF;
+	min-height: 680px;
+	text-shadow: 0 1px 3px rgb(223, 223, 185);
 }
 
 .aboutuspage .aboutmission p
@@ -2008,6 +2012,8 @@ footer .socialicons ul li.instagram a
 	font-family: "MyriadPro";
 	font-weight: 300;
 	color: #000;
+/* 	background: rgba(255,255,234,.5); */
+	padding:.5em;
 }
 
 .main-content > .container .aboutmission [class*="col-"], .main-content .aboutmission [class*="col-"] {
@@ -2891,12 +2897,16 @@ div#science_menu.affix {
 		background: #1946ba;
 	}	
 	
-	.alternatecols .eachCol, .aboutuspage .aboutushero
+	.alternatecols .eachCol,
+	.aboutuspage .aboutushero,
+	.aboutuspage .aboutmission
 	{
 		height: auto !important;
 		min-height: 100px !important;
-	}	
+	}
 	
+	.aboutuspage .aboutmission{ padding-bottom:50%; }
+
 	.aboutuspage .aboutushero.about1 .herocaption, .aboutuspage .aboutushero.about2 .herocaption
 	{
 		margin-top: 45px;
