@@ -259,3 +259,19 @@ function nectar7_filter_shipping_label( $label, $method ) {
   return $label;
 }
 add_filter('woocommerce_cart_shipping_method_full_label', 'nectar7_filter_shipping_label', 10, 2);
+
+/**
+ * hook to pgb_page_width
+ *
+ * filter to add more option(s)
+ */
+function nectar7_more_page_widths( $widths, $post ) {
+  // pop 960 off so order is ok maybe?
+  unset( $widths['960px'] );
+  // add 1020
+  $widths['1020px'] = '1020px';
+  // add 960 back
+  $widths['960px'] = '960px';
+  return $widths;
+}
+add_filter( 'pgb_page_width_options', 'nectar7_more_page_widths', 10, 2 );
