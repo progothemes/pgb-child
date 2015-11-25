@@ -1939,8 +1939,9 @@ footer .socialicons ul li.instagram a
 
 .aboutuspage .aboutushero.about2
 {
-	color: #000  !important;
-	background: url('images/about-busy-team.jpg') center top/cover no-repeat #FFF;
+	color: #fff  !important;
+	background: url('images/about-busy-team.jpg') center top/cover no-repeat #111E90;
+	background-blend-mode: luminosity;
 	min-height: 607px;
 }
 
