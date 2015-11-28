@@ -277,6 +277,15 @@ $cart_url = $woocommerce->cart->get_cart_url();
                 <div class="row">
                 <div class="col-xs-12">
                   <blockquote>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>" class="img-responsive testimonial-image" />
+                    <p><iframe src='https://secure.boast.io/site/kudos/NECTAR7' frameBorder='0' style='width:100%;height:1400px;' id='submit_kudo'></iframe><br /><a href='http://boast.io/' style='font-family:Arial;font-size:10px;color:#BABABA' target='_blank'>Testimonials collected with Boast</a></p>
+                    <footer></footer>
+                  </blockquote>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
                     <p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
                     <footer>Sean F,. Encinitas, CA</footer>
