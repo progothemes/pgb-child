@@ -4066,6 +4066,14 @@ div.wcopc div.col-xs-12.billingdetails {
 	padding-left: 20px;
 }
 
+div#payment div.payment_box.payment_method_authorize_net_cim_credit_card {
+	background-color: inherit;
+}
+
+.woocommerce-checkout #payment div.payment_box:before {
+	display: none;
+}
+
 @media (max-width: 950px) {
 	/*
 	 * Dark 
