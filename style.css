@@ -4038,6 +4038,11 @@ End young
 	background: #2a5ee4;
 	color: #fff;
 }
+
+.woocommerce .wcopc form .form-row-first, .woocommerce .wcopc form .form-row-last, .woocommerce-page .wcopc form .form-row-first, .woocommerce-page .wcopc form .form-row-last {
+	width: 100%;
+}
+
 @media (max-width: 950px) {
 	/*
 	 * Dark 
