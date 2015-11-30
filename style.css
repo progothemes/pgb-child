@@ -2988,7 +2988,11 @@ r- reset
 	max-width: 1080px;
 	background: #fff;
 }
-
+.g-container h1,
+.g-container h2 {
+  font-weight: normal;
+  text-transform: none;
+}
 .g-clear_fix{
     clear: both;
 }
