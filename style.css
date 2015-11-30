@@ -3416,7 +3416,7 @@ Nad
 	width: 100%;
 	max-width: 595px;
 }
-.b-nad .b-nad_graf p {
+.b-nad .b-nad_graf .txt {
 	position: absolute;
 	width: 240px;
 	font-size: 32px;
