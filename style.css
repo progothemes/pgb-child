@@ -4061,6 +4061,11 @@ div#opc-product-selection p {
 div.wpb_wrapper h4 {
 	text-align: center;
 }
+
+div.wcopc div.col-xs-12.billingdetails {
+	padding-left: 20px;
+}
+
 @media (max-width: 950px) {
 	/*
 	 * Dark 
