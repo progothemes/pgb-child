@@ -4078,6 +4078,10 @@ div.b-bottles p.product.woocommerce.add_to_cart_inline {
 	display: none;
 }
 
+div.b-bottle_link .cardseal.img-responsive{
+	margin: 0 auto;
+}
+
 @media (max-width: 950px) {
 	/*
 	 * Dark 
