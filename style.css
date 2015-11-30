@@ -4049,8 +4049,9 @@ End young
 	height: 35px;
 }
 
-div #opc-product-selection li .product-item {
+div#opc-product-selection ul#checkout-products {
 	list-style: none;
+	padding-left: 0;
 }
 
 @media (max-width: 950px) {
