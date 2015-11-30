@@ -4039,8 +4039,18 @@ End young
 	color: #fff;
 }
 
+/*updating styles for one page check out*/
+
 .woocommerce .wcopc form .form-row-first, .woocommerce .wcopc form .form-row-last, .woocommerce-page .wcopc form .form-row-first, .woocommerce-page .wcopc form .form-row-last {
 	width: 100%;
+}
+
+.woocommerce .wcopc form .form-row input.input-text{
+	height: 35px;
+}
+
+div #opc-product-selection li .product-item {
+	list-style: none;
 }
 
 @media (max-width: 950px) {
