@@ -2989,7 +2989,9 @@ r- reset
 	background: #fff;
 }
 .g-container h1,
-.g-container h2 {
+.g-container h2,
+.g-container h3 {
+  color: #333;
   font-weight: normal;
   text-transform: none;
 }
@@ -3077,7 +3079,7 @@ TRUCK
     margin: 76px 10% 0 0;
     max-width: 430px;
 }
-.b-truck article h1 {
+.g-container .b-truck article h1 {
 	color: #00b3e3;
     font-size: 39px;
     line-height: 42px;
@@ -3121,7 +3123,7 @@ LEG
 .b-leg article h2 strong {
 	color: #1946ba;
 }
-.b-leg article h3 {
+.g-container .b-leg article h3 {
 	color: #1946ba;
     float: left;
     font-size: 26px;
@@ -3401,7 +3403,7 @@ Nad
 .b-nad_losing {
 	margin-top: 54px;
 }
-.b-nad_losing h3 {
+.g-container .b-nad_losing h3 {
 	color: #1946ba;
     font-size: 40px;
     font-weight: bold;
@@ -3578,7 +3580,7 @@ Press
     padding: 30px 36px 37px;
 	margin: 0 0 28px 0;
 }
-.b-press article section h2 {
+.g-container .b-press article section h2 {
 	color: #1424a6;
     font-size: 26px;
     font-weight: bold;
@@ -3631,7 +3633,7 @@ Stuned
 	background: #111e90;
 	padding: 56px 0 64px;
 }
-.b-stunned h2 {
+.g-container .b-stunned h2 {
 	color: #fff;
 	margin-bottom: 12px;
 }
@@ -3727,7 +3729,7 @@ Doctor Discover
     padding: 47px 4%;
 	border: 2px solid #1946ba;
 }
-.b-inst h2 {
+.g-container .b-inst h2 {
 	color: #1946ba;
     font-size: 43px;
     line-height: 1.1;
@@ -3853,8 +3855,6 @@ End young
 .b-another .l-base_styles p{
 	margin: 0 0 10px 0;
 }
-.b-another h2 {
-}
 
 .b-yourself {
 	float: left;
@@ -3867,7 +3867,7 @@ End young
 .b-yourself .l-base_styles p{
 	margin: 0 0 20px;
 }
-.b-yourself h2 {
+.g-container .b-yourself h2 {
 	color: #1946ba;
 }
 
