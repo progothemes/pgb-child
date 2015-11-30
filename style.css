@@ -4054,6 +4054,10 @@ div#opc-product-selection ul#checkout-products {
 	padding-left: 0;
 }
 
+div#opc-product-selection p {
+	border-bottom: 1px solid #ccc;
+}
+
 @media (max-width: 950px) {
 	/*
 	 * Dark 
