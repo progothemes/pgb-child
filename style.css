@@ -4058,6 +4058,9 @@ div#opc-product-selection p {
 	border-bottom: 1px solid #ccc;
 }
 
+div.wpb_wrapper h4 {
+	text-align: center;
+}
 @media (max-width: 950px) {
 	/*
 	 * Dark 
