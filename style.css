@@ -4058,6 +4058,7 @@ div#opc-product-selection p {
 	border-bottom: 1px solid #ccc;
 }
 
+/*added specificity to target only the 3 bottle title*/
 div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
 }
@@ -4089,6 +4090,14 @@ div.b-bottle_link input.input-text.qty.text {
 div.b-bottle_link button.btn.btn-primary {
 	margin-bottom: 15px;
 	width: 80%;
+}
+
+#opc-messages {
+	display: none;
+}
+
+div.woocommerce-checkout-payment {
+	background-color: inherit;
 }
 
 @media (max-width: 950px) {
