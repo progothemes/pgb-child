@@ -4058,7 +4058,7 @@ div#opc-product-selection p {
 	border-bottom: 1px solid #ccc;
 }
 
-div.wpb_wrapper h4 {
+div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
 }
 
