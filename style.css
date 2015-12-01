@@ -2000,7 +2000,7 @@ body.unpad .main-content .entry-content {
 .aboutuspage .aboutmission
 {
 	color: #000;
-	background: ,linear-gradient(to bottom, rgb(223, 223, 185), rgba(223, 223, 185,0) ), url('images/about-victory-sunset.jpg') center/cover no-repeat #FFF;
+	background: linear-gradient(to bottom, rgb(223, 223, 185), rgba(223, 223, 185,0) ), url('images/about-victory-sunset.jpg') center/cover no-repeat #FFF;
 	min-height: 680px;
 	text-shadow: 0 1px 3px rgb(223, 223, 185);
 }
