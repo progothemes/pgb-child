@@ -4059,9 +4059,9 @@ div#opc-product-selection p {
 }
 
 /*added specificity to target only the 3 bottle title*/
-div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
+/*div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
-}
+}*/
 
 div.wcopc div.col-xs-12.billingdetails {
 	padding-left: 20px;
