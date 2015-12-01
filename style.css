@@ -4059,7 +4059,7 @@ div#opc-product-selection p {
 }
 
 /*added specificity to target only the 3 bottle title*/
-div.wpb_text_column.wpb_content_element div.wpb_wrapper h4:first-of-type {
+div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
 }
 
