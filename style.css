@@ -4096,9 +4096,9 @@ div.b-bottle_link button.btn.btn-primary {
 	display: none;
 }
 
-/*.woocommerce-checkout #payment {
+.woocommerce-checkout #payment {
 	background-color: inherit;
-}*/
+}
 
 
 
