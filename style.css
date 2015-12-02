@@ -4104,6 +4104,10 @@ div.b-bottle_link button.btn.btn-primary {
 	background-color: inherit;
 }
 
+input#place_order {
+	width: 100%;
+}
+
 
 
 @media (max-width: 950px) {
