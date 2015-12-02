@@ -4108,7 +4108,7 @@ div.b-bottle_link button.btn.btn-primary {
 	display: none;
 }*/
 
-.col-xs-12.billingdetails .opc-messages .woocommerce-message {
+.col-xs-12.billingdetails #opc-messages .woocommerce-message {
 	display: none;
 }
 
