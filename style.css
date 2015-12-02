@@ -4092,9 +4092,9 @@ div.b-bottle_link button.btn.btn-primary {
 	width: 80%;
 }
 
-#opc-messages {
+/*#opc-messages {
 	display: none;
-}
+}*/
 
 .woocommerce-checkout #payment {
 	background-color: inherit;
