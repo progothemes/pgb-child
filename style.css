@@ -4059,13 +4059,15 @@ div#opc-product-selection p {
 }
 
 /*added specificity to target only the 3 bottle title*/
-/*div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
-	text-align: center;
-}*/
-
-#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .vc_message_box>p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
 }
+
+.wpb_column.vc_column_container.vc_col-sm-12.vc_custom_1448471684658 {
+	text-align: left;
+}
+
+
 
 div.wcopc div.col-xs-12.billingdetails {
 	padding-left: 20px;
