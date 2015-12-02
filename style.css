@@ -4103,9 +4103,14 @@ div.b-bottle_link button.btn.btn-primary {
 	width: 80%;
 }
 
+/*did not work. wasn't specific enough*/
 /*#opc-messages {
 	display: none;
 }*/
+
+.col-xs-12.billingdetails .opc-messages .woocommerce-message {
+	display: none;
+}
 
 #payment_method_authorize_net_cim_credit_card {
 	display: none;
