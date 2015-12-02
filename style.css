@@ -4096,6 +4096,10 @@ div.b-bottle_link button.btn.btn-primary {
 	display: none;
 }*/
 
+#payment_method_authorize_net_cim_credit_card {
+	display: none;
+}
+
 .woocommerce-checkout #payment {
 	background-color: inherit;
 }
