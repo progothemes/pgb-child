@@ -4104,7 +4104,7 @@ div.b-bottle_link button.btn.btn-primary {
 	background-color: inherit;
 }
 
-#place_order {
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
 	width: 100%;
 }
 
