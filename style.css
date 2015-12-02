@@ -4058,7 +4058,9 @@ div#opc-product-selection p {
 	border-bottom: 1px solid #ccc;
 }
 
-/*added specificity to target only the 3 bottle title*/
+/*
+the following two rules should be KEPT IN THIS ORDER, or else the universe will implode
+*/
 div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
 	text-align: center;
 }
