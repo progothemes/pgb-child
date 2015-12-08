@@ -2254,6 +2254,7 @@ body.unpad .main-content .entry-content {
 {
 	margin: 0px;
 	padding: 0px;
+	word-wrap: normal;
 }
 
 .sc_sidebar ul li
