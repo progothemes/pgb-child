@@ -207,7 +207,10 @@ get_header(); ?>
 													<div class="col-xs-12 col-md-12">
 														<h3>Happy Customers</h3>
 													</div>
-													<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=vertical_cards&social_sharing=false' type='text/javascript'></script>
+													<div class="col-xs-12">
+													<style type="text/css">.kudos-site-credit{ display:none !important;}</style>
+														<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=vertical_cards&social_sharing=false' type='text/javascript'></script>
+													</div>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
