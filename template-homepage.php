@@ -207,6 +207,7 @@ get_header(); ?>
 													<div class="col-xs-12 col-md-12">
 														<h3>Happy Customers</h3>
 													</div>
+													<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=vertical_cards&social_sharing=false' type='text/javascript'></script>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
@@ -227,6 +228,10 @@ get_header(); ?>
 															<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
 															<footer>Sean F,. Encinitas, CA</footer>
 														</blockquote>
+													</div>
+													<div class="col-xs-12">
+													    <h4>See <a href="/happycustomers/">all the testimonials</a></h4>
+													    <a href="http://nectar7.nlkdev.net/nectar7-niagen/" class="btn btn-primary">Share Your Story</a>
 													</div>
 												</div>
 											</div>
