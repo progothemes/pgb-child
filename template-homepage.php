@@ -209,7 +209,7 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12">
 													<style type="text/css">.kudos-site-credit{ display:none !important;}</style>
-														<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=vertical_cards&social_sharing=false' type='text/javascript'></script>
+														<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=classic&social_sharing=false' type='text/javascript'></script>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
@@ -234,7 +234,7 @@ get_header(); ?>
 													</div>
 													<div class="col-xs-12">
 													    <h4>See <a href="/happycustomers/">all the testimonials</a></h4>
-													    <a href="http://nectar7.nlkdev.net/nectar7-niagen/" class="btn btn-primary">Share Your Story</a>
+													    <a href="/happycustomers/#submit_kudo" class="btn btn-primary">Share Your Story</a>
 													</div>
 												</div>
 											</div>
