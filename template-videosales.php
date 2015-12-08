@@ -245,27 +245,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 			<div class="row testimonials">
                 <div class="col-xs-12">
                   <h3>Happy Customers</h3>
-
-                <div class="row">
-                <div class="col-xs-12">
-                  <blockquote>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/mark.jpg" class="img-responsive testimonial-image" />
-                    <p>After a number of doctor and dermatology visits, Mark had reached the end of his patience in searching for a cure to his worsening health. To make matters worse he faced a growing autoimmune disorder that seemed to evade diagnosis or, as he felt, "Doctors were not helping me with my growing concerns, weakened state or the condition of my physical body."</p>
-                    <p><a href="<?php echo get_bloginfo('url'); ?>/marks-story/">Read more of Mark's story</a></p>
-                    <footer>Mark M. San Diego, CA</footer>
-                  </blockquote>
                 </div>
-                </div>
-                <div class="row">
-                <div class="col-xs-12">
-                  <blockquote>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/patty.jpg" class="img-responsive testimonial-image" />
-                    <p>I am a successful business woman running multiple global businesses as well as balancing a hectic schedule with two successful busy children. I travel with my daughter and son for sports weekly. I have also suffered from medical issues in the past year. I have had multiple episodes of blood clots. Since taking Niagen&reg; I have lost weight and become much more mobile with allows and aides in my recovery and helps me prevent immobility which wards off the blood clots. I also sleep soundly and have noticed a much more youthful look. Everyone who has not seen me since taking Niagen&reg; continues to ask what I'm doing because I look and feel so different from the last encounter they have had with me. Niagen&reg; has given me my life and youth back.</p>
-                    <footer>Patty S., Ohio</footer>
-                  </blockquote>
-                </div>
-                </div>
-                <div class="row">
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
@@ -273,8 +253,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     <footer>Jeromy S., Del Mar, CA</footer>
                   </blockquote>
                 </div>
-                </div>
-                <div class="row">
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
@@ -282,8 +260,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     <footer>Wanda R., Dallas, TX</footer>
                   </blockquote>
                 </div>
-                </div>
-                <div class="row">
                 <div class="col-xs-12">
                   <blockquote>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
@@ -291,8 +267,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     <footer>Sean F,. Encinitas, CA</footer>
                   </blockquote>
                 </div>
-                </div>
-              </div>
             </div>
 
                 <div class="row productfaqs">
