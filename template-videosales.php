@@ -132,11 +132,31 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 									</div>
 								</div>
-                <div class="row pdesc">
-                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                    <p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
-                  </div>
-                </div>
+								<div class="row pbenefits">
+									<div class="col-xs-12 col-sm-12 text-center">
+										<h4>Product Benefits</h4>
+									</div>
+									<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon1.png" alt=""><br>
+										<figcaption>
+											<strong>Boost Energy*</strong>
+											NAD+ “charges” mitochondria to fire with peak energy.<br>
+										</figcaption>
+									</figure>
+									<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon2.png" alt=""><br>
+										<figcaption><strong>Rejuvenate*</strong>
+											Healthier, younger and glowing skin, hair and nails.<br>
+										</figcaption>
+									</figure>
+									<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon3.png" alt=""><br>
+										<figcaption><strong>Improve Health*</strong>Provide your body with a boost of NAD+ and feel great.<br>
+										</figcaption>
+									</figure>
+								</div>
+								<div class="row pdesc">
+									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+										<p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
+									</div>
+								</div>
 								<div class="row heroproduct">
 									<div class="col-xs-12">
 										<div class="row pad30">
