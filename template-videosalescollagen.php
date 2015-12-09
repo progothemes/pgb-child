@@ -161,7 +161,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 															<h4>Servings Per Container: <strong>30</strong></h4>
 															<h4>Amount Per Serving: <strong>% Daily Value*</strong></h4>
 															<h3>Nicotinamide Riboside (as Niagen&reg;) 100 mg</h3>
-															<h3 class="notopborder">Hydrolyzed Fish Collagen 100 mg</h3>
+															<h3 class="notopborder">Hydrolyzed Fish Collagen 1000 mg</h3>
 															<h3 class="noborder">Hyaluronic Acid 50 mg</h3>
 															<h3 class="bordertopblk">*% Daily Value not established</h3>
 															<h3 class="noborder">Other Ingredients:</h3>
