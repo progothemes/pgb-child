@@ -629,6 +629,7 @@ footer .socialicons ul li.instagram a
 .testimonials blockquote {
 	border-left: none;
 	margin-bottom: 40px;
+	padding-left:0;
 }
 .testimonials blockquote img {
 	border: 4px solid #00b3e3;
