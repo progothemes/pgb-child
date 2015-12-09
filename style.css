@@ -1381,6 +1381,12 @@ body.unpad .main-content .entry-content {
 	}
 }
 */
+/* Video sales pages */
+.page-template-template-videosalescollagen #top-widget-bar,
+page-template-template-videosales #top-widget-bar
+{
+	display:none;
+}
 
 /* Video banner */
 
