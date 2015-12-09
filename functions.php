@@ -245,7 +245,7 @@ add_filter('woocommerce_enable_order_notes_field', 'nectar7_filter_order_notes')
  * come get some
  */
 function nectar7_body_classes( $classes ) {
-  if ( is_page('order-niagen', 'order-niagen-46') ) {
+  if ( is_page( array( 'order-niagen', 'order-niagen-46' ) ) ) {
     $classes[] = 'opc';
     $classes[] = 'unpad';
   }
