@@ -233,6 +233,19 @@ get_header(); ?>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
+														<blockquote>
+															<p>NECTAR7 with NAD+ really works!  After only a few days of taking the product, I feel I now have more energy and can concentrate better.   I seem to have an easier time remembering things and doing other mental activities like solving puzzles. This is definitely a breakthrough product which will help people from across the world lead better and more productive lives!</p>
+															<footer>Nes E., Atlanta, Georgia</footer>
+														</blockquote>
+													</div>
+													<div class="col-xs-12">
+														<blockquote>
+															<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure Niagen would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
+															<p>I don't know what I would do without this product now. It has truly changed my life!</p>
+															<footer>Craig C., Cleveland, OH</footer>
+														</blockquote>
+													</div>
+													<div class="col-xs-12">
 													    <h4>See <a href="/happycustomers/">all the testimonials</a></h4>
 													    <a href="/happycustomers/#submit_kudo" class="btn btn-primary">Share Your Story</a>
 													</div>
