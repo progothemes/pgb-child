@@ -754,13 +754,12 @@ footer .socialicons ul li.instagram a
 .leftboxedcontent.graph2content
 {
 	background: #e1f3fc;
-	padding-top: 0px;
 }
-.leftboxedcontent.graph2content h3
+.leftboxedcontent.graph2content h4
 {
-	color: #000;
+	color: #1946BA;
 	line-height: 1.15;
-	margin: 1.7em 1em .5em;
+	margin: 1.2em 1em .5em;
 	text-transform: none;
 }
 .leftboxedcontent.graph2content p

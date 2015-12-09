@@ -122,7 +122,7 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h3>In a recent human study, a single dose of NECTAR7 Niagen&reg;, increased NAD+ by 30%</h3>
+														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
 														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
                             							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
 													</div>
