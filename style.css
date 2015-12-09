@@ -3860,6 +3860,11 @@ End young
 	width: 100%;
 	margin: 54px 0 0px;
 }
+.b-opinions .testimonials blockquote img{
+	float:right;
+	margin-left:20px;
+	margin-right:0;
+}
 
 .b-another {
 	float: left;
