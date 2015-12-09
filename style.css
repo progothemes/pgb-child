@@ -3293,7 +3293,7 @@ Cells
 .b-cells {
 	float: left;
 	width: 100%;
-	background: url('images/cells_bg.jpg') no-repeat;
+	background: url('images/cells_bg.jpg') 0 1px no-repeat;
 	min-height: 968px;
 }
 .b-cells article {
