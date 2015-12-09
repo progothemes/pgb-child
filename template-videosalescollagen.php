@@ -44,13 +44,20 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
 													<h4>NECTAR7 Niagen&reg; &amp; Collagen gives you the power &amp; beauty to do more.</h4>
-                        </div>
-                      </div>
+												</div>
+											</div>
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
 													<div class="videocontent">
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="Niagen&reg; &amp; COLLAGEN" width="640" height="360" />
+														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;">
+															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+																<div class="wistia_embed wistia_async_k0xyl7hynd videoFoam=true" style="height:100%;width:100%">
+																	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_collagen_img.jpg" alt="Niagen&reg; &amp; COLLAGEN" width="640" height="360" />
+																</div>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
