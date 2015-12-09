@@ -2958,7 +2958,7 @@ div#science_menu.affix {
 	}
 	.sc_sidebar ul li a{
 		margin-left: auto;
-	{
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -4272,7 +4272,7 @@ div.b-bottle_link button.btn.btn-primary {
 	
 }
 @media (max-width: 550px) {
-	.b-header_content header, {
+	.b-header_content header {
 		font-size: 40px;
 		line-height: 1.2;
 	}
