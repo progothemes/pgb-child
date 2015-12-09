@@ -215,21 +215,21 @@ get_header(); ?>
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
 															<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
-															<footer>Jeromy S., Del Mar, CA</footer>
+															<footer>Jeromy S.</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
 															<p>I have been taking NECTAR7 Niagen&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
-															<footer>Wanda R., Dallas, TX</footer>
+															<footer>Wanda R.</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
 															<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
-															<footer>Sean F,. Encinitas, CA</footer>
+															<footer>Sean F</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
