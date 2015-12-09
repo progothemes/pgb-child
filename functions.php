@@ -75,7 +75,7 @@ function get_woo_cart_menu() {
 add_action( 'tha_header_before', 'n7_top_widget_bar' );
 function n7_top_widget_bar() {
   // #todo : make this dynamic checkbox on pages meta?
-  if ( !is_page(array( 'opc-test', 'order-niagen', 'why-nectar7' ) ) ) {
+  if ( !is_page(array( 'opc-test', 'order-niagen', 'order-niagen-46', 'why-nectar7' ) ) ) {
   ?>
 	<div id="top-widget-bar" class="container-fluid">
 		<div class="row">
@@ -245,7 +245,7 @@ add_filter('woocommerce_enable_order_notes_field', 'nectar7_filter_order_notes')
  * come get some
  */
 function nectar7_body_classes( $classes ) {
-  if ( is_page('order-niagen') ) {
+  if ( is_page( array( 'order-niagen', 'order-niagen-46' ) ) ) {
     $classes[] = 'opc';
     $classes[] = 'unpad';
   }
