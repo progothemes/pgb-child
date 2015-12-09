@@ -1530,6 +1530,21 @@ page-template-template-videosales #top-widget-bar
 .videosalespage .pdesc {
   padding: 4em 0;
 }
+.videosalespage .pbenefits{
+    background:#e1f3fc;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.videosalespage .pbenefits figure{
+    margin-top:20px;
+}
+.videosalespage .pbenefits figcaption{
+    margin-top:10px;
+}
+.videosalespage .pbenefits figcaption strong {
+   display:block;
+   text-transform:uppercase;
+}
 .videosalespage .productfaqs {
   padding: 3em 0;
 }
