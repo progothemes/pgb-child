@@ -3032,6 +3032,7 @@ Header
 	text-transform: uppercase;
 	line-height: 65px;
 	max-width: 478px;
+	background-color:transparent;
 }
 .b-header_content header span {
 	font-weight: bold;
