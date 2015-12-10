@@ -1558,6 +1558,9 @@ page-template-template-videosales #top-widget-bar
 {
 	background: url('images/fox_tail_3c.png') 0 0 no-repeat #00B3E3;	
 }
+.videosalespage .powerandbeauty{
+	background: linear-gradient(to bottom, rgb(218, 218, 218), #A7A7A7 ), #A7A7A7;
+}
 
 .videosalespage .heroproduct .productthumbcon
 {

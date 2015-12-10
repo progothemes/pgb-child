@@ -185,7 +185,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										</div>
 									</div>
 								</div>
-								<div class="row">
+								<div class="row powerandbeauty">
 									<div class="col-md-12 col-sm-12 col-xs-12 leftmaincontent">
 										<div class="row leftboxedcontent">
 											<div class="col-md-12 text-center">
@@ -198,7 +198,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													</div>
 												</div>
 												<div class="row">
-													<img src="/wp-content/uploads/2015/12/collagen-face-shot.jpg" alt="DNA graphic" width="1280" height="524" class="img-responsive aligncenter size-full wp-image-44" />
+													<img src="/wp-content/uploads/2015/12/collagen-face-shot.png" alt="DNA graphic" width="1280" height="524" class="img-responsive aligncenter size-full wp-image-44" />
 												</div>
 											</div>
 										</div>
