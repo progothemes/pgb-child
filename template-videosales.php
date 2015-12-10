@@ -278,7 +278,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
                   <h3>Happy Customers</h3>
                 </div>
                 <div class="col-xs-12">
-				<style type="text/css">.kudos-site-credit{ display:none !important;}</style>
 					<script src='https://secure.boast.io/kudos/display_js?guid=7196447e-93bf-11e5-8aeb-f23c916e1512&tags=feature&limit=&order=created_at&widget=classic&social_sharing=false' type='text/javascript'></script>
 				</div>
                 <div class="col-xs-12">

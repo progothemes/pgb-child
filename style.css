@@ -469,6 +469,9 @@ footer .socialicons ul li.instagram a
 {
 	text-transform: none;	
 }
+/* Boast.io related */
+.kudos.kudos_classic{margin-bottom: 40px;}
+.kudos-site-credit{display:none !important;}
 
 /* Home page */
 .border-bottom
