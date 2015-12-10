@@ -49,7 +49,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
-													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width: 736px;">
+													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width: 736px; max-height:414px;">
 														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;">
 															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
