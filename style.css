@@ -1527,9 +1527,6 @@ page-template-template-videosales #top-widget-bar
 .videosalespage .actiontape img {
 	margin-top: -14px;
 }
-.videosalespage .pdesc {
-  padding: 4em 0;
-}
 .videosalespage .pbenefits{
     background:#e1f3fc;
     padding-top:40px;
@@ -1544,6 +1541,20 @@ page-template-template-videosales #top-widget-bar
 .videosalespage .pbenefits figcaption strong {
    display:block;
    text-transform:uppercase;
+}
+.videosalespage .pdesc {
+  padding: 4em 0;
+}
+.videosalespage .pdesc p{ /*this could cause trouble with content changes*/
+    margin-bottom:30px;
+}
+.videosalespage .pdesc ul.row {
+    clear:both;
+    text-align: left;
+}
+.videosalespage .pdesc ul li{
+    padding-left:0 !important;
+    list-style:none;
 }
 .videosalespage .productfaqs {
   padding: 3em 0;
