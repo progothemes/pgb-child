@@ -198,7 +198,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													</div>
 												</div>
 												<div class="row">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/video_sales_banner_bottom.jpg" alt="DNA graphic" width="1280" height="524" class="img-responsive aligncenter size-full wp-image-44" />
+													<img src="/wp-content/uploads/2015/12/collagen-face-shot.jpg" alt="DNA graphic" width="1280" height="524" class="img-responsive aligncenter size-full wp-image-44" />
 												</div>
 											</div>
 										</div>
