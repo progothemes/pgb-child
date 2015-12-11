@@ -73,7 +73,10 @@ function get_woo_cart_menu() {
  *
  */
 add_action( 'tha_header_before', 'n7_top_widget_bar' );
-function n7_top_widget_bar() { ?>
+function n7_top_widget_bar() {
+  // #todo : make this dynamic checkbox on pages meta?
+  if ( !is_page(array( 'opc-test', 'order-niagen', 'order-niagen-46', 'why-nectar7' ) ) ) {
+  ?>
 	<div id="top-widget-bar" class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -81,7 +84,9 @@ function n7_top_widget_bar() { ?>
 			</div>
 		</div>
 	</div>
-<?php }
+<?php
+  }
+}
 
 //remove_filter( 'the_content', 'wpautop' );
 
@@ -150,9 +155,18 @@ function n7_emptycart_redirect(){
   $cartContent = sizeof( $woocommerce->cart->get_cart() );
 
   if( is_checkout() && ( ! is_wc_endpoint_url( 'order-received' ) )&& ( $cartContent == 0 ) ) {
-    $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
-    wp_redirect( $shop_page_url ); 
-    exit;
+    $redir = true;
+    if ( function_exists('is_wcopc_checkout') ) {
+      // don't trigger this empty card redirect on one page checkout which is a checkout but hey
+      if ( is_wcopc_checkout() ) {
+        $redir = false;
+      }
+    }
+    if ( $redir ) {
+      $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
+      wp_redirect( $shop_page_url ); 
+      exit;
+    }
   }
 }
 
@@ -209,3 +223,116 @@ function hide_shipping_when_free_is_available( $rates, $package ) {
 	
 	return $rates;
 }
+
+/**
+ * hook to woocommerce_enable_order_notes_field filter
+ *
+ * to hide notes on opc
+ */
+function nectar7_filter_order_notes( $ret ) {
+  if ( function_exists( 'is_wcopc_checkout' ) ) {
+    if ( is_wcopc_checkout() ) {
+      $ret = false;
+    }
+  }
+  return $ret;
+}
+add_filter('woocommerce_enable_order_notes_field', 'nectar7_filter_order_notes');
+
+/**
+ * hook body_class
+ *
+ * come get some
+ */
+function nectar7_body_classes( $classes ) {
+  if ( is_page( array( 'order-niagen', 'order-niagen-46' ) ) ) {
+    $classes[] = 'opc';
+    $classes[] = 'unpad';
+  }
+  if ( is_page('why-nectar7') ) {
+    $classes[] = 'unpad';
+  }
+  
+  return $classes;
+}
+add_filter( 'body_class', 'nectar7_body_classes' );
+
+/**
+ * hook woocommerce_cart_shipping_method_full_label
+ *
+ * change Free Shipping to -0.00- or something
+ */
+function nectar7_filter_shipping_label( $label, $method ) {
+  if ( $method->id == 'free_shipping' ) {
+    if ( is_wcopc_checkout() ) {
+      $label = '<s>$00.00</s>';
+    }
+  }
+  return $label;
+}
+add_filter('woocommerce_cart_shipping_method_full_label', 'nectar7_filter_shipping_label', 10, 2);
+
+/**
+ * hook to pgb_page_width
+ *
+ * filter to add more option(s)
+ */
+function nectar7_more_page_widths( $widths, $post ) {
+  // pop 960 off so order is ok maybe?
+  unset( $widths['960px'] );
+  // add 1020
+  $widths['1020px'] = '1020px';
+  // add 960 back
+  $widths['960px'] = '960px';
+  return $widths;
+}
+add_filter( 'pgb_page_width_options', 'nectar7_more_page_widths', 10, 2 );
+
+/**
+ * hook woocommerce_checkout_fields
+ *
+ * to change labels to placeholders (only on opc?)
+ */
+function nectar7_filter_checkout_fields( $fields ) {
+  
+  if ( function_exists('is_wcopc_checkout') ) {
+    // on OPC, change Labels to Placeholders in Billing & Shipping fields
+    if ( is_wcopc_checkout() ) {
+      $labelize = array( 'billing', 'shipping' );
+      foreach ( $labelize as $l ) {
+        if ( isset( $fields[$l] ) ) {
+          foreach ( $fields[$l] as $k => $v ) {
+            if ( isset ( $fields[$l][$k]['label'] ) ) {
+              $label = $fields[$l][$k]['label'];
+              $fields[$l][$k]['placeholder'] = $label;
+              unset( $fields[$l][$k]['label'] );
+            }
+          }
+        }
+      }
+    }
+  }
+  //wp_die('<pre>'. print_r($fields,true) .'</pre>');
+  return $fields;
+}
+add_filter( 'woocommerce_checkout_fields', 'nectar7_filter_checkout_fields' );
+
+/**
+ * hook through wc_authorize_net_cim_credit_card_payment_form_manage_payment_methods_button_html
+ *
+ * woocommerce-gateway-authorize-net-cim\lib\skyverge\woocommerce\payment-gateway\
+ * class-sv-wc-payment-gateway-payment-form.php
+ *
+ * to change the "Manage Payment Methods" button injected in to Not a button
+ */
+function nectar7_manage_payment_btn( $html ) {
+  if ( function_exists('is_wcopc_checkout') ) {
+    // only make Not a button on one page checkout pages?
+    if ( is_wcopc_checkout() ) {
+      $html = str_replace( 'class="button"', '', $html );
+      $html = str_replace( 'float:right', 'display: block', $html );
+    }
+  }
+  return $html;
+}
+add_filter( 'wc_authorize_net_cim_credit_card_payment_form_manage_payment_methods_button_html', 'nectar7_manage_payment_btn' );

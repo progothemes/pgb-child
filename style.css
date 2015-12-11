@@ -4,7 +4,7 @@
  Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
  Author:	   ProGo
  Author URI:   http://www.progo.com
- Version:	  0.1.1
+ Version:	  0.1.2
  Template:	 pgb
  License:	  GPLv2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -116,6 +116,10 @@ nav > .container {
 	}
 	.main-content-inner, .sidebar {
 		padding-bottom: 0;
+	}
+	/*fix for "order by phone" text*/
+	.wpb_text_column.wpb_content_element .wpb_wrapper p {
+		text-align: center;
 	}
 }
 
@@ -465,6 +469,9 @@ footer .socialicons ul li.instagram a
 {
 	text-transform: none;	
 }
+/* Boast.io related */
+.kudos.kudos_classic{margin-bottom: 40px;}
+.kudos-site-credit{display:none !important;}
 
 /* Home page */
 .border-bottom
@@ -475,15 +482,15 @@ footer .socialicons ul li.instagram a
 
 .home-hero
 {
-	background: url('images/home-hero.png') 85% 0 no-repeat transparent;
-	background-size: cover;
+	background: linear-gradient(90deg, rgba(0,0,0,.44), rgba(0,0,0,0) 61.8%) 0 0 no-repeat,
+	url('images/home-hero.png') 96% top/cover no-repeat transparent;
 	min-height: 560px;
 }
 
 .home-hero .home-hero-caption
 {
 	text-align: left;
-	margin-top: 90px;
+	margin-top: 32px;
 }
 
 .home-hero .home-hero-caption h1
@@ -491,26 +498,28 @@ footer .socialicons ul li.instagram a
 	font-family: "MyriadPro";
 	font-weight: bold;
 	font-size: 98px;
-	line-height: 85px;
+	line-height: 84px;
 	color: #fff;
-	width: 80%;
+	width: 50%;
 	margin-bottom: 0px;
+	word-wrap: normal;
 }
 
 .home-hero .home-hero-caption p
 {
 	font-family: "MyriadPro";
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 24px;
 	color: #fff;
-	width: 80%;
+	width: 86.8%;
+	margin-left:3px;
 }
 
 .hero-bottom
 {
-	background: url('images/foxtail.png') right bottom no-repeat #1946ba;
+	background: url('images/foxtail.png') right 00% no-repeat #1946ba;
 	/*min-height: 246px;*/
 	padding-bottom: 45px;
 	padding-top: 45px;
@@ -520,7 +529,7 @@ footer .socialicons ul li.instagram a
 .hero-bottom p
 {
 	font-family: "MyriadPro";
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 20px;
 	font-size: 1.25em;
 	line-height: 34px;
@@ -623,6 +632,7 @@ footer .socialicons ul li.instagram a
 .testimonials blockquote {
 	border-left: none;
 	margin-bottom: 40px;
+	padding-left:0;
 }
 .testimonials blockquote img {
 	border: 4px solid #00b3e3;
@@ -648,7 +658,9 @@ footer .socialicons ul li.instagram a
 	line-height: 1.625em;
 	line-height: 1.625em;
 }
-
+.leftboxedcontent.moremoremore p{
+	width: 89%;margin-left: auto; margin-right: auto;
+}
 .leftboxedcontent.howdoesitwork {
 	background: url('images/how_it_works.jpg') right top no-repeat #fff;
 }
@@ -675,7 +687,7 @@ footer .socialicons ul li.instagram a
 .leftboxedcontent.graphcontent h3 {
   color: #000;
   line-height: 1.15;
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
   text-transform: none;
 }
 .leftboxedcontent.graphcontent img.chartimage
@@ -709,6 +721,7 @@ footer .socialicons ul li.instagram a
 {
 	padding-left: 0px;
 	margin-left: 0px;	
+	margin-bottom:3em;
 }
 .leftboxedcontent.benefitscontent ul li
 {
@@ -730,47 +743,36 @@ footer .socialicons ul li.instagram a
 .leftboxedcontent.miraclecontent > div
 {
 	padding-bottom: 45px;
-	padding-top: 45px;
+	padding-top: 25px;
 }
 .leftboxedcontent.miraclecontent img
 {
-	margin-top: 25px;
+	margin-top: 15px;
+}
+.leftboxedcontent.miraclecontent .row:last-child p
+{
+	margin-top:1.5em;
 }
 
 
 .leftboxedcontent.graph2content
 {
 	background: #e1f3fc;
-	/*margin-top: 45px;*/
-	padding-top: 0px;
-	padding-bottom: 45px;
 }
-.leftboxedcontent.graph2content .bluehead
+.leftboxedcontent.graph2content h4
 {
-	background: #00b3e3;
-	color: #fff;
-	font-size: 40px;
-	line-height: 46px;
-	padding-bottom: 45px;
-	padding-top: 45px;
-}
-.leftboxedcontent.graph2content .bluehead h2
-{
-	background: #00b3e3;
-	color: #fff;
-	font-size: 40px;
-	line-height: 46px;
-	font-weight: 700;
-	text-align: center;
+	color: #1946BA;
+	line-height: 1.15;
+	margin: 1.2em 1em .5em;
 	text-transform: none;
+}
+.leftboxedcontent.graph2content p
+{
+	margin:0 1.5em 1.5em;
 }
 .leftboxedcontent.graph2content img.chartimage
 {
 	margin: 45px auto;
-}
-.leftboxedcontent.graph2content p
-{
-	color: #1946ba;
 }
 
 
@@ -788,7 +790,10 @@ footer .socialicons ul li.instagram a
 {
 	background: url('images/foxt_up.png') right top no-repeat #1946ba;
 }
-
+.leftboxedcontent.productbox.boxnavy p
+{
+	width:90%;
+}
 .leftboxedcontent.productbox.boxblue
 {
 	background: url('images/foxt_up.png') right top no-repeat #00b3e3;
@@ -815,13 +820,14 @@ footer .socialicons ul li.instagram a
 	text-align: left;
 	text-transform: none;
 	margin-top: 5px;
+	letter-spacing:-1px;
 }
 
 .leftboxedcontent.productbox.boxblue h2
 {
 	color: #1946ba;
+	letter-spacing:-1px;
 }
-	
 .leftboxedcontent.productbox p
 {
 	color: #fff;
@@ -875,7 +881,9 @@ footer .socialicons ul li.instagram a
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
-	
+body.unpad .main-content .entry-content {
+  padding: 0 15px !important;
+}	
 .main-content .entry-content.main-entry-content
 {
 	padding-top: 0px;
@@ -1377,6 +1385,12 @@ footer .socialicons ul li.instagram a
 	}
 }
 */
+/* Video sales pages */
+.page-template-template-videosalescollagen #top-widget-bar,
+.page-template-template-videosales #top-widget-bar
+{
+	display:none;
+}
 
 /* Video banner */
 
@@ -1516,8 +1530,34 @@ footer .socialicons ul li.instagram a
 .videosalespage .actiontape img {
 	margin-top: -14px;
 }
+.videosalespage .pbenefits{
+    background:#e1f3fc;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.videosalespage .pbenefits figure{
+    margin-top:20px;
+}
+.videosalespage .pbenefits figcaption{
+    margin-top:10px;
+}
+.videosalespage .pbenefits figcaption strong {
+   display:block;
+   text-transform:uppercase;
+}
 .videosalespage .pdesc {
   padding: 4em 0;
+}
+.videosalespage .pdesc p{ /*this could cause trouble with content changes*/
+    margin-bottom:30px;
+}
+.videosalespage .pdesc ul.row {
+    clear:both;
+    text-align: left;
+}
+.videosalespage .pdesc ul li{
+    padding-left:0 !important;
+    list-style:none;
 }
 .videosalespage .productfaqs {
   padding: 3em 0;
@@ -1532,6 +1572,14 @@ footer .socialicons ul li.instagram a
 {
 	background: url('images/fox_tail_3c.png') 0 0 no-repeat #00B3E3;	
 }
+.videosalespage .powerandbeauty{
+	background: linear-gradient(to bottom, rgb(218, 218, 218) 140px, #A7A7A7 ), #A7A7A7;
+}
+	.videosalespage .powerandbeauty h4,
+	.videosalespage .powerandbeauty h3{ text-shadow: 1px 1px 0px #EEE,-0px -0px 1px #999; }
+	.videosalespage .powerandbeauty h4{ color: #111E90; }
+	.videosalespage .powerandbeauty h3,
+	.videosalespage .powerandbeauty p{ color: #000;	}
 
 .videosalespage .heroproduct .productthumbcon
 {
@@ -1908,7 +1956,7 @@ footer .socialicons ul li.instagram a
 	font-size: 20px;
 	line-height: 34px;
 	font-family: "MyriadPro";
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
@@ -1921,7 +1969,7 @@ footer .socialicons ul li.instagram a
 .aboutuspage .aboutushero.about1
 {
 	color: #fff;
-	background: url('images/about_bg.jpg') center center no-repeat #1946ba;
+	background: url('images/about_bg.jpg') center/cover no-repeat #1946ba;
 	min-height: 538px;
 }
 
@@ -1933,21 +1981,23 @@ footer .socialicons ul li.instagram a
 	margin-right: auto;
 }
 
-.aboutuspage .aboutushero.about1 .herocaption, .aboutuspage .aboutushero.about2 .herocaption
+.aboutuspage .aboutushero.about1 .herocaption
 {
 	margin-top: 90px;
 }
 
-
 .aboutuspage .aboutushero.about2
 {
-	color: #000  !important;
-	background: url('images/ballon_bg.jpg') center center no-repeat #FFF;
-	min-height: 414px;
+	color: #fff  !important;
+	background: linear-gradient(to bottom, #111E90, rgba(17, 30, 144,0)), url('images/about-busy-team.jpg') center bottom/cover no-repeat #1946ba;
+	background-blend-mode: normal,luminosity;
+	min-height: 607px;
+	text-shadow: 0 1px 5px #1946ba;
 }
 
 .aboutuspage .aboutushero.about2 .herocaption
 {
+	margin-top: 40px;
 	max-width: 540px;
 }
 
@@ -1965,7 +2015,7 @@ footer .socialicons ul li.instagram a
 	font-family: "MyriadPro";
 	font-weight: 700;
 	text-transform: none;
-	color: #fff;
+	color: #000;
 }
 
 .alternatecols p
@@ -1974,19 +2024,19 @@ footer .socialicons ul li.instagram a
 	line-height: 30px;
 	font-family: "MyriadPro";
 	font-weight: 400;
-	color: #fff;
+	color: #000;
 }
 
 .alternatecols .eachCol
 {
-	background: #06a3cd;
+	background: #fff;
 	height: 310px;
 	overflow: hidden; 
 }
 
 .alternatecols .eachCol.altCol
 {
-	background: #1946ba;
+	background: #EBEBEB;
 }
 
 .alternatecols .eachCol .colcont
@@ -1997,8 +2047,9 @@ footer .socialicons ul li.instagram a
 .aboutuspage .aboutmission
 {
 	color: #000;
-	background: url('images/runner_bg.jpg') 50% 0 no-repeat #FFF;
-	min-height: 685px;	
+	background: linear-gradient(to bottom, rgb(223, 223, 185), rgba(223, 223, 185,0) ), url('images/about-victory-sunset.jpg') center/cover no-repeat #FFF;
+	min-height: 680px;
+	text-shadow: 0 1px 3px rgb(223, 223, 185);
 }
 
 .aboutuspage .aboutmission p
@@ -2006,8 +2057,10 @@ footer .socialicons ul li.instagram a
 	font-size: 20px;
 	line-height: 34px;
 	font-family: "MyriadPro";
-	font-weight: 400;
-	color: #000;	
+	font-weight: 300;
+	color: #000;
+/* 	background: rgba(255,255,234,.5); */
+	padding:.5em;
 }
 
 .main-content > .container .aboutmission [class*="col-"], .main-content .aboutmission [class*="col-"] {
@@ -2244,6 +2297,7 @@ footer .socialicons ul li.instagram a
 {
 	margin: 0px;
 	padding: 0px;
+	word-wrap: normal;
 }
 
 .sc_sidebar ul li
@@ -2262,6 +2316,7 @@ footer .socialicons ul li.instagram a
 	font-weight: 400;
 	color: #1946ba;
 	padding-left: 15px;
+	margin-left: -15px;
 }
 
 .sc_sidebar ul li.active a,
@@ -2548,16 +2603,19 @@ div#science_menu.affix {
 
 .disclaimertext
 {
-	margin: 0px 0px 0px;
-	text-align: center;
+	margin: 0px 0px 15px;
+	text-align: left;
 }
 
 .disclaimertext p
 {
-	font-size: 11px;
+	font-size: 10px;
 	line-height: 13px;
-	text-align: center;
-	margin-bottom: 5px;
+	margin: 0 30px 8px;
+}
+.disclaimertext p:first-child{
+	font-size:12px;
+	letter-spacing:.3px;
 }
 
 .btn-learnmore
@@ -2891,12 +2949,16 @@ div#science_menu.affix {
 		background: #1946ba;
 	}	
 	
-	.alternatecols .eachCol, .aboutuspage .aboutushero
+	.alternatecols .eachCol,
+	.aboutuspage .aboutushero,
+	.aboutuspage .aboutmission
 	{
 		height: auto !important;
 		min-height: 100px !important;
-	}	
+	}
 	
+	.aboutuspage .aboutmission{ padding-bottom:50%; }
+
 	.aboutuspage .aboutushero.about1 .herocaption, .aboutuspage .aboutushero.about2 .herocaption
 	{
 		margin-top: 45px;
@@ -2937,11 +2999,1357 @@ div#science_menu.affix {
 	{
 		background: #1946ba;
 	}
+	.sc_sidebar ul li a{
+		margin-left: auto;
+	}
 }
 
 @media screen and (min-width: 768px) {
 	.border-md-right
 	{
 		border-right: 1px solid #b7b7b7;
+	}
+}
+
+/** "Why Nectar7" squeeze page styling **/
+/*
+Site prefix
+a- ajax
+b- block
+c- column 
+d- data
+g- global
+j- javascript
+k- keeper
+l- layouts
+r- reset
+*/
+
+/*
+ * GLOBAL
+ */
+.os-animation{
+	opacity: 0;
+}  
+.os-animation.animated{
+	opacity: 1;
+} 
+.g-container{
+    margin: 0 auto;
+    width: 100%;
+	max-width: 1080px;
+	background: #fff;
+}
+.g-container h1,
+.g-container h2,
+.g-container h3 {
+  color: #333;
+  font-weight: normal;
+  text-transform: none;
+}
+.g-clear_fix{
+    clear: both;
+}
+/*
+=================================================================
+Header
+=================================================================
+*/
+
+.b-header {
+	background: url('images/header_bg.jpg') center right #fff no-repeat;
+	min-height: 667px;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.b-logo {
+	margin: 42px 0 0 6%;
+}
+.b-header_content {
+	margin: 40px 0 0 6%;
+}
+.b-header_content header {
+	font-size: 65px;
+	color: #1946ba;
+	text-transform: uppercase;
+	line-height: 65px;
+	max-width: 478px;
+	background-color:transparent;
+}
+.b-header_content header span {
+	font-weight: bold;
+	color: #00b3e3;
+}
+.b-header_content p {
+	color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 6px 0 0;
+    max-width: 301px;
+}
+.b-header_heart {
+	background: #06a3cd;
+	text-align: center;
+	float: left;
+	position: absolute;
+	border-radius: 400px;
+	width: 238px;
+	height: 238px;
+	bottom: 47px;
+	left: 37%;
+	padding: 28px 0 0;
+}
+.b-header_heart img {
+	margin: 0 0 10px;
+}
+.b-header_heart figcaption {
+	color: #ffffff;
+    font-family: MyriadPro;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 23px;
+}
+/*
+=================================================================
+END Header
+=================================================================
+*/
+
+/*
+=================================================================
+TRUCK
+=================================================================
+*/
+.b-truck {
+	background: url('images/truck.jpg') #111e90 top left no-repeat;
+	float: left;
+	width: 100%;
+	min-height: 574px;
+}
+.b-truck article {
+	float: right;
+    margin: 76px 10% 0 0;
+    max-width: 430px;
+}
+.g-container .b-truck article h1 {
+	color: #00b3e3;
+    font-size: 39px;
+    line-height: 42px;
+	margin: 0 0 14px 0;
+}
+.b-truck article h1 span {
+	font-weight: bold;
+}
+.b-truck article p {
+	color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+}
+/*
+=================================================================
+END TRUCK
+=================================================================
+*/
+
+/*
+=================================================================
+LEG
+=================================================================
+*/
+.b-leg {
+	background: url('images/leg_bg.jpg') top right #f7f7f6 no-repeat;
+	min-height: 866px;
+	float: left;
+	width: 100%;
+}
+.b-leg article {
+	float: left;
+    margin: 54px 0 0 6%;
+    max-width: 471px;
+}
+.b-leg article h2 {
+	font-size: 40px;
+	line-height: 42px;
+	margin: 0 0 5px;
+}
+.b-leg article h2 strong {
+	color: #1946ba;
+}
+.g-container .b-leg article h3 {
+	color: #1946ba;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 17px 0 24px;
+    width: 100%;
+}
+.b-leg article ul {
+	margin: 22px 0 0;
+}
+.b-leg article ul li {
+	font-size: 19px;
+    line-height: 20px;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin: 0 0 15px;
+}
+.b-leg article p {
+	font-size: 19px;
+    line-height: 27px;
+}
+.b-leg article p.leg_blue {
+	color: #1946ba;
+	font-size: 25px;
+	line-height: 28px;
+}
+
+/*
+=================================================================
+END LEG
+=================================================================
+*/
+
+/*
+=================================================================
+AGING
+=================================================================
+*/
+.b-aging {
+	background: url('images/aging_bg.png') -64% center no-repeat #eaf0f2;
+	float: left;
+	width: 100%;
+	min-height: 598px;
+}
+.b-aging article {
+	max-width: 437px;
+	float: right;
+	margin: 51px 9% 0 0;
+}
+.b-aging h2 {
+	font-size: 40px;
+    line-height: 43px;
+    margin: 0 0 10px;
+}
+.b-aging p {
+	font-size: 18px;
+    line-height: 27px;
+	margin: 0 0 26px;
+}
+/*
+=================================================================
+END AGING
+=================================================================
+*/
+
+/*
+=================================================================
+Dark
+=================================================================
+*/
+.b-dark {
+	float: left;
+	width: 100%;
+	background: url('images/dark_bg.png') top right no-repeat #000000;
+	min-height: 214px;
+}
+.b-dark_content {
+	float: left;
+    margin: 49px 0 0 6%;
+    max-width: 650px;
+}
+.b-dark_content p {
+	color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+}
+.b-dark_content p i {
+	font-weight: bold;
+}
+.l-background_img {
+	display: none;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+}
+/*
+=================================================================
+End Dark
+=================================================================
+*/
+
+/*
+=================================================================
+Coin
+=================================================================
+*/
+.b-coin {
+	float: left;
+    min-height: 558px;
+    padding: 0 0 50px;
+    width: 100%;
+}
+.b-coin article {
+	max-width: 553px;
+	float: left;
+	margin: 50px 0% 0 6%;
+}
+.b-coin article h2 {
+	font-size: 40px;
+    line-height: 43px;
+    margin: 0 0 8px;
+}
+.b-coin article p {
+	font-size: 18px;
+    line-height: 27px;
+	margin: 0 0 26px;
+}
+.b-coin_img {
+	float: right;
+	text-align: center;
+	margin: 92px 3% 0 0;
+}
+.b-coin img {
+	width: 100%;
+	height: auto;
+	
+}
+/*
+=================================================================
+End Coin
+=================================================================
+*/
+
+/*
+=================================================================
+Cells
+=================================================================
+*/
+.b-cells {
+	float: left;
+	width: 100%;
+	background: url('images/cells_bg.jpg') 0 1px no-repeat;
+	min-height: 968px;
+}
+.b-cells article {
+	float: left;
+    margin: 67px 0 0 6%;
+    max-width: 561px;
+    width: 100%;
+}
+.b-cells article h2 {
+	margin: 0 0 11px 0;
+}
+.b-cells article p {
+	margin: 0 0 28px;
+}
+.b-cells article section {
+	background: #fff none repeat scroll 0 0;
+    max-width: 536px;
+    padding: 33px 33px;
+	width: 100%;
+}
+.b-cells article section p b {
+	font-size: 20px;
+	line-height: 1.4;
+}
+.b-cells article section p span {
+	color: #1946ba;
+	font-weight: bold;
+	font-size: 23px;
+}
+.b-red_arrow_wrap {
+	float: left;
+	width: 100%;
+	background: url('images/red_bg.jpg');
+	position: relative;
+	height: 93px;
+}
+.b-red_arrow {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: -14px;
+	height: 15px;
+	background: url('images/red_arrow.png') center center no-repeat;
+}
+/*
+=================================================================
+End Cells
+=================================================================
+*/
+/*
+=================================================================
+Nad
+=================================================================
+*/
+.b-nad {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.b-nad_row {
+	float: left;
+	width: 100%;
+}
+.c-nad_left {
+	float: left;
+	width: 49%;
+}
+.c-nad_right {
+	float: right;
+	width: 49%;
+}
+.c-nad_left img, .c-nad_right img {
+	width: 100%;
+}
+.b-nad_row_top .c-nad_left {
+	width: 45%;
+}
+.b-nad_row_top .c-nad_right {
+	margin: 61px 0 0;
+    padding: 0 61px 0 0;
+	width: 50%;
+}
+.b-nad_row_top h2 {
+	margin: 0 0 16px 0;
+}
+/*
+ * Bottom row
+ */
+.b-nad_row_bottom {
+	margin: 43px 0 0;
+}
+.b-nad_row_bottom .c-nad_left {
+	margin: 0 0 0 6%;
+    width: 43%;
+}
+.b-nad_row_bottom .c-nad_left b {
+	font-size: 24px;
+}
+
+.b-nad_row_bottom .c-nad_right {
+	margin: 9px 5% 0 0;
+	width: 44%;
+}
+.b-nad_row_bottom .c-nad_right p {
+	color: #1946ba;
+    font-weight: bold;
+    margin: 22px 0 0;
+}
+/*
+ * Nad catch
+ */
+.b-nad_catch {
+	margin-top: 33px;
+}
+.b-nad .b-nad_catch p {
+	font-size: 38px;
+    line-height: 1.1;
+}
+/*
+ * Nad losing
+ */
+.b-nad_losing {
+	margin-top: 54px;
+}
+.g-container .b-nad_losing h3 {
+	color: #1946ba;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 11px;
+}
+.b-nad_losing p {
+	margin: 0 0 27px 0;
+}
+
+.b-nad_graf {
+	text-align: center;
+	position: relative;
+	margin-top: 55px;
+}
+.b-nad_graf img {
+	width: 100%;
+	max-width: 595px;
+}
+.b-nad .b-nad_graf .txt {
+	position: absolute;
+	width: 240px;
+	font-size: 32px;
+	font-weight: bold;
+	top: 0px;
+	left: 44%;
+}
+.b-nad_doctor {
+	margin-top: 33px;
+}
+.b-nad_doctor footer {
+	margin: 24px 0 0 0;
+}
+.b-nad_doctor footer span {
+	display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px 0 0;
+    vertical-align: middle;	
+}
+.b-nad_doctor footer img {
+	display: inline-block;
+	vertical-align: middle;
+}
+/*
+ * Nad Low
+ */
+.b-nad_low {
+	margin-top: 46px;
+}
+.b-nad_low h2 {
+	margin: 0 0 9px 0;
+}
+.b-nad_low p {
+	margin: 0 0 27px 0;
+}
+.b-nad_low p:last-child {
+	margin-bottom: 0px;
+}
+.l-nad_container {
+	margin-left: 6%;
+	margin-right: 6%;
+    width: 87%;
+	float: left;
+}
+/*
+ * Nad Diff
+ */
+.b-nad_disf {
+	float: left;
+	width: 100%;
+}
+.b-nad_disf .c-nad_left {
+	margin: 37px 0 0 6%;
+    width: 45%;
+}
+.b-nad_disf .c-nad_right {
+	width: 38%;
+	min-height: 531px;
+	background: url('images/nad_diff.png') no-repeat bottom right;
+	background-size: contain;
+}
+.b-nad_disf p b {
+	color: #1946ba;
+    font-size: 26px;
+    line-height: 28px;
+}
+.b-nad_disf ul {
+	margin: 23px 0 25px 14px;
+}
+.b-nad_disf ul li {
+	font-size: 19px;
+    list-style-type: disc;
+    margin: 0 0 8px;
+    padding: 0 0 0 22px;
+}
+.b-nad_blue {
+	float: left;
+	width: 100%;
+	background: #111e90;
+	padding: 51px 10% 51px;
+}
+.b-nad_blue p {
+	color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+/*
+=================================================================
+End Nad
+=================================================================
+*/
+
+/*
+=================================================================
+Inpact
+=================================================================
+*/
+
+.b-impact {
+	background: url('images/level_img.png') 88% bottom #fff no-repeat;
+	min-height: 603px;
+	float: left;
+	width: 100%;
+}
+.b-impact article {
+	float: left;
+    margin: 63px 0 0 6%;
+    max-width: 471px;
+}
+.b-impact article h2 {
+	font-size: 40px;
+	line-height: 42px;
+	margin: 0 0 10px;
+}
+
+.b-impact article h3 {
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 33px 0 32px;
+    width: 100%;
+}
+
+.b-impact article p {
+	font-size: 19px;
+    line-height: 27px;
+}
+
+/*
+=================================================================
+End Inpact
+=================================================================
+*/
+
+/*
+=================================================================
+Press
+=================================================================
+*/
+.b-press {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 0 0 77px;
+}
+.b-press article {
+	margin: 49px 6% 0;
+}
+
+.b-press article section {
+	border: 6px dotted #1424a6;
+    padding: 30px 36px 37px;
+	margin: 0 0 28px 0;
+}
+.g-container .b-press article section h2 {
+	color: #1424a6;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 27px;
+}
+
+.b-press p:last-child {
+	margin: 20px 0 0 0;
+}
+.b-press_icons {
+	float: left;
+	width: 100%;
+	margin: 40px 0 0;
+	padding: 0 6%;
+}
+.b-press_icons figure {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+.b-press_icons img {
+	float: left;
+	margin: 0 20px 0 0;
+}
+.b-press_icons figcaption {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 27px 0 0;
+	line-height: 1.3;
+}
+.b-press_icons figure:last-child figcaption {
+	margin-top: 15px;
+}
+/*
+=================================================================
+End Press
+=================================================================
+*/
+
+
+/*
+=================================================================
+Stuned
+=================================================================
+*/
+.b-stunned {
+	float: left;
+	width: 100%;
+	background: #111e90;
+	padding: 56px 0 64px;
+}
+.g-container .b-stunned h2 {
+	color: #fff;
+	margin-bottom: 12px;
+}
+.b-stunned article > p{
+	color: #fff;
+	margin: 0 0 28px;
+}
+.b-stunned section {
+	background: url('images/blue_arrow.png') 25px top #fff no-repeat;
+	padding: 41px 50px;
+}
+.b-stunned section ul {
+	padding: 0 0 6px 0px;
+}
+.b-stunned section ul li {
+	font-size: 18px;
+    font-weight: bold;
+    list-style-type: disc;
+    margin: 0 0 19px;
+    padding: 0 0 0 23px;
+}
+.b-stunned section p {
+	font-size: 18px;
+}
+/*
+=================================================================
+End Stuned
+=================================================================
+*/
+
+/*
+=================================================================
+Woman Old
+=================================================================
+*/
+.b-woman_old {
+	background: url('images/woman_old_bg.png') #000 no-repeat 88% bottom;
+	color: #fff;
+	min-height: 292px;
+}
+.b-woman_old article {
+	max-width: 424px;
+    padding-top: 65px;
+}
+.b-woman_old article p {
+	font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+/*
+=================================================================
+END Woman Old
+=================================================================
+*/
+
+/*
+=================================================================
+Doctor Discover
+=================================================================
+*/
+.b-doctor_discover {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 36px 0 0;
+}
+
+.b-doctor_discover h2 {
+	margin-bottom: 12px;
+}
+.b-doctor_discover p {
+	margin-bottom: 31px;
+}
+/*
+=================================================================
+END Doctor Discover
+=================================================================
+*/
+
+/*
+=================================================================
+Doctor Discover
+=================================================================
+*/
+.b-inst {
+	float: left;
+	width: 100%;
+	margin: 56px 0 0 0;
+	
+}
+.b-inst article {
+	margin: 0 6%;
+    padding: 47px 4%;
+	border: 2px solid #1946ba;
+}
+.g-container .b-inst h2 {
+	color: #1946ba;
+    font-size: 43px;
+    line-height: 1.1;
+	margin: 0px 0 37px 0;
+}
+.b-inst ul {
+	text-align: center;
+}
+
+.b-inst ul li {
+	display: inline-block;
+	width: 33%;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.b-inst ul li img {
+	
+}
+.b-inst table {
+	width: 100%;
+	margin: 41px 0 0;
+}
+.b-inst table thead {
+	border-bottom: 1px solid #1946ba;
+    border-top: 1px solid #1946ba;
+}
+.b-inst table tbody {
+	
+}
+.b-inst table thead td {						  
+	font-size: 19px;
+    font-weight: bold;
+    padding: 15px 5px;
+}
+.b-inst table tbody td {
+	font-size: 18px;
+    padding: 9px 5px;
+}
+
+.b-inst table tbody tr td:first-child {
+	width: 66%;
+}
+.b-inst table tbody tr td:last-child {
+	color: #1946ba;
+	font-style: italic;
+}
+/*
+=================================================================
+END Doctor Discover
+=================================================================
+*/
+
+/*
+=================================================================
+Young
+=================================================================
+*/
+.b-young {
+	background-image: url('images/younth_bg.png');
+}
+.b-young article h3 {
+	font-weight: normal;
+	font-size: 40px;
+    line-height: 42px;
+    margin: 20px 0 10px;
+}
+
+/*
+=================================================================
+End young
+=================================================================
+*/
+
+/*
+=================================================================
+End young
+=================================================================
+*/
+.b-niagen_view {
+	float: left;
+	width: 100%;
+	margin: 48px 0 0 0;
+}
+.b-niagen_view_corner {
+	position: absolute;
+	background: url('images/black_quote.png') bottom left;
+	width: 35px;
+	height: 35px;
+	bottom: -34px;
+	left: 0px;
+}
+.b-niagen_view blockquote {
+	background: #000 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 39px;
+    padding: 24px 34px;
+    width: 333px;
+	margin: 0px 36px 0 0;
+	position: relative;
+}
+.b-niagen_view .l-base_styles p {
+	float: right;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.3;
+    margin: 27px 0 0;
+    width: 61%;
+}
+.b-opinions {
+	float: left;
+	width: 100%;
+	margin: 54px 0 0px;
+}
+.b-opinions .testimonials blockquote img{
+	float:right;
+	margin-left:20px;
+	margin-right:0;
+}
+
+.b-another {
+	float: left;
+	width: 100%;
+	background: url('images/another_bg.png') 125% bottom no-repeat #d3d2d2;
+	margin: 72px 0 0;
+	min-height: 674px;
+}
+.b-another .l-base_styles p{
+	margin: 0 0 10px 0;
+}
+
+.b-yourself {
+	float: left;
+	width: 100%;
+	background: url('images/yourself.png') 125% bottom no-repeat #fff;
+	padding: 72px 0 0;
+	min-height: 674px;
+	position: relative;
+}
+.b-yourself .l-base_styles p{
+	margin: 0 0 20px;
+}
+.g-container .b-yourself h2 {
+	color: #1946ba;
+}
+
+.b-yourself .nectar_bottle {
+	bottom: -62px;
+    left: 44%;
+    position: absolute;
+}
+.b-money_back {
+	float: left;
+	width: 100%;
+	margin: 33px 0 0 0;
+}
+.b-money_back img {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+.b-money_back h2 {
+	float: left;
+    margin: 18px 0 0;
+}
+.b-bottles {
+	border-bottom: 1px solid #c2c2c2;
+    border-top: 1px solid #c2c2c2;
+    float: left;
+    margin: 52px 0 25px;
+    padding: 28px 0;
+    width: 100%;
+}
+.b-bottle_row {
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+.b-bottle_row hgroup {
+	
+}
+.b-bottle_row h2 {
+	font-size: 31px;
+    font-weight: bold;
+}
+.b-bottle_row h3 {
+	font-size: 20px;
+    font-weight: bold;
+}
+.b-bottle_payment {
+	
+}
+.b-bottle_row_img {
+	margin: 27px 0;
+	height: 240px;
+}
+.b-bottle_price {
+	border-top: 1px solid #c2c2c2;
+	border-bottom: 1px solid #c2c2c2;
+	padding: 17px 0;
+	margin: 0 0 29px 0;
+}
+.b-bottle_price p {
+	font-size: 18px;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+.b-bottle_price p strike {
+	
+}
+.b-bottle_price p.bottle_red_price {
+	color: #dd291c;
+	font-size: 21px;
+	font-weight: bold;
+}
+.b-bottle_price p.bottle_red_price span {
+	
+}
+.b-bottle_link {
+	margin: 0 0 30px;
+}
+.b-bottle_link a {
+	background: #00b3e3;
+	padding: 15px 40px;
+}
+.b-bottle_solo {
+	float: left;
+	width: 100%;
+	margin: 37px 0 0;
+}
+.b-bottle_solo img {
+	float: left;
+	margin: 0 20px 0 0;
+}
+.b-bottle_solo h2 {
+	padding: 20px 0 0;
+}
+.b-bottle_solo .l-base_styles > p {
+	
+}
+.b-bottle_solo .b-bottle_price {
+	border: none;
+	margin: 0 26px 29px 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.b-bottle_solo .l-button {
+	padding: 15px 40px;
+	vertical-align: middle;
+}
+.b-remember {
+	float: left;
+	width: 100%;
+}
+.b-remember .c-remember_left {
+	background-image: none;
+	padding: 30px;
+}
+.b-remember .c-remember_right {
+	
+}
+
+.b-remember .c-remember_left h4 {
+	font-size: 22px;
+	line-height: 1.2;
+	border-bottom: 5px solid #000;
+	margin: 0 0 10px;
+}
+.b-remember .c-remember_left p {
+	font-size: 16px;
+	margin: 0 0 10px;
+	
+}
+
+.b-remember .c-remember_right h4 {
+	font-size: 22px;
+	line-height: 1.2;
+	margin: 0 0 15px;
+	color: #fff;
+}
+.b-remember .c-remember_right p {
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #fff;
+	padding: 12px 0;
+}
+.l-base_styles h2 {
+	font-size: 40px;
+    line-height: 43px;
+}
+
+.l-base_styles p {
+	font-size: 18px;
+    line-height: 27px;
+}
+.l-base_padding {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.l-button {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	padding: 8px 30px;
+	background: #1946ba;
+	border-radius: 10px;
+}
+.l-button:hover {
+	background: #2a5ee4;
+	color: #fff;
+}
+
+/*updating styles for one page check out*/
+
+.woocommerce .wcopc form .form-row-first, .woocommerce .wcopc form .form-row-last, .woocommerce-page .wcopc form .form-row-first, .woocommerce-page .wcopc form .form-row-last {
+	width: 100%;
+}
+
+.woocommerce .wcopc form .form-row input.input-text{
+	height: 35px;
+}
+
+div#opc-product-selection ul#checkout-products {
+	list-style: none;
+	padding-left: 0;
+}
+
+div#opc-product-selection p {
+	border-bottom: 1px solid #ccc;
+}
+
+/*
+the following two rules should be KEPT IN THIS ORDER, or else the universe will implode
+*/
+div.wpb_text_column.wpb_content_element div.wpb_wrapper h4 {
+	text-align: center;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-12.vc_custom_1448471684658 h4 {
+	text-align: left;
+}
+
+
+div.wcopc div.col-xs-12.billingdetails {
+	padding-left: 20px;
+}
+
+div#payment div.payment_box.payment_method_authorize_net_cim_credit_card {
+	background-color: inherit;
+}
+
+.woocommerce-checkout #payment div.payment_box:before {
+	display: none;
+}
+
+div.b-bottles p.product.woocommerce.add_to_cart_inline {
+	display: none;
+}
+
+div.b-bottle_link .cardseal.img-responsive{
+	margin: 0 auto;
+}
+
+div.b-bottle_link input.input-text.qty.text {
+	display: none;
+}
+
+div.b-bottle_link button.btn.btn-primary {
+	margin-bottom: 15px;
+	width: 80%;
+}
+
+/*did not work. wasn't specific enough*/
+/*#opc-messages {
+	display: none;
+}*/
+
+.col-xs-12.billingdetails #opc-messages .woocommerce-message {
+	display: none;
+}
+
+#payment_method_authorize_net_cim_credit_card {
+	display: none;
+}
+
+.woocommerce-checkout #payment {
+	background-color: inherit;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+	width: 100%;
+}
+
+
+
+@media (max-width: 950px) {
+	/*
+	 * Dark 
+	 */
+	.b-dark_content {
+		width: 60%;
+		margin: 0px;
+		padding: 15px;
+	}
+}
+@media (max-width: 900px){
+	/*
+	* Layouts
+	*/
+	.l-background_img {
+		display: block;
+	}
+	.l-no_bg_image {
+		background-image: none;
+	}
+	.l-no_bg_image article {
+		margin: 0px;
+		padding: 15px;
+		max-width: 100%;
+		float: left;
+		width: 100%;
+	}
+	.l-base_styles {
+		padding: 15px;
+	}
+	/*
+	* Header
+	*/
+
+	.b-logo {
+		text-align: center;
+	}
+	.b-logo, .b-header_content {
+		margin-left: 0px;
+		padding: 0 15px;
+	}
+
+	.b-header_content header, .b-header_content p {
+		max-width: 100%;
+	}
+	.b-header .l-background_img {
+		display: block;
+	}
+	.b-header_heart {
+		position: relative;
+		display: block;
+		margin: 23px 0 -260px 23px;
+		float: left;
+		left: auto;
+		bottom: auto;
+	}
+	
+	/*
+	 * Truck
+	 */
+	.b-truck {
+		background-size: contain;
+		background-position: bottom left;
+		min-height: 706px;
+	}
+	.b-truck article {
+		width: 100%;
+		padding: 15px;
+		max-width: 100%;
+		margin: 0px;
+	}
+
+
+}
+@media (max-width: 700px) {
+	.b-dark_content {
+		width: 100%;
+	}
+	.b-dark {
+		background-size: contain;
+		background-position: bottom left;
+		min-height: 550px;
+	}
+	.b-cells {
+		background-size: cover;
+	}
+	.b-cells article {
+		margin-left: 0px;
+	}
+	.b-nad_row {
+		
+	}
+	.b-nad_row_top .c-nad_left, .b-nad_row_top .c-nad_right, .b-nad_row_bottom .c-nad_left, .b-nad_row_bottom .c-nad_right, .b-nad_disf .c-nad_left, .b-nad_disf .c-nad_right {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.b-nad_disf .c-nad_right {
+		margin: 0px;
+	}
+	.b-nad .b-nad_graf p {
+		position: relative;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		margin: 0 0 30px;
+	}
+	.b-press_icons figure {
+		width: 100%;
+		margin: 0 0 10px;
+	}
+	.b-inst ul li {
+		width: 49%;
+	}
+	.b-niagen_view blockquote {
+		width: 100%;
+	}
+	.b-niagen_view .l-base_styles p {
+		width: 100%;
+	}
+	.l-base_styles h2 {
+		float: none;
+	}
+	.b-bottle_row {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+	.b-yourself .nectar_bottle {
+		display: none;
+	}
+	.b-bottle_solo section {
+		float: left;
+		width: 100%;
+	}
+	.b-bottle_solo img {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	
+}
+@media (max-width: 550px) {
+	.b-header_content header {
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.b-leg article h2 {
+		font-size: 35px;
+		line-height: 1.2;
+	}
+	.b-inst ul li {
+		width: 100%;
+	}
+	.b-inst ul li img {
+		max-width: 100%;
+	}
+	.l-base_styles h2 {
+		width: 100%;
+		float: left;
+	}
+	.b-bottle_solo .l-button {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media (max-width: 450px) {
+	.b-header_heart {
+		margin: 20px auto 20px;
+		float: none;
+	}
+	.b-truck {
+		min-height: 800px;
 	}
 }
