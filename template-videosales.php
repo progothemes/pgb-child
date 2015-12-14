@@ -165,7 +165,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<li class="col-md-2"><strong>Improve Health</strong>*<br/>Provide your body with a boost of NAD+ and feel great.</li>
 										<li class="col-md-2"><strong>Better Skin</strong>*<br/>Healthier, younger and glowing skin, hair and nails.</li>
 										<li class="col-md-2"><strong>Boost Energy</strong>*<br/>NAD+ charges mitochondria to fire with peak energy.</li>
-										<li class="col-md-2"><strong>Nuture Cells</strong>*<br/>Fertilizes mitochondria to proliferate efficiently throughout the body.</li>
+										<li class="col-md-2"><strong>Nurture Cells</strong>*<br/>Fertilizes mitochondria to proliferate efficiently throughout the body.</li>
 									</ul>
 								</div>
 								<div class="row heroproduct">
