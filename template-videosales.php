@@ -161,7 +161,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h4>Benefits of NECTAR7 Niagen&reg;</h4>
 									</div>
 									<ul>
-										<li class="col-md-2 col-md-offset-1"><strong>Mental Clarity</strong>*<br/>Booth your focus and experience all day energy with NECTAR7.</li>
+										<li class="col-md-2 col-md-offset-1"><strong>Mental Clarity</strong>*<br/>Experience improved focus and energy, after your first dose of NECTAR7</li>
 										<li class="col-md-2"><strong>Improve Health</strong>*<br/>Provide your body with a boost of NAD+ and feel great.</li>
 										<li class="col-md-2"><strong>Better Skin</strong>*<br/>Healthier, younger and glowing skin, hair and nails.</li>
 										<li class="col-md-2"><strong>Boost Energy</strong>*<br/>NAD+ charges mitochondria to fire with peak energy.</li>
