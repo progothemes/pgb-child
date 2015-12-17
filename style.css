@@ -455,6 +455,8 @@ footer .socialicons ul li.instagram a
 
 .btn.btn-primary
 {
+	position:relative;
+	z-index:998;
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 18px;
