@@ -336,3 +336,62 @@ function nectar7_manage_payment_btn( $html ) {
   return $html;
 }
 add_filter( 'wc_authorize_net_cim_credit_card_payment_form_manage_payment_methods_button_html', 'nectar7_manage_payment_btn' );
+
+//Enhanced eCommerce Tracking - GTM - by Eric DuRose 12/18/2015
+add_action( 'woocommerce_thankyou', 'nectar7_custom_tracking' );
+
+function nectar7_custom_tracking( $order_id ) {
+
+// Lets grab the order
+$order = new WC_Order( $order_id );
+
+ 
+ $items = $order->get_items();
+ 
+ 
+ $purchase_id = $order_id;
+ $total_sale = $order->get_total();
+ $tax = $order->get_cart_tax();
+ $ship_cost = 0.00;
+ $coupon_name_a = $order->get_used_coupons();
+ $coupon_name = $coupon_name_a[0];
+ ?>
+ 
+<script>
+
+dataLayer.push({
+'event': 'transactionSuccess',
+  'ecommerce': {
+    'purchase': {
+      'actionField': {
+        'id': '<?php echo $order_id; ?>',                         
+        'affiliation': 'WooCommerce Store',
+        'revenue': '<?php echo $total_sale; ?>',                     
+        'tax': '<?php echo $tax; ?>',
+        'shipping': '<?php echo $ship_cost; ?>',
+        'coupon': '<?php echo $coupon_name; ?>'
+      },
+      'products':[
+<?php
+$pcount = 0;
+foreach ( $items as $k=>$v ) {
+if ( $pcount++ > 0 ) echo ',';
+?>
+{
+'name':'<?php echo $v['name']; ?>', //ProductNameorIDisrequired
+'id':'<?php echo $v['product_id']; ?>',
+'price':'<?php echo $v['line_total']; ?>',
+'brand':'Nectar7',
+'category':'<?php echo $v['name']; ?>',
+'variant': '<?php echo $v['lace-size']; ?>',
+'quantity': '<?php echo ''. $v['qty'] ?>',
+'coupon': '<?php echo $coupon_name; ?>'
+}
+<?php } ?>
+]
+}
+}
+});
+</script>
+<?php
+}
