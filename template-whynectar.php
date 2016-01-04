@@ -28,9 +28,9 @@ get_header(); ?>
 						<img src = "/wp-content/themes/nectar7-pgb-child/images/logo.png" alt = "Nectar7"/>
 					</a>
 				</div>
-				
+
 				<div class = "g-clear_fix"></div>
-				
+
 				<div class = "b-header_content g-wrap_content">
 					<header>
 						<span>What</span> worries  <span>you the most about</span> your skin?
@@ -42,51 +42,51 @@ get_header(); ?>
                         <li>Skin care products that have stopped working?</li>
                         <li>The high cost, pain and possible side effects of facial</li>
                         <li>injections and cosmetic surgery?</li>
-                        ALL OF THE ABOVE? 
+                        ALL OF THE ABOVE?
                     </ul>
 				</div>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/header_bg.jpg" alt = "" class = "l-background_img"/>
 			</div> <!-- end .b-header-->
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class = "b-new_care g-wrap_content">
 			    <div class=" b-new_care_left">
 			        <p>
-			        If you&rsquo;  re tired of paying big bucks for fancy bottles that fail to live up to the hype, if you&rsquo; re worried about harsh chemicals and preservatives that may be doingmore harm than good, if you&rsquo;  re NOT ready for the pain, expense and uncertainty of facial injections or going under the knife, then keep reading. You&rsquo;  re about to learn about a brand new skin care advance with age-defying properties <span>NEVER before available to the public &mdash; until now!</span><p/><br/>
-			        
-			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;  s such an important scientific advance that one of the key ingredients has five worldwide patents and was instrumental in enabling a renowned Harvard doctor to turn back the clock on aging! That doctor went on to become one of Time magazine&rsquo;s "100 Most Influential People."
+			        If you&rsquo;re tired of paying big bucks for fancy bottles that fail to live up to the hype, if you&rsquo; re worried about harsh chemicals and preservatives that may be doingmore harm than good, if you&rsquo;re NOT ready for the pain, expense and uncertainty of facial injections or going under the knife, then keep reading. You&rsquo;re about to learn about a brand new skin care advance with age-defying properties <span>NEVER before available to the public &mdash; until now!</span><p/><br/>
+
+			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;s such an important scientific advance that one of the key ingredients has five worldwide patents and was instrumental in enabling a renowned Harvard doctor to turn back the clock on aging! That doctor went on to become one of Time magazine&rsquo;s "100 Most Influential People."
 			        </p>
 			    </div>
 			    <div class=" b-new_care_right">
 			        <img src="/wp-content/themes/nectar7-pgb-child/images/new_care.png" alt="">
 			    </div>
 			</div> <!-- end .b-new-care-->
-			
+
 			<div class = "g-clear_fix"></div>
 			<div class="b-fault">
 			    <header>
 			        Why do pricey skin care products seem to STOP WORKING in your 30s and 40s? <span>It&rsquo;s NOT your fault! </span>
 			    </header>
 			    <div class="b-fault_content g-wrap_content">
-			        <p>It&rsquo;  s no coincidence that many of the cosmetic products that &quot;  seemed&quot;   to work beautifully into your 20s&mdash; and early 30s &mdash; are suddenly less effective into your late 30s and 40s. It&rsquo;  s NOT your fault! Your beautiful complexion probably had LESS to do with the products you were using religiously and MORE to do with a naturally occurring protein molecule in your body called collagen. </p>
+			        <p>It&rsquo;s no coincidence that many of the cosmetic products that &quot;  seemed&quot;   to work beautifully into your 20s&mdash; and early 30s &mdash; are suddenly less effective into your late 30s and 40s. It&rsquo;s NOT your fault! Your beautiful complexion probably had LESS to do with the products you were using religiously and MORE to do with a naturally occurring protein molecule in your body called collagen. </p>
 			        <img src="/wp-content/themes/nectar7-pgb-child/images/collagen_works.png" alt="">
-			        <p>Often referred to as the &quot; youth protein,&quot;  collagen makes up the vast majority of our skin &mdash; nearly 70% &mdash; and forms the basis for connective and support tissues throughout the body. In essence, collagen is the glue that keeps everything perfectly in place...for a while. So if you&rsquo;  re wondering why those ridiculously expensive skin products aren&rsquo;  t working like they used to, there&rsquo;  s a good chance it&rsquo;  s because of the ever-dwindling supply of collagen in your body. </p>
+			        <p>Often referred to as the &quot; youth protein,&quot;  collagen makes up the vast majority of our skin &mdash; nearly 70% &mdash; and forms the basis for connective and support tissues throughout the body. In essence, collagen is the glue that keeps everything perfectly in place...for a while. So if you&rsquo;re wondering why those ridiculously expensive skin products aren&rsquo;t working like they used to, there&rsquo;s a good chance it&rsquo;s because of the ever-dwindling supply of collagen in your body. </p>
 			    </div>
-			</div> <!--end b-fault-->			
+			</div> <!--end b-fault-->
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class = "b-aging l-no_bg_image ">
 				<article>
 					<h2>The more collagen we lose, the older we look!</h2>
-					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;  s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless ourcollagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;  re all destined to run low on collagen unless we start doing something about it right now! 
+					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless ourcollagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;re all destined to run low on collagen unless we start doing something about it right now!
 					</p>
 				</article>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/woman-age-60-70.png" alt = "" class = "l-background_img"/>
 			</div> <!-- end .b-aging-->
-			
+
 			<div class = "g-clear_fix"></div>
-						
+
 			<div class = "b-ballon g-wrap_content">
                 <header>
                     <p>Like air escaping from a balloon.</p>
@@ -94,13 +94,13 @@ get_header(); ?>
                 </header>
                 <div class = "g-clear_fix"></div>
                 <div class="b-ballon_content">
-                    <p>Seriously! Collagen keeps our skin beautifully toned, bright, smooth and firm by forming connective tissues that act something like an elastic girdle&mdash; a truly natural face-lift. It also provides support for the stomach, blood vessels, liver and kidneys. Without collagen fibers, we&rsquo;  d be little more than a lovable BLOB lying on the floor!</p><br/>
+                    <p>Seriously! Collagen keeps our skin beautifully toned, bright, smooth and firm by forming connective tissues that act something like an elastic girdle&mdash; a truly natural face-lift. It also provides support for the stomach, blood vessels, liver and kidneys. Without collagen fibers, we&rsquo;d be little more than a lovable BLOB lying on the floor!</p><br/>
                     <p>As we age, the body loses collagen like air escaping from a balloon. As that balloon continues to deflate, telltale fine lines and wrinkles emerge. The older we get, the more air that escapes and those fine lines develop into full-fledged wrinkles. At some point, the relentless wear and tear of time and environment &mdash;along with tens of thousands of facial expressions &mdash; are too much for our connective tissues and elastin fibers to withstand. One day you look in the mirror and those so-called laugh lines are no laughing matter. </p>
                 </div>
 			</div><!--enb ballon-->
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class = "b-no_secret  g-wrap_content">
 			    <header>
 			        <p class="b-no_secret_header_left">It's NO <br/>secret!</p>
@@ -109,12 +109,12 @@ get_header(); ?>
 			    <div class="g-clear_fix"></div>
 			    <div class="b-no_secret_content">
 			        <div class="b-no_secret_content_right"><img src="/wp-content/themes/nectar7-pgb-child/images/formula.png" alt=""></div>
-			        <div class="b-no_secret_content_left">So, just how do we EFFECTIVELY get MORE collagen into our skin?Here&rsquo;  s a hint: Skin creams won&rsquo;t do it! But that certainly doesn&rsquo;  t stop savvy marketers from cranking out hundreds of collagen skin care products packaged in every conceivable configuration, color, shape and flavor. They range from pricey creams, serums, gummy bears, shampoos and drinks to capsules, injections, Chinese herbal teas and even collagen ice cream!</div>
+			        <div class="b-no_secret_content_left">So, just how do we EFFECTIVELY get MORE collagen into our skin?Here&rsquo;s a hint: Skin creams won&rsquo;t do it! But that certainly doesn&rsquo;t stop savvy marketers from cranking out hundreds of collagen skin care products packaged in every conceivable configuration, color, shape and flavor. They range from pricey creams, serums, gummy bears, shampoos and drinks to capsules, injections, Chinese herbal teas and even collagen ice cream!</div>
 			    </div>
 			</div><!--end no_secret-->
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class="b-two_attempts g-wrap_content">
 			    <p class="b-two_attempts_title">The list goes on and on, but here are two popular attempts people choose for kicking up collagen in the skin:</p>
 			    <div class="b-two_attempts_injections">
@@ -123,7 +123,7 @@ get_header(); ?>
 			        </div>
 			        <div class="b-two_attempts_injections_right">
 			            <p class="b-two_attempts_injections_right_title">Collagen injections: </p>
-			            <p class="b-two_attempts_injections_right_content">You may have considered collagen injections as a viable way to keep your skin looking younger longer. But the potential pain, high costs and possible side effects &mdash; including bacterial infections, abscesses and scarring (yikes) &mdash; have kept you on the sidelines. Additionally, you&rsquo;  ve learned that the body naturally absorbs almost every drop of collagen that has been injected into your face, and you&rsquo;  ll ultimately require additional injections &mdash; up to four times a year! </p>
+			            <p class="b-two_attempts_injections_right_content">You may have considered collagen injections as a viable way to keep your skin looking younger longer. But the potential pain, high costs and possible side effects &mdash; including bacterial infections, abscesses and scarring (yikes) &mdash; have kept you on the sidelines. Additionally, you&rsquo;ve learned that the body naturally absorbs almost every drop of collagen that has been injected into your face, and you&rsquo;ll ultimately require additional injections &mdash; up to four times a year! </p>
 			        </div>
 			    </div>
                <div class="g-clear_fix"></div>
@@ -133,7 +133,7 @@ get_header(); ?>
 			        </div>
 			        <div class="b-two_attempts_creams_right">
 			            <p class="b-two_attempts_creams_right_title">Collagen skin creams: </p>
-			            <p class="b-two_attempts_creams_right_content">Dermatologists agree, NO skin cream &mdash; even those containing collagen &mdash; can truly get past the epidermal layer, whichfunctions like a door keeping bodily fluids from going out and environmental elements from rushing in. At best, they&rsquo;  ll help your skin to retain more moisture. However, the last thing you need is another ridiculously overpriced moisturizing skin cream in your cabinet. </p>
+			            <p class="b-two_attempts_creams_right_content">Dermatologists agree, NO skin cream &mdash; even those containing collagen &mdash; can truly get past the epidermal layer, whichfunctions like a door keeping bodily fluids from going out and environmental elements from rushing in. At best, they&rsquo;ll help your skin to retain more moisture. However, the last thing you need is another ridiculously overpriced moisturizing skin cream in your cabinet. </p>
 			        </div>
 			    </div>
 			</div><!--end two_attempts-->
@@ -141,7 +141,7 @@ get_header(); ?>
 			<div class="b-nectar7">
                 <div>
                     <div class="b-nectar7_left">
-                        <p class="b-nectar7_left_first">Finally, a noninvasive, nonsurgical, scientifically proven solution to the collagen-depletion dilemma! It&rsquo;s called <span>NECTAR7 Niagen&reg; & Collagen</span>. Mark down the date, because for probably the first time in your life, you have a chance to gain the upper hand on aging! 
+                        <p class="b-nectar7_left_first">Finally, a noninvasive, nonsurgical, scientifically proven solution to the collagen-depletion dilemma! It&rsquo;s called <span>NECTAR7 Niagen&reg; & Collagen</span>. Mark down the date, because for probably the first time in your life, you have a chance to gain the upper hand on aging!
                         </p>
                         <p class="b-nectar7_left_sec"><span>For the first time!</span> <br/>
 NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE skin restorative product!</p>
@@ -153,11 +153,11 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
                 <div class="g-clear_fix"></div>
                 <div class="b-nectar7_descrip">
                     <p class="b-nectar7_descrip_title">How it works: </p>
-                    <p class="b-nectar7_descrip_content">NECTAR7&rsquo;s NECTAR7 Niagen&reg; & Collagen was designed to help restore your body&rsquo;s collagen starting at the cellular level &mdash; something creams and lotions simply CANNOT do. And you already know what boosting your body&rsquo;  s supply of youthful collagen can mean for your skin.</p>
+                    <p class="b-nectar7_descrip_content">NECTAR7&rsquo;s NECTAR7 Niagen&reg; & Collagen was designed to help restore your body&rsquo;s collagen starting at the cellular level &mdash; something creams and lotions simply CANNOT do. And you already know what boosting your body&rsquo;s supply of youthful collagen can mean for your skin.</p>
                     <p class="b-nectar7_descrip_title">For medical practitioners: </p>
-                    <p class="b-nectar7_descrip_content">NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;  s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.</p>
+                    <p class="b-nectar7_descrip_content">NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.</p>
                     <p class="b-nectar7_descrip_title">Formulated to outperform all collagen-only products:</p>
-                    <p class="b-nectar7_descrip_content">When you take a close look at these three ingredients, it&rsquo;  s easy to see why people expect NECTAR7&rsquo;s Niagen+to outperform any collagen-only product on the market.NECTAR7 Niagen&reg; & Collagen</p>
+                    <p class="b-nectar7_descrip_content">When you take a close look at these three ingredients, it&rsquo;s easy to see why people expect NECTAR7&rsquo;s Niagen+to outperform any collagen-only product on the market.NECTAR7 Niagen&reg; & Collagen</p>
                 </div>
 			</div><!--end nectar7_-->
 			<div class="g-clear_fix"></div>
@@ -165,9 +165,9 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
 				<article>
 					<h2>Three dynamic ingredients to help save your skin!</h2>
 					<ol>
-					    <li> Niagen (NR)&mdash; <span>Awarded five worldwide patents, this remarkable ingredient is the first and only commercially available form of Nicotinoamide Riboside (NR or Niagen) in the world today. Known as the &quot; hidden vitamin&quot;  or &quot; miracle molecule,&quot;  this non-flushing form of vitamin B-3 has been clinically shown to boost nicotinamide adenine dinucleotide (NAD) levels by 30% in humans after just one dose! That&rsquo;  s monumental news for your skin, since collagen is NAD-dependent(more about the science and research behind NAD shortly). </span></li>
+					    <li> Niagen (NR)&mdash; <span>Awarded five worldwide patents, this remarkable ingredient is the first and only commercially available form of Nicotinoamide Riboside (NR or Niagen) in the world today. Known as the &quot; hidden vitamin&quot;  or &quot; miracle molecule,&quot;  this non-flushing form of vitamin B-3 has been clinically shown to boost nicotinamide adenine dinucleotide (NAD) levels by 30% in humans after just one dose! That&rsquo;s monumental news for your skin, since collagen is NAD-dependent(more about the science and research behind NAD shortly). </span></li>
 					    <li>Hydrolyzed Fish Collagen<span>&mdash; Known for its potency, purity and absorbability, NECTAR7 Niagen&reg; & Collagen also contains hydrolyzed fish collagen to directly boost collagen in the body, even as your body starts synthesizing its own thanks to NR supplementation.</span></li>
-					    <li>Hyaluronic acid (HA)<span>&ndash; Often referred to as &quot; Nature&rsquo;  s Moisturizer,&quot;  HA is a crucial lubricant for healthy skin, joints and collagen itself. HA works synergistically with the other ingredients in NECTAR7 Niagen&reg; & Collagen to help keep your skin looking youthfully smooth and plump.</span></li>
+					    <li>Hyaluronic acid (HA)<span>&ndash; Often referred to as &quot; Nature&rsquo;s Moisturizer,&quot;  HA is a crucial lubricant for healthy skin, joints and collagen itself. HA works synergistically with the other ingredients in NECTAR7 Niagen&reg; & Collagen to help keep your skin looking youthfully smooth and plump.</span></li>
 					</ol>
 				</article>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/woman.png" alt = "" class = "l-background_img"/>
@@ -176,14 +176,14 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
 			<div class = "b-nad g-wrap_content">
 				<div class = "b-nad_depend">
 				    <h3>Collagen is dependenton NAD &mdash; and so are we!</h3>
-					<p>Here's a little background on NAD, and why researchers are so excited about its incredible anti-aging potential. For starters, NAD is a coenzyme that powers our cells to efficiently burn fats, carbohydrates, sugars and proteins into abundant energy. And it plays a huge role in keeping our skin youthful looking by stimulating the body to manufacture its own collagen. The bad news is that almost immediately after we&rsquo;  re born, NAD levels begin dropping &mdash; about 50% for every 20 years of life! If you're 40, you have already lost up to 50% of your NAD level. At that pace, you&rsquo;  ll lose another 50% by age 60! </p>
+					<p>Here's a little background on NAD, and why researchers are so excited about its incredible anti-aging potential. For starters, NAD is a coenzyme that powers our cells to efficiently burn fats, carbohydrates, sugars and proteins into abundant energy. And it plays a huge role in keeping our skin youthful looking by stimulating the body to manufacture its own collagen. The bad news is that almost immediately after we&rsquo;re born, NAD levels begin dropping &mdash; about 50% for every 20 years of life! If you're 40, you have already lost up to 50% of your NAD level. At that pace, you&rsquo;ll lose another 50% by age 60! </p>
 				</div>
 				<div class = "b-nad_graf">
 					<p>NAD+ decreases 50% every 20 years of life</p>
 					<img src = "/wp-content/themes/nectar7-pgb-child/images/nad_graf.png" alt = ""/>
 				</div>
 				<div class = "b-nad_depend">
-					<p>This chart is very bad news for our cells &mdash; especially if you want to look, feel and perform like you&rsquo;  re years younger! Here&rsquo;  s why: NAD is known as the communications molecule between the nucleus and the mitochondria. When we&rsquo;  re young, our cells are humming along beautifully, NAD levels are HIGH and communication levels are off the charts. When the nucleus (the cell&rsquo;  s quarterback) needs more energy from the mitochondria (the cell&rsquo;  s powerhouse), the request is instantly fulfilled.</p><br/>
+					<p>This chart is very bad news for our cells &mdash; especially if you want to look, feel and perform like you&rsquo;re years younger! Here&rsquo;s why: NAD is known as the communications molecule between the nucleus and the mitochondria. When we&rsquo;re young, our cells are humming along beautifully, NAD levels are HIGH and communication levels are off the charts. When the nucleus (the cell&rsquo;s quarterback) needs more energy from the mitochondria (the cell&rsquo;s powerhouse), the request is instantly fulfilled.</p><br/>
 					<p>However, as we age, NAD levels DECLINE leading to worsening cellular communication and dysfunctional cellular replication. The lower your NAD levels, the steeper the decline in communication, which can ultimately lead to aging, illness and disease.   </p>
 				</div>
             </div><!--end nad-->
@@ -200,16 +200,16 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
 				</aside>
 				<aside class = "c-nad_right"></aside>
 			</div><!--end b-nad_disf-->
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class = "b-nad_blue">
 				<p>Key ingredient in <span>NECTAR7 Niagen&reg; & Collagen helps</span> Harvard doctor <span>reverse aging in cells!</span><p/>
 			</div>
 			<div class = "g-clear_fix"></div>
 			<div class="b-doctor  g-wrap_content">
 			    <p>Dr. David Sinclair, a professor of genetics at Harvard Medical School, made headlines worldwide in 2013 when he proved that boosting NAD can actually reverse the aging process in cells. Considered one of the foremost scientists and authorities on anti-aging, Dr. Sinclair published a paper (in association with ChromaDex) in the journal Cell (October 2013) that was not only hailed by his peers in the scientific community, but Time magazine named him one of the &quot; 100 Most Influential People&quot;  in 2014. </p>
-			    <p>  Time magazine singled out Dr. Sinclair&rsquo;  s study in which he and his colleagues identified a cause of aging that is potentially reversible, noting that &quot; his work makes possible the idea of living more years with a body that&rsquo;  s robust enough to make the most of them.&quot;</p>
+			    <p>  Time magazine singled out Dr. Sinclair&rsquo;s study in which he and his colleagues identified a cause of aging that is potentially reversible, noting that &quot; his work makes possible the idea of living more years with a body that&rsquo;s robust enough to make the most of them.&quot;</p>
 			    <h2>Here&rsquo;s why NAD may impact more than just the collagen in your skin!</h2>
 			    <p>Dr. Sinclair and his team administered a NAD+ booster (the same ingredient used in NECTAR7 Niagen&reg; & Collagen) to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
 			    <div class = "b-doctor_blue ">
@@ -219,9 +219,9 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
 			            <li>In humans, 60-year-old mitochondria would become the equivalent of a 20-year-old&rsquo;s</li>
 			        </ul>
 			    </div>
-			    <p>In human terms, that&rsquo;  s the equivalent of a 60-year-old having the mitochondria of a 20-year-old just a week later! Dr. Sinclair had succeeded in turning back the biological clock, or as he explained in more technical terms, &quot; The NAD+ enabled the nucleus to re-establish communication to the mitochondria and the mice went back to being young again.&quot; </p>
-			    <p>Dr. Sinclair&rsquo;  s triumph proved that NAD levels could be boosted through supplementation. And as we&rsquo;  ve already learned, more NAD equals more collagen! Can you imagine what that could mean for your skin?</p>
-			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science behind NECTAR7 Niagen&reg; & Collagen.  But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>			    
+			    <p>In human terms, that&rsquo;s the equivalent of a 60-year-old having the mitochondria of a 20-year-old just a week later! Dr. Sinclair had succeeded in turning back the biological clock, or as he explained in more technical terms, &quot; The NAD+ enabled the nucleus to re-establish communication to the mitochondria and the mice went back to being young again.&quot; </p>
+			    <p>Dr. Sinclair&rsquo;s triumph proved that NAD levels could be boosted through supplementation. And as we&rsquo;ve already learned, more NAD equals more collagen! Can you imagine what that could mean for your skin?</p>
+			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science behind NECTAR7 Niagen&reg; & Collagen.  But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
 			</div>
 			<div class="b-press_release  g-wrap_content">
 			     <h2><span>2015 Press Release:</span><br/>A single dose of Niagen can restore your NAD levels!</h2>
@@ -232,7 +232,7 @@ NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE s
                <div class="b-miss">
                 <h2>If you miss the way your skin used to look, you&rsquo;ll love <span>NECTAR7 Niagen&reg; & Collagen.</span></h2>
                 <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science behind NECTAR7 Niagen&reg; & Collagen. But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
-                <p class="b-miss_title">Here are a few other less-than-scientific ways 
+                <p class="b-miss_title">Here are a few other less-than-scientific ways
 you&rsquo;ll know that NECTAR7&rsquo;s Niagen is working:</p>
                 <div class="b-miss_list">
                 <p>&hellip;  When you run into a friend you haven&rsquo;t seen for months and he asks, &quot;Did you just get back from vacation? You look so refreshed.&quot;</p>
@@ -243,7 +243,7 @@ you&rsquo;ll know that NECTAR7&rsquo;s Niagen is working:</p>
             </div>
             </div>
             <div class="b-miss_img"><img src="/wp-content/themes/nectar7-pgb-child/images/with_collagen.png" alt=""></div>
-            		
+
             <div class="b-try g-wrap_content">
                 <h2><span>Try NECTAR7 Niagen&reg; & Collagen</span> before it&rsquo;s trending on celebrity YouTube channels.</h2>
                 <p>Industry insiders will tell you that Hollywood A-list actors and top runway models are afforded early access to the best skin care products well before they come to market. It&rsquo;s not equitable, but marketers want their products trending as a result of being mentioned on top Hollywood entertainment blogs and YouTube channels. That&rsquo;s NOT the case with <span>NECTAR7 Niagen&reg; & Collagen.</span> The makers of <span>NECTAR7 Niagen&reg; & Collagen</span> wanted to make sure that EVERYBODY had an equal opportunity to start benefiting from this remarkable new collagen-boosting, collagen skin care product. It won&rsquo;t be long, however, before Hollywood stylists begin notifying their celebrity clients and the word is out.</p>
@@ -251,7 +251,7 @@ you&rsquo;ll know that NECTAR7&rsquo;s Niagen is working:</p>
             <div class="b-story g-wrap_content" >
                 <div class="b-story_blue">
                         <div class="b-story_blue_left"><p><span>Stacie&rsquo;s story:</span><br/>Do you remember the day you started LOOKING your age?</p></div>
-                        
+
                 </div>
                 <div class="b-story_blue_right"><img src="/wp-content/themes/nectar7-pgb-child/images/wiman_blue.jpg" alt="">
                 </div>
@@ -265,7 +265,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
                     <p>&quot;I was desperate, so I starting getting those free department store makeovers, and buying all of the products the stylist recommended. I spent a fortune,&quot; she admitted. &quot;I thought about getting collagen injections, but I found out that collagen basically gets absorbed by the body, so I&rsquo;d have to repeat the process several times a year. As a single mom with two kids in private school, no way that was going to happen.&quot;</p><br/>
                     <p>And as for cosmetic surgery? &quot;I just didn&rsquo;t have an extra five or six thousand dollars laying around for a high-end face-lift from a great doctor,&quot; she said. &quot;Also, I was a little scared that something could go wrong like you see in those TV shows about botched cosmetic surgeries. I finally decided that I was OK with how I looked now &mdash; I just didn&rsquo;t want to look any older.</p><br/>
                     <p>&quot;That&rsquo;s when a friend told me about this new laboratory study conducted by a top Harvard doctor. The Harvard study proved that this doc was able to make cells young again! Not only that, the very same ingredient he used is also known to stimulate the growth of collagen in the body. How cool is that? And it turns out I could actually buy the product with the same key ingredient he used &mdash; Niagen.  </p><br/>
-                    <p> &quot;I&rsquo;ve been using NECTAR7 Niagen&reg; & Collagen for maybe a month, and I can&rsquo;t believe the difference. It took a couple of weeks to &lsquo;kick in,&rsquo; and now I can see fine lines basically vanishing and my skin smoothing out. OK, at 47, I&rsquo;m not getting &quot;carded&quot; anymore, but I feel so much better about myself. Needless to say, I&rsquo;m not going to stop taking NECTAR7 Niagen&reg; & Collagen."</p><br/>                  
+                    <p> &quot;I&rsquo;ve been using NECTAR7 Niagen&reg; & Collagen for maybe a month, and I can&rsquo;t believe the difference. It took a couple of weeks to &lsquo;kick in,&rsquo; and now I can see fine lines basically vanishing and my skin smoothing out. OK, at 47, I&rsquo;m not getting &quot;carded&quot; anymore, but I feel so much better about myself. Needless to say, I&rsquo;m not going to stop taking NECTAR7 Niagen&reg; & Collagen."</p><br/>
                 </div>
             </div>
             <div class = "b-inst">
@@ -314,7 +314,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 							<img src = "/wp-content/themes/nectar7-pgb-child/images/inst_icon13.png" alt ="" />
 						</li>
 					</ul>
-					
+
 					<table>
 						<thead>
 							<tr>
@@ -423,48 +423,48 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 			<div class = "b-money_back">
 				<article class = "l-base_styles l-base_padding">
 					<div class = "b-money_back_left"><img src = "/wp-content/themes/nectar7-pgb-child/images/money_back.png"/></div>
-					<h2 class = "b-money_back_right">  
-						
+					<h2 class = "b-money_back_right">
+
 						<b>NECTAR7&rsquo;s Niagen&reg; & Collagen</b> comes with a 60-Day, No-Questions Asked,
 						<b>Money Back Guarantee. </b><br/>
 					</h2>
-					
+
 					<div class = "g-clear_fix"></div>
-					
+
 					<p>
-						If, after just 30 days, you&rsquo;re not experiencing more energy, better mental focus and sharpness &mdash; if you don&rsquo;t have that unquenchable zest for living back in full force &mdash; just return the bottle for a 100%, no questions asked refund. We&rsquo;ll not only refund the purchase price of the product, but any related shipping costs as well. Again, no questions asked. That&rsquo;s how confident we are that Niagen will be everything you hoped for and so much more.  
+						If, after just 30 days, you&rsquo;re not experiencing more energy, better mental focus and sharpness &mdash; if you don&rsquo;t have that unquenchable zest for living back in full force &mdash; just return the bottle for a 100%, no questions asked refund. We&rsquo;ll not only refund the purchase price of the product, but any related shipping costs as well. Again, no questions asked. That&rsquo;s how confident we are that Niagen will be everything you hoped for and so much more.
 					</p>
-					
+
 				</article>
 			</div>
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<div class = "b-impact l-no_bg_image b-young">
 				<article class = "l-base_styles">
-					<h2>Is your face worth _____ a month? You&rsquo;ll think so every time you look in the mirror!  
+					<h2>Is your face worth _____ a month? You&rsquo;ll think so every time you look in the mirror!
 					</h2>
-					
+
 					<p>
-						
+
 How to use NECTAR7 Niagen&reg; & Collagen? It&rsquo;s simple. Just take it once a day as you would a vitamin, and then let NECTAR7&rsquo;s Niagen do the rest. As you're taking NECTAR7&rsquo;s Niagen for more youthful-looking skin, you&rsquo;ll also want to take NECTAR7&rsquo;s Niagen for more energy and mental acuity
 					</p>
 					<p>Remember that study that noted a 30% increase in NAD with just one dose of Niagen? Well, imagine how much collagen-dependent NAD your body could produce with higher dosages and what that might mean for your skin?
 					</p>
-				
+
 					<h3>For the first time!					</h3>
-					
+
 					<p>
 						NECTAR7&rsquo;s Niagen+ brings together THREE amazing ingredients in ONE skin restorative product!
 					</p>
 					<h3>How it works:					</h3>
-					
+
 					<p>
 NECTAR7&rsquo;s NECTAR7 Niagen&reg; & Collagen was designed to help restore your body&rsquo;s collagen starting at the cellular level &mdash; something creams and lotions simply CANNOT do. And you already know what boosting your body&rsquo;s supply of youthful collagen can mean for your skin.
 					</p>
 					<h3>For medical practitioners:			</h3>
                     <p>
-NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.  
+NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.
 
 Formulated to outperform					</p>
 					<h3>Formulated to outperform all collagen-only products:			</h3>
@@ -515,8 +515,8 @@ Formulated to outperform					</p>
                         <div class="b-order_pay"><img src="/wp-content/themes/nectar7-pgb-child/images/bottle_payment.png" alt=""></div>
                     </div>
                 </div>
-            </div>	
-            
+            </div>
+
 			<div class="g-clear_fix"></div>
 			<div class = "col-md-4 col-sm-4 col-xs-12 text-center">
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/contact_img1.png" alt = ""  class = "img-responsive"/>
@@ -524,16 +524,16 @@ Formulated to outperform					</p>
 			<div class = "col-md-4 col-sm-4 col-xs-12 text-center">
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/contact_img2.png" alt = "" class = "img-responsive"/>
 			</div>
-			
+
 			<div class = "col-md-4 col-sm-4 col-xs-12 text-center">
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/contact_img3.png" alt = ""  class = "img-responsive"/>
 			</div>
-			
+
 			<div class = "g-clear_fix"></div>
-			
+
 			<br/>
 			<br/>
-			
+
 			<div class = "g-clear_fix"></div>
 			<div class="b-light_blue">
 			    <h2><b>NIAGEN&reg; & COLLAGEN</b> (WITH HA "HYALURONIC ACID")</h2>
@@ -550,8 +550,8 @@ Formulated to outperform					</p>
 			    </div>
 			    <div class="b-light_blue_right">
 			        <header>Suggested Use:</header>
-			        <p class="f_line">As a dietary supplement, take t wo (2) capsules daily in morning 
-and two (2) capsules in the evening, preferably with meals,or as 
+			        <p class="f_line">As a dietary supplement, take t wo (2) capsules daily in morning
+and two (2) capsules in the evening, preferably with meals,or as
 directed by a healthcare professional.</p><hr/>
                     <p class="s_line">No colors added. No artificia l flavors.
 No preservatives. No yeast. Gluten free.</p><hr/>
@@ -562,7 +562,7 @@ This product is not intended to diagnose, treat, cure or prevent any disease.</p
 			<div class = "g-clear_fix"></div>
 			    <span class="research"><i class="fa fa-plus"></i> RESEARCH CITATIONS</span>
 			<div class = "g-clear_fix"></div>
-			
+
 		</div>
 </div>
 
