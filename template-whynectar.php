@@ -63,6 +63,7 @@ get_header(); ?>
 			    </div>
 			</div> <!-- end .b-new-care-->
 
+
 			<div class = "g-clear_fix"></div>
 			<div class="b-fault">
 			    <header>
