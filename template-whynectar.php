@@ -145,7 +145,7 @@ get_header(); ?>
                         <p class="b-nectar7_left_first">Finally, a noninvasive, nonsurgical, scientifically proven solution to the collagen-depletion dilemma! It&rsquo;s called <span>NECTAR7 Niagen&reg; & Collagen</span>. Mark down the date, because for probably the first time in your life, you have a chance to gain the upper hand on aging!
                         </p>
                         <p class="b-nectar7_left_sec"><span>For the first time!</span> <br/>
-NECTAR7 Niagen&reg; & Collagenbrings together THREE amazing ingredients in ONE skin restorative product!</p>
+NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE skin restorative product!</p>
                     </div>
                     <div class="b-nectar7_right">
                         <img src="/wp-content/themes/nectar7-pgb-child/images/nectar2.png" alt="">
@@ -448,7 +448,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 
 					<p>
 
-How to use NECTAR7 Niagen&reg; & Collagen? It&rsquo;s simple. Just take it once a day as you would a vitamin, and then let NECTAR7&rsquo;s Niagen do the rest. As you're taking NECTAR7&rsquo;s Niagen for more youthful-looking skin, you&rsquo;ll also want to take NECTAR7&rsquo;s Niagen for more energy and mental acuity
+How to use NECTAR7 Niagen&reg; & Collagen? It&rsquo;s simple. Just take it once a day as you would a vitamin, and then let NECTAR7&rsquo;s Niagen do the rest. As you're taking NECTAR7&rsquo;s Niagen for more youthful-looking skin, you&rsquo;ll also want to take NECTAR7&rsquo;s Niagen for more energy and mental acuity.
 					</p>
 					<p>Remember that study that noted a 30% increase in NAD with just one dose of Niagen? Well, imagine how much collagen-dependent NAD your body could produce with higher dosages and what that might mean for your skin?
 					</p>

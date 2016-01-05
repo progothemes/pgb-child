@@ -144,7 +144,7 @@ Header
     font-size: 18px;
     list-style-type: disc;
     font-family: 'Open Sans Semibold';
-    
+
 }
 .b-header_content_list li:last-child{
     padding-bottom:16.7px;
@@ -338,7 +338,7 @@ no-secret
     float: right;
     height: 150px;
 }
-.b-no_secret_content_right img{ 
+.b-no_secret_content_right img{
     width:80%;
 }
 /*
@@ -383,7 +383,7 @@ two_attempts
     padding: 15px 0;
 }
 .b-two_attempts_injections_right_content, .b-two_attempts_creams_right_content{
-    font-size: 16px; 
+    font-size: 16px;
     line-height:1.6;
 }
 /*
@@ -572,7 +572,7 @@ nad blue
 	color: #ffffff;
     font-size: 35px;
     line-height: 1.4;
-    
+
     font-weight: 300 !important;
 }
 .b-nad_blue p span{
@@ -734,7 +734,7 @@ b-try
     color:#fff;
     display: inline-block;
     padding: 10px 0 20px;
-    
+
 }
 .b-story_blue_right{
     float: right;
@@ -773,7 +773,7 @@ money back
 .b-money_back {
 	width: 100%;
 	margin: 33px 0 0 0;
-    
+
 }
 
 .b-money_back_right {
@@ -794,7 +794,8 @@ Young
 =================================================================
 */
 .b-young {
-	background: url('images/younth_bg.png') right center no-repeat;
+	/*background: url('images/younth_bg.png') right center no-repeat;*/
+  background: url('images/nectar2.png') right center no-repeat;
 }
 .b-young article h2 {
     font-size: 22px;
@@ -843,7 +844,7 @@ Order
     font-family: 'Myriad Pro';
     font-size: 28px;
     font-weight:600;
-    
+
 }
 .b-order h2 span{
     font-size: 18px;
@@ -859,7 +860,7 @@ Order
     height:160px;
 }
 .b-order_img img{
-    
+
 }
 .b-order_1 .b-order_img img{
     width:auto;
@@ -956,7 +957,7 @@ light_blue
 .b-light_blue_left header{
     font-size: 22px;
     font-weight: 600;
-    border-bottom: 5px solid #000; 
+    border-bottom: 5px solid #000;
     padding-bottom: 8px;
     font-family: "Open Sans";
 }
@@ -977,13 +978,13 @@ light_blue
     padding-top:10px;
     border-top: 5px solid #000;
  }
-  
+
 .b-light_blue_left .f_line{
     font-size: 16px;
     padding-top:36px;
     font-weight:600;
  }
- 
+
 .b-light_blue_left footer{
     font-size: 16px;
     padding-top:16px;
@@ -1048,7 +1049,7 @@ p {
     .b-story_blue p{
         font-size: 30px
     }
-    
+
 }
 @media (max-width: 978px) {
     .b-no_secret_header_left{
@@ -1062,7 +1063,7 @@ p {
 }
 @media (max-width: 950px) {
     /*
-	 * new_care 
+	 * new_care
 	 */
     .b-new_care_left {
         line-height:1.4;
@@ -1077,7 +1078,7 @@ p {
         width: 100%;
     }
     /*
-	 * Dark 
+	 * Dark
 	 */
 	.b-dark_content {
 		width: 60%;
@@ -1087,7 +1088,7 @@ p {
     /*
     *aging
     */
-    
+
     .b-aging {
         background: url('../images/woman-age-60-70.png') left -15% bottom no-repeat #eaf0f2;
     }
@@ -1113,7 +1114,7 @@ p {
     }
     .b-order_3{
         height:330px;
-    
+
     }
     .b-order_img{
         max-width:40%;
@@ -1204,7 +1205,7 @@ p {
 		bottom: auto;
 	}
     /*
-	 * new_care 
+	 * new_care
 	 */
     .b-new_care_left {
         font-size:16px;
@@ -1217,7 +1218,7 @@ p {
     /*
 	 * fault
 	 */
-    
+
     .b-fault header{
         font-size:30px;
         padding: 20px 3% ;
@@ -1233,7 +1234,7 @@ p {
     /*
     *ballon
     */
-    
+
     .b-ballon{
         margin-top: 90px;
     }
@@ -1286,7 +1287,7 @@ p {
         width:74%;
     }
     .b-two_attempts_injections_right_content, .b-two_attempts_creams_right_content{
-        font-size: 14px; 
+        font-size: 14px;
     }
     .b-nectar7{
         padding: 40px 3%;
@@ -1359,7 +1360,7 @@ p {
     width: 100%;
 
     }
-    
+
     .b-young_last {
         padding: 0 3%;
     }
@@ -1392,7 +1393,7 @@ p {
 }
 @media (max-width: 765px) {
     /*
-	 * new_care 
+	 * new_care
 	 */
     .b-new_care_left {
         font-size:16px;
@@ -1445,7 +1446,7 @@ p {
         padding:40px 3%;
     }
 }
-@media (max-width: 716px) {    
+@media (max-width: 716px) {
     .b-no_secret{
         margin-top:30px;
     }
@@ -1507,7 +1508,7 @@ p {
 
 }
 @media (max-width: 700px) {
-    
+
 	.b-header_content header {
 		font-size: 45px;
 		line-height: 1.2;
@@ -1584,9 +1585,9 @@ p {
         float:none;
     }
     .b-two_attempts_injections_right_content, .b-two_attempts_creams_right_content{
-        font-size: 16px; 
+        font-size: 16px;
     }
-    
+
     .b-doctor_blue ul {
         padding:25px 0 25px 25px;
     }
@@ -1629,7 +1630,7 @@ p {
 		width: 100%;
 		text-align: center;
 	}
-    
+
     .b-miss h2{
         font-size: 30px;
     }
@@ -1646,7 +1647,7 @@ p {
         font-size: 30px;
     }
 
-    .b-inst table tbody td { 
+    .b-inst table tbody td {
         font-size: 16px;
     }
     .b-money_back_left {
@@ -1667,7 +1668,7 @@ p {
     .b-nectar7_right{
         width: 100%;
     }
-    
+
     .b-inst article {
         width:100%;
         margin: 0 auto;
@@ -1678,7 +1679,7 @@ p {
         width: 100%;
         padding: 5px 40px 10px 40px;
     }
-    
+
     .b-order_1{
         height:580px;
     }
@@ -1687,7 +1688,7 @@ p {
     }
     .b-order_3{
         height:580px;
-    
+
     }
 
     .b-order_img{
@@ -1701,7 +1702,7 @@ p {
     .b-order_2 .b-order_img{
         margin:30px 0 56px 0;
     }
-    
+
     .b-order_img img{
         width:auto;
     }
@@ -1727,7 +1728,7 @@ p {
 
 @media (max-width: 400px) {
     /*
-	 * new_care 
+	 * new_care
 	 */
     .b-new_care_right{
         width: 100%;
@@ -1750,14 +1751,14 @@ p {
     .b-no_secret_content_right{
         width:80%;
     }
-    
+
     .b-two_attempts_injections_left, .b-two_attempts_creams_left {
         width: 100%;
     }
     .b-story_blue_right{
         width:100%;
     }
-    
+
     .b-order_2 .b-order_img img{
         width:100%;
     }
