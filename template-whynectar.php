@@ -70,9 +70,9 @@ get_header(); ?>
 			        Why do pricey skin care products seem to STOP WORKING in your 30s and 40s? <span>It&rsquo;s NOT your fault! </span>
 			    </header>
 			    <div class="b-fault_content g-wrap_content">
-			        <p>It&rsquo;s no coincidence that many of the cosmetic products that &quot;seemed&quot; to work beautifully into your 20s&mdash; and early 30s &mdash; are suddenly less effective into your late 30s and 40s. It&rsquo;s NOT your fault! Your beautiful complexion probably had LESS to do with the products you were using religiously and MORE to do with a naturally occurring protein molecule in your body called collagen. </p>
+			        <p>It&rsquo;s no coincidence that many of the cosmetic products that &quot;seemed&quot; to work beautifully into your 20s &mdash; and early 30s &mdash; are suddenly less effective into your late 30s and 40s. It&rsquo;s NOT your fault! Your beautiful complexion probably had LESS to do with the products you were using religiously and MORE to do with a naturally occurring protein molecule in your body called collagen. </p>
 			        <img src="/wp-content/themes/nectar7-pgb-child/images/collagen_works.png" alt="">
-			        <p>Often referred to as the &quot; youth protein,&quot;  collagen makes up the vast majority of our skin &mdash; nearly 70% &mdash; and forms the basis for connective and support tissues throughout the body. In essence, collagen is the glue that keeps everything perfectly in place...for a while. So if you&rsquo;re wondering why those ridiculously expensive skin products aren&rsquo;t working like they used to, there&rsquo;s a good chance it&rsquo;s because of the ever-dwindling supply of collagen in your body. </p>
+			        <p>Often referred to as the &quot;youth protein,&quot;  collagen makes up the vast majority of our skin &mdash; nearly 70% &mdash; and forms the basis for connective and support tissues throughout the body. In essence, collagen is the glue that keeps everything perfectly in place...for a while. So if you&rsquo;re wondering why those ridiculously expensive skin products aren&rsquo;t working like they used to, there&rsquo;s a good chance it&rsquo;s because of the ever-dwindling supply of collagen in your body. </p>
 			    </div>
 			</div> <!--end b-fault-->
 			<div class = "g-clear_fix"></div>
@@ -465,9 +465,7 @@ NECTAR7&rsquo;s NECTAR7 Niagen&reg; & Collagen was designed to help restore your
 					</p>
 					<h3>For medical practitioners:			</h3>
                     <p>
-NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.
-
-Formulated to outperform					</p>
+NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.</p>
 					<h3>Formulated to outperform all collagen-only products:			</h3>
                     <p>When you take a close look at these three ingredients, it&rsquo;s easy to see why people expect NECTAR7&rsquo;s Niagen+ to outperform any collagen-only product on the market. </p>
 				</article>
@@ -551,17 +549,17 @@ Formulated to outperform					</p>
 			    </div>
 			    <div class="b-light_blue_right">
 			        <header>Suggested Use:</header>
-			        <p class="f_line">As a dietary supplement, take t wo (2) capsules daily in morning
-and two (2) capsules in the evening, preferably with meals,or as
+			        <p class="f_line">As a dietary supplement, take two (2) capsules daily in the morning
+and two (2) capsules in the evening, preferably with meals, or as
 directed by a healthcare professional.</p><hr/>
-                    <p class="s_line">No colors added. No artificia l flavors.
+                    <p class="s_line">No colors added. No artificial flavors.
 No preservatives. No yeast. Gluten free.</p><hr/>
                     <p class="t_line">*These statements have not been evaluated by the Food and Drug Administration.
 This product is not intended to diagnose, treat, cure or prevent any disease.</p>
 			    </div>
 			</div>
 			<div class = "g-clear_fix"></div>
-			    <span class="research"><i class="fa fa-plus"></i> RESEARCH CITATIONS</span>
+			    <!-- <span class="research"><i class="fa fa-plus"></i> RESEARCH CITATIONS</span> -->
 			<div class = "g-clear_fix"></div>
 
 		</div>
