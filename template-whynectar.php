@@ -431,7 +431,6 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 					</h2>
 
 					<div class = "g-clear_fix"></div>
-
 					<p>
 						If, after just 30 days, you&rsquo;re not experiencing more energy, better mental focus and sharpness &mdash; if you don&rsquo;t have that unquenchable zest for living back in full force &mdash; just return the bottle for a 100%, no questions asked refund. We&rsquo;ll not only refund the purchase price of the product, but any related shipping costs as well. Again, no questions asked. That&rsquo;s how confident we are that Niagen will be everything you hoped for and so much more.
 					</p>
