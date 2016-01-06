@@ -426,7 +426,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 					<div class = "b-money_back_left"><img src = "/wp-content/themes/nectar7-pgb-child/images/money_back.png"/></div>
 					<h2 class = "b-money_back_right">
 
-						<b>NECTAR7&rsquo;s Niagen&reg; & Collagen</b> comes with a 60-Day, No-Questions Asked,
+						<b>NECTAR7&rsquo;s Niagen&reg; & Collagen</b> comes with a 30-Day, No-Questions Asked,
 						<b>Money Back Guarantee. </b><br/>
 					</h2>
 
