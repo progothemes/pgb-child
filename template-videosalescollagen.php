@@ -16,7 +16,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 ?>
 
-	<div id="dimdiv"></div>
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
 		
 		<?php tha_content_top(); ?>
@@ -50,7 +49,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
-													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width: 736px; max-height:414px; position:relative; z-index:200;">
+													<div class="videocontent">
 														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;">
 															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -277,8 +276,23 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 		<?php // tha_content_bottom(); ?>
 	
+		<div id="dimdiv"></div>
 	</div>
 <style type="text/css">
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+.videocontent{
+	box-shadow: 0 3px 8px;
+	max-width: 736px;
+	max-height:414px;
+	position:relative;
+	z-index:200;
+}
+.btn.btn-primary{
+    z-index: 99;
+}
 #dimdiv{
 	position: fixed;
 	top:0; left:0;
