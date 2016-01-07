@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,700,700italic,300);
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,16 +15,11 @@ menu, article, section, nav, footer, figure, var {
     vertical-align: baseline;
     background: transparent;
     font-weight:normal;
-    font-family:'Open Sans';
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section{
     display:block;
 }
-body{
-   font-family: 'Open Sans', sans-serif;
-}
-
 ol, ul, menu{
     list-style: none;
 }
@@ -59,7 +52,6 @@ table{
 html{
     overflow-y: scroll;
     font-size: 100.01%;
-	font-family: 'Open Sans', sans-serif;
 }
 body {
 	background: #fff;
@@ -79,25 +71,6 @@ a:hover{
 var{
     font-style:normal;
 }
-@font-face {
-	font-family: 'MyriadPro';
-	src: url('fonts/MyriadPro-Regular.otf');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Open Sans Semibold';
-	src: url('fonts/open-sans-semibold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Open Sans Extrabold';
-	src: url('fonts/open-sans-extrabold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 
 
 /*
@@ -137,13 +110,13 @@ Header
 }
 .b-header_content_list{
     list-style-position: inside;
-    font-family: 'Open Sans Semibold';
+    font-weight: bold;
 }
 .b-header_content_list li{
     padding-top:16.7px;
     font-size: 18px;
     list-style-type: disc;
-    font-family: 'Open Sans Semibold';
+    font-weight: bold;
 
 }
 .b-header_content_list li:last-child{
@@ -170,7 +143,7 @@ new_care
     float: left;
 }
 .b-new_care_left span{
-    font-family:'Open Sans Extrabold';
+    font-weight:bold;
     font-size: 20px;
 }
 .b-new_care_right{
@@ -193,18 +166,17 @@ FAULT
 =================================================================
 */
 .b-fault header{
-    font-family: 'Open Sans';
     font-size:35px;
     color:#fff;
     text-align:center;
     padding: 35px 6%;
     margin: 50px 0;
     background: #dd2c00;
-    font-family:'Open Sans Semibold';
+    font-weight:bold;
     line-height: 1.1;
 }
 .b-fault header span{
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 .b-fault_content{
     font-size: 16px;
@@ -242,7 +214,7 @@ AGING
 	margin: 51px 6% 0 0;
 }
 .b-aging h2 {
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
 	font-size: 35px;
     font-weight:600;
     line-height: 43px;
@@ -268,7 +240,7 @@ ballon
     margin-top: 90px;
 }
 .b-ballon header p{
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     width:50%;
     float: left;
     font-size: 45px;
@@ -305,7 +277,7 @@ no-secret
 .b-no_secret_header_left {
 	float: left;
     font-size:60px;
-    font-family:'Open Sans Extrabold';
+    font-weight:bold;
     font-weight:600;
     color: #1946ba;
     width:25%;
@@ -313,7 +285,6 @@ no-secret
     line-height: 1!important;
 }
 .b-no_secret_header_right {
-    font-family:'Open Sans';
 	font-size:22px;
     color: #1946ba;
     width:70%;
@@ -322,7 +293,7 @@ no-secret
     float:right!important;
 }
 .b-no_secret_header_right span{
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 .b-no_secret_content{
     margin-top: 30px;
@@ -361,7 +332,6 @@ two_attempts
     color: #1946ba;
     width:80%;
     line-height:1.4;
-    font-family:'Open Sans';
 }
 .b-two_attempts_injections{
     margin-top: 35px;
@@ -373,7 +343,6 @@ two_attempts
     width:30%;
 }
 .b-two_attempts_injections_right, .b-two_attempts_creams_right{
-    font-family: 'Open Sans';
     float: left;
     width:70%;
 }
@@ -409,7 +378,7 @@ nectar7
     padding: 0 0 20px 0;
 }
 .b-nectar7_left_first span{
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     color: #1946ba;
 }
 .b-nectar7_left_sec{
@@ -418,7 +387,7 @@ nectar7
     line-height:1.4;
 }
 .b-nectar7_left_sec span{
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     font-size:18px;
 }
 .b-nectar7_right{
@@ -431,7 +400,7 @@ nectar7
 }
 .b-nectar7_descrip_title{
     font-size: 24px;
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     padding: 40px 0 0 0;
 }
 .b-nectar7_descrip_content{
@@ -461,7 +430,7 @@ ingredient
 	margin: 51px 6% 0 0;
 }
 .b-ingredient h2 {
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
 	font-size: 35px;
     line-height: 43px;
     margin: 0 0 10px;
@@ -473,11 +442,11 @@ ingredient
 	margin: 0 0 26px;
     list-style-type: decimal;
     list-style-position: inside;
-    font-family: 'Open Sans Extrbold';
+    font-weight: bold;
 }
 .b-ingredient ol li{
 	margin: 0 0 26px;
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
 }
 /*
 =================================================================
@@ -489,13 +458,12 @@ Nad
 }
 .b-nad_depend h3{
     font-size: 35px;
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     color: #1946ba;
     margin-bottom: 20px;
 }
 .b-nad_depend p{
     font-size: 16px;
-    font-family: 'Open Sans';
     line-height: 1.6;
 }
 .b-nad_graf {
@@ -576,7 +544,7 @@ nad blue
     font-weight: 300 !important;
 }
 .b-nad_blue p span{
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 /*
 =================================================================
@@ -600,7 +568,7 @@ Doctor
 }
 .b-doctor h2{
     font-size: 35px;
-    font-family: 'Open Sans Extrabold';
+    font-weight: bold;
     padding: 50px 0 0 0;
 }
 .b-doctor_blue{
@@ -631,7 +599,7 @@ press release
 .b-press_release h2{
     width: 70%;
     font-size: 35px;
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
     padding-bottom:30px;
 }
 .b-press_release p{
@@ -661,7 +629,7 @@ miss
     font-weight: 300;
 }
 .b-miss h2 span{
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 .b-miss p{
     font-size:16px;
@@ -697,7 +665,7 @@ b-try
     line-height:1.4;
 }
 .b-try h2 span{
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 .b-try p{
     font-size:16px;
@@ -722,14 +690,13 @@ b-try
 }
 .b-story_blue_left p{
     font-size:35px;
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
     color:#fff;
     padding-bottom: 30px;
     line-height: 1.4;
 }
 .b-story_blue_left p span{
     font-size:22px;
-    font-family:'Open Sans';
     font-style: italic;
     color:#fff;
     display: inline-block;
@@ -800,7 +767,7 @@ Young
 .b-young article h2 {
     font-size: 22px;
     line-height:1.4;
-    font-family:'Open Sans Extrabold';
+    font-weight: bold;
 }
 .b-young article h3 {
 	font-weight: bold;
@@ -841,7 +808,6 @@ Order
     border: 4px solid #dd291c;
 }
 .b-order h2{
-    font-family: 'Myriad Pro';
     font-size: 28px;
     font-weight:600;
 
@@ -959,7 +925,6 @@ light_blue
     font-weight: 600;
     border-bottom: 5px solid #000;
     padding-bottom: 8px;
-    font-family: "Open Sans";
 }
 .b-light_blue_left .f_line{
     font-size: 16px;
@@ -999,8 +964,7 @@ light_blue
     padding:27px 0 16px;
     font-size: 22px;
     font-weight:600;
-    background: none!important;
-    font-family: "Open Sans";
+    background: none !important;
 }
 p {
   margin: 0 0 10px !important;
