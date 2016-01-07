@@ -313,7 +313,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		//auto dim
 		setTimeout(doDim, 1300);
 		//dim div click handler
-		$dimdiv.click(dontDim);
+		$dimdiv.click(dontDim)}
 })(jQuery);
 </script>
 
