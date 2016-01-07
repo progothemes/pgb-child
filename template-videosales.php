@@ -45,7 +45,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
-													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width:736px;">
+													<div class="videocontent">
 														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/33qezyzrk6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 																</div>
@@ -328,6 +328,58 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 		<?php // tha_content_bottom(); ?>
 
+		<div id="dimdiv"></div>
 	</div>
+<style type="text/css">
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+.videocontent{
+	box-shadow: 0 3px 8px;
+	max-width: 736px;
+	max-height:414px;
+	position:relative;
+	z-index:200;
+}
+.btn.btn-primary{
+    z-index: 99;
+}
+#dimdiv{
+	position: fixed;
+	top:0; left:0;
+	width: 100%;
+	min-height: 100%;
+	z-index: 100;
+	background-color: #000;
+		/* IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		/* IE 5-7 */
+		filter: alpha(opacity=80);
+		/* Netscape */
+		-moz-opacity: 0.8;
+		/* Safari 1.x */
+		-khtml-opacity: 0.8;
+		/* Good browsers */
+		opacity: 0.8;
+	display: none;}	
+</style>
+<script type="text/javascript">
+(function($){
 
+	var $dimdiv = $('#dimdiv');
+
+	function doDim(){
+		$dimdiv.fadeIn(1000)}
+
+	function dontDim(){
+		$dimdiv.fadeOut(300)}
+
+	$(document).ready(function(){
+		//auto dim
+		setTimeout(doDim, 1300);
+		//dim div click handler
+		$dimdiv.click(dontDim)});
+})(jQuery);
+</script>
 <?php get_footer(); ?>
