@@ -46,11 +46,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width:736px;">
-														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-														<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-																<div class="wistia_embed wistia_async_33qezyzrk6 videoFoam=true" style="height:100%;width:100%">
-																	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
+														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/33qezyzrk6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div>
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 																</div>
 															</div>
 														</div>
@@ -161,11 +158,11 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<h4>Benefits of NECTAR7 Niagen&reg;</h4>
 									</div>
 									<ul>
-										<li class="col-md-2 col-md-offset-1"><strong>Mental Clarity</strong>*<br/>Booth your focus and experience all day energy with NECTAR7.</li>
+										<li class="col-md-2 col-md-offset-1"><strong>Mental Clarity</strong>*<br/>Experience improved focus and energy, after your first dose of NECTAR7.</li>
 										<li class="col-md-2"><strong>Improve Health</strong>*<br/>Provide your body with a boost of NAD+ and feel great.</li>
 										<li class="col-md-2"><strong>Better Skin</strong>*<br/>Healthier, younger and glowing skin, hair and nails.</li>
 										<li class="col-md-2"><strong>Boost Energy</strong>*<br/>NAD+ charges mitochondria to fire with peak energy.</li>
-										<li class="col-md-2"><strong>Nuture Cells</strong>*<br/>Fertilizes mitochondria to proliferate efficiently throughout the body.</li>
+										<li class="col-md-2"><strong>Nurture Cells</strong>*<br/>Fertilizes mitochondria to proliferate efficiently throughout the body.</li>
 									</ul>
 								</div>
 								<div class="row heroproduct">

@@ -49,7 +49,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<div class="row">
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
-													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width: 736px; max-height:414px;">
+													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width: 736px; max-height:414px; position:relative; z-index:200;">
 														<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;">
 															<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
@@ -277,5 +277,44 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // tha_content_bottom(); ?>
 	
 	</div>
+<div id="dimdiv"></div>
+<style type="text/css">
+#dimdiv{
+	position: fixed;
+	top:0; left:0;
+	width: 100%;
+	min-height: 100%;
+	z-index: 100;
+	background-color: #000;
+		/* IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		/* IE 5-7 */
+		filter: alpha(opacity=80);
+		/* Netscape */
+		-moz-opacity: 0.8;
+		/* Safari 1.x */
+		-khtml-opacity: 0.8;
+		/* Good browsers */
+		opacity: 0.8;
+	display: none;}	
+</style>
+<script type="text/javascript">
+(function($){
+
+	var $dimdiv = $('#dimdiv');
+
+	function doDim(){
+		$dimdiv.fadeIn(1000)}
+
+	function dontDim(){
+		$dimdiv.fadeOut(300)}
+
+	$(document).ready(function(){
+		//auto dim
+		setTimeout(doDim, 1300);
+		//dim div click handler
+		$dimdiv.click(dontDim);
+})(jQuery);
+</script>
 
 <?php get_footer(); ?>
