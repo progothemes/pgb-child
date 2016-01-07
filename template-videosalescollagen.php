@@ -16,6 +16,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 ?>
 
+	<div id="dimdiv"></div>
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
 		
 		<?php tha_content_top(); ?>
@@ -277,7 +278,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // tha_content_bottom(); ?>
 	
 	</div>
-<div id="dimdiv"></div>
 <style type="text/css">
 #dimdiv{
 	position: fixed;
