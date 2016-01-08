@@ -68,7 +68,7 @@ get_header(); ?>
 										<div class="col-xs-12 col-sm-4 col-md-4 eachCol">
 											<div class="colcont">
 												<h3>NECTAR7 Beverage</h3>
-												<p>Product development for growing trends in consumer beverage are delivered through our beverage division.</p>
+												<p>Product development for growing trends in consumer beverage is delivered through our team of industry experts.</p>
 											</div>		
 										</div>
 										<div class="col-xs-12 col-sm-4 col-md-4 eachCol altCol">
