@@ -46,8 +46,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent">
-														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/a3l6f8uj3f?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
-<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+														<img src="/wp-content/themes/nectar7-pgb-child/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360">
+														<!-- <div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/a3l6f8uj3f?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script> -->
 													</div>
 												</div>
 											</div>
@@ -151,7 +152,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								<div class="row pdesc">
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Product Description</h4>
-										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>	
+										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>
 									</div>
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Benefits of NECTAR7 Niagen&reg;</h4>
@@ -337,8 +338,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 #content{ z-index: initial; }
 .videocontent{
 	box-shadow: 0 3px 8px;
-	max-width: 736px;
-	max-height:414px;
+	/*max-width: 736px;
+	max-height:414px;*/
+	max-width:640px;
+	max-height: 360px;
 	position:relative;
 	z-index:200;
 }
@@ -362,7 +365,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		-khtml-opacity: 0.8;
 		/* Good browsers */
 		opacity: 0.8;
-	display: none;}	
+	display: none;}
 </style>
 <script type="text/javascript">
 (function($){
@@ -377,7 +380,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 	$(document).ready(function(){
 		//auto dim
-		setTimeout(doDim, 1300);
+		// setTimeout(doDim, 1300);
 		//dim div click handler
 		$dimdiv.click(dontDim)});
 })(jQuery);

@@ -9,7 +9,7 @@
 wp_enqueue_script( 'wpb_composer_front_js' );
 wp_enqueue_style( 'js_composer_front' );
 
-get_header(); 
+get_header();
 
 global $woocommerce;
 $cart_url = $woocommerce->cart->get_cart_url();
@@ -17,7 +17,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 ?>
 
 	<div id="content" class="main-content-inner col-sm-12 col-md-12 col-lg-12">
-		
+
 		<?php tha_content_top(); ?>
 
 		<?php // <!--The Loop ?>
@@ -50,8 +50,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
 													<div class="videocontent">
-														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/hsz34flsh0?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
-<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+														<img src="/wp-content/themes/nectar7-pgb-child/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360">
+														<!-- <div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/hsz34flsh0?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script> -->
 													</div>
 												</div>
 											</div>
@@ -80,7 +81,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 												<a href="<?php echo $cart_url; ?>?add-to-cart=75" class="btn btn-primary"/>ADD TO CART</a>
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
-											</div>	
+											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
 											<h3>Niagen&reg; &amp; COLLAGEN<br />(90 DAY)
@@ -97,8 +98,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>Niagen&reg; &amp; COLLAGEN<br />(180 DAY)
@@ -115,8 +116,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 														<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 														<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 														<a href="<?php echo $cart_url; ?>?add-to-cart=168" class="btn btn-primary"/>ADD TO CART</a>
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-													</div>	
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+													</div>
 												</div>
 											</div>
 										</div>
@@ -174,10 +175,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 																			by the Food and Drug Administration.
 																			This product is not intended to diagnose,
 																			treat, cure or prevent any disease.</p>
-																		</div>		
+																		</div>
 																	</div>
 																</div>
-															</div>	
+															</div>
 														</div>
 													</div>
 												</div>
@@ -271,7 +272,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-	
+
 		<div id="dimdiv"></div>
 	</div>
 <style type="text/css">
@@ -281,8 +282,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 }
 .videocontent{
 	box-shadow: 0 3px 8px;
-	max-width: 736px;
-	max-height:414px;
+	/*max-width: 736px;
+	max-height:414px;*/
+	max-width:640px;
+	max-height: 360px;
 	position:relative;
 	z-index:200;
 }
@@ -306,7 +309,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		-khtml-opacity: 0.8;
 		/* Good browsers */
 		opacity: 0.8;
-	display: none;}	
+	display: none;}
 </style>
 <script type="text/javascript">
 (function($){
@@ -321,7 +324,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 	$(document).ready(function(){
 		//auto dim
-		 setTimeout(doDim, 1300);
+		// setTimeout(doDim, 1300);
 		//dim div click handler
 		$dimdiv.click(dontDim)});
 })(jQuery);
