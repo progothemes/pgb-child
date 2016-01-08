@@ -79,7 +79,7 @@ get_header(); ?>
 			<div class = "b-aging l-no_bg_image ">
 				<article>
 					<h2>The more collagen we lose, the older we look!</h2>
-					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless ourcollagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;re all destined to run low on collagen unless we start doing something about it right now!
+					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless our collagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;re all destined to run low on collagen unless we start doing something about it right now!
 					</p>
 				</article>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/woman-age-60-70.png" alt = "" class = "l-background_img"/>
