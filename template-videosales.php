@@ -339,8 +339,10 @@ $cart_url = $woocommerce->cart->get_cart_url();
 #content{ z-index: initial; }
 .videocontent{
 	box-shadow: 0 3px 8px;
-	max-width: 736px;
-	max-height:414px;
+	/*max-width: 736px;
+	max-height:414px;*/
+	max-width: 640px;
+	max-height: 360px;
 	position:relative;
 	z-index:200;
 }
