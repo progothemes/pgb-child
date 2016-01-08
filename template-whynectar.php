@@ -204,24 +204,24 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			<div class = "g-clear_fix"></div>
 
 			<div class = "b-nad_blue">
-				<p>Dr. David Sinclair inspires a new generation of Scienctis & Researchers with his NAD Booster</span><p/>
+				<p>NAD+ Booster Inspires a new generation of Scienctists & Researchers</span><p/>
 			</div>
 			<div class = "g-clear_fix"></div>
 			<div class="b-doctor  g-wrap_content">
-			    <p>Dr. David Sinclair, a professor of genetics at Harvard Medical School, made headlines worldwide in 2013 when he proved that boosting NAD can actually reverse the aging process in cells. Considered one of the foremost scientists and authorities on anti-aging, Dr. Sinclair published a paper in the journal Cell (October 2013) that was not only hailed by his peers in the scientific community, but Time magazine named him one of the &quot;100 Most Influential People&quot;  in 2014. </p>
-			    <p>  Time magazine singled out Dr. Sinclair&rsquo;s study in which he and his colleagues identified a cause of aging that is potentially reversible, noting that &quot;his work makes possible the idea of living more years with a body that&rsquo;s robust enough to make the most of them.&quot;</p>
+			    <p>Nicotinamide Riboside made headlines worldwide in 2013 when it was proved to boost cellular NAD+ and thus can actually reverse the aging process in cells. A paper published in the journal Cell (October 2013) was not only hailed by the scientific community as groundbreaking, but Time magazine named the lead researcher one of the &quot;100 Most Influential People&quot; in 2014. </p>
+			    <p>Time magazine singled out the study in which the research team identified a cause of aging that is potentially reversible, noting that &quot;this work makes possible the idea of living more years with a body that&rsquo;s robust enough to make the most of them.&quot;</p>
 			    <h2>Here&rsquo;s why NAD may impact more than just the collagen in your skin!</h2>
-			    <p>Dr. Sinclair and his team administered a NAD+ booster to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
-			    <div class = "b-doctor_blue ">
+			    <p>The research team administered a NAD+ booster to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
+			    <div class="b-doctor_blue ">
 			        <ul>
 			            <li>Gave 2-year-old mice an NAD+ booster for just 1 week </li>
 			            <li>Made the cells resemble those of 6-MONTH-old mice when evaluated for muscle health</li>
 			            <li>In humans, 60-year-old mitochondria would become the equivalent of a 20-year-old&rsquo;s</li>
 			        </ul>
 			    </div>
-			    <p>In human terms, that&rsquo;s the equivalent of a 60-year-old having the mitochondria of a 20-year-old just a week later! Dr. Sinclair had succeeded in turning back the biological clock, or as he explained in more technical terms, &quot;The NAD+ enabled the nucleus to re-establish communication to the mitochondria and the mice went back to being young again.&quot; </p>
-			    <p>Dr. Sinclair&rsquo;s triumph proved that NAD levels could be boosted. And as we&rsquo;ve already learned, more NAD equals more collagen! Can you imagine what that could mean for your skin?</p>
-			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science that support key benefits and ingredients in NECTAR7 Niagen&reg; & Collagen.  But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
+			    <p>In human terms, that&rsquo;s the equivalent of a 60-year-old having the mitochondria of a 20-year-old just a week later! The research team had succeeded in turning back the biological clock, or as explained in more technical terms, &quot;The NAD+ enabled the nucleus to re-establish communication to the mitochondria and the mice went back to being young again.&quot; </p>
+			    <p>The triumph proved that NAD+ levels could be boosted. And as we&rsquo;ve already learned, more NAD+ equals more collagen! Can you imagine what that could mean for your skin?</p>
+			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science that support key benefits and ingredients in NECTAR7 Niagen&reg; & Collagen. But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
 			</div>
 			<div class="b-press_release  g-wrap_content">
 			     <h2><span>2015 Press Release:</span><br/>A single dose of Niagen can restore your NAD levels!</h2>
