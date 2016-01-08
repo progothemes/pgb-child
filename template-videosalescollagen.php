@@ -133,10 +133,40 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/guaranteevsl30.png" class="img-responsive" />
 										</div>
 									</div>
+									<div class="row pbenefits">
+										<div class="col-xs-12 col-sm-12 text-center">
+											<h4>Major Benefits</h4>
+										</div>
+										<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon1.png" alt=""><br>
+											<figcaption>
+												<strong>Boost Energy*</strong>
+												NAD+ “charges” mitochondria to fire with peak&nbsp;energy.<br>
+											</figcaption>
+										</figure>
+										<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon2.png" alt=""><br>
+											<figcaption><strong>Rejuvenate*</strong>
+												Healthier, younger and glowing skin, hair and&nbsp;nails.<br>
+											</figcaption>
+										</figure>
+										<figure class="col-sm-4 text-center"><img src="/wp-content/themes/nectar7-pgb-child/images/press_icon3.png" alt=""><br>
+											<figcaption><strong>Improve Health*</strong>Provide your body with a boost of NAD+ and feel&nbsp;great.<br>
+											</figcaption>
+										</figure>
+									</div>
 									<div class="row pdesc">
 										<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 											<p><strong>PRODUCT DESCRIPTION</strong><br />NECTAR7's Niagen&reg; &amp; Collagen is a scientifically based, synergistic blend of astonishing ingredients formulated to make you feel amazing about your skin. Briefly, here's how it works. While Niagen&reg; is busy kick starting your body to synthesize its own natural collagen (a minor miracle), pure collagen was included in NECTAR7's Niagen&reg; &amp; Collagen to give your body's existing collagen levels a boost. Complimenting this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid – which also helps to lubricant in the joints and the collagen itself. So it's easy to see why NECTAR7's Niagen&reg; &amp; Collagen outperforms any collagen-only product.</p>
 										</div>
+										<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+											<h4>Benefits of NECTAR7 Niagen&reg; &amp; Collagen</h4>
+										</div>
+										<ul>
+											<li class="col-md-2 col-md-offset-1"><strong>Mental Clarity</strong>*<br/>Experience improved focus and energy, after your first dose of NECTAR7.</li>
+											<li class="col-md-2"><strong>Improve Health</strong>*<br/>Provide your body with a boost of NAD+ and feel great.</li>
+											<li class="col-md-2"><strong>Better Skin</strong>*<br/>Healthier, younger and glowing skin, hair and nails.</li>
+											<li class="col-md-2"><strong>Boost Energy</strong>*<br/>NAD+ charges mitochondria to fire with peak energy.</li>
+											<li class="col-md-2"><strong>Nurture Cells</strong>*<br/>Fertilizes mitochondria to proliferate efficiently throughout the body.</li>
+										</ul>
 									</div>
 									<div class="row heroproduct collagen">
 										<div class="col-xs-12">
