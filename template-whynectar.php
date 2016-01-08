@@ -204,7 +204,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			<div class = "g-clear_fix"></div>
 
 			<div class = "b-nad_blue">
-				<p>NAD+ Booster Inspires a new generation of Scienctists & Researchers</span><p/>
+				<p>NAD+ Booster Inspires a new generation of Scientists & Researchers</span><p/>
 			</div>
 			<div class = "g-clear_fix"></div>
 			<div class="b-doctor  g-wrap_content">
