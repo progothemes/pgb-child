@@ -92,7 +92,7 @@ get_header(); ?>
 														<ul>
 															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>
 															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</li>
-															<li>For the body to replenish its supply of NAD+, it requires a precursor known as NECTAR7 Niagen&reg;.</li>
+															<li>For the body to replenish its supply of NAD+, it requires a precursor known as Niagen&reg;.</li>
 														</ul>
 													</div>
 												</div>
