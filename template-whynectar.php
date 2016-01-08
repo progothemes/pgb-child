@@ -475,7 +475,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
 			<div class = "g-clear_fix"></div>
             <div class="b-order">
                 <div class="b-order_1">
-                    <h2>NECTAR7 Niagen & Collagen<br/><span>Get Started with 1 Bottle</span></h2>
+                    <h2>NECTAR7 Niagen &amp; Collagen (30 DAY)</h2>
                     <div class="b-order_img"><img src="/wp-content/themes/nectar7-pgb-child/images/collagen_single.png" alt=""></div>
                     <div class="right">
                         <div class="price">
@@ -488,7 +488,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
                     </div>
                 </div>
                 <div class="b-order_2">
-                    <h2>NIAGEN & COLLAGEN <br/>(90 DAY) <span>Most Popular</span></h2>
+                    <h2>NIAGEN &amp; COLLAGEN <br/>(90 DAY) <span>Most Popular</span></h2>
                     <div class="b-order_img"><img src="/wp-content/themes/nectar7-pgb-child/images/collagen_popular.png" alt=""></div>
                     <div class="right">
                         <div class="price">
@@ -501,7 +501,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
                     </div>
                 </div>
                 <div class="b-order_3">
-                    <h2>NIAGEN & COLLAGEN <br/>(180 day)<span> Best Value</span></h2>
+                    <h2>NIAGEN &amp; COLLAGEN <br/>(180 day)<span> Best Value</span></h2>
                     <div class="b-order_img"><img src="/wp-content/themes/nectar7-pgb-child/images/collagen_best_value.png" alt=""></div>
                     <div class="right">
                        <div class="price">
