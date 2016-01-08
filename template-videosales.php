@@ -46,18 +46,15 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent">
-														<!--<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/33qezyzrk6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div>
-<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
-																<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
-																</div>
-															</div>
-														</div>
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360" />
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+							</div>
+						</div>
 								<div class="row refillproducts">
 									<div class="col-xs-12">
 										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
