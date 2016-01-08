@@ -109,15 +109,16 @@ Header
 	color: #00b3e3;
 }
 .b-header_content_list{
-    list-style-position: inside;
+    list-style-position: outside;
     font-weight: bold;
+    margin-left:1em;
 }
 .b-header_content_list li{
     padding-top:16.7px;
     font-size: 18px;
     list-style-type: disc;
     font-weight: bold;
-
+    max-width:50%;
 }
 .b-header_content_list li:last-child{
     padding-bottom:16.7px;
