@@ -54,7 +54,7 @@ get_header(); ?>
 			        <p>
 			        If you&rsquo;re tired of paying big bucks for fancy bottles that fail to live up to the hype, if you&rsquo;re worried about harsh chemicals and preservatives that may be doing more harm than good, if you&rsquo;re NOT ready for the pain, expense and uncertainty of facial injections or going under the knife, then keep reading. You&rsquo;re about to learn about a brand new skin care advance with age-defying properties <span>NEVER before available to the public &mdash; until now!</span><p/><br/>
 
-			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;s such an important scientific advance that one of the key ingredients has five worldwide patents and was instrumental in enabling a renowned Harvard doctor to turn back the clock on aging! That doctor went on to become one of Time magazine&rsquo;s "100 Most Influential People."
+			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;s such an important scientific advance that one of the key ingredients Niagen has five worldwide patents and is instrumental in increasing NAD+ levels that support health cell functionality.
 			        </p>
 			    </div>
 			    <div class=" b-new_care_right">
