@@ -157,7 +157,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
                     <p class="b-nectar7_descrip_title">For medical practitioners: </p>
                     <p class="b-nectar7_descrip_content">NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of three astonishing ingredients formulated to transform your skin. Briefly, here&rsquo;s how it works: While Niagen is busy kick starting your body to synthesize its own natural collagen, the highest potency, marine-based collagen was formulated into NECTAR7 Niagen&reg; & Collagen to help give your body&rsquo;s existing collagen levels a boost. Complementing this three-prong attack against fine lines, wrinkles and sagging skin is Hyaluronic acid &mdash; a robust lubricant for the joints and the collagen itself.</p>
                     <p class="b-nectar7_descrip_title">Formulated to outperform all collagen-only products:</p>
-                    <p class="b-nectar7_descrip_content">When you take a close look at these three ingredients, it&rsquo;s easy to see why people expect NECTAR7&rsquo;s Niagen+to outperform any collagen-only product on the market.NECTAR7 Niagen&reg; & Collagen</p>
+                    <p class="b-nectar7_descrip_content">When you take a close look at these three ingredients, it&rsquo;s easy to see why people expect NECTAR7 Niagen & Collagen to outperform any collagen-only product on the market.</p>
                 </div>
 			</div><!--end nectar7_-->
 			<div class="g-clear_fix"></div>
@@ -166,7 +166,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 					<h2>Three dynamic ingredients to help save your skin!</h2>
 					<ol>
 					    <li> Niagen (NR)&mdash; <span>Awarded five worldwide patents, this remarkable ingredient is the first and only commercially available form of Nicotinoamide Riboside (NR or Niagen) in the world today. Known as the &quot;hidden vitamin&quot;  or &quot;miracle molecule,&quot;  this non-flushing form of vitamin B-3 has been clinically shown to boost nicotinamide adenine dinucleotide (NAD) levels by 30% in humans after just one dose! That&rsquo;s monumental news for your skin, since collagen is NAD-dependent (more about the science and research behind NAD shortly). </span></li>
-					    <li>Hydrolyzed Fish Collagen<span>&mdash; Known for its potency, purity and absorbability, NECTAR7 Niagen&reg; & Collagen also contains hydrolyzed fish collagen to directly boost collagen in the body, even as your body starts synthesizing its own thanks to NR supplementation.</span></li>
+					    <li>Hydrolyzed Fish Collagen<span>&mdash; Known for its potency, purity and absorbability, NECTAR7 Niagen&reg; & Collagen also contains hydrolyzed fish collagen to directly boost collagen in the body.</span></li>
 					    <li>Hyaluronic acid (HA)<span>&ndash; Often referred to as &quot;Nature&rsquo;s Moisturizer,&quot;  HA is a crucial lubricant for healthy skin, joints and collagen itself. HA works synergistically with the other ingredients in NECTAR7 Niagen&reg; & Collagen to help keep your skin looking youthfully smooth and plump.</span></li>
 					</ol>
 				</article>
@@ -175,11 +175,11 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			<div class="g-clear_fix"></div>
 			<div class = "b-nad g-wrap_content">
 				<div class = "b-nad_depend">
-				    <h3>Collagen is dependenton NAD &mdash; and so are we!</h3>
+				    <h3>Collagen is dependent on NAD &mdash; and so are we!</h3>
 					<p>Here's a little background on NAD, and why researchers are so excited about its incredible anti-aging potential. For starters, NAD is a coenzyme that powers our cells to efficiently burn fats, carbohydrates, sugars and proteins into abundant energy. And it plays a huge role in keeping our skin youthful looking by stimulating the body to manufacture its own collagen. The bad news is that almost immediately after we&rsquo;re born, NAD levels begin dropping &mdash; about 50% for every 20 years of life! If you're 40, you have already lost up to 50% of your NAD level. At that pace, you&rsquo;ll lose another 50% by age 60! </p>
 				</div>
 				<div class = "b-nad_graf">
-					<p>NAD+ decreases 50% every 20 years of life</p>
+					<p>NAD+ decreases approximately 50% every 20 years of life</p>
 					<img src = "/wp-content/themes/nectar7-pgb-child/images/nad_graf.png" alt = ""/>
 				</div>
 				<div class = "b-nad_depend">
@@ -459,7 +459,7 @@ How to use NECTAR7 Niagen&reg; & Collagen? It&rsquo;s simple. Just take it once 
 					<h3>How it works:					</h3>
 
 					<p>
-NECTAR7&rsquo;s NECTAR7 Niagen&reg; & Collagen was designed to help restore your body&rsquo;s collagen starting at the cellular level &mdash; something creams and lotions simply CANNOT do. And you already know what boosting your body&rsquo;s supply of youthful collagen can mean for your skin.
+NECTAR7 Niagen&reg; & Collagen was designed to help restore your body&rsquo;s collagen starting at the cellular level &mdash; something creams and lotions simply CANNOT do. And you already know what boosting your body&rsquo;s supply of youthful collagen can mean for your skin.
 					</p>
 					<h3>For medical practitioners:			</h3>
                     <p>
