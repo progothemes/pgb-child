@@ -92,8 +92,8 @@ get_header(); ?>
 								<div class="row textrow">
 									<div class="col-xs-12 col-sm-12 col-md-12 textblock">
 										<h2>The benefits of NECTAR7</h2>
-										<p>Several studies by respected universities have shown that replenishing the body's lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance. In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice. It's the equivalent of a 60-year-old person's mitochondria becoming more like those of a 20-year-old.</p>
-										<p>A 2013 research study shows NAD+ could be used to synchronize the body's waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day. </p>
+										<p>Several studies by respected universities have shown that replenishing the body's lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.</p>
+										<p>A 2013 research study shows NAD+ could be used to synchronize the body's waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</p>
 										<p>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</p>
 									</div>
 								</div>
@@ -150,7 +150,6 @@ get_header(); ?>
 													<li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
 													<li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 													<li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
-													<li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 													<li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
 												</ol>
 											</div>
