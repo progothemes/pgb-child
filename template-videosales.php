@@ -152,7 +152,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								<div class="row pdesc">
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Product Description</h4>
-										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>
+										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 with Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>
 									</div>
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Benefits of NECTAR7 Niagen&reg;</h4>
