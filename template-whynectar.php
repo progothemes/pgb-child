@@ -271,7 +271,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
             <div class = "b-inst">
 				<article class = "l-base_padding">
 					<h2>
-						<b>Institutions</b> that are currently performing <b>research on Niagen</b><sup>&reg;</sup>
+						<b>Institutions</b> that are currently performing <b>research on Niagen</b>&reg;
 					</h2>
 					<ul>
 						<li>
