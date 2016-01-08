@@ -67,7 +67,7 @@ get_header(); ?>
 														<h4>How does NECTAR7 Niagen&reg; work?</h4>
 														<p>The science behind NECTAR7 Niagen&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
 														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy. </p>
-														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
+														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
 												</div>
 											</div>
@@ -122,9 +122,9 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
+														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by approximately<strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
 														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
-                            							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
 													</div>
 												</div>
 											</div>
@@ -135,7 +135,7 @@ get_header(); ?>
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
 														<p>Every year, reseachers and scientists are discovering the many benefits of Nicotinamide Riboside (NR) which is the core ingredient in NECTAR7 Niagen. In 2003, there were 474 published studies; in 2013, there were 1,713 and the list keeps&nbsp;growing.</p>
-														<p>NECTAR7 is is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
+														<p>NECTAR7 is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
 													</div>
 												</div>
 												<div class="row">
