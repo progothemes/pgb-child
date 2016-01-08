@@ -54,7 +54,7 @@ get_header(); ?>
 			        <p>
 			        If you&rsquo;re tired of paying big bucks for fancy bottles that fail to live up to the hype, if you&rsquo;re worried about harsh chemicals and preservatives that may be doing more harm than good, if you&rsquo;re NOT ready for the pain, expense and uncertainty of facial injections or going under the knife, then keep reading. You&rsquo;re about to learn about a brand new skin care advance with age-defying properties <span>NEVER before available to the public &mdash; until now!</span><p/><br/>
 
-			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;s such an important scientific advance that one of the key ingredients has five worldwide patents and was instrumental in enabling a renowned Harvard doctor to turn back the clock on aging! That doctor went on to become one of Time magazine&rsquo;s "100 Most Influential People."
+			        <p>Developed to help restore your skin's youthfulness, firmness and elasticity starting at the cellular level, this breakthrough product contains three dynamic ingredients in ONE truly history-making formulation. In fact, it&rsquo;s such an important scientific advance that one of the key ingredients Niagen has five worldwide patents and is instrumental in increasing NAD+ levels that support health cell functionality.
 			        </p>
 			    </div>
 			    <div class=" b-new_care_right">
@@ -79,7 +79,7 @@ get_header(); ?>
 			<div class = "b-aging l-no_bg_image ">
 				<article>
 					<h2>The more collagen we lose, the older we look!</h2>
-					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless ourcollagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;re all destined to run low on collagen unless we start doing something about it right now!
+					<p>University studies indicate that women over 40 have about half the collagen they enjoyed in their early 20s. And here&rsquo;s the bummer: The body is depending on collagen to keep our skin looking smooth, radiant and free of wrinkles. Unless our collagen is constantly being replenished, the aging process is allowed to run amok at varying speeds. Certainly, environmental factors play a role, such as UV damage, pollution, diet, sleep, stress and facial expressions. But the truth is that we&rsquo;re all destined to run low on collagen unless we start doing something about it right now!
 					</p>
 				</article>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/woman-age-60-70.png" alt = "" class = "l-background_img"/>
