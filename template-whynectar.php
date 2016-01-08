@@ -40,10 +40,9 @@ get_header(); ?>
                         <li>Wasting money on creams, lotions and potions? </li>
                         <li>Skin care products that sound great, but don&rsquo;t work? </li>
                         <li>Skin care products that have stopped working?</li>
-                        <li>The high cost, pain and possible side effects of facial</li>
-                        <li>injections and cosmetic surgery?</li>
-                        ALL OF THE ABOVE?
+                        <li>The high cost, pain and possible side effects of facial injections and cosmetic surgery?</li>
                     </ul>
+                    <p>ALL OF THE ABOVE?</p>
 				</div>
 				<img src = "/wp-content/themes/nectar7-pgb-child/images/header_bg.jpg" alt = "" class = "l-background_img"/>
 			</div> <!-- end .b-header-->
