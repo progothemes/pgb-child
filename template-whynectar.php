@@ -211,7 +211,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			    <p>Dr. David Sinclair, a professor of genetics at Harvard Medical School, made headlines worldwide in 2013 when he proved that boosting NAD can actually reverse the aging process in cells. Considered one of the foremost scientists and authorities on anti-aging, Dr. Sinclair published a paper in the journal Cell (October 2013) that was not only hailed by his peers in the scientific community, but Time magazine named him one of the &quot;100 Most Influential People&quot;  in 2014. </p>
 			    <p>  Time magazine singled out Dr. Sinclair&rsquo;s study in which he and his colleagues identified a cause of aging that is potentially reversible, noting that &quot;his work makes possible the idea of living more years with a body that&rsquo;s robust enough to make the most of them.&quot;</p>
 			    <h2>Here&rsquo;s why NAD may impact more than just the collagen in your skin!</h2>
-			    <p>Dr. Sinclair and his team administered a NAD+ booster (the same ingredient used in NECTAR7 Niagen&reg; & Collagen) to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
+			    <p>Dr. Sinclair and his team administered a NAD+ booster to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
 			    <div class = "b-doctor_blue ">
 			        <ul>
 			            <li>Gave 2-year-old mice an NAD+ booster for just 1 week </li>
@@ -220,18 +220,18 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			        </ul>
 			    </div>
 			    <p>In human terms, that&rsquo;s the equivalent of a 60-year-old having the mitochondria of a 20-year-old just a week later! Dr. Sinclair had succeeded in turning back the biological clock, or as he explained in more technical terms, &quot;The NAD+ enabled the nucleus to re-establish communication to the mitochondria and the mice went back to being young again.&quot; </p>
-			    <p>Dr. Sinclair&rsquo;s triumph proved that NAD levels could be boosted through supplementation. And as we&rsquo;ve already learned, more NAD equals more collagen! Can you imagine what that could mean for your skin?</p>
-			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science behind NECTAR7 Niagen&reg; & Collagen.  But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
+			    <p>Dr. Sinclair&rsquo;s triumph proved that NAD levels could be boosted. And as we&rsquo;ve already learned, more NAD equals more collagen! Can you imagine what that could mean for your skin?</p>
+			    <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science that support key benefits and ingredients in NECTAR7 Niagen&reg; & Collagen.  But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
 			</div>
 			<div class="b-press_release  g-wrap_content">
 			     <h2><span>2015 Press Release:</span><br/>A single dose of Niagen can restore your NAD levels!</h2>
-			     <p>Even as the anti-aging story is being rewritten, you can start restoring your LOW NAD levels right now with NECTAR7&rsquo;s Niagen. Here&rsquo;s proof: In a recent landmark human study conducted by Dr. Charles Brenner at the University of Iowa, one dose of NID+ was shown to statistically increase the levels of NAD in healthy human volunteers by 30% in just eight hours and even higher with increased dosages! Imagine what higher NAD levels could do for your collagen levels and in turn your fabulous face!</p>
+			     <p>Even as the anti-aging story is being rewritten, you can start restoring your LOW NAD levels right now with NECTAR7&rsquo;s Niagen. Here&rsquo;s proof: In a recent landmark human study conducted by Dr. Charles Brenner at the University of Iowa, one dose 100MG dose of Niagen was shown to statistically increase the levels of NAD in healthy human volunteers by approximately 30% in just eight hours and even higher with increased dosages! Imagine what higher NAD levels could do for your collagen levels and in turn your fabulous face!</p>
             </div>
 			<div class = "g-clear_fix"></div>
             <div class="g-wrap_content">
                <div class="b-miss">
                 <h2>If you miss the way your skin used to look, you&rsquo;ll love <span>NECTAR7 Niagen&reg; & Collagen.</span></h2>
-                <p>As we&rsquo;ve shared, there are stacks and stacks of university research and science behind NECTAR7 Niagen&reg; & Collagen. But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
+                <p>As we&rsquo;ve shared, there university studies and research that support the amazing benefits for ingredients in NECTAR7 Niagen&reg; & Collagen. But how will you know NECTAR7 Niagen&reg; & Collagen is actually working? </p>
                 <p class="b-miss_title">Here are a few other less-than-scientific ways
 you&rsquo;ll know that NECTAR7&rsquo;s Niagen is working:</p>
                 <div class="b-miss_list">
@@ -425,7 +425,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 					<div class = "b-money_back_left"><img src = "/wp-content/themes/nectar7-pgb-child/images/money_back.png"/></div>
 					<h2 class = "b-money_back_right">
 
-						<b>NECTAR7&rsquo;s Niagen&reg; & Collagen</b> comes with a 30-Day, No-Questions Asked,
+						<b>NECTAR7 Niagen&reg; & Collagen</b> comes with a 30-Day, No-Questions Asked,
 						<b>Money Back Guarantee. </b><br/>
 					</h2>
 
@@ -441,7 +441,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
 
 			<div class = "b-impact l-no_bg_image b-young">
 				<article class = "l-base_styles">
-					<h2>Is your face worth _____ a month? You&rsquo;ll think so every time you look in the mirror!
+					<h2>Is your face worth $50.00 a month? You&rsquo;ll think so every time you look in the mirror!
 					</h2>
 
 					<p>
@@ -454,7 +454,7 @@ How to use NECTAR7 Niagen&reg; & Collagen? It&rsquo;s simple. Just take it once 
 					<h3>For the first time!					</h3>
 
 					<p>
-						NECTAR7&rsquo;s Niagen+ brings together THREE amazing ingredients in ONE skin restorative product!
+						NECTAR7&rsquo;s Niagen & Collagen brings together THREE amazing ingredients in ONE skin restorative product!
 					</p>
 					<h3>How it works:					</h3>
 
@@ -475,7 +475,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
 			<div class = "g-clear_fix"></div>
             <div class="b-order">
                 <div class="b-order_1">
-                    <h2>NIAGEN & COLLAGEN<br/><span>Get Started with 1 Bottle</span></h2>
+                    <h2>NECTAR7 Niagen & Collagen<br/><span>Get Started with 1 Bottle</span></h2>
                     <div class="b-order_img"><img src="/wp-content/themes/nectar7-pgb-child/images/collagen_single.png" alt=""></div>
                     <div class="right">
                         <div class="price">
@@ -540,7 +540,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
 			        <header>Supplement Facts</header>
 			        <p class="f_line">Serving Size: <span>4 Capsules Per Day</span><br> Servings Per Container:<span> 30</span><br/> Amount Per Serving: <span>% Daily Value*</span><br/> </p>
 			        <p class="s_line">Nicotinamide Riboside (as NIAGEN&reg;) 100 mg</p>
-			        <p class="s_line">Hydrolyzed Fish Collagen 100 mg</p>
+			        <p class="s_line">Hydrolyzed Fish Collagen 1000 mg</p>
 			        <p class="s_line">Hyaluronic Acid 50 mg</p>
 			        <p class="t_line">*% Daily Value not established</p>
 			        <p class="f_line">Other Ingredients:</p>
