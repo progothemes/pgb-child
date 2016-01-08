@@ -196,7 +196,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 						<li>Alzheimer&rsquo;s disease</li>
 						<li>Cancers</li>
 					</ul>
-					<p class = "c-nad_left_last">But for our purposes, just know that higher NAD levels in the body are fantastic news for our skin, since the collagen is NAD-dependent! And the very same Niagen ingredient &mdash; the one proven to drive up NAD levels in laboratory testing &mdash; is also present in Nector7&rsquo;s Niagen+</p>
+					<p class = "c-nad_left_last">But for our purposes, just know that higher NAD levels in the body are fantastic news for our skin, since the collagen is NAD-dependent! And the very same Niagen ingredient &mdash; the one proven to drive up NAD levels in laboratory testing &mdash; is also present in Nector7 products!</p>
 				</aside>
 				<aside class = "c-nad_right"></aside>
 			</div><!--end b-nad_disf-->
@@ -204,7 +204,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			<div class = "g-clear_fix"></div>
 
 			<div class = "b-nad_blue">
-				<p>Key ingredient in <span>NECTAR7 Niagen&reg; & Collagen helps</span> Harvard doctor <span>reverse aging in cells!</span><p/>
+				<p>Dr. David Sinclair inspires a new generation of Scienctis & Researchers with his NAD Booster</span><p/>
 			</div>
 			<div class = "g-clear_fix"></div>
 			<div class="b-doctor  g-wrap_content">
