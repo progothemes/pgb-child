@@ -108,7 +108,7 @@ get_header(); ?>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>
 													</div>
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>
+														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling Nicotinamide Riboside (NR) a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>
 													</div>
 												</div>
 												<div class="row">
