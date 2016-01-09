@@ -46,9 +46,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
 													<div class="videocontent">
-														<img src="/wp-content/themes/nectar7-pgb-child/images/vsl_niagen_play.jpg" alt="NECTAR7 gives you the power to do more." width="640" height="360">
-														<!-- <div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/a3l6f8uj3f?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
-<script src="//fast.wistia.net/assets/external/E-v1.js" async></script> -->
+														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/ccfpxbxsw0?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 													</div>
 												</div>
 											</div>
@@ -336,10 +335,8 @@ $cart_url = $woocommerce->cart->get_cart_url();
 #content{ z-index: initial; }
 .videocontent{
 	box-shadow: 0 3px 8px;
-	/*max-width: 736px;
-	max-height:414px;*/
-	max-width:640px;
-	max-height: 360px;
+	max-width: 736px;
+	max-height:414px;
 	position:relative;
 	z-index:200;
 }
@@ -378,7 +375,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 	$(document).ready(function(){
 		//auto dim
-		// setTimeout(doDim, 1300);
+		setTimeout(doDim, 1300);
 		//dim div click handler
 		$dimdiv.click(dontDim)});
 })(jQuery);
