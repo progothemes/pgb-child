@@ -196,7 +196,7 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 						<li>Alzheimer&rsquo;s disease</li>
 						<li>Cancers</li>
 					</ul>
-					<p class = "c-nad_left_last">But for our purposes, just know that higher NAD levels in the body are fantastic news for our skin, since the collagen is NAD-dependent! And the very same Niagen ingredient &mdash; the one proven to drive up NAD levels in laboratory testing &mdash; is also present in Nector7 products!</p>
+					<p class = "c-nad_left_last">But for our purposes, just know that higher NAD levels in the body are fantastic news for our skin, since the collagen is NAD-dependent! And the very same Niagen ingredient &mdash; the one proven to drive up NAD levels in laboratory testing &mdash; is also present in Nectar7 products!</p>
 				</aside>
 				<aside class = "c-nad_right"></aside>
 			</div><!--end b-nad_disf-->
@@ -204,14 +204,12 @@ NECTAR7 Niagen&reg; & Collagen brings together THREE amazing ingredients in ONE 
 			<div class = "g-clear_fix"></div>
 
 			<div class = "b-nad_blue">
-				<p>NAD+ Booster Inspires a new generation of Scientists & Researchers</span><p/>
+				<p>NAD+ Booster Inspires a new generation of Scientists&nbsp;&amp;&nbsp;Researchers</span><p/>
 			</div>
 			<div class = "g-clear_fix"></div>
 			<div class="b-doctor  g-wrap_content">
-			    <p>Nicotinamide Riboside made headlines worldwide in 2013 when it was proved to boost cellular NAD+ and thus can actually reverse the aging process in cells. A paper published in the journal Cell (October 2013) was not only hailed by the scientific community as groundbreaking, but Time magazine named the lead researcher one of the &quot;100 Most Influential People&quot; in 2014. </p>
-			    <p>Time magazine singled out the study in which the research team identified a cause of aging that is potentially reversible, noting that &quot;this work makes possible the idea of living more years with a body that&rsquo;s robust enough to make the most of them.&quot;</p>
 			    <h2>Here&rsquo;s why NAD may impact more than just the collagen in your skin!</h2>
-			    <p>The research team administered a NAD+ booster to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
+			    <p>A research team administered a NAD+ booster to 2-year-old mice over seven days. At the end of the week, they examined the animals' biochemical markers (muscle health) to see if there were any measurable differences. To their astonishment, they noted that those 2-year-old mice now boasted the cell attributes of vibrant 6-month-old mice!</p>
 			    <div class="b-doctor_blue ">
 			        <ul>
 			            <li>Gave 2-year-old mice an NAD+ booster for just 1 week </li>
@@ -264,7 +262,7 @@ As she slipped into her 30s, though, she noticed a disturbing trend. Restaurant 
                     <p>When she reached 45, she felt as though she was losing the battle against aging big time. </p><br/>
                     <p>&quot;I was desperate, so I starting getting those free department store makeovers, and buying all of the products the stylist recommended. I spent a fortune,&quot; she admitted. &quot;I thought about getting collagen injections, but I found out that collagen basically gets absorbed by the body, so I&rsquo;d have to repeat the process several times a year. As a single mom with two kids in private school, no way that was going to happen.&quot;</p><br/>
                     <p>And as for cosmetic surgery? &quot;I just didn&rsquo;t have an extra five or six thousand dollars laying around for a high-end face-lift from a great doctor,&quot; she said. &quot;Also, I was a little scared that something could go wrong like you see in those TV shows about botched cosmetic surgeries. I finally decided that I was OK with how I looked now &mdash; I just didn&rsquo;t want to look any older.</p><br/>
-                    <p>&quot;That&rsquo;s when a friend told me about this new laboratory study conducted by a top Harvard doctor. The Harvard study proved that this doc was able to make cells young again! Not only that, the very same ingredient he used is also known to stimulate the growth of collagen in the body. How cool is that? And it turns out I could actually buy the product with the same key ingredient he used &mdash; Niagen.  </p><br/>
+                    <p>&quot;That&rsquo;s when a friend told me about this new laboratory study conducted by a top doctor. The study proved that this doc was able to make cells young again! Not only that, the very same ingredient he used is also known to stimulate the growth of collagen in the body. How cool is that? And it turns out I could actually buy the product with the same key ingredient he used &mdash; Niagen.  </p><br/>
                     <p> &quot;I&rsquo;ve been using NECTAR7 Niagen&reg; & Collagen for maybe a month, and I can&rsquo;t believe the difference. It took a couple of weeks to &lsquo;kick in,&rsquo; and now I can see fine lines basically vanishing and my skin smoothing out. OK, at 47, I&rsquo;m not getting &quot;carded&quot; anymore, but I feel so much better about myself. Needless to say, I&rsquo;m not going to stop taking NECTAR7 Niagen&reg; & Collagen."</p><br/>
                 </div>
             </div>
