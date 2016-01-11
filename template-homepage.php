@@ -43,7 +43,7 @@ get_header(); ?>
 										</div>
 										<div class="row hero-bottom">
 											<div class="col-xs-12">
-												<p>The pursuit of eternal life has long obsessed people of every class and culture. Yet, while nothing and no one can truly promise “eternal”, science has made progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
+												<p>The pursuit of eternal life has long obsessed people of every class and culture. Yet, while nothing and no one can truly promise “eternal”, science has made progress improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
 											</div>
 										</div>
 										<div class="row leftboxedcontent moremoremore">
@@ -67,7 +67,7 @@ get_header(); ?>
 														<h4>How does NECTAR7 Niagen&reg; work?</h4>
 														<p>The science behind NECTAR7 Niagen&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
 														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy. </p>
-														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life. This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
+														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life. This may lead to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
 												</div>
 											</div>
@@ -76,9 +76,9 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-                            							<h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>
+                            							<h3>Natural process of aging from birth.</h3>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
-														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease and diabetes.</p>
+														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of age-related conditions.</p>
 													</div>
 												</div>
 											</div>
@@ -90,8 +90,8 @@ get_header(); ?>
 															<h2>The benefits of <span>NECTAR7</span></h2>
 															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.</p>
 														<ul>
-															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>
-															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA which often shows up as cells age.</li>
+															<li>A 2013 research study shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day without disrupting sleep.</li>
+															<li>Further studies suggest that NAD+ can repair damaged DNA which often shows up as cells age.</li>
 															<li>For the body to replenish its supply of NAD+, it requires a precursor known as Niagen&reg;.</li>
 														</ul>
 													</div>
@@ -108,12 +108,7 @@ get_header(); ?>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>
 													</div>
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling Nicotinamide Riboside (NR) a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body. It is a member of the vitamin B3 family that offers many health benefits, including endurance, performance, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
