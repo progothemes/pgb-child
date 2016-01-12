@@ -117,10 +117,6 @@ nav > .container {
 	.main-content-inner, .sidebar {
 		padding-bottom: 0;
 	}
-	/*fix for "order by phone" text*/
-	.wpb_text_column.wpb_content_element .wpb_wrapper p {
-		text-align: center;
-	}
 }
 
 /* Alignment */
