@@ -97,7 +97,10 @@ get_header(); ?>
 													</div>
 												</div>
 												<div class="row">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/man-woman-age.jpg" alt="Benefits of NECTAR7" width="716" height="461" class="img-responsive aligncenter size-full" />
+													<div class="col-sm-12 text-center">
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/man-woman-age.jpg" alt="Benefits of NECTAR7" width="716" height="461" class="img-responsive aligncenter size-full" />
+														<h4>Do you ever wonder why some people age faster than others?</h4>
+													</div>													
 												</div>
 											</div>
 										</div>
