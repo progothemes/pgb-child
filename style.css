@@ -474,6 +474,9 @@ footer .socialicons ul li.instagram a
 	border-radius: 10px;
 	border-color: #00B3E3;
 	color: #fff;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .btn.btn-primary span
