@@ -4,10 +4,12 @@
  * pgb-child functions and definitions
  */
 
-add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_styles', 11 );
 function pgb_child_enqueue_styles() {
-    wp_enqueue_style( 'pgb', get_template_directory_uri() . '/style.css' );
+  wp_dequeue_style( 'pgb-style' );
+  wp_enqueue_style( 'pgb', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
+  wp_enqueue_style( 'nectar7', get_stylesheet_directory_uri() . '/style.min.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts', 11 );
