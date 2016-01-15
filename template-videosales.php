@@ -45,18 +45,17 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
 													<h4>NECTAR7 Niagen&reg; gives you the power to do more.</h4>
 													<h1>WHY DO SOME PEOPLE AGE FASTER THAN OTHERS?</h1>
-													<div class="videocontent" style="box-shadow: 0 3px 8px; max-width:736px;">
-														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/33qezyzrk6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div>
+													<div class="videocontent">
+														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/y024drzoz5?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-																</div>
-															</div>
-														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+							</div>
+						</div>
 								<div class="row refillproducts">
 									<div class="col-xs-12">
 										<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
@@ -152,7 +151,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								<div class="row pdesc">
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Product Description</h4>
-										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>	
+										<p>NECTAR7 Niagen® is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 with Niagen® is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen® is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen®.</p>
 									</div>
 									<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 										<h4>Benefits of NECTAR7 Niagen&reg;</h4>
@@ -253,8 +252,6 @@ $cart_url = $woocommerce->cart->get_cart_url();
                     <div id="1447309244387-a458cd5e-1f9a" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
                       <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN®?</h4><i class="vc_toggle_icon"></i></div>
                       <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consistently is the key to maximizing its benefits</p>
-                      <div class="vc_toggle_title"><h4>WHAT ARE THE BEST TIMES TO TAKE NECTAR7 NIAGEN&reg;?</h4><i class="vc_toggle_icon"></i></div>
-                      <div class="vc_toggle_content"><p>Whenever it is most convenient in your daily routine as it is not highly time-sensitive. Simply taking it consistently is the key to maximizing its benefits</p>
                     </div>
                     </div>
                     <div id="1447309244005-52dbaa79-6cc9" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
@@ -337,6 +334,59 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 		<?php // tha_content_bottom(); ?>
 
+		<div id="dimdiv"></div>
 	</div>
+<style type="text/css">
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+#content{ z-index: initial; }
+.videocontent{
+	box-shadow: 0 3px 8px;
+	max-width: 736px;
+	max-height:414px;
+	position:relative;
+	z-index:200;
+}
+.btn.btn-primary{
+    z-index: 99;
+}
+#dimdiv{
+	position: fixed;
+	top:0; left:0;
+	width: 100%;
+	min-height: 100%;
+	z-index: 100;
+	background-color: #000;
+		/* IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		/* IE 5-7 */
+		filter: alpha(opacity=80);
+		/* Netscape */
+		-moz-opacity: 0.8;
+		/* Safari 1.x */
+		-khtml-opacity: 0.8;
+		/* Good browsers */
+		opacity: 0.8;
+	display: none;}
+</style>
+<script type="text/javascript">
+(function($){
 
+	var $dimdiv = $('#dimdiv');
+
+	function doDim(){
+		$dimdiv.fadeIn(1000)}
+
+	function dontDim(){
+		$dimdiv.fadeOut(300)}
+
+	$(document).ready(function(){
+		//auto dim
+		// setTimeout(doDim, 1300);
+		//dim div click handler
+		$dimdiv.click(dontDim)});
+})(jQuery);
+</script>
 <?php get_footer(); ?>

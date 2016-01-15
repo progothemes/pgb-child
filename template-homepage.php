@@ -43,7 +43,7 @@ get_header(); ?>
 										</div>
 										<div class="row hero-bottom">
 											<div class="col-xs-12">
-												<p>The pursuit of eternal life has long obsessed people of every class and culture. Yet, while nothing and no one can truly promise “eternal”, science has made progress in significantly extending life, while improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
+												<p>The pursuit of eternal life has long obsessed people of every class and culture. Yet, while nothing and no one can truly promise “eternal”, science has made progress improving health, preserving youthful vigor and prolonging active performance. <strong>The secret is in NECTAR7.</strong></p>
 											</div>
 										</div>
 										<div class="row leftboxedcontent moremoremore">
@@ -67,7 +67,7 @@ get_header(); ?>
 														<h4>How does NECTAR7 Niagen&reg; work?</h4>
 														<p>The science behind NECTAR7 Niagen&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
 														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy. </p>
-														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of 50% for every 20 years of life.  This leads to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
+														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life. This may lead to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
 												</div>
 											</div>
@@ -76,9 +76,9 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-                            							<h3>Natural process of aging, illness, and&nbsp;disease from birth.</h3>
+                            							<h3>Natural process of aging from birth.</h3>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
-														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of adverse health conditions.  Mitochondrial dysfunction has been implicated in a wide variety of metabolic, neurodegenerative and age-related diseases, including heart disease, diabetes, Alzheimer’s disease and certain types of cancer.</p>
+														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of age-related conditions.</p>
 													</div>
 												</div>
 											</div>
@@ -88,16 +88,19 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
 															<h2>The benefits of <span>NECTAR7</span></h2>
-															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.  In one landmark case, a Harvard Medical School professor of genetics, Dr. David Sinclair, reported that giving older mice an NAD+ booster for only a week made the mitochondria of two-year-old mice resemble those of six-month-old mice.  It’s the equivalent of a 60-year-old person’s mitochondria becoming more like those of a 20-year-old.</p>
+															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.</p>
 														<ul>
-															<li>A 2013 research shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day.</li>
-															<li>Further tests suggest that NAD+ can promote insulin sensitivity, encouraging healthy blood sugar levels. There are even indications that it can repair damaged DNA and thwart certain triggers for cancer, which often show up as cells age.</li>
-															<li>For the body to replenish its supply of NAD+, it requires a precursor known as NECTAR7 Niagen&reg;.</li>
+															<li>A 2013 research study shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day without disrupting sleep.</li>
+															<li>Further studies suggest that NAD+ can repair damaged DNA which often shows up as cells age.</li>
+															<li>For the body to replenish its supply of NAD+, it requires a precursor known as Niagen&reg;.</li>
 														</ul>
 													</div>
 												</div>
 												<div class="row">
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/man-woman-age.jpg" alt="Benefits of NECTAR7" width="716" height="461" class="img-responsive aligncenter size-full" />
+													<div class="col-sm-12 text-center">
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/man-woman-age.jpg" alt="Benefits of NECTAR7" width="716" height="461" class="img-responsive aligncenter size-full" />
+														<h4>Do you ever wonder why some people age faster than others?</h4>
+													</div>													
 												</div>
 											</div>
 										</div>
@@ -108,12 +111,7 @@ get_header(); ?>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>
 													</div>
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<p><strong>Dr. Carles Canto</strong>, a researcher at the Ecole Polytechnique Federale de Lausanne in Switzerland, has discovered that the NR enhances oxidative metabolism, protecting against high-fat, diet-induced obesity.  Calling NAD+ a “miracle molecule,” Canto declares that, “the effects of NR on metabolism are nothing short of astonishing.” </p>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-xs-12">
-														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.  It is a “no flush” form of vitamin B3 (niacin) that offers many health benefits, including endurance, performance, weight management, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body. It is a member of the vitamin B3 family that offers many health benefits, including endurance, performance, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
 													</div>
 												</div>
 											</div>
@@ -122,9 +120,9 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
+														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by approximately <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
 														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
-                            							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
 													</div>
 												</div>
 											</div>
@@ -135,7 +133,7 @@ get_header(); ?>
 													<div class="col-md-10 col-md-offset-1">
 														<h2>Try NECTAR7 <span>for yourself</span></h2>
 														<p>Every year, reseachers and scientists are discovering the many benefits of Nicotinamide Riboside (NR) which is the core ingredient in NECTAR7 Niagen. In 2003, there were 474 published studies; in 2013, there were 1,713 and the list keeps&nbsp;growing.</p>
-														<p>NECTAR7 is is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
+														<p>NECTAR7 is dedicated to uncovering and formulating products that bring these benefits to the world.</p>
 													</div>
 												</div>
 												<div class="row">
@@ -150,7 +148,7 @@ get_header(); ?>
 														<h1>NECTAR7 Niagen&reg;</h1>
 														<h2>Power For More Life</h2>
 														<p>NECTAR7 is created to let you live it up, no matter your age. It is an optimized form of Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
-														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">Learn More</a></p>
+														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-product/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
@@ -185,8 +183,8 @@ get_header(); ?>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
-													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD levels by 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
-													<a href="<?php bloginfo('url'); ?>/nectar7-niagen/" class="btn btn-primary">LEARN MORE</a>
+													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD+ levels approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
+													<a href="<?php bloginfo('url'); ?>/nectar7-niagen-product/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
 											<div class="hidden-xs hidden-sm col-md-12 border-bottom">

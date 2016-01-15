@@ -38,7 +38,7 @@ body {
 h1, h2, h3 {
 	color: #111E90;
 	font-weight: bold;
-	line-height: .9;
+	line-height: 1.1;
 	text-transform: uppercase;
 }
 h1 {
@@ -73,15 +73,29 @@ nav > .container {
 	padding-right: 45px;
 	/*padding-top: 45px;*/
 }
-.main-content .row {
+.main-content .row,
+.main-content .vc_row,
+.main-content .row-img {
 	/*margin-bottom: -45px;*/
 	margin-left: -45px;
 	margin-right: -45px;
 	/*margin-top: -45px;*/
 }
-.main-content .row-img {
-	margin-left: -45px;
-	margin-right: -45px;
+.vc_inner > .vc_col-xs-1 , .vc_inner > .vc_col-sm-1 , .vc_inner > .vc_col-md-1 , .vc_inner > .vc_col-lg-1 ,
+.vc_inner > .vc_col-xs-2 , .vc_inner > .vc_col-sm-2 , .vc_inner > .vc_col-md-2 , .vc_inner > .vc_col-lg-2 ,
+.vc_inner > .vc_col-xs-3 , .vc_inner > .vc_col-sm-3 , .vc_inner > .vc_col-md-3 , .vc_inner > .vc_col-lg-3 ,
+.vc_inner > .vc_col-xs-4 , .vc_inner > .vc_col-sm-4 , .vc_inner > .vc_col-md-4 , .vc_inner > .vc_col-lg-4 ,
+.vc_inner > .vc_col-xs-5 , .vc_inner > .vc_col-sm-5 , .vc_inner > .vc_col-md-5 , .vc_inner > .vc_col-lg-5 ,
+.vc_inner > .vc_col-xs-6 , .vc_inner > .vc_col-sm-6 , .vc_inner > .vc_col-md-6 , .vc_inner > .vc_col-lg-6 ,
+.vc_inner > .vc_col-xs-7 , .vc_inner > .vc_col-sm-7 , .vc_inner > .vc_col-md-7 , .vc_inner > .vc_col-lg-7 ,
+.vc_inner > .vc_col-xs-8 , .vc_inner > .vc_col-sm-8 , .vc_inner > .vc_col-md-8 , .vc_inner > .vc_col-lg-8 ,
+.vc_inner > .vc_col-xs-9 , .vc_inner > .vc_col-sm-9 , .vc_inner > .vc_col-md-9 , .vc_inner > .vc_col-lg-9 ,
+.vc_inner > .vc_col-xs-10, .vc_inner > .vc_col-sm-10, .vc_inner > .vc_col-md-10, .vc_inner > .vc_col-lg-10,
+.vc_inner > .vc_col-xs-11, .vc_inner > .vc_col-sm-11, .vc_inner > .vc_col-md-11, .vc_inner > .vc_col-lg-11,
+.vc_inner > .vc_col-xs-12, .vc_inner > .vc_col-sm-12, .vc_inner > .vc_col-md-12, .vc_inner > .vc_col-lg-12{
+/* reduce gutter widths for nested (visual composer) columns */
+	padding-left:15px;
+	padding-right:15px;
 }
 .main-content-inner, .sidebar {
 	padding-bottom: 0;
@@ -104,22 +118,16 @@ nav > .container {
 		padding-right: 15px;
 		/*padding-top: 45px;*/
 	}
-	.main-content .row {
+	.main-content .row,
+	.main-content .vc_row,
+	.main-content .row-img {
 		/*margin-bottom: -45px;*/
 		margin-left: -15px;
 		margin-right: -15px;
 		/*margin-top: -45px;*/
 	}
-	.main-content .row-img {
-		margin-left: -15px;
-		margin-right: -15px;
-	}
 	.main-content-inner, .sidebar {
 		padding-bottom: 0;
-	}
-	/*fix for "order by phone" text*/
-	.wpb_text_column.wpb_content_element .wpb_wrapper p {
-		text-align: center;
 	}
 }
 
@@ -201,6 +209,60 @@ header {
 	margin-left: 15px;
 }
 
+/* Front end CSS from problogger styles.css */
+
+/*
+------------------------------------------------------------------
+	JUMBOTRON, HEADER, MENU, SEARCH, TOP NAV, FEATURED IN
+------------------------------------------------------------------
+*/
+
+#masthead {
+	margin-bottom: 0;
+}
+#main-nav {
+	margin-bottom: 0;
+}
+
+/*
+------------------------------------------------------------------
+	HEADER, MENU, SEARCH, BREADCRUMBS
+------------------------------------------------------------------
+*/
+
+
+/*
+------------------------------------------------------------------
+	SIDEBAR, CTA
+------------------------------------------------------------------
+*/
+
+/* CTA Widget */
+#problogger-cta-widget {
+	margin-top: 20px;
+}
+#problogger-cta-widget .panel-heading:after {
+	background-color: transparent;
+	border-left: 139px solid transparent;
+	border-right: 139px solid transparent;
+	border-top: 30px solid transparent;
+	bottom: -30px;
+	content: '';
+	display: block;
+	left: 50%;
+	height: 0;
+	margin-left: -139px;
+	position: absolute;
+	width: 0;
+}
+#problogger-cta-widget h3 {
+	margin: .5em auto;
+}
+#problogger-cta-widget blockquote {
+	border-left: none;
+	padding: 0;
+}
+/* and then */
 #main-nav {
 	background-color: #fff;
 }
@@ -466,6 +528,9 @@ footer .socialicons ul li.instagram a
 	border-radius: 10px;
 	border-color: #00B3E3;
 	color: #fff;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .btn.btn-primary span
