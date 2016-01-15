@@ -26,6 +26,11 @@ function nectar7_remove_wp_ver_css_js( $src ) {
 add_filter( 'style_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
 
+function nectar7_wdjs_labjs_src( $lab_src, $lab_ver ) {
+	return str_replace( '?ver='. $lab_ver, '', $lab_src ); // no $lab_ver
+}
+add_filter( 'wdjs_labjs_src', 'nectar7_wdjs_labjs_src', 10, 2 );
+
 function nectar7_cleaner_wp_header_please() {
 	// Display the links to the extra feeds such as category feeds
 	remove_action( 'wp_head', 'feed_links_extra', 3 );
