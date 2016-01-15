@@ -56,6 +56,10 @@ function nectar7_cleaner_wp_header_please() {
 	remove_action( 'wp_head', 'rel_canonical' );
 	// default wp shortlink meta tag
 	remove_action( 'wp_head', 'wp_shortlink_wp_head' );
+  // rest_output_rsd no idea but hey
+  remove_action( 'xmlrpc_rsd_apis', 'rest_output_rsd' );
+  // rest_output_link_wp_head adds <link rel="https://api.w.org"...
+  remove_action( 'wp_head', 'rest_output_link_wp_head' );
 }
 add_action( 'wp_head', 'nectar7_cleaner_wp_header_please', 0 );
 
