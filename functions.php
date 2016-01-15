@@ -10,9 +10,11 @@ function pgb_child_enqueue_styles() {
 	wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
 }
 
-add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts', 11 );
 function pgb_child_enqueue_scripts() {
     wp_enqueue_script( 'nectar7-js', get_stylesheet_directory_uri() . '/includes/js/nectar7.js', array('jquery') );
+    // remove gforms_bootstrapper_js which just handles file inputs and isnt needed here
+    wp_dequeue_script( 'gforms_bootstrapper_js' );
 }
 
 // remove wp version param from any enqueued scripts
