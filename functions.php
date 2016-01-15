@@ -11,7 +11,7 @@ function pgb_child_enqueue_styles() {
 	wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
   wp_enqueue_style( 'nectar7', get_stylesheet_directory_uri() . '/style.min.css' );
   // problogger style.css now covered by n7 style
-  wp_dequeue_style( 'problogger-style' );
+  wp_dequeue_style( 'problogger_styles' );
 }
 
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts', 11 );
