@@ -148,7 +148,7 @@ get_header(); ?>
 														<h1>NECTAR7 Niagen&reg;</h1>
 														<h2>Power For More Life</h2>
 														<p>NECTAR7 is created to let you live it up, no matter your age. It is an optimized form of Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
-														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-product/" class="btn btn-primary">Learn More</a></p>
+														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
@@ -184,7 +184,7 @@ get_header(); ?>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
 													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD+ levels approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
-													<a href="<?php bloginfo('url'); ?>/nectar7-niagen-product/" class="btn btn-primary">LEARN MORE</a>
+													<a href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
 											<div class="hidden-xs hidden-sm col-md-12 border-bottom">
