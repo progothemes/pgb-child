@@ -201,7 +201,7 @@ body.unpad .main-content .entry-content{padding:0 15px !important}
 .main-content .row.products .product-desc h3{color:#000;font-family:"MyriadPro";font-weight:700;font-size:28px;line-height:32px;margin-bottom:0;text-transform:none}
 .main-content .row.products .product-desc h4{color:#000;font-family:"MyriadPro";font-weight:700;font-size:18px;line-height:32px;margin-bottom:10px}
 .main-content .row.products .product-desc p{color:#000;font-family:"MyriadPro";font-weight:400;font-size:16px;line-height:24px;margin-bottom:5px}
-.main-content .row.products .product-desc a.learnmore{color:#00b3e3;font-family:"MyriadPro";font-weight:400;font-size:16px;line-height:24px}
+.main-content .row.products .product-desc a.learnmore{color:#1B68AB;font-family:"MyriadPro";font-weight:400;font-size:16px;line-height:24px; text-decoration:underline;}
 .main-content .row.products .product-desc .btn.btn-primary{font-family:"MyriadPro";font-weight:400;font-size:18px;text-transform:uppercase;padding:10px 30px 8px;min-width:220px;background:#00B3E3;border-radius:10px;border-color:#00B3E3;margin-bottom:20px;display:block}
 .main-content .row.products .product-desc img.cardseal{margin-left:5px;width:210px}
 .main-content .row.products .product-desc .productaddtocart{margin-top:30px}
