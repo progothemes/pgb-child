@@ -24,6 +24,37 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_before_main_content' );
 	?>
+		<style type="text/css">
+		.page-heading h1{
+		    padding-top:.57em;
+		}
+		h2 {
+		    margin:1em 0 .5em;
+		    font-size:40px;
+		    text-transform:initial;
+		    font-weight:normal;
+		    color:#333;
+		}
+		h2 .lead{
+		    font-size:inherit;
+		    font-weight:600;
+		    color:#1946bb;
+		}
+		.page-intro{
+		    margin-bottom:-2.5em;
+		}
+		.page-intro ul{
+		    list-style-position:inside;
+		    padding-left:0;
+		    font-size:1.2em;
+		    letter-spacing:.05em;
+		    text-transform:uppercase;
+		}
+		.page-intro li{ padding:.5em 0; margin:0 2.5em 0 0; }
+		.page-intro ul li:nth-child(odd){
+		    float:left;
+		}
+		</style>
 		<div class="row">
 			<div class="col-xs-12 page-heading store-heading">
 				<div class="row">
@@ -36,12 +67,12 @@ get_header( 'shop' ); ?>
 				</div>
 			</div>
 			<div class="col-xs-12 page-intro">
-				<h2><span class="lead">NECTAR7 Niagen</span> goes to work in under 8 hours in restoring vital cellular functionality that delivers.</h2>
+				<h2><span class="lead">NECTAR7 Niagen</span> goes to work in under 8 hours in restoring vital cellular functionality that delivers:</h2>
 				<ul>
 					<li>Mental Clarity &amp; Sharpness</li>
-					<li>Regain your Energy &amp; Vitality</li>
-					<li>Avoid Depression &amp; Fatigue</li>
-					<li>Look &amp; Feel Better!</li>
+					<li>Increased Energy &amp; Vitality</li>
+					<li>Resilient Mood &amp; Outlook&nbsp;&nbsp;&nbsp;</li>
+					<li>Better Look &amp; Feeling</li>
 				</ul>
 			</div>
 		</div>
