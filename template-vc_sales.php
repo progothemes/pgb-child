@@ -296,9 +296,9 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		                </div>
 
 		                <div class="row final-question">
-		                	<div class="col-md-3"><img src="/wp-content/themes/nectar7-pgb-child/images/bottle_solo.png" class="img-responsive" alt=""></div>
+		                	<div class="col-md-3"><img src="/wp-content/themes/nectar7-pgb-child/images/bottle_solo.png" class="img-responsive center-block" alt=""></div>
 		                	<div class="col-md-8">
-		                		<h3>If you’re still not sure, can I ask you a question?</h3>
+		                		<h3>Can I ask you a question?</h3>
 								<p>Would you try a product for under $50 per month that could potentially allow you to perform the closest you can to 100% of your mental and physical capabilities? Better Sleep! More Energy! Reclaim Performance! and More.</p>
 								<p>NECTAR7 Niagen is backed by science and goes to work in under 8 hours. Don't age another day without NECTAR7.</p>
 								<a class="btn btn-primary" href="#getStarted">Get Started</a>
