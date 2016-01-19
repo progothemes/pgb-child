@@ -36,37 +36,13 @@ get_header( 'shop' ); ?>
 				</div>
 			</div>
 			<div class="col-xs-12 page-intro">
-				<div class="wpb_text_column wpb_content_element">
-					<div class="wpb_wrapper">
-						<h2 style="font-size: 48px; text-transform:initial"><span style="color: #1946bb;">NECTAR7 Niagen</span> goes to work in under 8 hours in restoring vital cellular functionality that delivers.</h2>
-					</div>
-				</div>
-				<div class="vc_row wpb_row vc_inner vc_row-fluid">
-					<div class="wpb_column vc_column_container vc_col-sm-6">
-						<div class="wpb_wrapper">
-							<div class="wpb_text_column wpb_content_element ">
-								<div class="wpb_wrapper">
-									<ul style="font-size: 17px; line-height: 3em;">
-										<li style="text-transform: uppercase;">Mental Clarity &amp; Sharpness</li>
-										<li style="text-transform: uppercase;">Regain your Energy &amp; Vitality</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="wpb_column vc_column_container vc_col-sm-6">
-						<div class="wpb_wrapper">
-							<div class="wpb_text_column wpb_content_element ">
-								<div class="wpb_wrapper">
-									<ul style="font-size: 17px; line-height: 3em;">
-										<li style="text-transform: uppercase;">Avoid Depression &amp; Fatigue</li>
-										<li style="text-transform: uppercase;">Look &amp; Feel Better!</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<h2><span class="lead">NECTAR7 Niagen</span> goes to work in under 8 hours in restoring vital cellular functionality that delivers.</h2>
+				<ul>
+					<li>Mental Clarity &amp; Sharpness</li>
+					<li>Regain your Energy &amp; Vitality</li>
+					<li>Avoid Depression &amp; Fatigue</li>
+					<li>Look &amp; Feel Better!</li>
+				</ul>
 			</div>
 		</div>
 						
