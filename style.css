@@ -354,6 +354,9 @@ h4 {
 }
 
 /* Containers */
+.container{
+	width: 100%; max-width: 1240px;
+}
 nav > .container {
 	padding-left: 30px;
 	padding-right: 30px;
