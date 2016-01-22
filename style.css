@@ -2001,6 +2001,9 @@ body.unpad .main-content .entry-content {
 	margin-right: auto;
 	display: block;
 }
+.videosalespage .row.final-question{
+	margin-top:45px; margin-bottom:30px;
+}
 
 /* About Us */
 
