@@ -34,6 +34,12 @@ function nectar7_remove_wp_ver_css_js( $src ) {
 add_filter( 'style_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
 
+function nectar7_wdjs_no_defer( $no_defer ){
+  $no_defer[] = 'jquery';
+  return $no_defer;
+}
+add_filter( 'do_not_defer', 'nectar7_wdjs_no_defer');
+
 function nectar7_wdjs_labjs_src( $lab_src, $lab_ver ) {
 	return str_replace( '?ver='. $lab_ver, '', $lab_src ); // no $lab_ver
 }
