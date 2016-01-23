@@ -101,7 +101,7 @@ function nectar7_gtm() {
  * Chat code JS 
  *
  */
-add_action( 'tha_head_bottom', 'nectar7_chat_js' );
+//add_action( 'tha_head_bottom', 'nectar7_chat_js' );
 function nectar7_chat_js() {
 	?>
 	<!--Start of Zopim Live Chat Script-->
