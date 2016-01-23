@@ -7,9 +7,9 @@
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_styles', 11 );
 function pgb_child_enqueue_styles() {
   wp_dequeue_style('pgb-google-font');
-  wp_dequeue_style('seedredux-google-fonts-seed_cspv4');
+  wp_dequeue_style('pgb-fontawesome');
   wp_dequeue_style('pgb-bootstrap');
-  wp_enqueue_style('pgb-bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+  wp_enqueue_style('pgb-bootstrap-min', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
   //wp_enqueue_style( 'pgb-style', get_stylesheet_directory_uri() . '/css/pgb-style-1.1.1.min.css' );
   // wp_enqueue_style( 'pgb', get_template_directory_uri() . '/style.css' ); // PGB styles now covered by N7 style
 	// wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
