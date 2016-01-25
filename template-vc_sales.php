@@ -38,7 +38,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 							<?php the_content(); ?>
 							<div class="entry-content main-entry-content col-md-12"></div>
 						</div>
-						<div class="row refillproducts">
+						<div id="getStarted" class="row refillproducts">
 							<div class="col-xs-12">
 								<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 								<div class="row refillproductsrow">
