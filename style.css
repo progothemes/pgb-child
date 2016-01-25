@@ -2974,19 +2974,16 @@ div#science_menu.affix {
 
 .disclaimertext
 {
-	margin: 0px 0px 15px;
+	margin: 10px 0px 15px;
 	text-align: left;
+	color:#8D97F2;
 }
 
 .disclaimertext p
 {
-	font-size: 10px;
-	line-height: 13px;
+    font-weight:300;
+    font-size:16px;
 	margin: 0 30px 8px;
-}
-.disclaimertext p:first-child{
-	font-size:12px;
-	letter-spacing:.3px;
 }
 
 .btn-learnmore
