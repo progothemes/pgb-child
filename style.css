@@ -308,8 +308,8 @@ h4 {
 	width: 100%; max-width: 1240px;
 }
 nav > .container {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 #masthead.container {
 	padding-left: 45px;
@@ -512,14 +512,20 @@ header {
 	padding: 0;
 }
 /* and then */
+#main-nav,
+#top-nav{
+	min-height: initial;
+}
 #main-nav {
 	background-color: #fff;
+	border:none;
 }
 
 #top-nav {
 	background-color: #e1e1e1;
 	border-color: transparent;
 	/*margin-top: -52px;*/
+	padding:0;
 	position: fixed;
 	width: 100%;
 	z-index: 999;
@@ -537,20 +543,24 @@ header {
 	transform: translate(0,-42px);
 }
 
-#top-nav.navbar-inverse .navbar-nav > li.active > a,
-#top-nav.navbar-inverse .navbar-nav > li.active > a:hover,
-#top-nav.navbar-inverse .navbar-nav > li.active > a:focus {
-	background-color: #e7e7e7;
-}
-
-#top-nav.navbar-inverse .navbar-nav > li > a:focus,
-#top-nav.navbar-inverse .navbar-nav > li > a:hover {
-	background-color: transparent;
-}
 #top-nav .nav-contain {
 	background-color: #fff;
 }
+#top-nav .navbar-brand img {
+    height:16px;
+}
+.navbar-brand{
+	height:auto;
+}
+.tabletlogo img {
+    height:17px;
+    padding-bottom:0;
+}
 .navbar-nav > li > a {
+    color:#555;
+    padding-top:17px;
+    font-size:16px;
+    letter-spacing:.3px;
     transition:background-position 144ms linear;
     background:linear-gradient(to bottom, white, white 49%, #e1e1e1 59%) left top/100% 300% no-repeat;
 }
@@ -565,7 +575,6 @@ header {
     color:#1946ba;
 }
 
-
 .cartlink span.shopping-cart-icon
 {
 	display: inline-block;
@@ -576,7 +585,19 @@ header {
 	outline: none;
 	margin-bottom: -7px;
 }
-
+@media screen and (max-width: 1024px) {
+    .navbar-nav > li > a{
+    	letter-spacing:0;
+        font-size:14px;
+        padding-top:15px;
+        padding-bottom:13px;
+    }
+    .cartlink span.shopping-cart-icon{
+        height:18px;
+        position:relative;
+        top:-3px;
+    }
+}
 
 
 /* Masthead */
