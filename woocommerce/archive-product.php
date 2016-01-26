@@ -51,7 +51,7 @@ get_header( 'shop' ); ?>
 		    text-transform:uppercase;
 		}
 		.page-intro li{ padding:.5em 0; margin:0 2.5em 0 0; }
-		.page-intro ul li:nth-child(odd){ float:left; }
+		.page-intro ul li:nth-child(odd){ float:left; clear:both; width:14em; }
 		.page-intro ul li:nth-child(even){ margin-left:15.8em; }
 		</style>
 		<div class="row">
@@ -68,10 +68,10 @@ get_header( 'shop' ); ?>
 			<div class="col-xs-12 page-intro">
 				<h2><span class="lead">NECTAR7 Niagen</span> goes to work in approximately 8 hours improving:</h2>
 				<ul>
-					<li>Energy &amp; Vitality</li>
-					<li>Mental Clarity</li>
-					<li>Fatigue & Depression</li>
-					<li>Overall Mood</li>
+					<li>Energy &amp; Vitality*</li>
+					<li>Mental Clarity*</li>
+					<li>Fatigue & Depression*</li>
+					<li>Overall Mood*</li>
 				</ul>
 			</div>
 		</div>
