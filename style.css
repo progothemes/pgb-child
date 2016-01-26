@@ -171,56 +171,6 @@ object {
 	#main-nav .navbar-brand img {
 		max-height: 40px;
 	}
-	/* Bootstrap larger themes */
-	.pgb-theme-darkly #main-nav.navbar-fixed-top + *,
-	.pgb-theme-flatly #main-nav.navbar-fixed-top + *,
-	.pgb-theme-journal #main-nav.navbar-fixed-top + *,
-	.pgb-theme-paper #main-nav.navbar-fixed-top + *,
-	.pgb-theme-readable #main-nav.navbar-fixed-top + *,
-	.pgb-theme-sandstone #main-nav.navbar-fixed-top + * {
-		margin-top: 60px;
-	}
-	.pgb-theme-darkly #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-flatly #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-journal #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-paper #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-readable #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-sandstone #top-nav + #main-nav.navbar-fixed-top + * {
-		margin-top: 120px;
-	}
-	.pgb-theme-darkly #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-flatly #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-journal #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-paper #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-readable #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-sandstone #top-nav + #main-nav.navbar-fixed-top {
-		top: 60px;
-	}
-	.pgb-theme-darkly #main-nav .navbar-brand img,
-	.pgb-theme-flatly #main-nav .navbar-brand img,
-	.pgb-theme-journal #main-nav .navbar-brand img,
-	.pgb-theme-paper #main-nav .navbar-brand img,
-	.pgb-theme-readable #main-nav .navbar-brand img,
-	.pgb-theme-sandstone #main-nav .navbar-brand img {
-		max-height: 50px;
-	}
-	/* Bootstrap smaller themes */
-	.pgb-theme-simplex #main-nav.navbar-fixed-top + *,
-	.pgb-theme-superhero #main-nav.navbar-fixed-top + * {
-		margin-top: 40px;
-	}
-	.pgb-theme-simplex #top-nav + #main-nav.navbar-fixed-top + *,
-	.pgb-theme-superhero #top-nav + #main-nav.navbar-fixed-top + * {
-		margin-top: 80px;
-	}
-	.pgb-theme-simplex #top-nav + #main-nav.navbar-fixed-top,
-	.pgb-theme-superhero #top-nav + #main-nav.navbar-fixed-top {
-		top: 40px;
-	}
-	.pgb-theme-simplex #main-nav .navbar-brand img,
-	.pgb-theme-superhero #main-nav .navbar-brand img {
-		max-height: 30px;
-	}
 
 	/* Navbar margin fix */
 	#main-menu.navbar-nav.navbar-right {
@@ -566,14 +516,6 @@ header {
 	background-color: #fff;
 }
 
-#main-nav.navbar-default .navbar-nav > li > a
-{
-	font-family: 'Source Sans Pro', "MyriadPro";
-	font-size: 15px;
-	/*font-weight: 300;*/
-	color: #000;	
-}
-
 #top-nav {
 	background-color: #e1e1e1;
 	border-color: transparent;
@@ -595,11 +537,6 @@ header {
 	transform: translate(0,-42px);
 }
 
-#top-nav.navbar-inverse .navbar-nav > li > a {
-	/*background-color: #e7e7e7;*/
-	color: #000;
-	font-family: "Source Sans Pro","MyriadPro";
-}
 #top-nav.navbar-inverse .navbar-nav > li.active > a,
 #top-nav.navbar-inverse .navbar-nav > li.active > a:hover,
 #top-nav.navbar-inverse .navbar-nav > li.active > a:focus {
@@ -612,6 +549,20 @@ header {
 }
 #top-nav .nav-contain {
 	background-color: #fff;
+}
+.navbar-nav > li > a {
+    transition:background-position 144ms linear;
+    background:linear-gradient(to bottom, white, white 49%, #e1e1e1 59%) left top/100% 300% no-repeat;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+    background-position: left center;
+}
+
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus  {
+    background-position: left bottom;
+    color:#1946ba;
 }
 
 
@@ -705,7 +656,6 @@ header {
 #footerwidgets ul.menu li a
 {
 	padding: 10px 7.5px;
-	font-family: "Source Sans Pro","MyriadPro";
 	font-size: 15px;
 	font-weight: 300;
 	color: #000;
@@ -750,7 +700,6 @@ footer .container {
 }
 footer .site-copyright {
 	padding: 15px 30px;
-	font-family: "Source Sans Pro","MyriadPro";
 	font-size: 15px;
 	font-weight: 300;
 	color: #FFF;
