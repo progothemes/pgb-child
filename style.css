@@ -522,6 +522,7 @@ header {
 }
 #main-nav .navbar-toggle{ border:1px solid #ddd; }
 #main-nav .navbar-toggle.collapsed{ box-shadow:0 1px 1px; }
+#main-nav .navbar-toggle .icon-bar{ background-color:#888; }
 #main-nav .navbar-toggle.collapsed .icon-bar{ background-color:#333; }
 
 #top-nav {
