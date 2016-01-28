@@ -24,6 +24,36 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_before_main_content' );
 	?>
+		<style type="text/css">
+		.page-heading h1{
+		    padding-top:.57em;
+		}
+		h2 {
+		    margin:1em 0 .5em;
+		    font-size:40px;
+		    text-transform:initial;
+		    font-weight:normal;
+		    color:#333;
+		}
+		h2 .lead{
+		    font-size:inherit;
+		    font-weight:600;
+		    color:#1946bb;
+		}
+		.page-intro{
+		    margin-bottom:-2.5em;
+		}
+		.page-intro ul{
+		    list-style-position:inside;
+		    padding-left:0;
+		    font-size:1.2em;
+		    letter-spacing:.05em;
+		    text-transform:uppercase;
+		}
+		.page-intro li{ padding:.5em 0; margin:0 2.5em 0 0; }
+		.page-intro ul li:nth-child(odd){ float:left; clear:both; width:14em; }
+		.page-intro ul li:nth-child(even){ margin-left:15.8em; }
+		</style>
 		<div class="row">
 			<div class="col-xs-12 page-heading store-heading">
 				<div class="row">
@@ -35,8 +65,17 @@ get_header( 'shop' ); ?>
 					</div>
 				</div>
 			</div>
+			<div class="col-xs-12 page-intro">
+				<h2><span class="lead">NECTAR7 Niagen</span> goes to work on improving:</h2>
+				<ul>
+					<li>Energy &amp; Vitality*</li>
+					<li>Mental Clarity*</li>
+					<li>Fatigue & Depression*</li>
+					<li>Overall Mood*</li>
+				</ul>
+			</div>
 		</div>
-						
+
 		<?php /*if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
@@ -108,7 +147,7 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
 		do_action( 'woocommerce_sidebar' );
-    
+
     global $woocommerce;
     $cart_url = $woocommerce->cart->get_cart_url();
 	?>
@@ -138,7 +177,7 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
-												</div>	
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
 												<h3>NIAGEN&reg; (90 DAY)
@@ -155,8 +194,8 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>NIAGEN&reg; (180 DAY)
@@ -173,8 +212,8 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 										</div>
 									</div>
@@ -183,7 +222,7 @@ get_header( 'shop' ); ?>
 						    </div><!-- /.modal-content -->
 						  </div><!-- /.modal-dialog -->
 						</div><!-- /.modal -->
-		
+
 		<!-- MODAL COLLAGEN-->
 					<div class="modal fade modalproducts" id="modal-75" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					  <div class="modal-dialog">
@@ -210,7 +249,7 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=75" class="btn btn-primary"/>ADD TO CART</a>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
-												</div>	
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
 												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(90 DAY)
@@ -227,8 +266,8 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=167" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
 												<h3>NIAGEN&reg; &amp; COLLAGEN<br />(180 DAY)
@@ -245,8 +284,8 @@ get_header( 'shop' ); ?>
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 													<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
 													<a href="<?php echo $cart_url; ?>?add-to-cart=168" class="btn btn-primary"/>ADD TO CART</a>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" /> 
-												</div>	
+													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
+												</div>
 											</div>
 										</div>
 									</div>

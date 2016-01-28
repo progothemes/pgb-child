@@ -34,7 +34,7 @@ switch ($navbar_width) {
 
 
 ?>
-<nav id="main-nav" class="navbar navbar-default site-navigation <?=$menustyle; ?> <?=$navbar_width; ?>" <?php echo $datafix; ?> >
+<nav id="main-nav" class="navbar site-navigation <?=$menustyle; ?> <?=$navbar_width; ?>" <?php echo $datafix; ?> >
 	<div  class="<?=$navbar_width_inner; ?> nav-contain" role="navigation">
 		<div class="navbar-header"> 
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->

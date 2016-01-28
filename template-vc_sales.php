@@ -38,7 +38,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 							<?php the_content(); ?>
 							<div class="entry-content main-entry-content col-md-12"></div>
 						</div>
-						<div class="row refillproducts">
+						<div id="getStarted" class="row refillproducts">
 							<div class="col-xs-12">
 								<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 								<div class="row refillproductsrow">
@@ -279,15 +279,25 @@ $cart_url = $woocommerce->cart->get_cart_url();
 			                </div>
 			            </div>
 
+		                <div class="row final-question">
+		                	<div class="col-md-3"><img src="/wp-content/themes/nectar7-pgb-child/images/bottle_solo.png" class="img-responsive center-block" alt=""></div>
+		                	<div class="col-md-8">
+		                		<h3>Can I ask you a question?</h3>
+								<p>Would you try a product for under $50 per month that could potentially allow you to perform the closest you can to 100% of your mental and physical capabilities? Better Sleep! More Energy! Reclaim Performance! and More.</p>
+								<p>NECTAR7 Niagen is backed by science and goes to work in under 8 hours. Don't age another day without NECTAR7.</p>
+								<a class="btn btn-primary" href="#getStarted">Get Started</a>
+		                	</div>
+		                </div>
+
 		                <div class="row productfaqs">
 		                  <div class="col-xs-12">
 		                    <div id="1447309144105-8601f8c9-013b" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
 		                      <div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
 		                      <div class="vc_toggle_content"><ol>
+		                      	<li><a href="http://investors.chromadex.com/phoenix.zhtml?c=212121&p=irol-newsArticle&ID=2078998" target="_blank">http://investors.chromadex.com/phoenix.zhtml?c=212121&p=irol-newsArticle&ID=2078998</a></li>
 		                        <li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
 		                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 		                        <li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
-		                        <li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 		                        <li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
 		                      </ol>
 		                    </div>
@@ -305,60 +315,5 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-
-		<div id="dimdiv"></div>
 	</div>
-<style type="text/css">
-.main-content {
-    position: relative;
-    z-index: 1;
-}
-#content{ z-index: initial; }
-.videocontent{
-	box-shadow: 0 3px 8px;
-	max-width: 736px;
-	max-height:414px;
-	position:relative;
-	z-index:200;
-}
-.btn.btn-primary{
-    z-index: 99;
-}
-#dimdiv{
-	position: fixed;
-	top:0; left:0;
-	width: 100%;
-	min-height: 100%;
-	z-index: 100;
-	background-color: #000;
-		/* IE 8 */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-		/* IE 5-7 */
-		filter: alpha(opacity=80);
-		/* Netscape */
-		-moz-opacity: 0.8;
-		/* Safari 1.x */
-		-khtml-opacity: 0.8;
-		/* Good browsers */
-		opacity: 0.8;
-	display: none;}
-</style>
-<script type="text/javascript">
-(function($){
-
-	var $dimdiv = $('#dimdiv');
-
-	function doDim(){
-		$dimdiv.fadeIn(1000)}
-
-	function dontDim(){
-		$dimdiv.fadeOut(300)}
-
-	$(document).ready(function(){
-		//auto dim
-		// setTimeout(doDim, 1300);
-		//dim div click handler
-		$dimdiv.click(dontDim)});
-})(jQuery);
-</script>
 <?php get_footer(); ?>

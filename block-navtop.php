@@ -34,7 +34,7 @@ switch ($topnav_width) {
 
 
 ?>
-<nav id="top-nav" class="navbar navbar-inverse site-navigation hidden-xs <?=$topmenustyle; ?> <?=$topnav_width; ?>" <?php echo $datafix; ?> >
+<nav id="top-nav" class="navbar site-navigation hidden-xs <?=$topmenustyle; ?> <?=$topnav_width; ?>" <?php echo $datafix; ?> >
 	<div  class="<?=$topnav_width_inner; ?> nav-contain" role="navigation">
 		<div class="navbar-header"> 
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->

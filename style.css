@@ -10,6 +10,252 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+/* from PGB but without the multiple @font-face for the League Gothic family */
+body {
+	/* This is a small security for too long strings titles */
+	word-wrap: break-word;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Images and wp-captions should always fit and be responsive */
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+img[class*="wp-image-"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px 10px 0;
+}
+.wp-caption.aligncenter {
+	margin-bottom: 10px;
+}
+.wp-caption img[class*="wp-image-"] {
+	margin-top: 0;
+	display: block;
+}
+.wp-caption .wp-caption-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* WP Gallery */
+.gallery {
+	margin-bottom: 1.5em;
+}
+.gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.gallery dd {
+	margin: 0;
+}
+
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+
+/* Content */
+#content {
+	position: relative;
+	z-index: 0;
+}
+.main-content-inner,
+.sidebar {
+	padding-bottom: 1.5em;
+}
+
+/* Clearing */
+.clear {
+	clear: both;
+}
+
+/*---------[ widget styling ]----------*/
+.widget { margin-bottom: 2em; }
+
+.widget_nav_menu ul.sub-menu li,
+.widget_pages ul.children li { padding-left: 15px; }
+
+/* Hiding the search widget's button in widgets.*/
+.widget_search .search-form input[type="submit"] { display: none; }
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+}
+
+.comment .children { margin-left: 1.5em; }
+
+.sticky header .entry-meta:after {
+	content: '\f08d';
+ 	display:inline-block;
+ 	float:right;
+ 	font:normal normal normal 14px/1 FontAwesome;
+ 	font-size:inherit;
+ 	text-rendering:auto;
+ 	-webkit-font-smoothing:antialiased;
+ 	-moz-osx-font-smoothing:grayscale;
+}
+
+.bypostauthor .panel-heading .media-heading:after { 
+ 	content: '\f007  Author';
+ 	display:inline-block;
+ 	float:right;
+ 	font:normal normal normal 14px/1 FontAwesome;
+ 	font-size:inherit;
+ 	text-rendering:auto;
+ 	-webkit-font-smoothing:antialiased;
+ 	-moz-osx-font-smoothing:grayscale;
+ }
+
+.gallery-caption {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*
+------------------------------------------------------------------
+	HEADER, MENU, SEARCH, BREADCRUMBS
+------------------------------------------------------------------
+*/
+
+#masthead {
+	margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+	#top-nav {
+		margin-bottom: 0;
+	}
+
+	/* Bootstrap default theme */
+	#top-nav + #main-nav.navbar-fixed-top {
+		top: 50px;
+	}
+	#main-nav.navbar-fixed-top + * {
+		margin-top: 50px;
+	}
+	#top-nav + #main-nav.navbar-fixed-top + * {
+		margin-top: 100px;
+	}
+	#main-nav .navbar-brand img {
+		max-height: 40px;
+	}
+
+	/* Navbar margin fix */
+	#main-menu.navbar-nav.navbar-right {
+		margin-right: -15px;
+	}
+
+	/* Avatar */
+	li[role="avatar"] a {
+		margin-top: 9px;
+		margin-bottom: 9px;
+		padding: 0 15px;
+	}
+	li[role="avatar"] img {
+		border-radius: 50%;
+	}
+}
+
+/*--------------------------[ WP ADMIN BAR FIXES ]-----------------------------------*/
+@media screen and (min-width: 783px) {
+	body.admin-bar .navbar-fixed-top {
+		top: 31px;
+	}
+	body.admin-bar #top-nav + #main-nav.navbar-fixed-top {
+		top: 81px;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 782px) {
+	body.admin-bar .navbar-fixed-top {
+		top: 45px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 782px) {
+	body.admin-bar #top-nav + #main-nav.navbar-fixed-top {
+		top: 95px;
+	}
+}
+
+/*--------------------------[ BREADCRUMBS ]-----------------------------------*/
+body.progo-base .breadcrumb {
+	background-color: transparent;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.woocommerce-page .breadcrumb li:last-child span {
+	/* color: #333; */
+}
+
+/*--------------------------[ SEARCH FORM ]-----------------------------------*/
+form.navbar-form.navbar-right {
+	margin-left: 15px;
+	margin-right: -15px;
+}
+
+
+/*--------------------[ LOGOS ]---------------------*/
+.desktoplogo {
+	display: block; /* show desktop by default */
+}
+.tabletlogo, .mobilelogo {
+	display: none;
+}
+@media all and (max-width: 767px) {
+	.mobilelogo {
+		display: block;
+	}
+	.tabletlogo, .desktoplogo {
+		display: none;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.tabletlogo {
+		display: block;
+	}
+	.mobilelogo, .desktoplogo {
+		display: none;
+	}
+}
+
+
+
+/*-------------------[ GLYPHICONS ] ------------------*/
+.input-group-addon.glyphicon {
+	top: 0;
+}
+/* end PGB styles */
 
 /* Fonts?! */
 @font-face {
@@ -58,9 +304,12 @@ h4 {
 }
 
 /* Containers */
+.container{
+	width: 100%; max-width: 1240px;
+}
 nav > .container {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 #masthead.container {
 	padding-left: 45px;
@@ -263,22 +512,20 @@ header {
 	padding: 0;
 }
 /* and then */
+#main-nav,
+#top-nav{
+	min-height: initial;
+}
 #main-nav {
 	background-color: #fff;
-}
-
-#main-nav.navbar-default .navbar-nav > li > a
-{
-	font-family: 'Source Sans Pro', "MyriadPro";
-	font-size: 15px;
-	/*font-weight: 300;*/
-	color: #000;	
+	border:none;
 }
 
 #top-nav {
 	background-color: #e1e1e1;
 	border-color: transparent;
 	/*margin-top: -52px;*/
+	padding:0;
 	position: fixed;
 	width: 100%;
 	z-index: 999;
@@ -296,25 +543,37 @@ header {
 	transform: translate(0,-42px);
 }
 
-#top-nav.navbar-inverse .navbar-nav > li > a {
-	/*background-color: #e7e7e7;*/
-	color: #000;
-	font-family: "Source Sans Pro","MyriadPro";
-}
-#top-nav.navbar-inverse .navbar-nav > li.active > a,
-#top-nav.navbar-inverse .navbar-nav > li.active > a:hover,
-#top-nav.navbar-inverse .navbar-nav > li.active > a:focus {
-	background-color: #e7e7e7;
-}
-
-#top-nav.navbar-inverse .navbar-nav > li > a:focus,
-#top-nav.navbar-inverse .navbar-nav > li > a:hover {
-	background-color: transparent;
-}
 #top-nav .nav-contain {
 	background-color: #fff;
 }
+#top-nav .navbar-brand img {
+    height:16px;
+}
+.navbar-brand{
+	height:auto;
+}
+.tabletlogo img {
+    height:17px;
+    padding-bottom:0;
+}
+.navbar-nav > li > a {
+    color:#555;
+    padding-top:17px;
+    font-size:16px;
+    letter-spacing:.3px;
+    transition:background-position 144ms linear;
+    background:linear-gradient(to bottom, white, white 49%, #e1e1e1 59%) left top/100% 300% no-repeat;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+    background-position: left center;
+}
 
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus  {
+    background-position: left bottom;
+    color:#1946ba;
+}
 
 .cartlink span.shopping-cart-icon
 {
@@ -326,7 +585,19 @@ header {
 	outline: none;
 	margin-bottom: -7px;
 }
-
+@media screen and (max-width: 1024px) {
+    .navbar-nav > li > a{
+    	letter-spacing:0;
+        font-size:14px;
+        padding-top:15px;
+        padding-bottom:13px;
+    }
+    .cartlink span.shopping-cart-icon{
+        height:18px;
+        position:relative;
+        top:-3px;
+    }
+}
 
 
 /* Masthead */
@@ -406,7 +677,6 @@ header {
 #footerwidgets ul.menu li a
 {
 	padding: 10px 7.5px;
-	font-family: "Source Sans Pro","MyriadPro";
 	font-size: 15px;
 	font-weight: 300;
 	color: #000;
@@ -451,7 +721,6 @@ footer .container {
 }
 footer .site-copyright {
 	padding: 15px 30px;
-	font-family: "Source Sans Pro","MyriadPro";
 	font-size: 15px;
 	font-weight: 300;
 	color: #FFF;
@@ -1071,11 +1340,12 @@ body.unpad .main-content .entry-content {
 
 .main-content .row.products .product-desc a.learnmore
 {
-	color: #00b3e3;
+	color: #1B68AB;
 	font-family: "MyriadPro";
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
+	text-decoration:underline;
 }
 
 .main-content .row.products .product-desc .btn.btn-primary
@@ -2001,6 +2271,9 @@ body.unpad .main-content .entry-content {
 	margin-right: auto;
 	display: block;
 }
+.videosalespage .row.final-question{
+	margin-top:45px; margin-bottom:30px;
+}
 
 /* About Us */
 
@@ -2671,19 +2944,16 @@ div#science_menu.affix {
 
 .disclaimertext
 {
-	margin: 0px 0px 15px;
+	margin: 10px 0px 15px;
 	text-align: left;
+	color:#8D97F2;
 }
 
 .disclaimertext p
 {
-	font-size: 10px;
-	line-height: 13px;
+    font-weight:300;
+    font-size:16px;
 	margin: 0 30px 8px;
-}
-.disclaimertext p:first-child{
-	font-size:12px;
-	letter-spacing:.3px;
 }
 
 .btn-learnmore

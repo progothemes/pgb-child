@@ -6,17 +6,16 @@
 
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_styles', 11 );
 function pgb_child_enqueue_styles() {
-  /*
+  wp_dequeue_style('pgb-google-font');
+  wp_dequeue_style('pgb-fontawesome');
   wp_dequeue_style('pgb-bootstrap');
-  wp_enqueue_style( 'pgb-bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
-  wp_dequeue_style( 'pgb-style' );
-  wp_enqueue_style( 'pgb-style', get_stylesheet_directory_uri() . '/css/pgb-style-1.1.1.min.css' );
-  */
-  wp_enqueue_style( 'pgb', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
+  wp_enqueue_style('pgb-bootstrap-min', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+  //wp_enqueue_style( 'pgb-style', get_stylesheet_directory_uri() . '/css/pgb-style-1.1.1.min.css' );
+  // wp_enqueue_style( 'pgb', get_template_directory_uri() . '/style.css' ); // PGB styles now covered by N7 style
+	// wp_enqueue_style( 'pgb-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300,300italic' );
+  wp_dequeue_style( 'pgb-style' ); // removes non-minified nectar7 styles from queue
   wp_enqueue_style( 'nectar7', get_stylesheet_directory_uri() . '/style.min.css' );
-  // problogger style.css now covered by n7 style
-  wp_dequeue_style( 'problogger_styles' );
+  wp_dequeue_style( 'problogger_styles' ); // problogger style.css now covered by N7 style
 }
 
 add_action( 'wp_enqueue_scripts', 'pgb_child_enqueue_scripts', 11 );
@@ -34,6 +33,25 @@ function nectar7_remove_wp_ver_css_js( $src ) {
 }
 add_filter( 'style_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'nectar7_remove_wp_ver_css_js', 9999 );
+
+function nectar7_wdjs_no_defer( $no_defer ){
+  $no_defer[] = 'jquery';
+  $no_defer[] = 'pgb-bootstrapwpjs';
+  $no_defer[] = 'gform_gravityforms';
+  /* visual composer grid scripts */
+  $no_defer[] = 'wpb_composer_front_js';
+  $no_defer[] = 'vc_grid';
+  $no_defer[] = 'vc_grid-js-imagesloaded';
+	$no_defer[] = 'vc_masonry';
+	$no_defer[] = 'vc_grid-style-all-masonry';
+	$no_defer[] = 'vc_grid-style-lazy-masonry';
+	$no_defer[] = 'vc_grid-style-load-more-masonry';
+	$no_defer[] = 'prettyphoto';
+	$no_defer[] = 'vc_pageable_owl-carousel';
+  /* end visual composer grid scripts */
+  return $no_defer;
+}
+add_filter( 'do_not_defer', 'nectar7_wdjs_no_defer');
 
 function nectar7_wdjs_labjs_src( $lab_src, $lab_ver ) {
 	return str_replace( '?ver='. $lab_ver, '', $lab_src ); // no $lab_ver
@@ -91,10 +109,10 @@ function nectar7_gtm() {
 }
 
 /**
- * Chat code JS 
+ * Chat code JS
  *
  */
-add_action( 'tha_head_bottom', 'nectar7_chat_js' );
+//add_action( 'tha_head_bottom', 'nectar7_chat_js' );
 function nectar7_chat_js() {
 	?>
 	<!--Start of Zopim Live Chat Script-->
@@ -169,11 +187,11 @@ add_image_size( 'cart_item_image_size', 180, 180, true );
 add_filter( 'woocommerce_cart_item_thumbnail', 'cart_item_thumbnail', 10, 3 );
 
 function cart_item_thumbnail( $thumb, $cart_item, $cart_item_key ) {
- 	 
- // create the product object 
+
+ // create the product object
  $product = get_product( $cart_item['product_id'] );
- return $product->get_image( 'cart_item_image_size' ); 
- 
+ return $product->get_image( 'cart_item_image_size' );
+
 }
 
 add_action( 'after_setup_theme', 'n7_register_science_menu' );
@@ -187,7 +205,7 @@ function custom_pre_get_posts_query( $q ) {
 
 	if ( ! $q->is_main_query() ) return;
 	if ( ! $q->is_post_type_archive() ) return;
-	
+
 	if ( ! is_admin() && is_shop() ) {
     // Don't display products in the 'subscribe' category on the shop page
 		$q->set( 'tax_query', array(array(
@@ -196,7 +214,7 @@ function custom_pre_get_posts_query( $q ) {
 			'terms' => array( 'subscribe' ),
 			'operator' => 'NOT IN'
 		)));
-	
+
 	}
 
 	remove_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
@@ -206,7 +224,7 @@ function custom_pre_get_posts_query( $q ) {
 add_action('template_redirect', 'n7_emptycart_redirect');
 function n7_emptycart_redirect(){
   global $woocommerce;
-  
+
   $cartContent = sizeof( $woocommerce->cart->get_cart() );
 
   if( is_checkout() && ( ! is_wc_endpoint_url( 'order-received' ) )&& ( $cartContent == 0 ) ) {
@@ -218,8 +236,8 @@ function n7_emptycart_redirect(){
       }
     }
     if ( $redir ) {
-      $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );	
-      wp_redirect( $shop_page_url ); 
+      $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
+      wp_redirect( $shop_page_url );
       exit;
     }
   }
@@ -254,7 +272,7 @@ function func_blog_url()
  * woocommerce_package_rates is a 2.1+ hook
  */
 add_filter( 'woocommerce_package_rates', 'hide_shipping_when_free_is_available', 10, 2 );
- 
+
 /**
  * Hide shipping rates when free shipping is available
  *
@@ -263,19 +281,19 @@ add_filter( 'woocommerce_package_rates', 'hide_shipping_when_free_is_available',
  * @return array of modified rates
  */
 function hide_shipping_when_free_is_available( $rates, $package ) {
- 	
+
  	// Only modify rates if free_shipping is present
   	if ( isset( $rates['free_shipping'] ) ) {
-  	
+
   		// To unset a single rate/method, do the following. This example unsets flat_rate shipping
   		unset( $rates['flat_rate'] );
-  		
+
   		// To unset all methods except for free_shipping, do the following
   		$free_shipping          = $rates['free_shipping'];
   		$rates                  = array();
   		$rates['free_shipping'] = $free_shipping;
 	}
-	
+
 	return $rates;
 }
 
@@ -303,7 +321,7 @@ function nectar7_body_classes( $classes ) {
   if ( is_page('why-nectar7') ) {
     $classes[] = 'unpad';
   }
-  
+
   return $classes;
 }
 add_filter( 'body_class', 'nectar7_body_classes' );
@@ -345,7 +363,7 @@ add_filter( 'pgb_page_width_options', 'nectar7_more_page_widths', 10, 2 );
  * to change labels to placeholders (only on opc?)
  */
 function nectar7_filter_checkout_fields( $fields ) {
-  
+
   if ( function_exists('is_wcopc_checkout') ) {
     // on OPC, change Labels to Placeholders in Billing & Shipping fields
     if ( is_wcopc_checkout() ) {
@@ -396,10 +414,10 @@ function nectar7_custom_tracking( $order_id ) {
 // Lets grab the order
 $order = new WC_Order( $order_id );
 
- 
+
  $items = $order->get_items();
- 
- 
+
+
  $purchase_id = $order_id;
  $total_sale = $order->get_total();
  $tax = $order->get_cart_tax();
@@ -407,7 +425,7 @@ $order = new WC_Order( $order_id );
  $coupon_name_a = $order->get_used_coupons();
  $coupon_name = $coupon_name_a[0];
  ?>
- 
+
 <script>
 
 dataLayer.push({
@@ -415,9 +433,9 @@ dataLayer.push({
   'ecommerce': {
     'purchase': {
       'actionField': {
-        'id': '<?php echo $order_id; ?>',                         
+        'id': '<?php echo $order_id; ?>',
         'affiliation': 'WooCommerce Store',
-        'revenue': '<?php echo $total_sale; ?>',                     
+        'revenue': '<?php echo $total_sale; ?>',
         'tax': '<?php echo $tax; ?>',
         'shipping': '<?php echo $ship_cost; ?>',
         'coupon': '<?php echo $coupon_name; ?>'
