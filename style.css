@@ -520,6 +520,9 @@ header {
 	background-color: #fff;
 	border:none;
 }
+#main-nav .navbar-toggle{ border:1px solid #ddd; }
+#main-nav .navbar-toggle.collapsed{ box-shadow:0 1px 1px; }
+#main-nav .navbar-toggle.collapsed .icon-bar{ background-color:#333; }
 
 #top-nav {
 	background-color: #e1e1e1;
