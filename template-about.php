@@ -93,7 +93,7 @@ get_header(); ?>
 								</div>
 								<div class="row aboutmission">
 									<div class="col-xs-12 col-sm-7 col-md-7">
-										<p>At NECTAR7, <strong>our goal</strong> is to help you perform the closest to your peak mental and physical capacities. Our products work at the cellular level to rejuvenate you and offer you the vibrant life you desire. Let us help fuel your fullest life!</p>
+										<p>At NECTAR7, <strong>our goal</strong> is to help you perform the closest to your peak mental and physical capacities. Our products work at the cellular level to rejuvenate you and offer you the vibrant life you desire.* Let us help fuel your fullest life!</p>
 									</div>
 								</div>
 								<!--div class="row alttwocols">
