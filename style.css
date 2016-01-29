@@ -273,10 +273,8 @@ form.navbar-form.navbar-right {
 	font-weight: 200;
 }
 
-* {
-	font-family: "MyriadPro";
-}
 body {
+	font-family: "MyriadPro";
 	font-size: 16px;
 	font-size: 1em;
 	font-size: 1.7rem;
@@ -302,7 +300,18 @@ h4 {
 	font-size: 2.475rem;
 	margin: 0 0 10px;
 }
-
+/* taken from Wikipedia, cite/reference style */
+.cite-accessibility-label{
+	position: absolute !important;
+    top: -99999px;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
 /* Containers */
 .container{
 	width: 100%; max-width: 1240px;
