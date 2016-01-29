@@ -178,7 +178,7 @@ get_header(); ?>
 													<div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
 													<div class="vc_toggle_content">
 														<ol>
-															<li id="cite_source-1"><span class="cite_ref"><b><a href="#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042357">Age-Associated Changes In Oxidative Stress and NAD+ Metabolism In Human Tissue</li>
+															<li id="cite_source-1"><span class="cite_ref"><b><a href="#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042357">Age-Associated Changes In Oxidative Stress and NAD+ Metabolism In Human Tissue</a></li>
 															<!-- <li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
 															<li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 															<li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
