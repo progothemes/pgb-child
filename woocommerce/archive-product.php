@@ -54,7 +54,7 @@ get_header( 'shop' ); ?>
 		.page-intro ul li:nth-child(odd){ float:left; clear:both; width:14em; }
 		.page-intro ul li:nth-child(even){ margin-left:15.8em; }
 		</style>
-		<!-- <div class="row">
+		<div class="row">
 			<div class="col-xs-12 page-heading store-heading">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6">
@@ -65,16 +65,7 @@ get_header( 'shop' ); ?>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 page-intro">
-				<h2><span class="lead">NECTAR7 Niagen</span> goes to work on improving:</h2>
-				<ul>
-					<li>Energy &amp; Vitality*</li>
-					<li>Mental Clarity*</li>
-					<li>Fatigue & Depression*</li>
-					<li>Overall Mood*</li>
-				</ul>
-			</div>
-		</div> -->
+		</div>
 
 		<?php /*if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
