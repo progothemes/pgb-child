@@ -78,7 +78,7 @@ get_header(); ?>
 													<div class="col-md-12 col-sm-12 col-xs-12">
                             							<h3>Natural process of aging from birth.</h3>
                             							<h4 class="composite">NAD+ decreases approximately 50% every 20 years of life<sup class="reference"><a href="#cite_source-1">[1]</a></sup></h4>
-														<img id="#cite_ref-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
+														<img id="cite_ref-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
 														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of age-related conditions.</p>
 													</div>
 												</div>
