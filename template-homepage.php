@@ -36,7 +36,7 @@ get_header(); ?>
 												<h1>THE POWER TO DO MORE.</h1>
 												<div class="row">
 													<div class="col-xs-5 col-sm-6 col-md-6">
-														<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.</p>
+														<p>Get the power to do more with NECTAR7 Niagen&reg;, to boost your physical health and mental energy, while reversing aging at the cellular level.*</p>
 													</div>
 												</div>
 											</div>
@@ -51,7 +51,7 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-12">
 														<h4>Simply put, NECTAR7 gives you</h4>
-														<h3>THE POWER TO DO MORE.</h3>
+														<h3>THE POWER TO DO MORE*</h3>
 														<p>More time to be with the people you love. More energy to do the things you love doing. More strength to achieve your ambitions. More power to take in all that life has to offer.</p>
 													</div>
 												</div>
@@ -66,8 +66,8 @@ get_header(); ?>
 													<div class="col-md-9 col-sm-10 col-xs-12">
 														<h4>How does NECTAR7 Niagen&reg; work?</h4>
 														<p>The science behind NECTAR7 Niagen&reg; is a newly-discovered chemical compound called Nicotinamide Riboside (NR).</p>
-														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.  NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.  Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.  They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy. </p>
-														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life. This may lead to mitochondrial dysfunction and degraded cell metabolism.  This contributes to visible aging, diminished mental faculties and declining health.  Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
+														<p>NR is a precursor to NAD+ production in the body, which is a critical component of cell metabolism in all mammals, including humans.* NAD+ is the communication molecule between the cell nucleus and the cell’s energy factory, the mitochondria.* Also referred to as the cell’s powerhouse, mitochondria control many aspects of the cell cycle in terms of differentiation, growth and death.* They regulate important cell functions related to the conversion of fats, proteins and carbohydrates into energy.*</p>
+														<p>Researchers have found that as we age, the levels of NAD+ in our cells decrease, by a factor of approximately 50% for every 20 years of life.* This may lead to mitochondrial dysfunction and degraded cell metabolism.* This contributes to visible aging, diminished mental faculties and declining health. Unfortunately, the age-related reduction in NAD+ levels happens to everyone, regardless of personal health, diet, or physical fitness.</p>
 													</div>
 												</div>
 											</div>
@@ -87,12 +87,12 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
-															<h2>The benefits of <span>NECTAR7</span></h2>
-															<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.</p>
+														<h2>The benefits of <span>NECTAR7</span></h2>
+														<p>Several studies by respected universities have shown that replenishing the body’s lost NAD+ can effectively make mitochondria – and the cells they manage - younger in both appearance and performance.*</p>
 														<ul>
-															<li>A 2013 research study shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day without disrupting sleep.</li>
-															<li>Further studies suggest that NAD+ can repair damaged DNA which often shows up as cells age.</li>
-															<li>For the body to replenish its supply of NAD+, it requires a precursor known as Niagen&reg;.</li>
+															<li>A 2013 research study shows NAD+ could be used to synchronize the body’s waking and sleeping cycles, theoretically providing a more sustained release of energy throughout the day without disrupting sleep.*</li>
+															<li>Further studies suggest that NAD+ can repair damaged DNA which often shows up as cells age.*</li>
+															<li>For the body to replenish its supply of NAD+, it requires the precursor contained in Niagen&reg;.*</li>
 														</ul>
 													</div>
 												</div>
@@ -111,7 +111,7 @@ get_header(); ?>
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/NAD+.png" alt="NAD+" class="img-responsive nad_miracle"/>
 													</div>
 													<div class="col-md-8 col-sm-7 col-xs-12">
-														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body. It is a member of the vitamin B3 family that offers many health benefits, including endurance, performance, cardiovascular health, anti-aging, cognitive function and neuroprotection. </strong></p>
+														<p><strong>NECTAR7 contains Niagen&reg;, the first and only commercially available form of nicotinamide riboside (NR) that effectively increases NAD+ levels in the body.* It is a member of the vitamin B3 family that offers many health benefits, including endurance, performance, cardiovascular health, anti-aging, cognitive function and neuroprotection.*</strong></p>
 													</div>
 												</div>
 											</div>
@@ -120,8 +120,8 @@ get_header(); ?>
 											<div class="col-md-12">
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by approximately <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks</h4>
-														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.  In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.</p>
+														<h4>In a recent human study, a <strong>single</strong> dose of NECTAR7 Niagen&reg; increased NAD+ by approximately <strong>30% in just 8 hours</strong>; not 8 days or 8 weeks*</h4>
+														<p>NECTAR7 not only rewinds your body’s clock, it helps you hold on to your physical energy and mental alertness for much longer.* In effect, NECTAR7 improves and extends your performance, giving you the power to do more and achieve more.*</p>
                             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/30percent.jpg" alt="30%" class="img-responsive" />
 													</div>
 												</div>
@@ -147,7 +147,7 @@ get_header(); ?>
 													<div class="col-md-8 col-sm-7 col-xs-12">
 														<h1>NECTAR7 Niagen&reg;</h1>
 														<h2>Power For More Life</h2>
-														<p>NECTAR7 is created to let you live it up, no matter your age. It is an optimized form of Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.</p>
+														<p>NECTAR7 is created to let you live it up, no matter your age. It is an optimized form of Niagen&reg; that boosts your metabolism, improves cognitive health and reverses the effects of aging on the body and brain, so you can get the most out of every moment.*</p>
 														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
@@ -162,7 +162,7 @@ get_header(); ?>
 													<div class="col-md-8 col-sm-7 col-xs-12">
 														<h1>NECTAR7<br/>Niagen&reg; &amp; Collagen</h1>
 														<h2>Power for Strength &amp; Beauty</h2>
-														<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, creates a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by NECTAR7 Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within. </p>
+														<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, creates a trifecta that turns back the clock on skin and muscle cells.* Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and muscles.* Meanwhile, the NAD+ generated by NECTAR7 Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.*</p>
 														<p><a href="<?php bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">Learn More</a></p>
 													</div>
 													<div class="col-md-4 col-sm-5 col-xs-12 product-image-col">
@@ -171,6 +171,21 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
+										<!-- <div class="row textrow">
+											<div class="col-xs-12">
+												<div id="" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
+													<div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
+													<div class="vc_toggle_content">
+														<ol>
+															<li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
+															<li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
+															<li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
+															<li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div> -->
 									</div>
 									<div class="col-md-4">
 										<div class="row">
@@ -183,7 +198,7 @@ get_header(); ?>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
-													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD+ levels approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory. Before you age another day, try NECTAR7 Niagen&reg;.</p>
+													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD+ levels approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory.* Before you age another day, try NECTAR7 Niagen&reg;.</p>
 													<a href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
@@ -196,7 +211,7 @@ get_header(); ?>
 														</div>
 													</div>
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; & COLLAGEN"/>
-													<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, delivers a trifecta that turns back the clock on skin and muscle cells.  Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.  Meanwhile, the NAD+ generated by Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.</p>
+													<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, delivers a trifecta that turns back the clock on skin and muscle cells.* Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.* Meanwhile, the NAD+ generated by Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.*</p>
 													<a href="<?php echo get_bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
@@ -211,33 +226,33 @@ get_header(); ?>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/jeromy.jpg" class="img-responsive testimonial-image" />
-															<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.</p>
+															<p>At 40 I have been struggling with maintaining focus and energy running a business, family and personal time: surfing, mountain biking, soccer and more. NECTAR7 has delivered me a new level and source of power in every aspect of my life. I feel better and notice a faster recovery time when pushing my physical activities on a daily basis.*</p>
 															<footer>Jeromy S.</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/wanda.jpg" class="img-responsive testimonial-image" />
-															<p>I have been taking NECTAR7 Niagen&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!</p>
+															<p>I have been taking NECTAR7 Niagen&reg; for about three months. Usually around the early autumn, I suffer with sinus infections, colds and generally feel sluggish. This year, while many around me have been sick during the climate change from summer to fall with widely varying  temperatures, I have felt wonderful!! I sleep more soundly than I have in years and have the energy to walk 4 to 6 miles a day!! I recently had a full physical with blood work. The doctor is amazed at my way above average wonderful health!!*</p>
 															<footer>Wanda R.</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
 															<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonials/sean.jpg" class="img-responsive testimonial-image" />
-															<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.</p>
+															<p>While approaching my mid 30’s, I noticed my attention span becoming shorter and shorter in both my personal and professional life. After my first dose of NECTAR7 Niagen&reg; - my energy level and focus improved. I am only on my second week of taking Niagen&reg; and look forward to experiencing more benefits of this new product.*</p>
 															<footer>Sean F</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
-															<p>NECTAR7 with NAD+ really works!  After only a few days of taking the product, I feel I now have more energy and can concentrate better.   I seem to have an easier time remembering things and doing other mental activities like solving puzzles. This is definitely a breakthrough product which will help people from across the world lead better and more productive lives!</p>
+															<p>NECTAR7 with NAD+ really works!  After only a few days of taking the product, I feel I now have more energy and can concentrate better.   I seem to have an easier time remembering things and doing other mental activities like solving puzzles. This is definitely a breakthrough product which will help people from across the world lead better and more productive lives!*</p>
 															<footer>Nes E., Atlanta, Georgia</footer>
 														</blockquote>
 													</div>
 													<div class="col-xs-12">
 														<blockquote>
-															<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure Niagen would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.</p>
+															<p>I learned of this product back in March of 2015. I received product shortly afterwards and started taking it, both mornings and at bedtime. To say I was skeptical would have been an understatement!  I wasn't sure Niagen would make me feel anything but I was willing to give it a try. There was no Euphoric feeling at first but I did notice how refreshed the entire day was. There was no lack of energy like I had become accustomed to. The one thing I did notice was that I slept like a baby the entire night. This was something I had not done for years. I also started dreaming again which I now understand is part of a healthy sleep pattern.*</p>
 															<p>I don't know what I would do without this product now. It has truly changed my life!</p>
 															<footer>Craig C., Cleveland, OH</footer>
 														</blockquote>
