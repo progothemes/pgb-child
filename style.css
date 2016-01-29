@@ -273,7 +273,8 @@ form.navbar-form.navbar-right {
 	font-weight: 200;
 }
 
-body {
+body,
+body.progo-base{
 	font-family: "MyriadPro";
 	font-size: 16px;
 	font-size: 1em;
