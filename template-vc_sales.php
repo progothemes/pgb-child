@@ -43,8 +43,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 								<div class="row refillproductsrow">
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-										<h3>Niagen&reg;
-											<span>Get Started with 1 Bottle</span></h3>
+										<h3><span>Get Started with 1 Bottle</span>Nectar7 Niagen&reg;<br/><small>30 day supply</small></h3>
 										<div class="refillThumb">
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_single.png" class="img-responsive" />
 										</div>
@@ -56,13 +55,12 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="addtocartdiv">
 											<!--label><input type="radio" name="refilltype_30" id="refilltype_30_a" value="autofill"/> AutoRefill price - BEST value</label-->
 											<!--label><input type="radio" name="refilltype_30" id="refilltype_30_1" value="one_time"/> One-time delivery price</label-->
-											<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary">ADD TO CART</a>
+											<a href="<?php echo $cart_url; ?>?add-to-cart=74" class="btn btn-primary">BUY NOW</a>
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-										<h3>Niagen&reg; (90 DAY)
-											<span>Most Popular</span></h3>
+										<h3><span>Most Popular</span>Nectar7 Niagen&reg;<br/><small>90 day supply</small></h3>
 										<div class="refillThumb">
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_popular.png" class="img-responsive" />
 										</div>
@@ -74,13 +72,12 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="addtocartdiv">
 											<!--label><input type="radio" name="refilltype_90" id="refilltype_90_a" value="autofill"/> AutoRefill price - BEST value</label-->
 											<!--label><input type="radio" name="refilltype_90" id="refilltype_90_1" value="one_time"/> One-time delivery price</label-->
-											<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary">ADD TO CART</a>
+											<a href="<?php echo $cart_url; ?>?add-to-cart=97" class="btn btn-primary">BUY NOW</a>
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-										<h3>Niagen&reg; (180 DAY)
-											<span>Best Value</span></h3>
+										<h3><span>Best Value</span>Nectar7 Niagen&reg; (180 DAY)<small>180 day supply</small></h3>
 										<div class="refillThumb">
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
 										</div>
@@ -92,7 +89,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										<div class="addtocartdiv">
 											<!--label><input type="radio" name="refilltype_180" id="refilltype_180_a" value="autofill"/> AutoRefill price - BEST value</label-->
 											<!--label><input type="radio" name="refilltype_180" id="refilltype_180_1" value="one_time"/> One-time delivery price</label-->
-											<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary">ADD TO CART</a>
+											<a href="<?php echo $cart_url; ?>?add-to-cart=98" class="btn btn-primary">BUY NOW</a>
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/card_small.png" class="card_xs" />
 										</div>
 									</div>
