@@ -1045,6 +1045,10 @@ footer .socialicons ul li.instagram a
     position:relative;
 }
 .graphcontent .composite{
+	position: absolute;
+	text-align: left;
+    width: 10em;
+    color: #004CBA;
     margin:0;
     top:30%;
     left:66%;
