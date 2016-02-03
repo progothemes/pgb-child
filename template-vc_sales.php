@@ -77,7 +77,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-										<h3><span>Best Value</span>Nectar7 Niagen&reg; (180 DAY)<br/><small>180 day supply</small></h3>
+										<h3><span>Best Value</span>Nectar7 Niagen&reg;<br/><small>180 day supply</small></h3>
 										<div class="refillThumb">
 											<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_best_value.png" class="img-responsive" />
 										</div>
