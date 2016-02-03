@@ -1045,13 +1045,28 @@ footer .socialicons ul li.instagram a
   margin-bottom: 1.2em;
   text-transform: none;
 }
-.graphcontent .composite {
-    position: absolute;
-    margin: 122px 0 0 374px;
-    text-align: left;
-    width: 10em;
-    color: #004CBA;
+.graphcontent figure{
+    position:relative;
 }
+.graphcontent .composite{
+    margin:0;
+    top:30%;
+    left:66%;
+    transform:translate(-50%,-50%);
+}
+
+@media (max-width:600px){
+    .graphcontent .composite {
+        font-size:1.34em;
+        top:20%;
+        left:69%;
+    }
+}
+
+@media (max-width:355px){
+    .graphcontent .composite { font-size:.98em; }
+}
+
 .leftboxedcontent.graphcontent img.chartimage
 {
 	margin-bottom: 30px;
