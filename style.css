@@ -459,6 +459,7 @@ header {
 #top-widget-bar input[type="submit"] {
 	padding: 3px 20px;
 }
+#top-widget-bar .form-inline .form-group{ display:inline-block; margin-bottom:0; vertical-align:middle;}
 #top-widget-bar .gforms_confirmation_message {
 	margin: 9px auto;
 }
@@ -3255,20 +3256,14 @@ div#science_menu.affix {
 		padding-bottom:5px;
 		font-size:.8em;
 	}
-	#top-widget-bar .gform_heading,
-	#top-widget-bar .gform_body,
-	#top-widget-bar .gform_footer {
-        float: left;
-        margin-bottom: 0;
-    }
     #top-widget-bar .gform_footer{
     	margin-left:8px;
     }
-    #top-widget-bar .form-group{
-    	margin-bottom:0;
-    }
     #top-widget-bar .form-group input{
     	font-size:inherit;
+    }
+    #top-widget-bar .gform_footer input{
+    	padding:6px 8px 4px;
     }
     .masthead-cta .order-by-phone{
     	margin-top:3px;
@@ -3410,24 +3405,14 @@ div#science_menu.affix {
 		margin-left: auto;
 	}
 }
-
-@media screen and (max-width: 677px) {
-	#top-widget-bar{
-		text-align:center;
-	}
-	#top-widget-bar .gform_heading{
-		width:100%;
-	}
-	#top-widget-bar .gform_body{
-		clear:left;
-	}
-}
-
 @media screen and (min-width: 768px) {
 	.border-md-right
 	{
 		border-right: 1px solid #b7b7b7;
 	}
+}
+@media screen and (max-width: 550px) {
+	#top-widget-bar .gform_heading{ width:100%; }
 }
 
 /** "Why Nectar7" squeeze page styling **/
