@@ -621,7 +621,7 @@ header {
 }
 .masthead-logo img {
 	padding-bottom: 16px;
-	padding-top: 16px;
+	padding-top: 19px;
 }
 .masthead-security img {
 	margin-top: 20px;
@@ -834,8 +834,7 @@ footer .socialicons ul li.instagram a
 
 .home-hero
 {
-	background: linear-gradient(90deg, rgba(0,0,0,.44), rgba(0,0,0,0) 61.8%) 0 0 no-repeat,
-	url('images/home-hero.png') 96% top/cover no-repeat transparent;
+	background: linear-gradient(90deg,rgba(0,0,0,.44),rgba(0,0,0,0) 61.8%) no-repeat,url(/wp-content/uploads/2016/02/Surfers-50.jpg) 82% top/cover no-repeat;
 	min-height: 560px;
 }
 
