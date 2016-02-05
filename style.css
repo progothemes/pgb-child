@@ -626,6 +626,10 @@ header {
 	margin-top: 20px;
 	padding-top: 6px;
 }
+.masthead-security .pp-logo img {
+    height: 35px;
+    margin-left: 11px;
+}
 .masthead-security .cards div.AuthorizeNetSeal img {
 	margin-top: 14px;
 }
