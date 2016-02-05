@@ -1730,11 +1730,7 @@ body.unpad .main-content .entry-content {
 {
 	padding-left: 10px !important;
 }
-.payment_method_paypal { white-space: nowrap; }
-.payment_method_paypal label img {
-	mix-blend-mode: multiply;
-	margin: -0px .5em 0 .25em !important;
-}
+
 .woocommerce .form-row.terms label {
     padding-top:7px;
     display:inline-block !important;
