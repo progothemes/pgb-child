@@ -43,7 +43,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 								<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 								<div class="row refillproductsrow">
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-										<h3><span>Get Started with 1 Bottle</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>30 day supply</small></h3>
+										<h3><span>Get Started with 1 Bottle</span>Niagen&reg; &amp; COLLAGEN<br /><small>30 day supply</small></h3>
 											<div class="refillThumb">
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
 											</div>
@@ -60,7 +60,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-											<h3><span>Most Popular</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>90 day supply</small></h3>
+											<h3><span>Most Popular</span>Niagen&reg; &amp; COLLAGEN<br /><small>90 day supply</small></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
 												</div>
@@ -77,7 +77,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3><span>Best Value</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>180 day supply</small></h3>
+												<h3><span>Best Value</span>Niagen&reg; &amp; COLLAGEN<br /><small>180 day supply</small></h3>
 													<div class="refillThumb">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
 													</div>
