@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Video Sales Template Collagen
+ * Template Name: Niagen Collagen Sales Template (VC)
  *
  * @package pgb
  */
