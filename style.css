@@ -714,6 +714,7 @@ header {
 }
 #footerwidgets .pp-logo img {
     height: 29px;
+    margin-left:11px;
 }
 .cards img{
 	display: inline-block;
