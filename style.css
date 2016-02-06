@@ -712,9 +712,10 @@ header {
 	max-width: 355px;	
   margin-bottom: 2em;
 }
-
-.cards img
-{
+#footerwidgets .pp-logo img {
+    height: 29px;
+}
+.cards img{
 	display: inline-block;
 }
 
