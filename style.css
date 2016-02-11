@@ -830,6 +830,18 @@ footer .socialicons ul li.instagram a
 /* Boast.io related */
 .kudos.kudos_classic{margin-bottom: 40px;}
 .kudos-site-credit{display:none !important;}
+.kudos.kudos_classic.width480 {
+    height: auto !important;
+}
+.kudos.kudos_classic.width480 .kudo{
+    position:relative !important;
+    height:auto !important;
+    top:auto !important;
+    float: none;
+}
+.kudos.kudos_classic.width480 .kudo .photo.video-thumb{
+    height:auto !important;
+}
 
 /* Home page */
 .border-bottom
