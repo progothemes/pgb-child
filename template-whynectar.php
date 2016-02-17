@@ -505,7 +505,7 @@ NECTAR7 Niagen&reg; & Collagen is a scientifically based, synergistic blend of t
                        <div class="price">
                             <p class="last">LIST PRICE: $296.94</p>
                             <p class="now">Now: $217.50</p>
-                            <p class="your_save">OU SAVE $178.44 (45%)</p>
+                            <p class="your_save">YOU SAVE $178.44 (45%)</p>
                         </div>
                         <div class="b-order_btn"><a href="http://nectar7.nlkdev.net/shopping-cart/?add-to-cart=168">ADD TO CART</a></div>
                         <div class="b-order_pay"><img src="/wp-content/themes/nectar7-pgb-child/images/bottle_payment.png" alt=""></div>
