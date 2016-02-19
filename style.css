@@ -3013,6 +3013,11 @@ div#science_menu.affix {
     font-size:16px;
 	margin: 0 30px 8px;
 }
+.disclaimertext a
+{
+    color: #CDD1F9;
+    border-bottom: 1px solid #727EEE;
+}
 
 .btn-learnmore
 {
