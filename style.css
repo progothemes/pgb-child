@@ -627,6 +627,10 @@ header {
 	margin-top: 20px;
 	padding-top: 6px;
 }
+.masthead-security .pp-logo img {
+    height: 35px;
+    margin-left: 11px;
+}
 .masthead-security .cards div.AuthorizeNetSeal img {
 	margin-top: 14px;
 }
@@ -709,9 +713,11 @@ header {
 	max-width: 355px;	
   margin-bottom: 2em;
 }
-
-.cards img
-{
+#footerwidgets .pp-logo img {
+    height: 29px;
+    margin-left:11px;
+}
+.cards img{
 	display: inline-block;
 }
 
@@ -824,6 +830,18 @@ footer .socialicons ul li.instagram a
 /* Boast.io related */
 .kudos.kudos_classic{margin-bottom: 40px;}
 .kudos-site-credit{display:none !important;}
+.kudos.kudos_classic.width480 {
+    height: auto !important;
+}
+.kudos.kudos_classic.width480 .kudo{
+    position:relative !important;
+    height:auto !important;
+    top:auto !important;
+    float: none;
+}
+.kudos.kudos_classic.width480 .kudo .photo.video-thumb{
+    height:auto !important;
+}
 
 /* Home page */
 .border-bottom
@@ -1075,7 +1093,6 @@ footer .socialicons ul li.instagram a
 {
 	margin-bottom: 30px;
 }
-
 
 .leftboxedcontent.benefitscontent > div
 {
@@ -1730,11 +1747,7 @@ body.unpad .main-content .entry-content {
 {
 	padding-left: 10px !important;
 }
-.payment_method_paypal { white-space: nowrap; }
-.payment_method_paypal label img {
-	mix-blend-mode: multiply;
-	margin: -0px .5em 0 .25em !important;
-}
+
 .woocommerce .form-row.terms label {
     padding-top:7px;
     display:inline-block !important;
