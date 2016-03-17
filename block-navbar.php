@@ -38,7 +38,7 @@ switch ($navbar_width) {
 	<div  class="<?=$navbar_width_inner; ?> nav-contain" role="navigation">
 		<div class="navbar-header"> 
 			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+			<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target=".navbar-responsive-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>

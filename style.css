@@ -537,6 +537,66 @@ header {
 #main-nav .navbar-toggle .icon-bar{ background-color:#888; }
 #main-nav .navbar-toggle.collapsed .icon-bar{ background-color:#333; }
 
+/* animating mobile menu button */
+.navbar-toggle .icon-bar:nth-child(3){
+    transition: opacity 144ms linear;
+    transition-delay:89ms;
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(3){
+    opacity:0;
+    transition-delay:0ms;
+}
+.navbar-toggle .icon-bar:nth-child(2),
+.navbar-toggle .icon-bar:last-child{
+    position:relative;
+    top:0;
+    transition: transform 233ms linear, top 233ms linear;
+    background-color:black !important;
+    transform-origin:center;
+}
+/* .navbar-toggle:not(.collapsed) .icon-bar:last-child{
+    transform:rotateZ(45deg);
+    top:-5.5px;
+} */
+.navbar-toggle .icon-bar:nth-child(2){
+    animation:bar1-return 233ms linear 0s 1 alternate both;
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(2){
+    animation:bar1 233ms linear 0s 1 alternate both;
+}
+.navbar-toggle .icon-bar:nth-child(4){
+    animation:bar3-return 233ms linear 0s 1 alternate both;
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(4){
+    animation:bar3 233ms linear 0s 1 alternate both;
+}
+/* .navbar-toggle:not(.collapsed) .icon-bar:nth-child(2){
+    transform:rotateZ(-45deg);
+    top:5.5px;
+} */
+
+@keyframes bar1{
+    0%{ top:0; }
+    50%{ top:6px; transform:rotateZ(0deg); }
+    100%{ top:6px; transform:rotateZ(-45deg); }
+}
+@keyframes bar1-return{
+    0%{ top:6px; transform:rotateZ(-45deg); }
+    50%{ top:6px; transform:rotateZ(0deg); }
+    100%{ top:0; }
+}
+@keyframes bar3{
+    0%{ top:0; }
+    50%{ top:-6px; transform:rotateZ(0deg); }
+    100%{ top:-6px; transform:rotateZ(45deg); }
+}
+@keyframes bar3-return{
+    0%{ top:-6px; transform:rotateZ(45deg) }
+    50%{ top:-6px; transform:rotateZ(0deg); }
+    100%{ top:0; transform:rotateZ(0deg); }
+}
+/* end animating mobile menu button */
+
 #top-nav {
 	background-color: #e1e1e1;
 	border-color: transparent;
@@ -1094,7 +1154,6 @@ footer .socialicons ul li.instagram a
 {
 	margin-bottom: 30px;
 }
-
 
 .leftboxedcontent.benefitscontent > div
 {
