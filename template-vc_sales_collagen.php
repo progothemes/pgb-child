@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Video Sales Template Collagen
+ * Template Name: Niagen Collagen Sales Template (VC)
  *
  * @package pgb
  */
@@ -35,37 +35,15 @@ $cart_url = $woocommerce->cart->get_cart_url();
 					<div class="col-md-12 main-content-inner2 videosalespage">
 
 						<div class="row">
-
-							<?php //get_template_part( 'content', get_post_format() ); ?>
-							<div class="entry-content main-entry-content col-md-12">
-								<div class="row videobannercontainer collagen">
-									<div class="col-xs-12 col-sm-12 col-md-12 text-center">
-										<div class="videobanner">
-											<div class="row">
-												<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-													<h4>NECTAR7 Niagen&reg; &amp; Collagen gives you the power &amp; beauty to do more.</h4>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-													<h1>THREE skin restorative ingredients together for FIRST TIME in ONE spectacular product!</h1>
-													<div class="videocontent">
-														<div class="wistia_responsive_padding" style="padding:56.25% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/yu3glrh1w6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
-<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<?php the_content(); ?>
+							<div class="entry-content main-entry-content col-md-12"></div>
 						</div>
-						<div class="row refillproducts">
+						<div id="getStarted" class="row refillproducts">
 							<div class="col-xs-12">
 								<h2><strong>FREE SHIPPING</strong> on all orders over $50.00!</h2>
 								<div class="row refillproductsrow">
 									<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-										<h3><span>Get Started with 1 Bottle</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>30 day supply</small></h3>
+										<h3><span>Get Started with 1 Bottle</span>Niagen&reg; &amp; COLLAGEN<br /><small>30 day supply</small></h3>
 											<div class="refillThumb">
 												<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_single.png" class="img-responsive" />
 											</div>
@@ -82,7 +60,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct mostPopular">
-											<h3><span>Most Popular</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>90 day supply</small></h3>
+											<h3><span>Most Popular</span>Niagen&reg; &amp; COLLAGEN<br /><small>90 day supply</small></h3>
 												<div class="refillThumb">
 													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_popular.png" class="img-responsive" />
 												</div>
@@ -99,7 +77,7 @@ $cart_url = $woocommerce->cart->get_cart_url();
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-4 eachRefillProduct">
-												<h3><span>Best Value</span>N7 Niagen&reg; &amp; COLLAGEN<br /><small>180 day supply</small></h3>
+												<h3><span>Best Value</span>Niagen&reg; &amp; COLLAGEN<br /><small>180 day supply</small></h3>
 													<div class="refillThumb">
 														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/collagen_best_value.png" class="img-responsive" />
 													</div>
@@ -298,61 +276,5 @@ $cart_url = $woocommerce->cart->get_cart_url();
 		<?php // The Loop--> ?>
 
 		<?php // tha_content_bottom(); ?>
-
-		<div id="dimdiv"></div>
 	</div>
-<style type="text/css">
-.main-content {
-    position: relative;
-    z-index: 1;
-}
-#content{ z-index: initial; }
-.videocontent{
-	box-shadow: 0 3px 8px;
-	max-width: 736px;
-	max-height:414px;
-	position:relative;
-	z-index:200;
-}
-.btn.btn-primary{
-    z-index: 99;
-}
-#dimdiv{
-	position: fixed;
-	top:0; left:0;
-	width: 100%;
-	min-height: 100%;
-	z-index: 100;
-	background-color: #000;
-		/* IE 8 */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-		/* IE 5-7 */
-		filter: alpha(opacity=80);
-		/* Netscape */
-		-moz-opacity: 0.8;
-		/* Safari 1.x */
-		-khtml-opacity: 0.8;
-		/* Good browsers */
-		opacity: 0.8;
-	display: none;}
-</style>
-<script type="text/javascript">
-(function($){
-
-	var $dimdiv = $('#dimdiv');
-
-	function doDim(){
-		$dimdiv.fadeIn(1000)}
-
-	function dontDim(){
-		$dimdiv.fadeOut(300)}
-
-	$(document).ready(function(){
-		//auto dim
-		// setTimeout(doDim, 1300);
-		//dim div click handler
-		$dimdiv.click(dontDim)});
-})(jQuery);
-</script>
-
 <?php get_footer(); ?>

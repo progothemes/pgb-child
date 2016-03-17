@@ -273,10 +273,9 @@ form.navbar-form.navbar-right {
 	font-weight: 200;
 }
 
-* {
+body,
+body.progo-base{
 	font-family: "MyriadPro";
-}
-body {
 	font-size: 16px;
 	font-size: 1em;
 	font-size: 1.7rem;
@@ -302,7 +301,18 @@ h4 {
 	font-size: 2.475rem;
 	margin: 0 0 10px;
 }
-
+/* taken from Wikipedia, cite/reference style */
+.cite-accessibility-label{
+	position: absolute !important;
+    top: -99999px;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
 /* Containers */
 .container{
 	width: 100%; max-width: 1240px;
@@ -394,7 +404,8 @@ body {
 header {
 	background-color: #fff;
 }
-#page-content-wrapper > .main-content > .container {
+#page-content-wrapper > .main-content > .container,
+.main-content > .container {
 	background-color: #fff;
 }
 .blue1 {
@@ -449,6 +460,7 @@ header {
 #top-widget-bar input[type="submit"] {
 	padding: 3px 20px;
 }
+#top-widget-bar .form-inline .form-group{ display:inline-block; margin-bottom:0; vertical-align:middle;}
 #top-widget-bar .gforms_confirmation_message {
 	margin: 9px auto;
 }
@@ -610,11 +622,15 @@ header {
 }
 .masthead-logo img {
 	padding-bottom: 16px;
-	padding-top: 16px;
+	padding-top: 19px;
 }
 .masthead-security img {
 	margin-top: 20px;
 	padding-top: 6px;
+}
+.masthead-security .pp-logo img {
+    height: 35px;
+    margin-left: 11px;
 }
 .masthead-security .cards div.AuthorizeNetSeal img {
 	margin-top: 14px;
@@ -698,9 +714,11 @@ header {
 	max-width: 355px;	
   margin-bottom: 2em;
 }
-
-.cards img
-{
+#footerwidgets .pp-logo img {
+    height: 29px;
+    margin-left:11px;
+}
+.cards img{
 	display: inline-block;
 }
 
@@ -813,6 +831,18 @@ footer .socialicons ul li.instagram a
 /* Boast.io related */
 .kudos.kudos_classic{margin-bottom: 40px;}
 .kudos-site-credit{display:none !important;}
+.kudos.kudos_classic.width480 {
+    height: auto !important;
+}
+.kudos.kudos_classic.width480 .kudo{
+    position:relative !important;
+    height:auto !important;
+    top:auto !important;
+    float: none;
+}
+.kudos.kudos_classic.width480 .kudo .photo.video-thumb{
+    height:auto !important;
+}
 
 /* Home page */
 .border-bottom
@@ -823,8 +853,7 @@ footer .socialicons ul li.instagram a
 
 .home-hero
 {
-	background: linear-gradient(90deg, rgba(0,0,0,.44), rgba(0,0,0,0) 61.8%) 0 0 no-repeat,
-	url('images/home-hero.png') 96% top/cover no-repeat transparent;
+	background: linear-gradient(90deg,rgba(0,0,0,.44),rgba(0,0,0,0) 61.8%) no-repeat,url(/wp-content/uploads/2016/02/Surfers-50.jpg) 82% top/cover no-repeat;
 	min-height: 560px;
 }
 
@@ -960,6 +989,10 @@ footer .socialicons ul li.instagram a
 	width: 100%;
 	margin-top: 20px;
 }
+.rightboxedcontent.bluebox .btn-primary {
+    background: #1946BA;
+    border-color: #1946BA;
+}
 
 .rightboxedcontent.lightbluebox
 {
@@ -1031,6 +1064,32 @@ footer .socialicons ul li.instagram a
   margin-bottom: 1.2em;
   text-transform: none;
 }
+.graphcontent figure{
+    position:relative;
+}
+.graphcontent .composite{
+	position: absolute;
+	text-align: left;
+    width: 10em;
+    color: #004CBA;
+    margin:0;
+    top:30%;
+    left:66%;
+    transform:translate(-50%,-50%);
+}
+
+@media (max-width:600px){
+    .graphcontent .composite {
+        font-size:1.34em;
+        top:20%;
+        left:69%;
+    }
+}
+
+@media (max-width:355px){
+    .graphcontent .composite { font-size:.98em; }
+}
+
 .leftboxedcontent.graphcontent img.chartimage
 {
 	margin-bottom: 30px;
@@ -1690,11 +1749,7 @@ body.unpad .main-content .entry-content {
 {
 	padding-left: 10px !important;
 }
-.payment_method_paypal { white-space: nowrap; }
-.payment_method_paypal label img {
-	mix-blend-mode: multiply;
-	margin: -0px .5em 0 .25em !important;
-}
+
 .woocommerce .form-row.terms label {
     padding-top:7px;
     display:inline-block !important;
@@ -2959,6 +3014,15 @@ div#science_menu.affix {
     font-size:16px;
 	margin: 0 30px 8px;
 }
+.disclaimertext a
+{
+    color: #CDD1F9;
+    border-bottom: 1px solid #727EEE;
+}
+.disclaimertext a:hover
+{
+	border-bottom:none;
+}
 
 .btn-learnmore
 {
@@ -3213,31 +3277,20 @@ div#science_menu.affix {
 		height:auto;
 		padding-top:2px;
 		padding-bottom:5px;
+		font-size:.8em;
 	}
-	#top-widget-bar > .row{
-		margin:0 auto;
-		width:665px;
-	}
-	#top-widget-bar .gform_heading,
-	#top-widget-bar .gform_body,
-	#top-widget-bar .gform_footer {
-        float: left;
-        margin-bottom: 0;
-    }
-    #top-widget-bar .gform_heading{
-    	margin-top:6px;
-    }
     #top-widget-bar .gform_footer{
     	margin-left:8px;
     }
-    #top-widget-bar .form-group{
-    	margin-bottom:0;
+    #top-widget-bar .form-group input{
+    	font-size:inherit;
     }
-    .masthead-logo {
-    	margin-top:8px;
+    #top-widget-bar .gform_footer input{
+    	padding:6px 8px 4px;
     }
     .masthead-cta .order-by-phone{
-    	margin-top:0;
+    	margin-top:3px;
+    	line-height: 1.1;
     }
 	
 	footer .socialicons ul
@@ -3375,29 +3428,14 @@ div#science_menu.affix {
 		margin-left: auto;
 	}
 }
-
-@media screen and (max-width: 677px) {
-	#top-widget-bar{
-		text-align:center;
-	}
-	#top-widget-bar > .row{
-		margin:0 auto;
-		width:365px;
-	}
-	#top-widget-bar .gform_heading{
-		text-align:center;
-		width:100%;
-	}
-	#top-widget-bar .gform_body{
-		clear:left;
-	}
-}
-
 @media screen and (min-width: 768px) {
 	.border-md-right
 	{
 		border-right: 1px solid #b7b7b7;
 	}
+}
+@media screen and (max-width: 550px) {
+	#top-widget-bar .gform_heading{ width:100%; }
 }
 
 /** "Why Nectar7" squeeze page styling **/
@@ -4552,10 +4590,6 @@ div.b-bottle_link button.btn.btn-primary {
 }*/
 
 .col-xs-12.billingdetails #opc-messages .woocommerce-message {
-	display: none;
-}
-
-#payment_method_authorize_net_cim_credit_card {
 	display: none;
 }
 

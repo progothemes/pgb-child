@@ -77,7 +77,10 @@ get_header(); ?>
 												<div class="row">
 													<div class="col-md-12 col-sm-12 col-xs-12">
                             							<h3>Natural process of aging from birth.</h3>
-														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
+                            							<figure>
+                            								<figcaption><h4 class="composite">NAD+ decreases approximately 50% every 20 years of life<sup class="reference"><a href="#cite_source-1">[1]</a></sup></h4></figcaption>
+															<img id="cite_ref-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/home-chart-1111.png" alt="NAD+ vs Age Chart" class="img-responsive chartimage center-block" />
+														</figure>
 														<p>In recent years, studies have revealed the role of mitochondria in protecting against a wide range of age-related conditions.</p>
 													</div>
 												</div>
@@ -171,46 +174,51 @@ get_header(); ?>
 												</div>
 											</div>
 										</div>
-										<!-- <div class="row textrow">
+										<div class="row textrow">
 											<div class="col-xs-12">
 												<div id="" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
 													<div class="vc_toggle_title"><h4>RESEARCH CITATIONS</h4><i class="vc_toggle_icon"></i></div>
 													<div class="vc_toggle_content">
 														<ol>
-															<li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
+															<li id="cite_source-1"><span class="cite_ref"><b><a href="#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042357">Age-Associated Changes In Oxidative Stress and NAD+ Metabolism In Human Tissue</a></li>
+															<!-- <li><a href="http://publications.nigms.nih.gov/insidethecell/chapter5.html" target="_blank">http://publications.nigms.nih.gov/insidethecell/chapter5.html</a></li>
 															<li><a href="http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714" target="_blank">http://www.abc.net.au/news/2014-11-04/scientists-reverse-ageing-process-in-mice/5865714</a></li>
 															<li><a href="https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13" target="_blank">https://hms.harvard.edu/news/genetics/new-reversible-cause-aging-12-19-13</a></li>
-															<li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li>
+															<li><a href="http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/" target="_blank">http://healthland.time.com/2013/12/19/reversing-aging-not-as-crazy-as-you-think/</a></li> -->
 														</ol>
 													</div>
 												</div>
 											</div>
-										</div> -->
+										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="row">
 											<div class="hidden-xs hidden-sm col-md-12">
 												<div class="rightboxedcontent bluebox">
-													<div class="row box-title">
-														<div class="col-xs-12">
-															<h2>Power For More Life</h2>
-															<h3>NECTAR7 Niagen&reg; (NAD+ ACTIVATOR)</h3>
+													<a title="Learn how N7 Niagen benefits you" href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/">
+														<div class="row box-title">
+															<div class="col-xs-12">
+																<h2>Power For More Life</h2>
+																<h3>NECTAR7 Niagen&reg; (NAD+ ACTIVATOR)</h3>
+															</div>
 														</div>
-													</div>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; (NAD + ACTIVATOR)"/>
+													</a>
 													<p>NECTAR7 Niagen&reg; is for people intent on performing the closest to 100% of their mental and physical capabilities. Awarded five worldwide patents, NECTAR7 Niagen&reg; is the first and only commercially available form of (NR) in the world today. Clinically shown to boost NAD+ levels approximately 30 percent in humans after just one dosage*, NECTAR7 Niagen&reg; is for people who want to increase endurance and energy, while benefiting from heightened cognitive function, including concentration, focus and memory.* Before you age another day, try NECTAR7 Niagen&reg;.</p>
 													<a href="<?php bloginfo('url'); ?>/nectar7-niagen-product-2/" class="btn btn-primary">LEARN MORE</a>
 												</div>
 											</div>
 											<div class="hidden-xs hidden-sm col-md-12 border-bottom">
 												<div class="rightboxedcontent lightbluebox">
-													<div class="row box-title">
-														<div class="col-xs-12">
-															<h2>Power For Strength &amp; Beauty</h2>
-															<h3>NECTAR7 Niagen&reg; &amp; Collagen</h3>
+													<a title="Learn how N7 Niagen &amp; Collagen benefits you" href="<?php bloginfo('url'); ?>/nectar7-niagen-collagen/">
+														<div class="row box-title">
+															<div class="col-xs-12">
+																<h2>Power For Strength &amp; Beauty</h2>
+																<h3>NECTAR7 Niagen&reg; &amp; Collagen</h3>
+															</div>
 														</div>
-													</div>
-													<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; & COLLAGEN"/>
+														<img src="<?php bloginfo('stylesheet_directory'); ?>/images/niagen_collagen_bottle.png" class="img-responsive product-image" alt="Niagen&reg; & COLLAGEN"/>
+													</a>
 													<p>NECTAR7 Niagen&reg; &amp; Collagen with hyaluronic acid, delivers a trifecta that turns back the clock on skin and muscle cells.* Collagen restores youthful suppleness to skin, brings luster back to hair, and strengthens joints and  muscles.* Meanwhile, the NAD+ generated by Niagen&reg; prompts your body to generate even more collagen, fueling the biological processes that reverse the effects of aging to give you a potency and radiance that truly comes from deep within.*</p>
 													<a href="<?php echo get_bloginfo('url'); ?>/nectar7-niagen-collagen/" class="btn btn-primary">LEARN MORE</a>
 												</div>
