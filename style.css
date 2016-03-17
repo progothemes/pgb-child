@@ -404,7 +404,8 @@ body {
 header {
 	background-color: #fff;
 }
-#page-content-wrapper > .main-content > .container {
+#page-content-wrapper > .main-content > .container,
+.main-content > .container {
 	background-color: #fff;
 }
 .blue1 {
