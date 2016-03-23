@@ -1866,12 +1866,12 @@ body.unpad .main-content .entry-content {
 {
 	padding-top: 60px;
 	padding-bottom: 80px;
-	background: url('images/NiagenVSLHero.jpg') 50% 0 no-repeat #FFF;																	
+	/*background: url('images/NiagenVSLHero.jpg') 50% 0 no-repeat #FFF;*/
 }
-.videosalespage .videobannercontainer.collagen
+/*.videosalespage .videobannercontainer.collagen
 {
 	background: url('images/CollagenVSLHero.jpg') 50% 0 no-repeat #FFF;																	
-}
+}*/
 
 .videosalespage h1
 {
