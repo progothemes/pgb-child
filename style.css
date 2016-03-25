@@ -3079,9 +3079,8 @@ div#science_menu.affix {
 
 #ship-to-different-address input[type="checkbox"]
 {
-	float: left;
-	width: 30px;
-	margin-top: 16px;
+	margin-left: 0;
+	margin-right: 10px;
 }
 
 #ship-to-different-address label
