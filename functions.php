@@ -97,13 +97,13 @@ function nectar7_gtm() {
 	/* I think we have a plugin for this somewhere. We will move it to there whenever we are ready? Ok. */
 	?>
 	<!-- Google Tag Manager -->
-	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W2WW4W"
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PGQC7X"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-W2WW4W');</script>
+	})(window,document,'script','dataLayer','GTM-PGQC7X');</script>
 	<!-- End Google Tag Manager -->
 	<?php
 }
@@ -464,3 +464,15 @@ if ( $pcount++ > 0 ) echo ',';
 </script>
 <?php
 }
+
+// look for a query param ?exclusive=1 & empty cart if yes
+function nectar7_emptycart_action() {
+  if ( isset( $_REQUEST['exclusive'] ) ) {
+    if ( $_REQUEST['exclusive'] == 1 ) {
+      // empty the cart?
+      wc_empty_cart();
+    }
+  }
+}
+// set priority 18 so it fires before the add-to-cart happens which is 20
+add_action( 'wp_loaded', 'nectar7_emptycart_action', 18 );
